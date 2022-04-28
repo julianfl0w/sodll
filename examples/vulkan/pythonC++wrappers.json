@@ -1,0 +1,58 @@
+{
+	"name": "Boost.Python",
+	"capabilities":
+	[
+		"wrap C++ code"
+	]
+}
+{
+	"name": "PyBind11",
+	"relationships" :
+	{
+		"geneological":
+		{
+			"parents":
+			[
+				"Boost.Python"
+			]
+		}
+	}
+	"capabilities":
+	[
+		"wrap C++ code":
+		{
+			"supported compilers":
+			{
+				"Clang/LLVM 3.3 or newer (for Apple Xcode's clang, this is 5.0.0 or newer) ",
+				"GCC 4.8 or newer ",
+				"Microsoft Visual Studio 2017 or newer ",
+				"Intel classic C++ compiler 18 or newer (ICC 20.2 tested in CI) ",
+				"Cygwin/GCC (previously tested on 2.5.1) ",
+				"NVCC (CUDA 11.0 tested in CI) ",
+				"NVIDIA PGI (20.9 tested in CI) "
+			}
+
+		}
+	]
+}
+{
+	"name": "ctypes",
+	"capabilities":
+	[
+		"wrap C++ code"
+	]
+}
+{
+	"name": "cython",
+	"capabilities":
+	[
+		"wrap C++ code"
+	]
+}
+{
+	"name": "cffi",
+	"capabilities":
+	[
+		"wrap C++ code"
+	]
+}
