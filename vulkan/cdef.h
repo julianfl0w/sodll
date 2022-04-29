@@ -1,3 +1,11 @@
+typedef char uint8_t;
+typedef int size_t;
+typedef int int32_t;
+typedef int uint32_t;
+typedef short uint16_t;
+typedef long int64_t;
+typedef int wchar_t; 
+typedef unsigned long uint64_t; 
 typedef int va_list;
 typedef struct Display Display;
 typedef unsigned long XID;

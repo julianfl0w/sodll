@@ -10,5 +10,19344 @@ ffi = _cffi_backend.FFI('jvulkan',
     _typenames = (b'\x00\x00\x08\x77ANativeWindow',b'\x00\x00\x03\xC5DWORD',b'\x00\x00\x08\x78Display',b'\x00\x00\x01\x6AHANDLE',b'\x00\x00\x01\x6AHINSTANCE',b'\x00\x00\x01\x6AHWND',b'\x00\x00\x0D\xE6LPCWSTR',b'\x00\x00\x08\x82LPSECURITY_ATTRIBUTES',b'\x00\x00\x01\x6ALPVOID',b'\x00\x00\x08\x79MirBlob',b'\x00\x00\x08\x7AMirBufferStream',b'\x00\x00\x08\x7BMirConnection',b'\x00\x00\x08\x7CMirDisplayConfig',b'\x00\x00\x01\x6AMirEGLNativeDisplayType',b'\x00\x00\x01\x6AMirEGLNativeWindowType',b'\x00\x00\x08\x7DMirPersistentId',b'\x00\x00\x08\x7EMirPromptSession',b'\x00\x00\x08\x7FMirScreencast',b'\x00\x00\x08\x80MirSurface',b'\x00\x00\x08\x81MirSurfaceSpec',b'\x00\x00\x0C\x0BPFN_vkAcquireDrmDisplayEXT',b'\x00\x00\x0B\x8EPFN_vkAcquireNextImage2KHR',b'\x00\x00\x0B\xECPFN_vkAcquireNextImageKHR',b'\x00\x00\x0B\xB2PFN_vkAcquirePerformanceConfigurationINTEL',b'\x00\x00\x0B\x8FPFN_vkAcquireProfilingLockKHR',b'\x00\x00\x0C\x0DPFN_vkAcquireWinrtDisplayNV',b'\x00\x00\x0B\x93PFN_vkAllocateCommandBuffers',b'\x00\x00\x0B\x9CPFN_vkAllocateDescriptorSets',b'\x00\x00\x0B\xADPFN_vkAllocateMemory',b'\x00\x00\x0D\x19PFN_vkAllocationFunction',b'\x00\x00\x0B\x86PFN_vkBeginCommandBuffer',b'\x00\x00\x0B\xF0PFN_vkBindAccelerationStructureMemoryNV',b'\x00\x00\x0B\xC8PFN_vkBindBufferMemory',b'\x00\x00\x0B\xF1PFN_vkBindBufferMemory2',b'\x00\x00\x0B\xF1PFN_vkBindBufferMemory2KHR',b'\x00\x00\x0B\xD9PFN_vkBindImageMemory',b'\x00\x00\x0B\xF2PFN_vkBindImageMemory2',b'\x00\x00\x0B\xF2PFN_vkBindImageMemory2KHR',b'\x00\x00\x0B\xCFPFN_vkBuildAccelerationStructuresKHR',b'\x00\x00\x0D\x24PFN_vkCmdBeginConditionalRenderingEXT',b'\x00\x00\x0D\x2EPFN_vkCmdBeginDebugUtilsLabelEXT',b'\x00\x00\x0D\x61PFN_vkCmdBeginQuery',b'\x00\x00\x0D\x63PFN_vkCmdBeginQueryIndexedEXT',b'\x00\x00\x0D\x3DPFN_vkCmdBeginRenderPass',b'\x00\x00\x0D\x3CPFN_vkCmdBeginRenderPass2',b'\x00\x00\x0D\x3CPFN_vkCmdBeginRenderPass2KHR',b'\x00\x00\x0D\x3EPFN_vkCmdBeginRendering',b'\x00\x00\x0D\x3EPFN_vkCmdBeginRenderingKHR',b'\x00\x00\x0D\x7BPFN_vkCmdBeginTransformFeedbackEXT',b'\x00\x00\x0D\x36PFN_vkCmdBindDescriptorSets',b'\x00\x00\x0D\x4EPFN_vkCmdBindIndexBuffer',b'\x00\x00\x0D\x58PFN_vkCmdBindInvocationMaskHUAWEI',b'\x00\x00\x0D\x37PFN_vkCmdBindPipeline',b'\x00\x00\x0D\x38PFN_vkCmdBindPipelineShaderGroupNV',b'\x00\x00\x0D\x58PFN_vkCmdBindShadingRateImageNV',b'\x00\x00\x0D\x7CPFN_vkCmdBindTransformFeedbackBuffersEXT',b'\x00\x00\x0D\x7BPFN_vkCmdBindVertexBuffers',b'\x00\x00\x0D\x7DPFN_vkCmdBindVertexBuffers2',b'\x00\x00\x0D\x7DPFN_vkCmdBindVertexBuffers2EXT',b'\x00\x00\x0D\x5CPFN_vkCmdBlitImage',b'\x00\x00\x0D\x21PFN_vkCmdBlitImage2',b'\x00\x00\x0D\x21PFN_vkCmdBlitImage2KHR',b'\x00\x00\x0D\x20PFN_vkCmdBuildAccelerationStructureNV',b'\x00\x00\x0D\x66PFN_vkCmdBuildAccelerationStructuresIndirectKHR',b'\x00\x00\x0D\x65PFN_vkCmdBuildAccelerationStructuresKHR',b'\x00\x00\x0D\x67PFN_vkCmdClearAttachments',b'\x00\x00\x0D\x59PFN_vkCmdClearColorImage',b'\x00\x00\x0D\x5APFN_vkCmdClearDepthStencilImage',b'\x00\x00\x0D\x25PFN_vkCmdCopyAccelerationStructureKHR',b'\x00\x00\x0D\x4APFN_vkCmdCopyAccelerationStructureNV',b'\x00\x00\x0D\x26PFN_vkCmdCopyAccelerationStructureToMemoryKHR',b'\x00\x00\x0D\x4BPFN_vkCmdCopyBuffer',b'\x00\x00\x0D\x27PFN_vkCmdCopyBuffer2',b'\x00\x00\x0D\x27PFN_vkCmdCopyBuffer2KHR',b'\x00\x00\x0D\x4CPFN_vkCmdCopyBufferToImage',b'\x00\x00\x0D\x28PFN_vkCmdCopyBufferToImage2',b'\x00\x00\x0D\x28PFN_vkCmdCopyBufferToImage2KHR',b'\x00\x00\x0D\x5DPFN_vkCmdCopyImage',b'\x00\x00\x0D\x29PFN_vkCmdCopyImage2',b'\x00\x00\x0D\x29PFN_vkCmdCopyImage2KHR',b'\x00\x00\x0D\x5BPFN_vkCmdCopyImageToBuffer',b'\x00\x00\x0D\x2APFN_vkCmdCopyImageToBuffer2',b'\x00\x00\x0D\x2APFN_vkCmdCopyImageToBuffer2KHR',b'\x00\x00\x0D\x2BPFN_vkCmdCopyMemoryToAccelerationStructureKHR',b'\x00\x00\x0D\x62PFN_vkCmdCopyQueryPoolResults',b'\x00\x00\x0D\x2CPFN_vkCmdCuLaunchKernelNVX',b'\x00\x00\x0D\x2DPFN_vkCmdDebugMarkerBeginEXT',b'\x00\x00\x0D\x1FPFN_vkCmdDebugMarkerEndEXT',b'\x00\x00\x0D\x2DPFN_vkCmdDebugMarkerInsertEXT',b'\x00\x00\x0D\x7FPFN_vkCmdDispatch',b'\x00\x00\x0D\x83PFN_vkCmdDispatchBase',b'\x00\x00\x0D\x83PFN_vkCmdDispatchBaseKHR',b'\x00\x00\x0D\x4DPFN_vkCmdDispatchIndirect',b'\x00\x00\x0D\x81PFN_vkCmdDraw',b'\x00\x00\x0D\x80PFN_vkCmdDrawIndexed',b'\x00\x00\x0D\x51PFN_vkCmdDrawIndexedIndirect',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndexedIndirectCount',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndexedIndirectCountAMD',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndexedIndirectCountKHR',b'\x00\x00\x0D\x51PFN_vkCmdDrawIndirect',b'\x00\x00\x0D\x7EPFN_vkCmdDrawIndirectByteCountEXT',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndirectCount',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndirectCountAMD',b'\x00\x00\x0D\x4FPFN_vkCmdDrawIndirectCountKHR',b'\x00\x00\x0D\x4FPFN_vkCmdDrawMeshTasksIndirectCountNV',b'\x00\x00\x0D\x51PFN_vkCmdDrawMeshTasksIndirectNV',b'\x00\x00\x0D\x76PFN_vkCmdDrawMeshTasksNV',b'\x00\x00\x0D\x6APFN_vkCmdDrawMultiEXT',b'\x00\x00\x0D\x69PFN_vkCmdDrawMultiIndexedEXT',b'\x00\x00\x0D\x1FPFN_vkCmdEndConditionalRenderingEXT',b'\x00\x00\x0D\x1FPFN_vkCmdEndDebugUtilsLabelEXT',b'\x00\x00\x0D\x60PFN_vkCmdEndQuery',b'\x00\x00\x0D\x61PFN_vkCmdEndQueryIndexedEXT',b'\x00\x00\x0D\x1FPFN_vkCmdEndRenderPass',b'\x00\x00\x0D\x45PFN_vkCmdEndRenderPass2',b'\x00\x00\x0D\x45PFN_vkCmdEndRenderPass2KHR',b'\x00\x00\x0D\x1FPFN_vkCmdEndRendering',b'\x00\x00\x0D\x1FPFN_vkCmdEndRenderingKHR',b'\x00\x00\x0D\x7BPFN_vkCmdEndTransformFeedbackEXT',b'\x00\x00\x0D\x71PFN_vkCmdExecuteCommands',b'\x00\x00\x0D\x68PFN_vkCmdExecuteGeneratedCommandsNV',b'\x00\x00\x0D\x52PFN_vkCmdFillBuffer',b'\x00\x00\x0D\x2EPFN_vkCmdInsertDebugUtilsLabelEXT',b'\x00\x00\x0D\x44PFN_vkCmdNextSubpass',b'\x00\x00\x0D\x43PFN_vkCmdNextSubpass2',b'\x00\x00\x0D\x43PFN_vkCmdNextSubpass2KHR',b'\x00\x00\x0D\x82PFN_vkCmdPipelineBarrier',b'\x00\x00\x0D\x2FPFN_vkCmdPipelineBarrier2',b'\x00\x00\x0D\x2FPFN_vkCmdPipelineBarrier2KHR',b'\x00\x00\x0D\x33PFN_vkCmdPreprocessGeneratedCommandsNV',b'\x00\x00\x0D\x5FPFN_vkCmdPushConstants',b'\x00\x00\x0D\x35PFN_vkCmdPushDescriptorSetKHR',b'\x00\x00\x0D\x54PFN_vkCmdPushDescriptorSetWithTemplateKHR',b'\x00\x00\x0D\x56PFN_vkCmdResetEvent',b'\x00\x00\x0D\x57PFN_vkCmdResetEvent2',b'\x00\x00\x0D\x57PFN_vkCmdResetEvent2KHR',b'\x00\x00\x0D\x61PFN_vkCmdResetQueryPool',b'\x00\x00\x0D\x5EPFN_vkCmdResolveImage',b'\x00\x00\x0D\x3FPFN_vkCmdResolveImage2',b'\x00\x00\x0D\x3FPFN_vkCmdResolveImage2KHR',b'\x00\x00\x0D\x46PFN_vkCmdSetBlendConstants',b'\x00\x00\x0D\x86PFN_vkCmdSetCheckpointNV',b'\x00\x00\x0D\x22PFN_vkCmdSetCoarseSampleOrderNV',b'\x00\x00\x0D\x75PFN_vkCmdSetColorWriteEnableEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetCullMode',b'\x00\x00\x0D\x64PFN_vkCmdSetCullModeEXT',b'\x00\x00\x0D\x49PFN_vkCmdSetDepthBias',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthBiasEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthBiasEnableEXT',b'\x00\x00\x0D\x48PFN_vkCmdSetDepthBounds',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthBoundsTestEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthBoundsTestEnableEXT',b'\x00\x00\x0D\x23PFN_vkCmdSetDepthCompareOp',b'\x00\x00\x0D\x23PFN_vkCmdSetDepthCompareOpEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthTestEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthTestEnableEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthWriteEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetDepthWriteEnableEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetDeviceMask',b'\x00\x00\x0D\x64PFN_vkCmdSetDeviceMaskKHR',b'\x00\x00\x0D\x77PFN_vkCmdSetDiscardRectangleEXT',b'\x00\x00\x0D\x56PFN_vkCmdSetEvent',b'\x00\x00\x0D\x55PFN_vkCmdSetEvent2',b'\x00\x00\x0D\x55PFN_vkCmdSetEvent2KHR',b'\x00\x00\x0D\x77PFN_vkCmdSetExclusiveScissorNV',b'\x00\x00\x0D\x31PFN_vkCmdSetFragmentShadingRateEnumNV',b'\x00\x00\x0D\x30PFN_vkCmdSetFragmentShadingRateKHR',b'\x00\x00\x0D\x32PFN_vkCmdSetFrontFace',b'\x00\x00\x0D\x32PFN_vkCmdSetFrontFaceEXT',b'\x00\x00\x0D\x74PFN_vkCmdSetLineStippleEXT',b'\x00\x00\x0D\x47PFN_vkCmdSetLineWidth',b'\x00\x00\x0D\x34PFN_vkCmdSetLogicOpEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetPatchControlPointsEXT',b'\x00\x00\x0B\x87PFN_vkCmdSetPerformanceMarkerINTEL',b'\x00\x00\x0B\x88PFN_vkCmdSetPerformanceOverrideINTEL',b'\x00\x00\x0B\x89PFN_vkCmdSetPerformanceStreamMarkerINTEL',b'\x00\x00\x0D\x64PFN_vkCmdSetPrimitiveRestartEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetPrimitiveRestartEnableEXT',b'\x00\x00\x0D\x3BPFN_vkCmdSetPrimitiveTopology',b'\x00\x00\x0D\x3BPFN_vkCmdSetPrimitiveTopologyEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetRasterizerDiscardEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetRasterizerDiscardEnableEXT',b'\x00\x00\x0D\x64PFN_vkCmdSetRayTracingPipelineStackSizeKHR',b'\x00\x00\x0D\x40PFN_vkCmdSetSampleLocationsEXT',b'\x00\x00\x0D\x77PFN_vkCmdSetScissor',b'\x00\x00\x0D\x6BPFN_vkCmdSetScissorWithCount',b'\x00\x00\x0D\x6BPFN_vkCmdSetScissorWithCountEXT',b'\x00\x00\x0D\x76PFN_vkCmdSetStencilCompareMask',b'\x00\x00\x0D\x6CPFN_vkCmdSetStencilOp',b'\x00\x00\x0D\x6CPFN_vkCmdSetStencilOpEXT',b'\x00\x00\x0D\x76PFN_vkCmdSetStencilReference',b'\x00\x00\x0D\x64PFN_vkCmdSetStencilTestEnable',b'\x00\x00\x0D\x64PFN_vkCmdSetStencilTestEnableEXT',b'\x00\x00\x0D\x76PFN_vkCmdSetStencilWriteMask',b'\x00\x00\x0D\x6DPFN_vkCmdSetVertexInputEXT',b'\x00\x00\x0D\x79PFN_vkCmdSetViewport',b'\x00\x00\x0D\x78PFN_vkCmdSetViewportShadingRatePaletteNV',b'\x00\x00\x0D\x7APFN_vkCmdSetViewportWScalingNV',b'\x00\x00\x0D\x6EPFN_vkCmdSetViewportWithCount',b'\x00\x00\x0D\x6EPFN_vkCmdSetViewportWithCountEXT',b'\x00\x00\x0D\x1FPFN_vkCmdSubpassShadingHUAWEI',b'\x00\x00\x0D\x42PFN_vkCmdTraceRaysIndirectKHR',b'\x00\x00\x0D\x41PFN_vkCmdTraceRaysKHR',b'\x00\x00\x0D\x50PFN_vkCmdTraceRaysNV',b'\x00\x00\x0D\x53PFN_vkCmdUpdateBuffer',b'\x00\x00\x0D\x73PFN_vkCmdWaitEvents',b'\x00\x00\x0D\x72PFN_vkCmdWaitEvents2',b'\x00\x00\x0D\x72PFN_vkCmdWaitEvents2KHR',b'\x00\x00\x0D\x6FPFN_vkCmdWriteAccelerationStructuresPropertiesKHR',b'\x00\x00\x0D\x70PFN_vkCmdWriteAccelerationStructuresPropertiesNV',b'\x00\x00\x0D\x84PFN_vkCmdWriteBufferMarker2AMD',b'\x00\x00\x0D\x39PFN_vkCmdWriteBufferMarkerAMD',b'\x00\x00\x0D\x3APFN_vkCmdWriteTimestamp',b'\x00\x00\x0D\x85PFN_vkCmdWriteTimestamp2',b'\x00\x00\x0D\x85PFN_vkCmdWriteTimestamp2KHR',b'\x00\x00\x0B\xE1PFN_vkCompileDeferredNV',b'\x00\x00\x0B\xCBPFN_vkCopyAccelerationStructureKHR',b'\x00\x00\x0B\xCCPFN_vkCopyAccelerationStructureToMemoryKHR',b'\x00\x00\x0B\xCDPFN_vkCopyMemoryToAccelerationStructureKHR',b'\x00\x00\x0B\x8CPFN_vkCreateAccelerationStructureKHR',b'\x00\x00\x0B\x8DPFN_vkCreateAccelerationStructureNV',b'\x00\x00\x0B\xF9PFN_vkCreateAndroidSurfaceKHR',b'\x00\x00\x0B\x91PFN_vkCreateBuffer',b'\x00\x00\x0B\x92PFN_vkCreateBufferView',b'\x00\x00\x0B\x94PFN_vkCreateCommandPool',b'\x00\x00\x0B\xDCPFN_vkCreateComputePipelines',b'\x00\x00\x0B\x95PFN_vkCreateCuFunctionNVX',b'\x00\x00\x0B\x96PFN_vkCreateCuModuleNVX',b'\x00\x00\x0B\xFAPFN_vkCreateDebugReportCallbackEXT',b'\x00\x00\x0B\xFBPFN_vkCreateDebugUtilsMessengerEXT',b'\x00\x00\x0B\x90PFN_vkCreateDeferredOperationKHR',b'\x00\x00\x0B\x9BPFN_vkCreateDescriptorPool',b'\x00\x00\x0B\x9DPFN_vkCreateDescriptorSetLayout',b'\x00\x00\x0B\x9EPFN_vkCreateDescriptorUpdateTemplate',b'\x00\x00\x0B\x9EPFN_vkCreateDescriptorUpdateTemplateKHR',b'\x00\x00\x0C\x03PFN_vkCreateDevice',b'\x00\x00\x0C\x0EPFN_vkCreateDisplayModeKHR',b'\x00\x00\x0B\xFCPFN_vkCreateDisplayPlaneSurfaceKHR',b'\x00\x00\x0B\xA1PFN_vkCreateEvent',b'\x00\x00\x0B\xA4PFN_vkCreateFence',b'\x00\x00\x0B\xA6PFN_vkCreateFramebuffer',b'\x00\x00\x0B\xDDPFN_vkCreateGraphicsPipelines',b'\x00\x00\x0B\xFDPFN_vkCreateHeadlessSurfaceEXT',b'\x00\x00\x0B\xA7PFN_vkCreateImage',b'\x00\x00\x0B\xA8PFN_vkCreateImageView',b'\x00\x00\x0B\xABPFN_vkCreateIndirectCommandsLayoutNV',b'\x00\x00\x0B\x83PFN_vkCreateInstance',b'\x00\x00\x0B\xB4PFN_vkCreatePipelineCache',b'\x00\x00\x0B\xB8PFN_vkCreatePipelineLayout',b'\x00\x00\x0B\xB9PFN_vkCreatePrivateDataSlot',b'\x00\x00\x0B\xB9PFN_vkCreatePrivateDataSlotEXT',b'\x00\x00\x0B\xBAPFN_vkCreateQueryPool',b'\x00\x00\x0B\xCEPFN_vkCreateRayTracingPipelinesKHR',b'\x00\x00\x0B\xDEPFN_vkCreateRayTracingPipelinesNV',b'\x00\x00\x0B\xBBPFN_vkCreateRenderPass',b'\x00\x00\x0B\xBCPFN_vkCreateRenderPass2',b'\x00\x00\x0B\xBCPFN_vkCreateRenderPass2KHR',b'\x00\x00\x0B\xBDPFN_vkCreateSampler',b'\x00\x00\x0B\xBEPFN_vkCreateSamplerYcbcrConversion',b'\x00\x00\x0B\xBEPFN_vkCreateSamplerYcbcrConversionKHR',b'\x00\x00\x0B\xBFPFN_vkCreateSemaphore',b'\x00\x00\x0B\xC3PFN_vkCreateShaderModule',b'\x00\x00\x0B\xF5PFN_vkCreateSharedSwapchainsKHR',b'\x00\x00\x0B\xC4PFN_vkCreateSwapchainKHR',b'\x00\x00\x0B\xC5PFN_vkCreateValidationCacheEXT',b'\x00\x00\x0B\xFEPFN_vkCreateWaylandSurfaceKHR',b'\x00\x00\x0B\xFFPFN_vkCreateXcbSurfaceKHR',b'\x00\x00\x0C\x00PFN_vkCreateXlibSurfaceKHR',b'\x00\x00\x0B\x97PFN_vkDebugMarkerSetObjectNameEXT',b'\x00\x00\x0B\x98PFN_vkDebugMarkerSetObjectTagEXT',b'\x00\x00\x0D\x04PFN_vkDebugReportCallbackEXT',b'\x00\x00\x0D\xCCPFN_vkDebugReportMessageEXT',b'\x00\x00\x0C\xFEPFN_vkDebugUtilsMessengerCallbackEXT',b'\x00\x00\x0B\xCAPFN_vkDeferredOperationJoinKHR',b'\x00\x00\x0D\x97PFN_vkDestroyAccelerationStructureKHR',b'\x00\x00\x0D\x98PFN_vkDestroyAccelerationStructureNV',b'\x00\x00\x0D\x9APFN_vkDestroyBuffer',b'\x00\x00\x0D\x99PFN_vkDestroyBufferView',b'\x00\x00\x0D\x9CPFN_vkDestroyCommandPool',b'\x00\x00\x0D\x9FPFN_vkDestroyCuFunctionNVX',b'\x00\x00\x0D\xA0PFN_vkDestroyCuModuleNVX',b'\x00\x00\x0D\xC9PFN_vkDestroyDebugReportCallbackEXT',b'\x00\x00\x0D\xCAPFN_vkDestroyDebugUtilsMessengerEXT',b'\x00\x00\x0D\xA1PFN_vkDestroyDeferredOperationKHR',b'\x00\x00\x0D\xA2PFN_vkDestroyDescriptorPool',b'\x00\x00\x0D\xA3PFN_vkDestroyDescriptorSetLayout',b'\x00\x00\x0D\xA6PFN_vkDestroyDescriptorUpdateTemplate',b'\x00\x00\x0D\xA6PFN_vkDestroyDescriptorUpdateTemplateKHR',b'\x00\x00\x0D\x8BPFN_vkDestroyDevice',b'\x00\x00\x0D\xABPFN_vkDestroyEvent',b'\x00\x00\x0D\xACPFN_vkDestroyFence',b'\x00\x00\x0D\xADPFN_vkDestroyFramebuffer',b'\x00\x00\x0D\xAFPFN_vkDestroyImage',b'\x00\x00\x0D\xAEPFN_vkDestroyImageView',b'\x00\x00\x0D\xB3PFN_vkDestroyIndirectCommandsLayoutNV',b'\x00\x00\x0D\xC7PFN_vkDestroyInstance',b'\x00\x00\x0D\xB6PFN_vkDestroyPipeline',b'\x00\x00\x0D\xB4PFN_vkDestroyPipelineCache',b'\x00\x00\x0D\xB5PFN_vkDestroyPipelineLayout',b'\x00\x00\x0D\xB7PFN_vkDestroyPrivateDataSlot',b'\x00\x00\x0D\xB7PFN_vkDestroyPrivateDataSlotEXT',b'\x00\x00\x0D\xB8PFN_vkDestroyQueryPool',b'\x00\x00\x0D\xBAPFN_vkDestroyRenderPass',b'\x00\x00\x0D\xBDPFN_vkDestroySampler',b'\x00\x00\x0D\xBCPFN_vkDestroySamplerYcbcrConversion',b'\x00\x00\x0D\xBCPFN_vkDestroySamplerYcbcrConversionKHR',b'\x00\x00\x0D\xBEPFN_vkDestroySemaphore',b'\x00\x00\x0D\xBFPFN_vkDestroyShaderModule',b'\x00\x00\x0D\xCBPFN_vkDestroySurfaceKHR',b'\x00\x00\x0D\xC0PFN_vkDestroySwapchainKHR',b'\x00\x00\x0D\xC2PFN_vkDestroyValidationCacheEXT',b'\x00\x00\x0D\x1EPFN_vkDeviceMemoryReportCallbackEXT',b'\x00\x00\x0B\x8BPFN_vkDeviceWaitIdle',b'\x00\x00\x0B\xD4PFN_vkDisplayPowerControlEXT',b'\x00\x00\x0B\x85PFN_vkEndCommandBuffer',b'\x00\x00\x0C\x0APFN_vkEnumerateDeviceExtensionProperties',b'\x00\x00\x0C\x1DPFN_vkEnumerateDeviceLayerProperties',b'\x00\x00\x0B\x84PFN_vkEnumerateInstanceExtensionProperties',b'\x00\x00\x0C\x2CPFN_vkEnumerateInstanceLayerProperties',b'\x00\x00\x0C\x2BPFN_vkEnumerateInstanceVersion',b'\x00\x00\x0C\x01PFN_vkEnumeratePhysicalDeviceGroups',b'\x00\x00\x0C\x01PFN_vkEnumeratePhysicalDeviceGroupsKHR',b'\x00\x00\x0C\x23PFN_vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR',b'\x00\x00\x0C\x02PFN_vkEnumeratePhysicalDevices',b'\x00\x00\x0B\xF4PFN_vkFlushMappedMemoryRanges',b'\x00\x00\x0D\x9EPFN_vkFreeCommandBuffers',b'\x00\x00\x0B\xD1PFN_vkFreeDescriptorSets',b'\x00\x00\x0D\xE3PFN_vkFreeFunction',b'\x00\x00\x0D\xA8PFN_vkFreeMemory',b'\x00\x00\x0D\x88PFN_vkGetAccelerationStructureBuildSizesKHR',b'\x00\x00\x0D\x0DPFN_vkGetAccelerationStructureDeviceAddressKHR',b'\x00\x00\x0B\xC7PFN_vkGetAccelerationStructureHandleNV',b'\x00\x00\x0D\x89PFN_vkGetAccelerationStructureMemoryRequirementsNV',b'\x00\x00\x0B\xC6PFN_vkGetAndroidHardwareBufferPropertiesANDROID',b'\x00\x00\x0D\x0EPFN_vkGetBufferDeviceAddress',b'\x00\x00\x0D\x0EPFN_vkGetBufferDeviceAddressEXT',b'\x00\x00\x0D\x0EPFN_vkGetBufferDeviceAddressKHR',b'\x00\x00\x0D\x9BPFN_vkGetBufferMemoryRequirements',b'\x00\x00\x0D\x8CPFN_vkGetBufferMemoryRequirements2',b'\x00\x00\x0D\x8CPFN_vkGetBufferMemoryRequirements2KHR',b'\x00\x00\x0D\x0EPFN_vkGetBufferOpaqueCaptureAddress',b'\x00\x00\x0D\x0EPFN_vkGetBufferOpaqueCaptureAddressKHR',b'\x00\x00\x0B\xF3PFN_vkGetCalibratedTimestampsEXT',b'\x00\x00\x0D\x00PFN_vkGetDeferredOperationMaxConcurrencyKHR',b'\x00\x00\x0B\xCAPFN_vkGetDeferredOperationResultKHR',b'\x00\x00\x0D\xA5PFN_vkGetDescriptorSetHostMappingVALVE',b'\x00\x00\x0D\x8DPFN_vkGetDescriptorSetLayoutHostMappingInfoVALVE',b'\x00\x00\x0D\x8EPFN_vkGetDescriptorSetLayoutSupport',b'\x00\x00\x0D\x8EPFN_vkGetDescriptorSetLayoutSupportKHR',b'\x00\x00\x0D\x8APFN_vkGetDeviceAccelerationStructureCompatibilityKHR',b'\x00\x00\x0D\x8FPFN_vkGetDeviceBufferMemoryRequirements',b'\x00\x00\x0D\x8FPFN_vkGetDeviceBufferMemoryRequirementsKHR',b'\x00\x00\x0D\xC6PFN_vkGetDeviceGroupPeerMemoryFeatures',b'\x00\x00\x0D\xC6PFN_vkGetDeviceGroupPeerMemoryFeaturesKHR',b'\x00\x00\x0B\xA0PFN_vkGetDeviceGroupPresentCapabilitiesKHR',b'\x00\x00\x0B\xE6PFN_vkGetDeviceGroupSurfacePresentModesKHR',b'\x00\x00\x0D\x90PFN_vkGetDeviceImageMemoryRequirements',b'\x00\x00\x0D\x90PFN_vkGetDeviceImageMemoryRequirementsKHR',b'\x00\x00\x0D\x91PFN_vkGetDeviceImageSparseMemoryRequirements',b'\x00\x00\x0D\x91PFN_vkGetDeviceImageSparseMemoryRequirementsKHR',b'\x00\x00\x0D\xAAPFN_vkGetDeviceMemoryCommitment',b'\x00\x00\x0D\x0FPFN_vkGetDeviceMemoryOpaqueCaptureAddress',b'\x00\x00\x0D\x0FPFN_vkGetDeviceMemoryOpaqueCaptureAddressKHR',b'\x00\x00\x0D\x1CPFN_vkGetDeviceProcAddr',b'\x00\x00\x0D\xC5PFN_vkGetDeviceQueue',b'\x00\x00\x0D\x92PFN_vkGetDeviceQueue2',b'\x00\x00\x0B\xE4PFN_vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI',b'\x00\x00\x0C\x0FPFN_vkGetDisplayModeProperties2KHR',b'\x00\x00\x0C\x10PFN_vkGetDisplayModePropertiesKHR',b'\x00\x00\x0C\x04PFN_vkGetDisplayPlaneCapabilities2KHR',b'\x00\x00\x0C\x11PFN_vkGetDisplayPlaneCapabilitiesKHR',b'\x00\x00\x0C\x24PFN_vkGetDisplayPlaneSupportedDisplaysKHR',b'\x00\x00\x0C\x0CPFN_vkGetDrmDisplayEXT',b'\x00\x00\x0B\xD5PFN_vkGetEventStatus',b'\x00\x00\x0B\xA5PFN_vkGetFenceFdKHR',b'\x00\x00\x0B\xD6PFN_vkGetFenceStatus',b'\x00\x00\x0D\x93PFN_vkGetGeneratedCommandsMemoryRequirementsNV',b'\x00\x00\x0B\xD8PFN_vkGetImageDrmFormatModifierPropertiesEXT',b'\x00\x00\x0D\xB1PFN_vkGetImageMemoryRequirements',b'\x00\x00\x0D\x94PFN_vkGetImageMemoryRequirements2',b'\x00\x00\x0D\x94PFN_vkGetImageMemoryRequirements2KHR',b'\x00\x00\x0D\xB2PFN_vkGetImageSparseMemoryRequirements',b'\x00\x00\x0D\x95PFN_vkGetImageSparseMemoryRequirements2',b'\x00\x00\x0D\x95PFN_vkGetImageSparseMemoryRequirements2KHR',b'\x00\x00\x0D\xB0PFN_vkGetImageSubresourceLayout',b'\x00\x00\x0B\xD7PFN_vkGetImageViewAddressNVX',b'\x00\x00\x0C\xFFPFN_vkGetImageViewHandleNVX',b'\x00\x00\x0D\x1DPFN_vkGetInstanceProcAddr',b'\x00\x00\x0B\xAEPFN_vkGetMemoryAndroidHardwareBufferANDROID',b'\x00\x00\x0B\xAFPFN_vkGetMemoryFdKHR',b'\x00\x00\x0B\xA2PFN_vkGetMemoryFdPropertiesKHR',b'\x00\x00\x0B\xA3PFN_vkGetMemoryHostPointerPropertiesEXT',b'\x00\x00\x0B\xB0PFN_vkGetMemoryRemoteAddressNV',b'\x00\x00\x0B\xEAPFN_vkGetPastPresentationTimingGOOGLE',b'\x00\x00\x0B\xB3PFN_vkGetPerformanceParameterINTEL',b'\x00\x00\x0C\x20PFN_vkGetPhysicalDeviceCalibrateableTimeDomainsEXT',b'\x00\x00\x0C\x17PFN_vkGetPhysicalDeviceCooperativeMatrixPropertiesNV',b'\x00\x00\x0C\x18PFN_vkGetPhysicalDeviceDisplayPlaneProperties2KHR',b'\x00\x00\x0C\x19PFN_vkGetPhysicalDeviceDisplayPlanePropertiesKHR',b'\x00\x00\x0C\x1APFN_vkGetPhysicalDeviceDisplayProperties2KHR',b'\x00\x00\x0C\x1BPFN_vkGetPhysicalDeviceDisplayPropertiesKHR',b'\x00\x00\x0D\xD0PFN_vkGetPhysicalDeviceExternalBufferProperties',b'\x00\x00\x0D\xD0PFN_vkGetPhysicalDeviceExternalBufferPropertiesKHR',b'\x00\x00\x0D\xD1PFN_vkGetPhysicalDeviceExternalFenceProperties',b'\x00\x00\x0D\xD1PFN_vkGetPhysicalDeviceExternalFencePropertiesKHR',b'\x00\x00\x0C\x06PFN_vkGetPhysicalDeviceExternalImageFormatPropertiesNV',b'\x00\x00\x0D\xD2PFN_vkGetPhysicalDeviceExternalSemaphoreProperties',b'\x00\x00\x0D\xD2PFN_vkGetPhysicalDeviceExternalSemaphorePropertiesKHR',b'\x00\x00\x0D\xD3PFN_vkGetPhysicalDeviceFeatures',b'\x00\x00\x0D\xD4PFN_vkGetPhysicalDeviceFeatures2',b'\x00\x00\x0D\xD4PFN_vkGetPhysicalDeviceFeatures2KHR',b'\x00\x00\x0D\xCDPFN_vkGetPhysicalDeviceFormatProperties',b'\x00\x00\x0D\xCEPFN_vkGetPhysicalDeviceFormatProperties2',b'\x00\x00\x0D\xCEPFN_vkGetPhysicalDeviceFormatProperties2KHR',b'\x00\x00\x0C\x1EPFN_vkGetPhysicalDeviceFragmentShadingRatesKHR',b'\x00\x00\x0C\x05PFN_vkGetPhysicalDeviceImageFormatProperties',b'\x00\x00\x0C\x07PFN_vkGetPhysicalDeviceImageFormatProperties2',b'\x00\x00\x0C\x07PFN_vkGetPhysicalDeviceImageFormatProperties2KHR',b'\x00\x00\x0D\xD5PFN_vkGetPhysicalDeviceMemoryProperties',b'\x00\x00\x0D\xD6PFN_vkGetPhysicalDeviceMemoryProperties2',b'\x00\x00\x0D\xD6PFN_vkGetPhysicalDeviceMemoryProperties2KHR',b'\x00\x00\x0D\xDBPFN_vkGetPhysicalDeviceMultisamplePropertiesEXT',b'\x00\x00\x0C\x15PFN_vkGetPhysicalDevicePresentRectanglesKHR',b'\x00\x00\x0D\xD7PFN_vkGetPhysicalDeviceProperties',b'\x00\x00\x0D\xD8PFN_vkGetPhysicalDeviceProperties2',b'\x00\x00\x0D\xD8PFN_vkGetPhysicalDeviceProperties2KHR',b'\x00\x00\x0D\xDAPFN_vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR',b'\x00\x00\x0D\xDCPFN_vkGetPhysicalDeviceQueueFamilyProperties',b'\x00\x00\x0D\xDDPFN_vkGetPhysicalDeviceQueueFamilyProperties2',b'\x00\x00\x0D\xDDPFN_vkGetPhysicalDeviceQueueFamilyProperties2KHR',b'\x00\x00\x0D\xCFPFN_vkGetPhysicalDeviceSparseImageFormatProperties',b'\x00\x00\x0D\xD9PFN_vkGetPhysicalDeviceSparseImageFormatProperties2',b'\x00\x00\x0D\xD9PFN_vkGetPhysicalDeviceSparseImageFormatProperties2KHR',b'\x00\x00\x0C\x1CPFN_vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV',b'\x00\x00\x0C\x12PFN_vkGetPhysicalDeviceSurfaceCapabilities2EXT',b'\x00\x00\x0C\x08PFN_vkGetPhysicalDeviceSurfaceCapabilities2KHR',b'\x00\x00\x0C\x13PFN_vkGetPhysicalDeviceSurfaceCapabilitiesKHR',b'\x00\x00\x0C\x09PFN_vkGetPhysicalDeviceSurfaceFormats2KHR',b'\x00\x00\x0C\x16PFN_vkGetPhysicalDeviceSurfaceFormatsKHR',b'\x00\x00\x0C\x14PFN_vkGetPhysicalDeviceSurfacePresentModesKHR',b'\x00\x00\x0C\x22PFN_vkGetPhysicalDeviceSurfaceSupportKHR',b'\x00\x00\x0C\x1FPFN_vkGetPhysicalDeviceToolProperties',b'\x00\x00\x0C\x1FPFN_vkGetPhysicalDeviceToolPropertiesEXT',b'\x00\x00\x0D\x02PFN_vkGetPhysicalDeviceWaylandPresentationSupportKHR',b'\x00\x00\x0D\x03PFN_vkGetPhysicalDeviceXcbPresentationSupportKHR',b'\x00\x00\x0D\x01PFN_vkGetPhysicalDeviceXlibPresentationSupportKHR',b'\x00\x00\x0B\xDBPFN_vkGetPipelineCacheData',b'\x00\x00\x0B\xB5PFN_vkGetPipelineExecutableInternalRepresentationsKHR',b'\x00\x00\x0B\xB7PFN_vkGetPipelineExecutablePropertiesKHR',b'\x00\x00\x0B\xB6PFN_vkGetPipelineExecutableStatisticsKHR',b'\x00\x00\x0D\x96PFN_vkGetPrivateData',b'\x00\x00\x0D\x96PFN_vkGetPrivateDataEXT',b'\x00\x00\x0B\xE3PFN_vkGetQueryPoolResults',b'\x00\x00\x0D\xE0PFN_vkGetQueueCheckpointData2NV',b'\x00\x00\x0D\xE1PFN_vkGetQueueCheckpointDataNV',b'\x00\x00\x0B\xE2PFN_vkGetRayTracingCaptureReplayShaderGroupHandlesKHR',b'\x00\x00\x0B\xE2PFN_vkGetRayTracingShaderGroupHandlesKHR',b'\x00\x00\x0B\xE2PFN_vkGetRayTracingShaderGroupHandlesNV',b'\x00\x00\x0D\x10PFN_vkGetRayTracingShaderGroupStackSizeKHR',b'\x00\x00\x0B\xE8PFN_vkGetRefreshCycleDurationGOOGLE',b'\x00\x00\x0D\xBBPFN_vkGetRenderAreaGranularity',b'\x00\x00\x0B\xE5PFN_vkGetSemaphoreCounterValue',b'\x00\x00\x0B\xE5PFN_vkGetSemaphoreCounterValueKHR',b'\x00\x00\x0B\xC0PFN_vkGetSemaphoreFdKHR',b'\x00\x00\x0B\xE0PFN_vkGetShaderInfoAMD',b'\x00\x00\x0B\xE9PFN_vkGetSwapchainCounterEXT',b'\x00\x00\x0B\xEBPFN_vkGetSwapchainImagesKHR',b'\x00\x00\x0B\xE7PFN_vkGetSwapchainStatusKHR',b'\x00\x00\x0B\xEEPFN_vkGetValidationCacheDataEXT',b'\x00\x00\x0C\x21PFN_vkGetWinrtDisplayNV',b'\x00\x00\x0B\xA9PFN_vkImportFenceFdKHR',b'\x00\x00\x0B\xAAPFN_vkImportSemaphoreFdKHR',b'\x00\x00\x0B\xACPFN_vkInitializePerformanceApiINTEL',b'\x00\x00\x0D\xE2PFN_vkInternalAllocationNotification',b'\x00\x00\x0D\xE2PFN_vkInternalFreeNotification',b'\x00\x00\x0B\xF4PFN_vkInvalidateMappedMemoryRanges',b'\x00\x00\x0B\xD2PFN_vkMapMemory',b'\x00\x00\x0B\xDFPFN_vkMergePipelineCaches',b'\x00\x00\x0B\xEFPFN_vkMergeValidationCachesEXT',b'\x00\x00\x0D\xDFPFN_vkQueueBeginDebugUtilsLabelEXT',b'\x00\x00\x0C\x28PFN_vkQueueBindSparse',b'\x00\x00\x0D\xDEPFN_vkQueueEndDebugUtilsLabelEXT',b'\x00\x00\x0D\xDFPFN_vkQueueInsertDebugUtilsLabelEXT',b'\x00\x00\x0C\x26PFN_vkQueuePresentKHR',b'\x00\x00\x0C\x27PFN_vkQueueSetPerformanceConfigurationINTEL',b'\x00\x00\x0C\x29PFN_vkQueueSubmit',b'\x00\x00\x0C\x2APFN_vkQueueSubmit2',b'\x00\x00\x0C\x2APFN_vkQueueSubmit2KHR',b'\x00\x00\x0C\x25PFN_vkQueueWaitIdle',b'\x00\x00\x0D\x1APFN_vkReallocationFunction',b'\x00\x00\x0B\x9FPFN_vkRegisterDeviceEventEXT',b'\x00\x00\x0B\xD3PFN_vkRegisterDisplayEventEXT',b'\x00\x00\x0C\x0DPFN_vkReleaseDisplayEXT',b'\x00\x00\x0B\xDAPFN_vkReleasePerformanceConfigurationINTEL',b'\x00\x00\x0D\x87PFN_vkReleaseProfilingLockKHR',b'\x00\x00\x0B\x8APFN_vkResetCommandBuffer',b'\x00\x00\x0B\xC9PFN_vkResetCommandPool',b'\x00\x00\x0B\xD0PFN_vkResetDescriptorPool',b'\x00\x00\x0B\xD5PFN_vkResetEvent',b'\x00\x00\x0B\xF7PFN_vkResetFences',b'\x00\x00\x0D\xB9PFN_vkResetQueryPool',b'\x00\x00\x0D\xB9PFN_vkResetQueryPoolEXT',b'\x00\x00\x0B\x99PFN_vkSetDebugUtilsObjectNameEXT',b'\x00\x00\x0B\x9APFN_vkSetDebugUtilsObjectTagEXT',b'\x00\x00\x0D\xA9PFN_vkSetDeviceMemoryPriorityEXT',b'\x00\x00\x0B\xD5PFN_vkSetEvent',b'\x00\x00\x0D\xC4PFN_vkSetHdrMetadataEXT',b'\x00\x00\x0D\xC1PFN_vkSetLocalDimmingAMD',b'\x00\x00\x0B\xB1PFN_vkSetPrivateData',b'\x00\x00\x0B\xB1PFN_vkSetPrivateDataEXT',b'\x00\x00\x0B\xC1PFN_vkSignalSemaphore',b'\x00\x00\x0B\xC1PFN_vkSignalSemaphoreKHR',b'\x00\x00\x0D\xC8PFN_vkSubmitDebugUtilsMessageEXT',b'\x00\x00\x0D\x9DPFN_vkTrimCommandPool',b'\x00\x00\x0D\x9DPFN_vkTrimCommandPoolKHR',b'\x00\x00\x0D\x87PFN_vkUninitializePerformanceApiINTEL',b'\x00\x00\x0D\xA7PFN_vkUnmapMemory',b'\x00\x00\x0D\xA4PFN_vkUpdateDescriptorSetWithTemplate',b'\x00\x00\x0D\xA4PFN_vkUpdateDescriptorSetWithTemplateKHR',b'\x00\x00\x0D\xC3PFN_vkUpdateDescriptorSets',b'\x00\x00\x0D\xE4PFN_vkVoidFunction',b'\x00\x00\x0B\xF8PFN_vkWaitForFences',b'\x00\x00\x0B\xEDPFN_vkWaitForPresentKHR',b'\x00\x00\x0B\xC2PFN_vkWaitSemaphores',b'\x00\x00\x0B\xC2PFN_vkWaitSemaphoresKHR',b'\x00\x00\x0B\xF6PFN_vkWriteAccelerationStructuresPropertiesKHR',b'\x00\x00\x08\x82PSECURITY_ATTRIBUTES',b'\x00\x00\x01\x6APVOID',b'\x00\x00\x08\x83SECURITY_ATTRIBUTES',b'\x00\x00\x03\xC5VisualID',b'\x00\x00\x08\x84VkAabbPositionsKHR',b'\x00\x00\x08\x84VkAabbPositionsNV',b'\x00\x00\x08\x85VkAccelerationStructureBuildGeometryInfoKHR',b'\x00\x00\x08\x87VkAccelerationStructureBuildRangeInfoKHR',b'\x00\x00\x08\x88VkAccelerationStructureBuildSizesInfoKHR',b'\x00\x00\x06\x91VkAccelerationStructureBuildTypeKHR',b'\x00\x00\x08\x89VkAccelerationStructureCompatibilityKHR',b'\x00\x00\x08\x8AVkAccelerationStructureCreateFlagBitsKHR',b'\x00\x00\x00\x1FVkAccelerationStructureCreateFlagsKHR',b'\x00\x00\x08\x8BVkAccelerationStructureCreateInfoKHR',b'\x00\x00\x08\x8CVkAccelerationStructureCreateInfoNV',b'\x00\x00\x08\x8DVkAccelerationStructureDeviceAddressInfoKHR',b'\x00\x00\x08\x8EVkAccelerationStructureGeometryAabbsDataKHR',b'\x00\x00\x08\x8FVkAccelerationStructureGeometryDataKHR',b'\x00\x00\x08\x90VkAccelerationStructureGeometryInstancesDataKHR',b'\x00\x00\x08\x93VkAccelerationStructureGeometryKHR',b'\x00\x00\x08\x94VkAccelerationStructureGeometryMotionTrianglesDataNV',b'\x00\x00\x08\x95VkAccelerationStructureGeometryTrianglesDataKHR',b'\x00\x00\x08\x96VkAccelerationStructureInfoNV',b'\x00\x00\x08\x97VkAccelerationStructureInstanceKHR',b'\x00\x00\x08\x97VkAccelerationStructureInstanceNV',b'\x00\x00\x06\xE1VkAccelerationStructureKHR',b'\x00\x00\x08\x98VkAccelerationStructureMatrixMotionInstanceNV',b'\x00\x00\x08\x99VkAccelerationStructureMemoryRequirementsInfoNV',b'\x00\x00\x08\x9AVkAccelerationStructureMemoryRequirementsTypeNV',b'\x00\x00\x00\x1FVkAccelerationStructureMotionInfoFlagsNV',b'\x00\x00\x08\x9BVkAccelerationStructureMotionInfoNV',b'\x00\x00\x08\x9CVkAccelerationStructureMotionInstanceDataNV',b'\x00\x00\x00\x1FVkAccelerationStructureMotionInstanceFlagsNV',b'\x00\x00\x08\x9DVkAccelerationStructureMotionInstanceNV',b'\x00\x00\x08\x9EVkAccelerationStructureMotionInstanceTypeNV',b'\x00\x00\x01\x68VkAccelerationStructureNV',b'\x00\x00\x08\x9FVkAccelerationStructureSRTMotionInstanceNV',b'\x00\x00\x08\xA0VkAccelerationStructureTypeKHR',b'\x00\x00\x08\xA0VkAccelerationStructureTypeNV',b'\x00\x00\x08\xA1VkAccelerationStructureVersionInfoKHR',b'\x00\x00\x08\xA2VkAccessFlagBits',b'\x00\x00\x00\xEBVkAccessFlagBits2',b'\x00\x00\x00\xEBVkAccessFlagBits2KHR',b'\x00\x00\x00\x1FVkAccessFlags',b'\x00\x00\x00\xEBVkAccessFlags2',b'\x00\x00\x00\xEBVkAccessFlags2KHR',b'\x00\x00\x08\xA3VkAcquireNextImageInfoKHR',b'\x00\x00\x08\xA4VkAcquireProfilingLockFlagBitsKHR',b'\x00\x00\x00\x1FVkAcquireProfilingLockFlagsKHR',b'\x00\x00\x08\xA5VkAcquireProfilingLockInfoKHR',b'\x00\x00\x08\xA6VkAllocationCallbacks',b'\x00\x00\x08\xA7VkAndroidHardwareBufferFormatProperties2ANDROID',b'\x00\x00\x08\xA8VkAndroidHardwareBufferFormatPropertiesANDROID',b'\x00\x00\x08\xA9VkAndroidHardwareBufferPropertiesANDROID',b'\x00\x00\x08\xAAVkAndroidHardwareBufferUsageANDROID',b'\x00\x00\x00\x1FVkAndroidSurfaceCreateFlagsKHR',b'\x00\x00\x08\xABVkAndroidSurfaceCreateInfoKHR',b'\x00\x00\x08\xADVkApplicationInfo',b'\x00\x00\x08\xB1VkAttachmentDescription',b'\x00\x00\x08\xB0VkAttachmentDescription2',b'\x00\x00\x08\xB0VkAttachmentDescription2KHR',b'\x00\x00\x08\xB2VkAttachmentDescriptionFlagBits',b'\x00\x00\x00\x1FVkAttachmentDescriptionFlags',b'\x00\x00\x08\xB3VkAttachmentDescriptionStencilLayout',b'\x00\x00\x08\xB3VkAttachmentDescriptionStencilLayoutKHR',b'\x00\x00\x08\xB4VkAttachmentLoadOp',b'\x00\x00\x08\xB8VkAttachmentReference',b'\x00\x00\x08\xB7VkAttachmentReference2',b'\x00\x00\x08\xB7VkAttachmentReference2KHR',b'\x00\x00\x08\xB9VkAttachmentReferenceStencilLayout',b'\x00\x00\x08\xB9VkAttachmentReferenceStencilLayoutKHR',b'\x00\x00\x08\xBAVkAttachmentSampleCountInfoAMD',b'\x00\x00\x08\xBAVkAttachmentSampleCountInfoNV',b'\x00\x00\x08\xBCVkAttachmentSampleLocationsEXT',b'\x00\x00\x08\xBDVkAttachmentStoreOp',b'\x00\x00\x08\xBFVkBaseInStructure',b'\x00\x00\x08\xC1VkBaseOutStructure',b'\x00\x00\x08\xC2VkBindAccelerationStructureMemoryInfoNV',b'\x00\x00\x08\xC3VkBindBufferMemoryDeviceGroupInfo',b'\x00\x00\x08\xC3VkBindBufferMemoryDeviceGroupInfoKHR',b'\x00\x00\x08\xC4VkBindBufferMemoryInfo',b'\x00\x00\x08\xC4VkBindBufferMemoryInfoKHR',b'\x00\x00\x08\xC5VkBindImageMemoryDeviceGroupInfo',b'\x00\x00\x08\xC5VkBindImageMemoryDeviceGroupInfoKHR',b'\x00\x00\x08\xC6VkBindImageMemoryInfo',b'\x00\x00\x08\xC6VkBindImageMemoryInfoKHR',b'\x00\x00\x08\xC7VkBindImageMemorySwapchainInfoKHR',b'\x00\x00\x08\xC8VkBindImagePlaneMemoryInfo',b'\x00\x00\x08\xC8VkBindImagePlaneMemoryInfoKHR',b'\x00\x00\x08\xC9VkBindIndexBufferIndirectCommandNV',b'\x00\x00\x08\xCAVkBindShaderGroupIndirectCommandNV',b'\x00\x00\x08\xCBVkBindSparseInfo',b'\x00\x00\x08\xCCVkBindVertexBufferIndirectCommandNV',b'\x00\x00\x08\xCDVkBlendFactor',b'\x00\x00\x08\xCEVkBlendOp',b'\x00\x00\x08\xCFVkBlendOverlapEXT',b'\x00\x00\x08\xD0VkBlitImageInfo2',b'\x00\x00\x08\xD0VkBlitImageInfo2KHR',b'\x00\x00\x00\x1FVkBool32',b'\x00\x00\x08\xD1VkBorderColor',b'\x00\x00\x01\x6EVkBuffer',b'\x00\x00\x08\xD4VkBufferCopy',b'\x00\x00\x08\xD3VkBufferCopy2',b'\x00\x00\x08\xD3VkBufferCopy2KHR',b'\x00\x00\x08\xD5VkBufferCreateFlagBits',b'\x00\x00\x00\x1FVkBufferCreateFlags',b'\x00\x00\x08\xD6VkBufferCreateInfo',b'\x00\x00\x08\xD7VkBufferDeviceAddressCreateInfoEXT',b'\x00\x00\x08\xD8VkBufferDeviceAddressInfo',b'\x00\x00\x08\xD8VkBufferDeviceAddressInfoEXT',b'\x00\x00\x08\xD8VkBufferDeviceAddressInfoKHR',b'\x00\x00\x08\xDBVkBufferImageCopy',b'\x00\x00\x08\xDAVkBufferImageCopy2',b'\x00\x00\x08\xDAVkBufferImageCopy2KHR',b'\x00\x00\x08\xDEVkBufferMemoryBarrier',b'\x00\x00\x08\xDDVkBufferMemoryBarrier2',b'\x00\x00\x08\xDDVkBufferMemoryBarrier2KHR',b'\x00\x00\x08\xDFVkBufferMemoryRequirementsInfo2',b'\x00\x00\x08\xDFVkBufferMemoryRequirementsInfo2KHR',b'\x00\x00\x08\xE0VkBufferOpaqueCaptureAddressCreateInfo',b'\x00\x00\x08\xE0VkBufferOpaqueCaptureAddressCreateInfoKHR',b'\x00\x00\x08\xE1VkBufferUsageFlagBits',b'\x00\x00\x00\x1FVkBufferUsageFlags',b'\x00\x00\x06\xEBVkBufferView',b'\x00\x00\x00\x1FVkBufferViewCreateFlags',b'\x00\x00\x08\xE2VkBufferViewCreateInfo',b'\x00\x00\x08\xE3VkBuildAccelerationStructureFlagBitsKHR',b'\x00\x00\x08\xE3VkBuildAccelerationStructureFlagBitsNV',b'\x00\x00\x00\x1FVkBuildAccelerationStructureFlagsKHR',b'\x00\x00\x00\x1FVkBuildAccelerationStructureFlagsNV',b'\x00\x00\x08\xE4VkBuildAccelerationStructureModeKHR',b'\x00\x00\x08\xE5VkCalibratedTimestampInfoEXT',b'\x00\x00\x08\xE6VkCheckpointData2NV',b'\x00\x00\x08\xE7VkCheckpointDataNV',b'\x00\x00\x08\xE8VkChromaLocation',b'\x00\x00\x08\xE8VkChromaLocationKHR',b'\x00\x00\x08\xE9VkClearAttachment',b'\x00\x00\x08\xEAVkClearColorValue',b'\x00\x00\x08\xEBVkClearDepthStencilValue',b'\x00\x00\x08\xECVkClearRect',b'\x00\x00\x08\xEEVkClearValue',b'\x00\x00\x08\xF0VkCoarseSampleLocationNV',b'\x00\x00\x08\xF1VkCoarseSampleOrderCustomNV',b'\x00\x00\x04\x13VkCoarseSampleOrderTypeNV',b'\x00\x00\x08\xF2VkColorComponentFlagBits',b'\x00\x00\x00\x1FVkColorComponentFlags',b'\x00\x00\x08\xF3VkColorSpaceKHR',b'\x00\x00\x00\x0BVkCommandBuffer',b'\x00\x00\x08\xF4VkCommandBufferAllocateInfo',b'\x00\x00\x08\xF5VkCommandBufferBeginInfo',b'\x00\x00\x08\xF6VkCommandBufferInheritanceConditionalRenderingInfoEXT',b'\x00\x00\x08\xF8VkCommandBufferInheritanceInfo',b'\x00\x00\x08\xF9VkCommandBufferInheritanceRenderPassTransformInfoQCOM',b'\x00\x00\x08\xFAVkCommandBufferInheritanceRenderingInfo',b'\x00\x00\x08\xFAVkCommandBufferInheritanceRenderingInfoKHR',b'\x00\x00\x08\xFBVkCommandBufferInheritanceViewportScissorInfoNV',b'\x00\x00\x08\xFCVkCommandBufferLevel',b'\x00\x00\x08\xFDVkCommandBufferResetFlagBits',b'\x00\x00\x00\x1FVkCommandBufferResetFlags',b'\x00\x00\x08\xFFVkCommandBufferSubmitInfo',b'\x00\x00\x08\xFFVkCommandBufferSubmitInfoKHR',b'\x00\x00\x09\x00VkCommandBufferUsageFlagBits',b'\x00\x00\x00\x1FVkCommandBufferUsageFlags',b'\x00\x00\x01\x74VkCommandPool',b'\x00\x00\x09\x01VkCommandPoolCreateFlagBits',b'\x00\x00\x00\x1FVkCommandPoolCreateFlags',b'\x00\x00\x09\x02VkCommandPoolCreateInfo',b'\x00\x00\x09\x03VkCommandPoolResetFlagBits',b'\x00\x00\x00\x1FVkCommandPoolResetFlags',b'\x00\x00\x00\x1FVkCommandPoolTrimFlags',b'\x00\x00\x00\x1FVkCommandPoolTrimFlagsKHR',b'\x00\x00\x04\x19VkCompareOp',b'\x00\x00\x09\x04VkComponentMapping',b'\x00\x00\x09\x05VkComponentSwizzle',b'\x00\x00\x09\x06VkComponentTypeNV',b'\x00\x00\x09\x07VkCompositeAlphaFlagBitsKHR',b'\x00\x00\x00\x1FVkCompositeAlphaFlagsKHR',b'\x00\x00\x09\x08VkComputePipelineCreateInfo',b'\x00\x00\x09\x09VkConditionalRenderingBeginInfoEXT',b'\x00\x00\x09\x0AVkConditionalRenderingFlagBitsEXT',b'\x00\x00\x00\x1FVkConditionalRenderingFlagsEXT',b'\x00\x00\x09\x0BVkConformanceVersion',b'\x00\x00\x09\x0BVkConformanceVersionKHR',b'\x00\x00\x09\x0CVkConservativeRasterizationModeEXT',b'\x00\x00\x09\x0DVkCooperativeMatrixPropertiesNV',b'\x00\x00\x09\x0EVkCopyAccelerationStructureInfoKHR',b'\x00\x00\x04\xDBVkCopyAccelerationStructureModeKHR',b'\x00\x00\x04\xDBVkCopyAccelerationStructureModeNV',b'\x00\x00\x09\x0FVkCopyAccelerationStructureToMemoryInfoKHR',b'\x00\x00\x09\x10VkCopyBufferInfo2',b'\x00\x00\x09\x10VkCopyBufferInfo2KHR',b'\x00\x00\x09\x11VkCopyBufferToImageInfo2',b'\x00\x00\x09\x11VkCopyBufferToImageInfo2KHR',b'\x00\x00\x09\x12VkCopyCommandTransformInfoQCOM',b'\x00\x00\x09\x13VkCopyDescriptorSet',b'\x00\x00\x09\x14VkCopyImageInfo2',b'\x00\x00\x09\x14VkCopyImageInfo2KHR',b'\x00\x00\x09\x15VkCopyImageToBufferInfo2',b'\x00\x00\x09\x15VkCopyImageToBufferInfo2KHR',b'\x00\x00\x09\x16VkCopyMemoryToAccelerationStructureInfoKHR',b'\x00\x00\x09\x17VkCoverageModulationModeNV',b'\x00\x00\x09\x18VkCoverageReductionModeNV',b'\x00\x00\x09\x19VkCuFunctionCreateInfoNVX',b'\x00\x00\x07\x0AVkCuFunctionNVX',b'\x00\x00\x09\x1AVkCuLaunchInfoNVX',b'\x00\x00\x09\x1BVkCuModuleCreateInfoNVX',b'\x00\x00\x07\x0FVkCuModuleNVX',b'\x00\x00\x09\x1CVkCullModeFlagBits',b'\x00\x00\x00\x1FVkCullModeFlags',b'\x00\x00\x09\x1DVkDebugMarkerMarkerInfoEXT',b'\x00\x00\x09\x1EVkDebugMarkerObjectNameInfoEXT',b'\x00\x00\x09\x1FVkDebugMarkerObjectTagInfoEXT',b'\x00\x00\x09\x20VkDebugReportCallbackCreateInfoEXT',b'\x00\x00\x07\xE5VkDebugReportCallbackEXT',b'\x00\x00\x09\x21VkDebugReportFlagBitsEXT',b'\x00\x00\x00\x1FVkDebugReportFlagsEXT',b'\x00\x00\x03\xD4VkDebugReportObjectTypeEXT',b'\x00\x00\x09\x22VkDebugUtilsLabelEXT',b'\x00\x00\x03\xB4VkDebugUtilsMessageSeverityFlagBitsEXT',b'\x00\x00\x00\x1FVkDebugUtilsMessageSeverityFlagsEXT',b'\x00\x00\x09\x23VkDebugUtilsMessageTypeFlagBitsEXT',b'\x00\x00\x00\x1FVkDebugUtilsMessageTypeFlagsEXT',b'\x00\x00\x09\x24VkDebugUtilsMessengerCallbackDataEXT',b'\x00\x00\x00\x1FVkDebugUtilsMessengerCallbackDataFlagsEXT',b'\x00\x00\x00\x1FVkDebugUtilsMessengerCreateFlagsEXT',b'\x00\x00\x09\x25VkDebugUtilsMessengerCreateInfoEXT',b'\x00\x00\x07\xEAVkDebugUtilsMessengerEXT',b'\x00\x00\x09\x26VkDebugUtilsObjectNameInfoEXT',b'\x00\x00\x09\x27VkDebugUtilsObjectTagInfoEXT',b'\x00\x00\x09\x28VkDedicatedAllocationBufferCreateInfoNV',b'\x00\x00\x09\x29VkDedicatedAllocationImageCreateInfoNV',b'\x00\x00\x09\x2AVkDedicatedAllocationMemoryAllocateInfoNV',b'\x00\x00\x01\x79VkDeferredOperationKHR',b'\x00\x00\x09\x2BVkDependencyFlagBits',b'\x00\x00\x00\x1FVkDependencyFlags',b'\x00\x00\x09\x2CVkDependencyInfo',b'\x00\x00\x09\x2CVkDependencyInfoKHR',b'\x00\x00\x09\x2DVkDescriptorBindingFlagBits',b'\x00\x00\x09\x2DVkDescriptorBindingFlagBitsEXT',b'\x00\x00\x00\x1FVkDescriptorBindingFlags',b'\x00\x00\x00\x1FVkDescriptorBindingFlagsEXT',b'\x00\x00\x09\x2FVkDescriptorBufferInfo',b'\x00\x00\x09\x31VkDescriptorImageInfo',b'\x00\x00\x01\x9CVkDescriptorPool',b'\x00\x00\x09\x32VkDescriptorPoolCreateFlagBits',b'\x00\x00\x00\x1FVkDescriptorPoolCreateFlags',b'\x00\x00\x09\x33VkDescriptorPoolCreateInfo',b'\x00\x00\x09\x34VkDescriptorPoolInlineUniformBlockCreateInfo',b'\x00\x00\x09\x34VkDescriptorPoolInlineUniformBlockCreateInfoEXT',b'\x00\x00\x00\x1FVkDescriptorPoolResetFlags',b'\x00\x00\x09\x36VkDescriptorPoolSize',b'\x00\x00\x07\x23VkDescriptorSet',b'\x00\x00\x09\x37VkDescriptorSetAllocateInfo',b'\x00\x00\x09\x38VkDescriptorSetBindingReferenceVALVE',b'\x00\x00\x07\x1EVkDescriptorSetLayout',b'\x00\x00\x09\x3AVkDescriptorSetLayoutBinding',b'\x00\x00\x09\x3BVkDescriptorSetLayoutBindingFlagsCreateInfo',b'\x00\x00\x09\x3BVkDescriptorSetLayoutBindingFlagsCreateInfoEXT',b'\x00\x00\x09\x3CVkDescriptorSetLayoutCreateFlagBits',b'\x00\x00\x00\x1FVkDescriptorSetLayoutCreateFlags',b'\x00\x00\x09\x3DVkDescriptorSetLayoutCreateInfo',b'\x00\x00\x09\x3EVkDescriptorSetLayoutHostMappingInfoVALVE',b'\x00\x00\x09\x3FVkDescriptorSetLayoutSupport',b'\x00\x00\x09\x3FVkDescriptorSetLayoutSupportKHR',b'\x00\x00\x09\x40VkDescriptorSetVariableDescriptorCountAllocateInfo',b'\x00\x00\x09\x40VkDescriptorSetVariableDescriptorCountAllocateInfoEXT',b'\x00\x00\x09\x41VkDescriptorSetVariableDescriptorCountLayoutSupport',b'\x00\x00\x09\x41VkDescriptorSetVariableDescriptorCountLayoutSupportEXT',b'\x00\x00\x09\x43VkDescriptorType',b'\x00\x00\x05\x28VkDescriptorUpdateTemplate',b'\x00\x00\x00\x1FVkDescriptorUpdateTemplateCreateFlags',b'\x00\x00\x00\x1FVkDescriptorUpdateTemplateCreateFlagsKHR',b'\x00\x00\x09\x44VkDescriptorUpdateTemplateCreateInfo',b'\x00\x00\x09\x44VkDescriptorUpdateTemplateCreateInfoKHR',b'\x00\x00\x09\x46VkDescriptorUpdateTemplateEntry',b'\x00\x00\x09\x46VkDescriptorUpdateTemplateEntryKHR',b'\x00\x00\x05\x28VkDescriptorUpdateTemplateKHR',b'\x00\x00\x09\x47VkDescriptorUpdateTemplateType',b'\x00\x00\x09\x47VkDescriptorUpdateTemplateTypeKHR',b'\x00\x00\x00\x22VkDevice',b'\x00\x00\x00\xEBVkDeviceAddress',b'\x00\x00\x09\x48VkDeviceBufferMemoryRequirements',b'\x00\x00\x09\x48VkDeviceBufferMemoryRequirementsKHR',b'\x00\x00\x00\x1FVkDeviceCreateFlags',b'\x00\x00\x09\x49VkDeviceCreateInfo',b'\x00\x00\x09\x4AVkDeviceDeviceMemoryReportCreateInfoEXT',b'\x00\x00\x09\x4BVkDeviceDiagnosticsConfigCreateInfoNV',b'\x00\x00\x09\x4CVkDeviceDiagnosticsConfigFlagBitsNV',b'\x00\x00\x00\x1FVkDeviceDiagnosticsConfigFlagsNV',b'\x00\x00\x09\x4DVkDeviceEventInfoEXT',b'\x00\x00\x09\x4EVkDeviceEventTypeEXT',b'\x00\x00\x09\x4FVkDeviceGroupBindSparseInfo',b'\x00\x00\x09\x4FVkDeviceGroupBindSparseInfoKHR',b'\x00\x00\x09\x50VkDeviceGroupCommandBufferBeginInfo',b'\x00\x00\x09\x50VkDeviceGroupCommandBufferBeginInfoKHR',b'\x00\x00\x09\x51VkDeviceGroupDeviceCreateInfo',b'\x00\x00\x09\x51VkDeviceGroupDeviceCreateInfoKHR',b'\x00\x00\x09\x52VkDeviceGroupPresentCapabilitiesKHR',b'\x00\x00\x09\x53VkDeviceGroupPresentInfoKHR',b'\x00\x00\x09\x54VkDeviceGroupPresentModeFlagBitsKHR',b'\x00\x00\x00\x1FVkDeviceGroupPresentModeFlagsKHR',b'\x00\x00\x09\x55VkDeviceGroupRenderPassBeginInfo',b'\x00\x00\x09\x55VkDeviceGroupRenderPassBeginInfoKHR',b'\x00\x00\x09\x56VkDeviceGroupSubmitInfo',b'\x00\x00\x09\x56VkDeviceGroupSubmitInfoKHR',b'\x00\x00\x09\x57VkDeviceGroupSwapchainCreateInfoKHR',b'\x00\x00\x09\x58VkDeviceImageMemoryRequirements',b'\x00\x00\x09\x58VkDeviceImageMemoryRequirementsKHR',b'\x00\x00\x01\x6FVkDeviceMemory',b'\x00\x00\x09\x59VkDeviceMemoryOpaqueCaptureAddressInfo',b'\x00\x00\x09\x59VkDeviceMemoryOpaqueCaptureAddressInfoKHR',b'\x00\x00\x09\x5AVkDeviceMemoryOverallocationCreateInfoAMD',b'\x00\x00\x09\x5BVkDeviceMemoryReportCallbackDataEXT',b'\x00\x00\x09\x5CVkDeviceMemoryReportEventTypeEXT',b'\x00\x00\x00\x1FVkDeviceMemoryReportFlagsEXT',b'\x00\x00\x09\x5DVkDeviceOrHostAddressConstKHR',b'\x00\x00\x09\x5EVkDeviceOrHostAddressKHR',b'\x00\x00\x09\x5FVkDevicePrivateDataCreateInfo',b'\x00\x00\x09\x5FVkDevicePrivateDataCreateInfoEXT',b'\x00\x00\x09\x60VkDeviceQueueCreateFlagBits',b'\x00\x00\x00\x1FVkDeviceQueueCreateFlags',b'\x00\x00\x09\x62VkDeviceQueueCreateInfo',b'\x00\x00\x09\x63VkDeviceQueueGlobalPriorityCreateInfoEXT',b'\x00\x00\x09\x63VkDeviceQueueGlobalPriorityCreateInfoKHR',b'\x00\x00\x09\x64VkDeviceQueueInfo2',b'\x00\x00\x00\xEBVkDeviceSize',b'\x00\x00\x09\x65VkDiscardRectangleModeEXT',b'\x00\x00\x09\x66VkDispatchIndirectCommand',b'\x00\x00\x09\x67VkDisplayEventInfoEXT',b'\x00\x00\x09\x68VkDisplayEventTypeEXT',b'\x00\x00\x01\xAFVkDisplayKHR',b'\x00\x00\x00\x1FVkDisplayModeCreateFlagsKHR',b'\x00\x00\x09\x69VkDisplayModeCreateInfoKHR',b'\x00\x00\x03\x25VkDisplayModeKHR',b'\x00\x00\x09\x6AVkDisplayModeParametersKHR',b'\x00\x00\x09\x6BVkDisplayModeProperties2KHR',b'\x00\x00\x09\x6CVkDisplayModePropertiesKHR',b'\x00\x00\x09\x6DVkDisplayNativeHdrSurfaceCapabilitiesAMD',b'\x00\x00\x09\x6EVkDisplayPlaneAlphaFlagBitsKHR',b'\x00\x00\x00\x1FVkDisplayPlaneAlphaFlagsKHR',b'\x00\x00\x09\x6FVkDisplayPlaneCapabilities2KHR',b'\x00\x00\x09\x70VkDisplayPlaneCapabilitiesKHR',b'\x00\x00\x09\x71VkDisplayPlaneInfo2KHR',b'\x00\x00\x09\x72VkDisplayPlaneProperties2KHR',b'\x00\x00\x09\x73VkDisplayPlanePropertiesKHR',b'\x00\x00\x09\x74VkDisplayPowerInfoEXT',b'\x00\x00\x09\x75VkDisplayPowerStateEXT',b'\x00\x00\x09\x76VkDisplayPresentInfoKHR',b'\x00\x00\x09\x77VkDisplayProperties2KHR',b'\x00\x00\x09\x78VkDisplayPropertiesKHR',b'\x00\x00\x00\x1FVkDisplaySurfaceCreateFlagsKHR',b'\x00\x00\x09\x79VkDisplaySurfaceCreateInfoKHR',b'\x00\x00\x09\x7AVkDrawIndexedIndirectCommand',b'\x00\x00\x09\x7BVkDrawIndirectCommand',b'\x00\x00\x09\x7CVkDrawMeshTasksIndirectCommandNV',b'\x00\x00\x09\x7DVkDriverId',b'\x00\x00\x09\x7DVkDriverIdKHR',b'\x00\x00\x09\x7FVkDrmFormatModifierProperties2EXT',b'\x00\x00\x09\x81VkDrmFormatModifierPropertiesEXT',b'\x00\x00\x09\x82VkDrmFormatModifierPropertiesList2EXT',b'\x00\x00\x09\x83VkDrmFormatModifierPropertiesListEXT',b'\x00\x00\x09\x85VkDynamicState',b'\x00\x00\x01\xBBVkEvent',b'\x00\x00\x09\x86VkEventCreateFlagBits',b'\x00\x00\x00\x1FVkEventCreateFlags',b'\x00\x00\x09\x87VkEventCreateInfo',b'\x00\x00\x09\x88VkExportFenceCreateInfo',b'\x00\x00\x09\x88VkExportFenceCreateInfoKHR',b'\x00\x00\x09\x89VkExportMemoryAllocateInfo',b'\x00\x00\x09\x89VkExportMemoryAllocateInfoKHR',b'\x00\x00\x09\x8AVkExportMemoryAllocateInfoNV',b'\x00\x00\x09\x8BVkExportSemaphoreCreateInfo',b'\x00\x00\x09\x8BVkExportSemaphoreCreateInfoKHR',b'\x00\x00\x09\x8CVkExtensionProperties',b'\x00\x00\x09\x8DVkExtent2D',b'\x00\x00\x09\x8EVkExtent3D',b'\x00\x00\x09\x8FVkExternalBufferProperties',b'\x00\x00\x09\x8FVkExternalBufferPropertiesKHR',b'\x00\x00\x09\x90VkExternalFenceFeatureFlagBits',b'\x00\x00\x09\x90VkExternalFenceFeatureFlagBitsKHR',b'\x00\x00\x00\x1FVkExternalFenceFeatureFlags',b'\x00\x00\x00\x1FVkExternalFenceFeatureFlagsKHR',b'\x00\x00\x09\x91VkExternalFenceHandleTypeFlagBits',b'\x00\x00\x09\x91VkExternalFenceHandleTypeFlagBitsKHR',b'\x00\x00\x00\x1FVkExternalFenceHandleTypeFlags',b'\x00\x00\x00\x1FVkExternalFenceHandleTypeFlagsKHR',b'\x00\x00\x09\x92VkExternalFenceProperties',b'\x00\x00\x09\x92VkExternalFencePropertiesKHR',b'\x00\x00\x09\x93VkExternalFormatANDROID',b'\x00\x00\x09\x94VkExternalImageFormatProperties',b'\x00\x00\x09\x94VkExternalImageFormatPropertiesKHR',b'\x00\x00\x09\x95VkExternalImageFormatPropertiesNV',b'\x00\x00\x09\x96VkExternalMemoryBufferCreateInfo',b'\x00\x00\x09\x96VkExternalMemoryBufferCreateInfoKHR',b'\x00\x00\x09\x97VkExternalMemoryFeatureFlagBits',b'\x00\x00\x09\x97VkExternalMemoryFeatureFlagBitsKHR',b'\x00\x00\x09\x98VkExternalMemoryFeatureFlagBitsNV',b'\x00\x00\x00\x1FVkExternalMemoryFeatureFlags',b'\x00\x00\x00\x1FVkExternalMemoryFeatureFlagsKHR',b'\x00\x00\x00\x1FVkExternalMemoryFeatureFlagsNV',b'\x00\x00\x00\x9AVkExternalMemoryHandleTypeFlagBits',b'\x00\x00\x00\x9AVkExternalMemoryHandleTypeFlagBitsKHR',b'\x00\x00\x09\x99VkExternalMemoryHandleTypeFlagBitsNV',b'\x00\x00\x00\x1FVkExternalMemoryHandleTypeFlags',b'\x00\x00\x00\x1FVkExternalMemoryHandleTypeFlagsKHR',b'\x00\x00\x00\x1FVkExternalMemoryHandleTypeFlagsNV',b'\x00\x00\x09\x9AVkExternalMemoryImageCreateInfo',b'\x00\x00\x09\x9AVkExternalMemoryImageCreateInfoKHR',b'\x00\x00\x09\x9BVkExternalMemoryImageCreateInfoNV',b'\x00\x00\x09\x9CVkExternalMemoryProperties',b'\x00\x00\x09\x9CVkExternalMemoryPropertiesKHR',b'\x00\x00\x09\x9DVkExternalSemaphoreFeatureFlagBits',b'\x00\x00\x09\x9DVkExternalSemaphoreFeatureFlagBitsKHR',b'\x00\x00\x00\x1FVkExternalSemaphoreFeatureFlags',b'\x00\x00\x00\x1FVkExternalSemaphoreFeatureFlagsKHR',b'\x00\x00\x09\x9EVkExternalSemaphoreHandleTypeFlagBits',b'\x00\x00\x09\x9EVkExternalSemaphoreHandleTypeFlagBitsKHR',b'\x00\x00\x00\x1FVkExternalSemaphoreHandleTypeFlags',b'\x00\x00\x00\x1FVkExternalSemaphoreHandleTypeFlagsKHR',b'\x00\x00\x09\x9FVkExternalSemaphoreProperties',b'\x00\x00\x09\x9FVkExternalSemaphorePropertiesKHR',b'\x00\x00\x01\xBFVkFence',b'\x00\x00\x09\xA0VkFenceCreateFlagBits',b'\x00\x00\x00\x1FVkFenceCreateFlags',b'\x00\x00\x09\xA1VkFenceCreateInfo',b'\x00\x00\x09\xA2VkFenceGetFdInfoKHR',b'\x00\x00\x09\xA3VkFenceImportFlagBits',b'\x00\x00\x09\xA3VkFenceImportFlagBitsKHR',b'\x00\x00\x00\x1FVkFenceImportFlags',b'\x00\x00\x00\x1FVkFenceImportFlagsKHR',b'\x00\x00\x05\x61VkFilter',b'\x00\x00\x09\xA4VkFilterCubicImageViewImageFormatPropertiesEXT',b'\x00\x00\x00\x1FVkFlags',b'\x00\x00\x00\xEBVkFlags64',b'\x00\x00\x02\xDAVkFormat',b'\x00\x00\x09\xA6VkFormatFeatureFlagBits',b'\x00\x00\x00\xEBVkFormatFeatureFlagBits2',b'\x00\x00\x00\xEBVkFormatFeatureFlagBits2KHR',b'\x00\x00\x00\x1FVkFormatFeatureFlags',b'\x00\x00\x00\xEBVkFormatFeatureFlags2',b'\x00\x00\x00\xEBVkFormatFeatureFlags2KHR',b'\x00\x00\x09\xA9VkFormatProperties',b'\x00\x00\x09\xA7VkFormatProperties2',b'\x00\x00\x09\xA7VkFormatProperties2KHR',b'\x00\x00\x09\xA8VkFormatProperties3',b'\x00\x00\x09\xA8VkFormatProperties3KHR',b'\x00\x00\x09\xAAVkFragmentShadingRateAttachmentInfoKHR',b'\x00\x00\x09\xABVkFragmentShadingRateCombinerOpKHR',b'\x00\x00\x04\x52VkFragmentShadingRateNV',b'\x00\x00\x09\xAEVkFragmentShadingRateTypeNV',b'\x00\x00\x07\x50VkFramebuffer',b'\x00\x00\x09\xB0VkFramebufferAttachmentImageInfo',b'\x00\x00\x09\xB0VkFramebufferAttachmentImageInfoKHR',b'\x00\x00\x09\xB1VkFramebufferAttachmentsCreateInfo',b'\x00\x00\x09\xB1VkFramebufferAttachmentsCreateInfoKHR',b'\x00\x00\x09\xB2VkFramebufferCreateFlagBits',b'\x00\x00\x00\x1FVkFramebufferCreateFlags',b'\x00\x00\x09\xB3VkFramebufferCreateInfo',b'\x00\x00\x09\xB4VkFramebufferMixedSamplesCombinationNV',b'\x00\x00\x04\x57VkFrontFace',b'\x00\x00\x09\xB5VkGeneratedCommandsInfoNV',b'\x00\x00\x09\xB6VkGeneratedCommandsMemoryRequirementsInfoNV',b'\x00\x00\x09\xB7VkGeometryAABBNV',b'\x00\x00\x09\xB8VkGeometryDataNV',b'\x00\x00\x09\xB9VkGeometryFlagBitsKHR',b'\x00\x00\x09\xB9VkGeometryFlagBitsNV',b'\x00\x00\x00\x1FVkGeometryFlagsKHR',b'\x00\x00\x00\x1FVkGeometryFlagsNV',b'\x00\x00\x09\xBAVkGeometryInstanceFlagBitsKHR',b'\x00\x00\x09\xBAVkGeometryInstanceFlagBitsNV',b'\x00\x00\x00\x1FVkGeometryInstanceFlagsKHR',b'\x00\x00\x00\x1FVkGeometryInstanceFlagsNV',b'\x00\x00\x09\xBCVkGeometryNV',b'\x00\x00\x09\xBDVkGeometryTrianglesNV',b'\x00\x00\x09\xBEVkGeometryTypeKHR',b'\x00\x00\x09\xBEVkGeometryTypeNV',b'\x00\x00\x09\xBFVkGraphicsPipelineCreateInfo',b'\x00\x00\x09\xC0VkGraphicsPipelineLibraryCreateInfoEXT',b'\x00\x00\x09\xC1VkGraphicsPipelineLibraryFlagBitsEXT',b'\x00\x00\x00\x1FVkGraphicsPipelineLibraryFlagsEXT',b'\x00\x00\x09\xC2VkGraphicsPipelineShaderGroupsCreateInfoNV',b'\x00\x00\x09\xC4VkGraphicsShaderGroupCreateInfoNV',b'\x00\x00\x09\xC5VkHdrMetadataEXT',b'\x00\x00\x00\x1FVkHeadlessSurfaceCreateFlagsEXT',b'\x00\x00\x09\xC6VkHeadlessSurfaceCreateInfoEXT',b'\x00\x00\x01\xC8VkImage',b'\x00\x00\x09\xC7VkImageAspectFlagBits',b'\x00\x00\x00\x1FVkImageAspectFlags',b'\x00\x00\x09\xCAVkImageBlit',b'\x00\x00\x09\xC9VkImageBlit2',b'\x00\x00\x09\xC9VkImageBlit2KHR',b'\x00\x00\x09\xCDVkImageCopy',b'\x00\x00\x09\xCCVkImageCopy2',b'\x00\x00\x09\xCCVkImageCopy2KHR',b'\x00\x00\x09\xCEVkImageCreateFlagBits',b'\x00\x00\x00\x1FVkImageCreateFlags',b'\x00\x00\x09\xCFVkImageCreateInfo',b'\x00\x00\x09\xD0VkImageDrmFormatModifierExplicitCreateInfoEXT',b'\x00\x00\x09\xD1VkImageDrmFormatModifierListCreateInfoEXT',b'\x00\x00\x09\xD2VkImageDrmFormatModifierPropertiesEXT',b'\x00\x00\x09\xD3VkImageFormatListCreateInfo',b'\x00\x00\x09\xD3VkImageFormatListCreateInfoKHR',b'\x00\x00\x09\xD5VkImageFormatProperties',b'\x00\x00\x09\xD4VkImageFormatProperties2',b'\x00\x00\x09\xD4VkImageFormatProperties2KHR',b'\x00\x00\x04\xE8VkImageLayout',b'\x00\x00\x09\xD8VkImageMemoryBarrier',b'\x00\x00\x09\xD7VkImageMemoryBarrier2',b'\x00\x00\x09\xD7VkImageMemoryBarrier2KHR',b'\x00\x00\x09\xD9VkImageMemoryRequirementsInfo2',b'\x00\x00\x09\xD9VkImageMemoryRequirementsInfo2KHR',b'\x00\x00\x09\xDAVkImagePlaneMemoryRequirementsInfo',b'\x00\x00\x09\xDAVkImagePlaneMemoryRequirementsInfoKHR',b'\x00\x00\x09\xDDVkImageResolve',b'\x00\x00\x09\xDCVkImageResolve2',b'\x00\x00\x09\xDCVkImageResolve2KHR',b'\x00\x00\x09\xDEVkImageSparseMemoryRequirementsInfo2',b'\x00\x00\x09\xDEVkImageSparseMemoryRequirementsInfo2KHR',b'\x00\x00\x09\xDFVkImageStencilUsageCreateInfo',b'\x00\x00\x09\xDFVkImageStencilUsageCreateInfoEXT',b'\x00\x00\x09\xE0VkImageSubresource',b'\x00\x00\x09\xE1VkImageSubresourceLayers',b'\x00\x00\x09\xE2VkImageSubresourceRange',b'\x00\x00\x09\xE3VkImageSwapchainCreateInfoKHR',b'\x00\x00\x02\xDCVkImageTiling',b'\x00\x00\x02\xDBVkImageType',b'\x00\x00\x09\xE4VkImageUsageFlagBits',b'\x00\x00\x00\x1FVkImageUsageFlags',b'\x00\x00\x01\xC3VkImageView',b'\x00\x00\x09\xE5VkImageViewASTCDecodeModeEXT',b'\x00\x00\x09\xE6VkImageViewAddressPropertiesNVX',b'\x00\x00\x09\xE7VkImageViewCreateFlagBits',b'\x00\x00\x00\x1FVkImageViewCreateFlags',b'\x00\x00\x09\xE8VkImageViewCreateInfo',b'\x00\x00\x09\xE9VkImageViewHandleInfoNVX',b'\x00\x00\x09\xEAVkImageViewMinLodCreateInfoEXT',b'\x00\x00\x09\xEBVkImageViewType',b'\x00\x00\x09\xECVkImageViewUsageCreateInfo',b'\x00\x00\x09\xECVkImageViewUsageCreateInfoKHR',b'\x00\x00\x09\xEDVkImportAndroidHardwareBufferInfoANDROID',b'\x00\x00\x09\xEEVkImportFenceFdInfoKHR',b'\x00\x00\x09\xEFVkImportMemoryFdInfoKHR',b'\x00\x00\x09\xF0VkImportMemoryHostPointerInfoEXT',b'\x00\x00\x09\xF1VkImportSemaphoreFdInfoKHR',b'\x00\x00\x04\xF5VkIndexType',b'\x00\x00\x09\xF3VkIndirectCommandsLayoutCreateInfoNV',b'\x00\x00\x07\x70VkIndirectCommandsLayoutNV',b'\x00\x00\x09\xF5VkIndirectCommandsLayoutTokenNV',b'\x00\x00\x09\xF6VkIndirectCommandsLayoutUsageFlagBitsNV',b'\x00\x00\x00\x1FVkIndirectCommandsLayoutUsageFlagsNV',b'\x00\x00\x09\xF8VkIndirectCommandsStreamNV',b'\x00\x00\x09\xF9VkIndirectCommandsTokenTypeNV',b'\x00\x00\x09\xFAVkIndirectStateFlagBitsNV',b'\x00\x00\x00\x1FVkIndirectStateFlagsNV',b'\x00\x00\x09\xFBVkInitializePerformanceApiInfoINTEL',b'\x00\x00\x09\xFDVkInputAttachmentAspectReference',b'\x00\x00\x09\xFDVkInputAttachmentAspectReferenceKHR',b'\x00\x00\x02\x94VkInstance',b'\x00\x00\x09\xFEVkInstanceCreateFlagBits',b'\x00\x00\x00\x1FVkInstanceCreateFlags',b'\x00\x00\x09\xFFVkInstanceCreateInfo',b'\x00\x00\x08\x65VkInternalAllocationType',b'\x00\x00\x0A\x00VkLayerProperties',b'\x00\x00\x0A\x01VkLineRasterizationModeEXT',b'\x00\x00\x04\x5FVkLogicOp',b'\x00\x00\x0A\x02VkMappedMemoryRange',b'\x00\x00\x0A\x03VkMemoryAllocateFlagBits',b'\x00\x00\x0A\x03VkMemoryAllocateFlagBitsKHR',b'\x00\x00\x00\x1FVkMemoryAllocateFlags',b'\x00\x00\x0A\x04VkMemoryAllocateFlagsInfo',b'\x00\x00\x0A\x04VkMemoryAllocateFlagsInfoKHR',b'\x00\x00\x00\x1FVkMemoryAllocateFlagsKHR',b'\x00\x00\x0A\x05VkMemoryAllocateInfo',b'\x00\x00\x0A\x08VkMemoryBarrier',b'\x00\x00\x0A\x07VkMemoryBarrier2',b'\x00\x00\x0A\x07VkMemoryBarrier2KHR',b'\x00\x00\x0A\x09VkMemoryDedicatedAllocateInfo',b'\x00\x00\x0A\x09VkMemoryDedicatedAllocateInfoKHR',b'\x00\x00\x0A\x0AVkMemoryDedicatedRequirements',b'\x00\x00\x0A\x0AVkMemoryDedicatedRequirementsKHR',b'\x00\x00\x0A\x0BVkMemoryFdPropertiesKHR',b'\x00\x00\x0A\x0CVkMemoryGetAndroidHardwareBufferInfoANDROID',b'\x00\x00\x0A\x0DVkMemoryGetFdInfoKHR',b'\x00\x00\x0A\x0EVkMemoryGetRemoteAddressInfoNV',b'\x00\x00\x0A\x0FVkMemoryHeap',b'\x00\x00\x0A\x10VkMemoryHeapFlagBits',b'\x00\x00\x00\x1FVkMemoryHeapFlags',b'\x00\x00\x0A\x13VkMemoryHostPointerPropertiesEXT',b'\x00\x00\x00\x1FVkMemoryMapFlags',b'\x00\x00\x0A\x14VkMemoryOpaqueCaptureAddressAllocateInfo',b'\x00\x00\x0A\x14VkMemoryOpaqueCaptureAddressAllocateInfoKHR',b'\x00\x00\x0A\x15VkMemoryOverallocationBehaviorAMD',b'\x00\x00\x0A\x16VkMemoryPriorityAllocateInfoEXT',b'\x00\x00\x0A\x17VkMemoryPropertyFlagBits',b'\x00\x00\x00\x1FVkMemoryPropertyFlags',b'\x00\x00\x0A\x19VkMemoryRequirements',b'\x00\x00\x0A\x18VkMemoryRequirements2',b'\x00\x00\x0A\x18VkMemoryRequirements2KHR',b'\x00\x00\x0A\x1AVkMemoryType',b'\x00\x00\x0A\x1DVkMultiDrawIndexedInfoEXT',b'\x00\x00\x0A\x1EVkMultiDrawInfoEXT',b'\x00\x00\x0A\x1FVkMultisamplePropertiesEXT',b'\x00\x00\x0A\x20VkMultiviewPerViewAttributesInfoNVX',b'\x00\x00\x0A\x21VkMutableDescriptorTypeCreateInfoVALVE',b'\x00\x00\x0A\x23VkMutableDescriptorTypeListVALVE',b'\x00\x00\x00\xEAVkObjectType',b'\x00\x00\x0A\x25VkOffset2D',b'\x00\x00\x0A\x26VkOffset3D',b'\x00\x00\x0A\x29VkPastPresentationTimingGOOGLE',b'\x00\x00\x0A\x2AVkPeerMemoryFeatureFlagBits',b'\x00\x00\x0A\x2AVkPeerMemoryFeatureFlagBitsKHR',b'\x00\x00\x00\x1FVkPeerMemoryFeatureFlags',b'\x00\x00\x00\x1FVkPeerMemoryFeatureFlagsKHR',b'\x00\x00\x0A\x2BVkPerformanceConfigurationAcquireInfoINTEL',b'\x00\x00\x01\xD3VkPerformanceConfigurationINTEL',b'\x00\x00\x0A\x2CVkPerformanceConfigurationTypeINTEL',b'\x00\x00\x0A\x2DVkPerformanceCounterDescriptionFlagBitsKHR',b'\x00\x00\x00\x1FVkPerformanceCounterDescriptionFlagsKHR',b'\x00\x00\x0A\x2EVkPerformanceCounterDescriptionKHR',b'\x00\x00\x0A\x2FVkPerformanceCounterKHR',b'\x00\x00\x0A\x30VkPerformanceCounterResultKHR',b'\x00\x00\x0A\x31VkPerformanceCounterScopeKHR',b'\x00\x00\x0A\x32VkPerformanceCounterStorageKHR',b'\x00\x00\x0A\x33VkPerformanceCounterUnitKHR',b'\x00\x00\x0A\x34VkPerformanceMarkerInfoINTEL',b'\x00\x00\x0A\x35VkPerformanceOverrideInfoINTEL',b'\x00\x00\x0A\x36VkPerformanceOverrideTypeINTEL',b'\x00\x00\x00\xF6VkPerformanceParameterTypeINTEL',b'\x00\x00\x0A\x37VkPerformanceQuerySubmitInfoKHR',b'\x00\x00\x0A\x38VkPerformanceStreamMarkerInfoINTEL',b'\x00\x00\x0A\x39VkPerformanceValueDataINTEL',b'\x00\x00\x0A\x3AVkPerformanceValueINTEL',b'\x00\x00\x0A\x3BVkPerformanceValueTypeINTEL',b'\x00\x00\x02\xCEVkPhysicalDevice',b'\x00\x00\x0A\x3CVkPhysicalDevice16BitStorageFeatures',b'\x00\x00\x0A\x3CVkPhysicalDevice16BitStorageFeaturesKHR',b'\x00\x00\x0A\x3DVkPhysicalDevice4444FormatsFeaturesEXT',b'\x00\x00\x0A\x3EVkPhysicalDevice8BitStorageFeatures',b'\x00\x00\x0A\x3EVkPhysicalDevice8BitStorageFeaturesKHR',b'\x00\x00\x0A\x3FVkPhysicalDeviceASTCDecodeFeaturesEXT',b'\x00\x00\x0A\x40VkPhysicalDeviceAccelerationStructureFeaturesKHR',b'\x00\x00\x0A\x41VkPhysicalDeviceAccelerationStructurePropertiesKHR',b'\x00\x00\x0A\x42VkPhysicalDeviceBlendOperationAdvancedFeaturesEXT',b'\x00\x00\x0A\x43VkPhysicalDeviceBlendOperationAdvancedPropertiesEXT',b'\x00\x00\x0A\x44VkPhysicalDeviceBorderColorSwizzleFeaturesEXT',b'\x00\x00\x0A\x46VkPhysicalDeviceBufferAddressFeaturesEXT',b'\x00\x00\x0A\x45VkPhysicalDeviceBufferDeviceAddressFeatures',b'\x00\x00\x0A\x46VkPhysicalDeviceBufferDeviceAddressFeaturesEXT',b'\x00\x00\x0A\x45VkPhysicalDeviceBufferDeviceAddressFeaturesKHR',b'\x00\x00\x0A\x47VkPhysicalDeviceCoherentMemoryFeaturesAMD',b'\x00\x00\x0A\x48VkPhysicalDeviceColorWriteEnableFeaturesEXT',b'\x00\x00\x0A\x49VkPhysicalDeviceComputeShaderDerivativesFeaturesNV',b'\x00\x00\x0A\x4AVkPhysicalDeviceConditionalRenderingFeaturesEXT',b'\x00\x00\x0A\x4BVkPhysicalDeviceConservativeRasterizationPropertiesEXT',b'\x00\x00\x0A\x4CVkPhysicalDeviceCooperativeMatrixFeaturesNV',b'\x00\x00\x0A\x4DVkPhysicalDeviceCooperativeMatrixPropertiesNV',b'\x00\x00\x0A\x4EVkPhysicalDeviceCornerSampledImageFeaturesNV',b'\x00\x00\x0A\x4FVkPhysicalDeviceCoverageReductionModeFeaturesNV',b'\x00\x00\x0A\x50VkPhysicalDeviceCustomBorderColorFeaturesEXT',b'\x00\x00\x0A\x51VkPhysicalDeviceCustomBorderColorPropertiesEXT',b'\x00\x00\x0A\x52VkPhysicalDeviceDedicatedAllocationImageAliasingFeaturesNV',b'\x00\x00\x0A\x53VkPhysicalDeviceDepthClipControlFeaturesEXT',b'\x00\x00\x0A\x54VkPhysicalDeviceDepthClipEnableFeaturesEXT',b'\x00\x00\x0A\x55VkPhysicalDeviceDepthStencilResolveProperties',b'\x00\x00\x0A\x55VkPhysicalDeviceDepthStencilResolvePropertiesKHR',b'\x00\x00\x0A\x56VkPhysicalDeviceDescriptorIndexingFeatures',b'\x00\x00\x0A\x56VkPhysicalDeviceDescriptorIndexingFeaturesEXT',b'\x00\x00\x0A\x57VkPhysicalDeviceDescriptorIndexingProperties',b'\x00\x00\x0A\x57VkPhysicalDeviceDescriptorIndexingPropertiesEXT',b'\x00\x00\x0A\x58VkPhysicalDeviceDescriptorSetHostMappingFeaturesVALVE',b'\x00\x00\x0A\x59VkPhysicalDeviceDeviceGeneratedCommandsFeaturesNV',b'\x00\x00\x0A\x5AVkPhysicalDeviceDeviceGeneratedCommandsPropertiesNV',b'\x00\x00\x0A\x5BVkPhysicalDeviceDeviceMemoryReportFeaturesEXT',b'\x00\x00\x0A\x5CVkPhysicalDeviceDiagnosticsConfigFeaturesNV',b'\x00\x00\x0A\x5DVkPhysicalDeviceDiscardRectanglePropertiesEXT',b'\x00\x00\x0A\x5EVkPhysicalDeviceDriverProperties',b'\x00\x00\x0A\x5EVkPhysicalDeviceDriverPropertiesKHR',b'\x00\x00\x0A\x5FVkPhysicalDeviceDrmPropertiesEXT',b'\x00\x00\x0A\x60VkPhysicalDeviceDynamicRenderingFeatures',b'\x00\x00\x0A\x60VkPhysicalDeviceDynamicRenderingFeaturesKHR',b'\x00\x00\x0A\x61VkPhysicalDeviceExclusiveScissorFeaturesNV',b'\x00\x00\x0A\x62VkPhysicalDeviceExtendedDynamicState2FeaturesEXT',b'\x00\x00\x0A\x63VkPhysicalDeviceExtendedDynamicStateFeaturesEXT',b'\x00\x00\x0A\x64VkPhysicalDeviceExternalBufferInfo',b'\x00\x00\x0A\x64VkPhysicalDeviceExternalBufferInfoKHR',b'\x00\x00\x0A\x65VkPhysicalDeviceExternalFenceInfo',b'\x00\x00\x0A\x65VkPhysicalDeviceExternalFenceInfoKHR',b'\x00\x00\x0A\x66VkPhysicalDeviceExternalImageFormatInfo',b'\x00\x00\x0A\x66VkPhysicalDeviceExternalImageFormatInfoKHR',b'\x00\x00\x0A\x67VkPhysicalDeviceExternalMemoryHostPropertiesEXT',b'\x00\x00\x0A\x68VkPhysicalDeviceExternalMemoryRDMAFeaturesNV',b'\x00\x00\x0A\x69VkPhysicalDeviceExternalSemaphoreInfo',b'\x00\x00\x0A\x69VkPhysicalDeviceExternalSemaphoreInfoKHR',b'\x00\x00\x0A\x6CVkPhysicalDeviceFeatures',b'\x00\x00\x0A\x6BVkPhysicalDeviceFeatures2',b'\x00\x00\x0A\x6BVkPhysicalDeviceFeatures2KHR',b'\x00\x00\x0A\xCAVkPhysicalDeviceFloat16Int8FeaturesKHR',b'\x00\x00\x0A\x6DVkPhysicalDeviceFloatControlsProperties',b'\x00\x00\x0A\x6DVkPhysicalDeviceFloatControlsPropertiesKHR',b'\x00\x00\x0A\x6EVkPhysicalDeviceFragmentDensityMap2FeaturesEXT',b'\x00\x00\x0A\x6FVkPhysicalDeviceFragmentDensityMap2PropertiesEXT',b'\x00\x00\x0A\x70VkPhysicalDeviceFragmentDensityMapFeaturesEXT',b'\x00\x00\x0A\x71VkPhysicalDeviceFragmentDensityMapOffsetFeaturesQCOM',b'\x00\x00\x0A\x72VkPhysicalDeviceFragmentDensityMapOffsetPropertiesQCOM',b'\x00\x00\x0A\x73VkPhysicalDeviceFragmentDensityMapPropertiesEXT',b'\x00\x00\x0A\x74VkPhysicalDeviceFragmentShaderBarycentricFeaturesNV',b'\x00\x00\x0A\x75VkPhysicalDeviceFragmentShaderInterlockFeaturesEXT',b'\x00\x00\x0A\x76VkPhysicalDeviceFragmentShadingRateEnumsFeaturesNV',b'\x00\x00\x0A\x77VkPhysicalDeviceFragmentShadingRateEnumsPropertiesNV',b'\x00\x00\x0A\x78VkPhysicalDeviceFragmentShadingRateFeaturesKHR',b'\x00\x00\x0A\x79VkPhysicalDeviceFragmentShadingRateKHR',b'\x00\x00\x0A\x7AVkPhysicalDeviceFragmentShadingRatePropertiesKHR',b'\x00\x00\x0A\x7BVkPhysicalDeviceGlobalPriorityQueryFeaturesEXT',b'\x00\x00\x0A\x7BVkPhysicalDeviceGlobalPriorityQueryFeaturesKHR',b'\x00\x00\x0A\x7CVkPhysicalDeviceGraphicsPipelineLibraryFeaturesEXT',b'\x00\x00\x0A\x7DVkPhysicalDeviceGraphicsPipelineLibraryPropertiesEXT',b'\x00\x00\x0A\x7EVkPhysicalDeviceGroupProperties',b'\x00\x00\x0A\x7EVkPhysicalDeviceGroupPropertiesKHR',b'\x00\x00\x0A\x7FVkPhysicalDeviceHostQueryResetFeatures',b'\x00\x00\x0A\x7FVkPhysicalDeviceHostQueryResetFeaturesEXT',b'\x00\x00\x0A\x80VkPhysicalDeviceIDProperties',b'\x00\x00\x0A\x80VkPhysicalDeviceIDPropertiesKHR',b'\x00\x00\x0A\x81VkPhysicalDeviceImage2DViewOf3DFeaturesEXT',b'\x00\x00\x0A\x82VkPhysicalDeviceImageDrmFormatModifierInfoEXT',b'\x00\x00\x0A\x83VkPhysicalDeviceImageFormatInfo2',b'\x00\x00\x0A\x83VkPhysicalDeviceImageFormatInfo2KHR',b'\x00\x00\x0A\x84VkPhysicalDeviceImageRobustnessFeatures',b'\x00\x00\x0A\x84VkPhysicalDeviceImageRobustnessFeaturesEXT',b'\x00\x00\x0A\x85VkPhysicalDeviceImageViewImageFormatInfoEXT',b'\x00\x00\x0A\x86VkPhysicalDeviceImageViewMinLodFeaturesEXT',b'\x00\x00\x0A\x87VkPhysicalDeviceImagelessFramebufferFeatures',b'\x00\x00\x0A\x87VkPhysicalDeviceImagelessFramebufferFeaturesKHR',b'\x00\x00\x0A\x88VkPhysicalDeviceIndexTypeUint8FeaturesEXT',b'\x00\x00\x0A\x89VkPhysicalDeviceInheritedViewportScissorFeaturesNV',b'\x00\x00\x0A\x8AVkPhysicalDeviceInlineUniformBlockFeatures',b'\x00\x00\x0A\x8AVkPhysicalDeviceInlineUniformBlockFeaturesEXT',b'\x00\x00\x0A\x8BVkPhysicalDeviceInlineUniformBlockProperties',b'\x00\x00\x0A\x8BVkPhysicalDeviceInlineUniformBlockPropertiesEXT',b'\x00\x00\x0A\x8CVkPhysicalDeviceInvocationMaskFeaturesHUAWEI',b'\x00\x00\x0A\x8DVkPhysicalDeviceLimits',b'\x00\x00\x0A\x8EVkPhysicalDeviceLineRasterizationFeaturesEXT',b'\x00\x00\x0A\x8FVkPhysicalDeviceLineRasterizationPropertiesEXT',b'\x00\x00\x0A\x90VkPhysicalDeviceLinearColorAttachmentFeaturesNV',b'\x00\x00\x0A\x91VkPhysicalDeviceMaintenance3Properties',b'\x00\x00\x0A\x91VkPhysicalDeviceMaintenance3PropertiesKHR',b'\x00\x00\x0A\x92VkPhysicalDeviceMaintenance4Features',b'\x00\x00\x0A\x92VkPhysicalDeviceMaintenance4FeaturesKHR',b'\x00\x00\x0A\x93VkPhysicalDeviceMaintenance4Properties',b'\x00\x00\x0A\x93VkPhysicalDeviceMaintenance4PropertiesKHR',b'\x00\x00\x0A\x94VkPhysicalDeviceMemoryBudgetPropertiesEXT',b'\x00\x00\x0A\x95VkPhysicalDeviceMemoryPriorityFeaturesEXT',b'\x00\x00\x0A\x97VkPhysicalDeviceMemoryProperties',b'\x00\x00\x0A\x96VkPhysicalDeviceMemoryProperties2',b'\x00\x00\x0A\x96VkPhysicalDeviceMemoryProperties2KHR',b'\x00\x00\x0A\x98VkPhysicalDeviceMeshShaderFeaturesNV',b'\x00\x00\x0A\x99VkPhysicalDeviceMeshShaderPropertiesNV',b'\x00\x00\x0A\x9AVkPhysicalDeviceMultiDrawFeaturesEXT',b'\x00\x00\x0A\x9BVkPhysicalDeviceMultiDrawPropertiesEXT',b'\x00\x00\x0A\x9CVkPhysicalDeviceMultiviewFeatures',b'\x00\x00\x0A\x9CVkPhysicalDeviceMultiviewFeaturesKHR',b'\x00\x00\x0A\x9DVkPhysicalDeviceMultiviewPerViewAttributesPropertiesNVX',b'\x00\x00\x0A\x9EVkPhysicalDeviceMultiviewProperties',b'\x00\x00\x0A\x9EVkPhysicalDeviceMultiviewPropertiesKHR',b'\x00\x00\x0A\x9FVkPhysicalDeviceMutableDescriptorTypeFeaturesVALVE',b'\x00\x00\x0A\xA0VkPhysicalDevicePCIBusInfoPropertiesEXT',b'\x00\x00\x0A\xA1VkPhysicalDevicePageableDeviceLocalMemoryFeaturesEXT',b'\x00\x00\x0A\xA2VkPhysicalDevicePerformanceQueryFeaturesKHR',b'\x00\x00\x0A\xA3VkPhysicalDevicePerformanceQueryPropertiesKHR',b'\x00\x00\x0A\xA4VkPhysicalDevicePipelineCreationCacheControlFeatures',b'\x00\x00\x0A\xA4VkPhysicalDevicePipelineCreationCacheControlFeaturesEXT',b'\x00\x00\x0A\xA5VkPhysicalDevicePipelineExecutablePropertiesFeaturesKHR',b'\x00\x00\x0A\xA6VkPhysicalDevicePointClippingProperties',b'\x00\x00\x0A\xA6VkPhysicalDevicePointClippingPropertiesKHR',b'\x00\x00\x0A\xA7VkPhysicalDevicePresentIdFeaturesKHR',b'\x00\x00\x0A\xA8VkPhysicalDevicePresentWaitFeaturesKHR',b'\x00\x00\x0A\xA9VkPhysicalDevicePrimitiveTopologyListRestartFeaturesEXT',b'\x00\x00\x0A\xAAVkPhysicalDevicePrimitivesGeneratedQueryFeaturesEXT',b'\x00\x00\x0A\xABVkPhysicalDevicePrivateDataFeatures',b'\x00\x00\x0A\xABVkPhysicalDevicePrivateDataFeaturesEXT',b'\x00\x00\x0A\xADVkPhysicalDeviceProperties',b'\x00\x00\x0A\xACVkPhysicalDeviceProperties2',b'\x00\x00\x0A\xACVkPhysicalDeviceProperties2KHR',b'\x00\x00\x0A\xAEVkPhysicalDeviceProtectedMemoryFeatures',b'\x00\x00\x0A\xAFVkPhysicalDeviceProtectedMemoryProperties',b'\x00\x00\x0A\xB0VkPhysicalDeviceProvokingVertexFeaturesEXT',b'\x00\x00\x0A\xB1VkPhysicalDeviceProvokingVertexPropertiesEXT',b'\x00\x00\x0A\xB2VkPhysicalDevicePushDescriptorPropertiesKHR',b'\x00\x00\x0A\xB3VkPhysicalDeviceRGBA10X6FormatsFeaturesEXT',b'\x00\x00\x0A\xB4VkPhysicalDeviceRasterizationOrderAttachmentAccessFeaturesARM',b'\x00\x00\x0A\xB5VkPhysicalDeviceRayQueryFeaturesKHR',b'\x00\x00\x0A\xB6VkPhysicalDeviceRayTracingMotionBlurFeaturesNV',b'\x00\x00\x0A\xB7VkPhysicalDeviceRayTracingPipelineFeaturesKHR',b'\x00\x00\x0A\xB8VkPhysicalDeviceRayTracingPipelinePropertiesKHR',b'\x00\x00\x0A\xB9VkPhysicalDeviceRayTracingPropertiesNV',b'\x00\x00\x0A\xBAVkPhysicalDeviceRepresentativeFragmentTestFeaturesNV',b'\x00\x00\x0A\xBBVkPhysicalDeviceRobustness2FeaturesEXT',b'\x00\x00\x0A\xBCVkPhysicalDeviceRobustness2PropertiesEXT',b'\x00\x00\x0A\xBDVkPhysicalDeviceSampleLocationsPropertiesEXT',b'\x00\x00\x0A\xBEVkPhysicalDeviceSamplerFilterMinmaxProperties',b'\x00\x00\x0A\xBEVkPhysicalDeviceSamplerFilterMinmaxPropertiesEXT',b'\x00\x00\x0A\xBFVkPhysicalDeviceSamplerYcbcrConversionFeatures',b'\x00\x00\x0A\xBFVkPhysicalDeviceSamplerYcbcrConversionFeaturesKHR',b'\x00\x00\x0A\xC0VkPhysicalDeviceScalarBlockLayoutFeatures',b'\x00\x00\x0A\xC0VkPhysicalDeviceScalarBlockLayoutFeaturesEXT',b'\x00\x00\x0A\xC1VkPhysicalDeviceSeparateDepthStencilLayoutsFeatures',b'\x00\x00\x0A\xC1VkPhysicalDeviceSeparateDepthStencilLayoutsFeaturesKHR',b'\x00\x00\x0A\xC2VkPhysicalDeviceShaderAtomicFloat2FeaturesEXT',b'\x00\x00\x0A\xC3VkPhysicalDeviceShaderAtomicFloatFeaturesEXT',b'\x00\x00\x0A\xC4VkPhysicalDeviceShaderAtomicInt64Features',b'\x00\x00\x0A\xC4VkPhysicalDeviceShaderAtomicInt64FeaturesKHR',b'\x00\x00\x0A\xC5VkPhysicalDeviceShaderClockFeaturesKHR',b'\x00\x00\x0A\xC6VkPhysicalDeviceShaderCoreProperties2AMD',b'\x00\x00\x0A\xC7VkPhysicalDeviceShaderCorePropertiesAMD',b'\x00\x00\x0A\xC8VkPhysicalDeviceShaderDemoteToHelperInvocationFeatures',b'\x00\x00\x0A\xC8VkPhysicalDeviceShaderDemoteToHelperInvocationFeaturesEXT',b'\x00\x00\x0A\xC9VkPhysicalDeviceShaderDrawParameterFeatures',b'\x00\x00\x0A\xC9VkPhysicalDeviceShaderDrawParametersFeatures',b'\x00\x00\x0A\xCAVkPhysicalDeviceShaderFloat16Int8Features',b'\x00\x00\x0A\xCAVkPhysicalDeviceShaderFloat16Int8FeaturesKHR',b'\x00\x00\x0A\xCBVkPhysicalDeviceShaderImageAtomicInt64FeaturesEXT',b'\x00\x00\x0A\xCCVkPhysicalDeviceShaderImageFootprintFeaturesNV',b'\x00\x00\x0A\xCDVkPhysicalDeviceShaderIntegerDotProductFeatures',b'\x00\x00\x0A\xCDVkPhysicalDeviceShaderIntegerDotProductFeaturesKHR',b'\x00\x00\x0A\xCEVkPhysicalDeviceShaderIntegerDotProductProperties',b'\x00\x00\x0A\xCEVkPhysicalDeviceShaderIntegerDotProductPropertiesKHR',b'\x00\x00\x0A\xCFVkPhysicalDeviceShaderIntegerFunctions2FeaturesINTEL',b'\x00\x00\x0A\xD0VkPhysicalDeviceShaderSMBuiltinsFeaturesNV',b'\x00\x00\x0A\xD1VkPhysicalDeviceShaderSMBuiltinsPropertiesNV',b'\x00\x00\x0A\xD2VkPhysicalDeviceShaderSubgroupExtendedTypesFeatures',b'\x00\x00\x0A\xD2VkPhysicalDeviceShaderSubgroupExtendedTypesFeaturesKHR',b'\x00\x00\x0A\xD3VkPhysicalDeviceShaderSubgroupUniformControlFlowFeaturesKHR',b'\x00\x00\x0A\xD4VkPhysicalDeviceShaderTerminateInvocationFeatures',b'\x00\x00\x0A\xD4VkPhysicalDeviceShaderTerminateInvocationFeaturesKHR',b'\x00\x00\x0A\xD5VkPhysicalDeviceShadingRateImageFeaturesNV',b'\x00\x00\x0A\xD6VkPhysicalDeviceShadingRateImagePropertiesNV',b'\x00\x00\x0A\xD7VkPhysicalDeviceSparseImageFormatInfo2',b'\x00\x00\x0A\xD7VkPhysicalDeviceSparseImageFormatInfo2KHR',b'\x00\x00\x0A\xD8VkPhysicalDeviceSparseProperties',b'\x00\x00\x0A\xD9VkPhysicalDeviceSubgroupProperties',b'\x00\x00\x0A\xDAVkPhysicalDeviceSubgroupSizeControlFeatures',b'\x00\x00\x0A\xDAVkPhysicalDeviceSubgroupSizeControlFeaturesEXT',b'\x00\x00\x0A\xDBVkPhysicalDeviceSubgroupSizeControlProperties',b'\x00\x00\x0A\xDBVkPhysicalDeviceSubgroupSizeControlPropertiesEXT',b'\x00\x00\x0A\xDCVkPhysicalDeviceSubpassShadingFeaturesHUAWEI',b'\x00\x00\x0A\xDDVkPhysicalDeviceSubpassShadingPropertiesHUAWEI',b'\x00\x00\x0A\xDEVkPhysicalDeviceSurfaceInfo2KHR',b'\x00\x00\x0A\xDFVkPhysicalDeviceSynchronization2Features',b'\x00\x00\x0A\xDFVkPhysicalDeviceSynchronization2FeaturesKHR',b'\x00\x00\x0A\xE0VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT',b'\x00\x00\x0A\xE1VkPhysicalDeviceTexelBufferAlignmentProperties',b'\x00\x00\x0A\xE1VkPhysicalDeviceTexelBufferAlignmentPropertiesEXT',b'\x00\x00\x0A\xE2VkPhysicalDeviceTextureCompressionASTCHDRFeatures',b'\x00\x00\x0A\xE2VkPhysicalDeviceTextureCompressionASTCHDRFeaturesEXT',b'\x00\x00\x0A\xE3VkPhysicalDeviceTimelineSemaphoreFeatures',b'\x00\x00\x0A\xE3VkPhysicalDeviceTimelineSemaphoreFeaturesKHR',b'\x00\x00\x0A\xE4VkPhysicalDeviceTimelineSemaphoreProperties',b'\x00\x00\x0A\xE4VkPhysicalDeviceTimelineSemaphorePropertiesKHR',b'\x00\x00\x0A\xE5VkPhysicalDeviceToolProperties',b'\x00\x00\x0A\xE5VkPhysicalDeviceToolPropertiesEXT',b'\x00\x00\x0A\xE6VkPhysicalDeviceTransformFeedbackFeaturesEXT',b'\x00\x00\x0A\xE7VkPhysicalDeviceTransformFeedbackPropertiesEXT',b'\x00\x00\x0A\xE8VkPhysicalDeviceType',b'\x00\x00\x0A\xE9VkPhysicalDeviceUniformBufferStandardLayoutFeatures',b'\x00\x00\x0A\xE9VkPhysicalDeviceUniformBufferStandardLayoutFeaturesKHR',b'\x00\x00\x0A\xEAVkPhysicalDeviceVariablePointerFeatures',b'\x00\x00\x0A\xEAVkPhysicalDeviceVariablePointerFeaturesKHR',b'\x00\x00\x0A\xEAVkPhysicalDeviceVariablePointersFeatures',b'\x00\x00\x0A\xEAVkPhysicalDeviceVariablePointersFeaturesKHR',b'\x00\x00\x0A\xEBVkPhysicalDeviceVertexAttributeDivisorFeaturesEXT',b'\x00\x00\x0A\xECVkPhysicalDeviceVertexAttributeDivisorPropertiesEXT',b'\x00\x00\x0A\xEDVkPhysicalDeviceVertexInputDynamicStateFeaturesEXT',b'\x00\x00\x0A\xEEVkPhysicalDeviceVulkan11Features',b'\x00\x00\x0A\xEFVkPhysicalDeviceVulkan11Properties',b'\x00\x00\x0A\xF0VkPhysicalDeviceVulkan12Features',b'\x00\x00\x0A\xF1VkPhysicalDeviceVulkan12Properties',b'\x00\x00\x0A\xF2VkPhysicalDeviceVulkan13Features',b'\x00\x00\x0A\xF3VkPhysicalDeviceVulkan13Properties',b'\x00\x00\x0A\xF4VkPhysicalDeviceVulkanMemoryModelFeatures',b'\x00\x00\x0A\xF4VkPhysicalDeviceVulkanMemoryModelFeaturesKHR',b'\x00\x00\x0A\xF5VkPhysicalDeviceWorkgroupMemoryExplicitLayoutFeaturesKHR',b'\x00\x00\x0A\xF6VkPhysicalDeviceYcbcr2Plane444FormatsFeaturesEXT',b'\x00\x00\x0A\xF7VkPhysicalDeviceYcbcrImageArraysFeaturesEXT',b'\x00\x00\x0A\xF8VkPhysicalDeviceZeroInitializeWorkgroupMemoryFeatures',b'\x00\x00\x0A\xF8VkPhysicalDeviceZeroInitializeWorkgroupMemoryFeaturesKHR',b'\x00\x00\x01\xFBVkPipeline',b'\x00\x00\x04\x63VkPipelineBindPoint',b'\x00\x00\x01\x8DVkPipelineCache',b'\x00\x00\x0A\xF9VkPipelineCacheCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineCacheCreateFlags',b'\x00\x00\x0A\xFAVkPipelineCacheCreateInfo',b'\x00\x00\x0A\xFBVkPipelineCacheHeaderVersion',b'\x00\x00\x0A\xFCVkPipelineCacheHeaderVersionOne',b'\x00\x00\x0A\xFDVkPipelineColorBlendAdvancedStateCreateInfoEXT',b'\x00\x00\x0A\xFFVkPipelineColorBlendAttachmentState',b'\x00\x00\x0B\x00VkPipelineColorBlendStateCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineColorBlendStateCreateFlags',b'\x00\x00\x0B\x02VkPipelineColorBlendStateCreateInfo',b'\x00\x00\x0B\x03VkPipelineColorWriteCreateInfoEXT',b'\x00\x00\x0B\x04VkPipelineCompilerControlCreateInfoAMD',b'\x00\x00\x0B\x05VkPipelineCompilerControlFlagBitsAMD',b'\x00\x00\x00\x1FVkPipelineCompilerControlFlagsAMD',b'\x00\x00\x00\x1FVkPipelineCoverageModulationStateCreateFlagsNV',b'\x00\x00\x0B\x06VkPipelineCoverageModulationStateCreateInfoNV',b'\x00\x00\x00\x1FVkPipelineCoverageReductionStateCreateFlagsNV',b'\x00\x00\x0B\x07VkPipelineCoverageReductionStateCreateInfoNV',b'\x00\x00\x00\x1FVkPipelineCoverageToColorStateCreateFlagsNV',b'\x00\x00\x0B\x08VkPipelineCoverageToColorStateCreateInfoNV',b'\x00\x00\x0B\x09VkPipelineCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineCreateFlags',b'\x00\x00\x0B\x0BVkPipelineCreationFeedback',b'\x00\x00\x0B\x0CVkPipelineCreationFeedbackCreateInfo',b'\x00\x00\x0B\x0CVkPipelineCreationFeedbackCreateInfoEXT',b'\x00\x00\x0B\x0BVkPipelineCreationFeedbackEXT',b'\x00\x00\x0B\x0DVkPipelineCreationFeedbackFlagBits',b'\x00\x00\x0B\x0DVkPipelineCreationFeedbackFlagBitsEXT',b'\x00\x00\x00\x1FVkPipelineCreationFeedbackFlags',b'\x00\x00\x00\x1FVkPipelineCreationFeedbackFlagsEXT',b'\x00\x00\x0B\x0EVkPipelineDepthStencilStateCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineDepthStencilStateCreateFlags',b'\x00\x00\x0B\x10VkPipelineDepthStencilStateCreateInfo',b'\x00\x00\x00\x1FVkPipelineDiscardRectangleStateCreateFlagsEXT',b'\x00\x00\x0B\x11VkPipelineDiscardRectangleStateCreateInfoEXT',b'\x00\x00\x00\x1FVkPipelineDynamicStateCreateFlags',b'\x00\x00\x0B\x13VkPipelineDynamicStateCreateInfo',b'\x00\x00\x0B\x14VkPipelineExecutableInfoKHR',b'\x00\x00\x0B\x15VkPipelineExecutableInternalRepresentationKHR',b'\x00\x00\x0B\x16VkPipelineExecutablePropertiesKHR',b'\x00\x00\x0B\x17VkPipelineExecutableStatisticFormatKHR',b'\x00\x00\x0B\x18VkPipelineExecutableStatisticKHR',b'\x00\x00\x0B\x19VkPipelineExecutableStatisticValueKHR',b'\x00\x00\x0B\x1AVkPipelineFragmentShadingRateEnumStateCreateInfoNV',b'\x00\x00\x0B\x1BVkPipelineFragmentShadingRateStateCreateInfoKHR',b'\x00\x00\x0B\x1CVkPipelineInfoKHR',b'\x00\x00\x00\x1FVkPipelineInputAssemblyStateCreateFlags',b'\x00\x00\x0B\x1EVkPipelineInputAssemblyStateCreateInfo',b'\x00\x00\x04\x64VkPipelineLayout',b'\x00\x00\x0B\x1FVkPipelineLayoutCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineLayoutCreateFlags',b'\x00\x00\x0B\x20VkPipelineLayoutCreateInfo',b'\x00\x00\x0B\x22VkPipelineLibraryCreateInfoKHR',b'\x00\x00\x00\x1FVkPipelineMultisampleStateCreateFlags',b'\x00\x00\x0B\x24VkPipelineMultisampleStateCreateInfo',b'\x00\x00\x00\x1FVkPipelineRasterizationConservativeStateCreateFlagsEXT',b'\x00\x00\x0B\x25VkPipelineRasterizationConservativeStateCreateInfoEXT',b'\x00\x00\x00\x1FVkPipelineRasterizationDepthClipStateCreateFlagsEXT',b'\x00\x00\x0B\x26VkPipelineRasterizationDepthClipStateCreateInfoEXT',b'\x00\x00\x0B\x27VkPipelineRasterizationLineStateCreateInfoEXT',b'\x00\x00\x0B\x28VkPipelineRasterizationProvokingVertexStateCreateInfoEXT',b'\x00\x00\x00\x1FVkPipelineRasterizationStateCreateFlags',b'\x00\x00\x0B\x2AVkPipelineRasterizationStateCreateInfo',b'\x00\x00\x0B\x2BVkPipelineRasterizationStateRasterizationOrderAMD',b'\x00\x00\x00\x1FVkPipelineRasterizationStateStreamCreateFlagsEXT',b'\x00\x00\x0B\x2CVkPipelineRasterizationStateStreamCreateInfoEXT',b'\x00\x00\x0B\x2DVkPipelineRenderingCreateInfo',b'\x00\x00\x0B\x2DVkPipelineRenderingCreateInfoKHR',b'\x00\x00\x0B\x2EVkPipelineRepresentativeFragmentTestStateCreateInfoNV',b'\x00\x00\x0B\x2FVkPipelineSampleLocationsStateCreateInfoEXT',b'\x00\x00\x0B\x30VkPipelineShaderStageCreateFlagBits',b'\x00\x00\x00\x1FVkPipelineShaderStageCreateFlags',b'\x00\x00\x0B\x32VkPipelineShaderStageCreateInfo',b'\x00\x00\x0B\x33VkPipelineShaderStageRequiredSubgroupSizeCreateInfo',b'\x00\x00\x0B\x33VkPipelineShaderStageRequiredSubgroupSizeCreateInfoEXT',b'\x00\x00\x04\x80VkPipelineStageFlagBits',b'\x00\x00\x00\xEBVkPipelineStageFlagBits2',b'\x00\x00\x00\xEBVkPipelineStageFlagBits2KHR',b'\x00\x00\x00\x1FVkPipelineStageFlags',b'\x00\x00\x00\xEBVkPipelineStageFlags2',b'\x00\x00\x00\xEBVkPipelineStageFlags2KHR',b'\x00\x00\x0B\x34VkPipelineTessellationDomainOriginStateCreateInfo',b'\x00\x00\x0B\x34VkPipelineTessellationDomainOriginStateCreateInfoKHR',b'\x00\x00\x00\x1FVkPipelineTessellationStateCreateFlags',b'\x00\x00\x0B\x36VkPipelineTessellationStateCreateInfo',b'\x00\x00\x0B\x37VkPipelineVertexInputDivisorStateCreateInfoEXT',b'\x00\x00\x00\x1FVkPipelineVertexInputStateCreateFlags',b'\x00\x00\x0B\x39VkPipelineVertexInputStateCreateInfo',b'\x00\x00\x0B\x3AVkPipelineViewportCoarseSampleOrderStateCreateInfoNV',b'\x00\x00\x0B\x3BVkPipelineViewportDepthClipControlCreateInfoEXT',b'\x00\x00\x0B\x3CVkPipelineViewportExclusiveScissorStateCreateInfoNV',b'\x00\x00\x0B\x3DVkPipelineViewportShadingRateImageStateCreateInfoNV',b'\x00\x00\x00\x1FVkPipelineViewportStateCreateFlags',b'\x00\x00\x0B\x3FVkPipelineViewportStateCreateInfo',b'\x00\x00\x00\x1FVkPipelineViewportSwizzleStateCreateFlagsNV',b'\x00\x00\x0B\x40VkPipelineViewportSwizzleStateCreateInfoNV',b'\x00\x00\x0B\x41VkPipelineViewportWScalingStateCreateInfoNV',b'\x00\x00\x0B\x42VkPointClippingBehavior',b'\x00\x00\x0B\x42VkPointClippingBehaviorKHR',b'\x00\x00\x0B\x43VkPolygonMode',b'\x00\x00\x0B\x44VkPresentIdKHR',b'\x00\x00\x0B\x45VkPresentInfoKHR',b'\x00\x00\x0B\x46VkPresentModeKHR',b'\x00\x00\x0B\x48VkPresentRegionKHR',b'\x00\x00\x0B\x49VkPresentRegionsKHR',b'\x00\x00\x0B\x4BVkPresentTimeGOOGLE',b'\x00\x00\x0B\x4CVkPresentTimesInfoGOOGLE',b'\x00\x00\x04\x8DVkPrimitiveTopology',b'\x00\x00\x00\xECVkPrivateDataSlot',b'\x00\x00\x00\x1FVkPrivateDataSlotCreateFlags',b'\x00\x00\x00\x1FVkPrivateDataSlotCreateFlagsEXT',b'\x00\x00\x0B\x4DVkPrivateDataSlotCreateInfo',b'\x00\x00\x0B\x4DVkPrivateDataSlotCreateInfoEXT',b'\x00\x00\x00\xECVkPrivateDataSlotEXT',b'\x00\x00\x0B\x4EVkProtectedSubmitInfo',b'\x00\x00\x0B\x4FVkProvokingVertexModeEXT',b'\x00\x00\x0B\x51VkPushConstantRange',b'\x00\x00\x0B\x52VkQueryControlFlagBits',b'\x00\x00\x00\x1FVkQueryControlFlags',b'\x00\x00\x0B\x53VkQueryPipelineStatisticFlagBits',b'\x00\x00\x00\x1FVkQueryPipelineStatisticFlags',b'\x00\x00\x02\x10VkQueryPool',b'\x00\x00\x00\x1FVkQueryPoolCreateFlags',b'\x00\x00\x0B\x54VkQueryPoolCreateInfo',b'\x00\x00\x0B\x56VkQueryPoolCreateInfoINTEL',b'\x00\x00\x0B\x55VkQueryPoolPerformanceCreateInfoKHR',b'\x00\x00\x0B\x56VkQueryPoolPerformanceQueryCreateInfoINTEL',b'\x00\x00\x0B\x57VkQueryPoolSamplingModeINTEL',b'\x00\x00\x0B\x58VkQueryResultFlagBits',b'\x00\x00\x00\x1FVkQueryResultFlags',b'\x00\x00\x02\x82VkQueryType',b'\x00\x00\x03\x90VkQueue',b'\x00\x00\x0B\x59VkQueueFamilyCheckpointProperties2NV',b'\x00\x00\x0B\x5AVkQueueFamilyCheckpointPropertiesNV',b'\x00\x00\x0B\x5BVkQueueFamilyGlobalPriorityPropertiesEXT',b'\x00\x00\x0B\x5BVkQueueFamilyGlobalPriorityPropertiesKHR',b'\x00\x00\x0B\x5DVkQueueFamilyProperties',b'\x00\x00\x0B\x5CVkQueueFamilyProperties2',b'\x00\x00\x0B\x5CVkQueueFamilyProperties2KHR',b'\x00\x00\x0B\x5EVkQueueFlagBits',b'\x00\x00\x00\x1FVkQueueFlags',b'\x00\x00\x0B\x5FVkQueueGlobalPriorityEXT',b'\x00\x00\x0B\x5FVkQueueGlobalPriorityKHR',b'\x00\x00\x0B\x62VkRasterizationOrderAMD',b'\x00\x00\x0B\x63VkRayTracingPipelineCreateInfoKHR',b'\x00\x00\x0B\x64VkRayTracingPipelineCreateInfoNV',b'\x00\x00\x0B\x66VkRayTracingPipelineInterfaceCreateInfoKHR',b'\x00\x00\x0B\x68VkRayTracingShaderGroupCreateInfoKHR',b'\x00\x00\x0B\x6AVkRayTracingShaderGroupCreateInfoNV',b'\x00\x00\x0B\x6BVkRayTracingShaderGroupTypeKHR',b'\x00\x00\x0B\x6BVkRayTracingShaderGroupTypeNV',b'\x00\x00\x0B\x6CVkRect2D',b'\x00\x00\x0B\x6EVkRectLayerKHR',b'\x00\x00\x0B\x6FVkRefreshCycleDurationGOOGLE',b'\x00\x00\x01\x6AVkRemoteAddressNV',b'\x00\x00\x02\x1AVkRenderPass',b'\x00\x00\x0B\x70VkRenderPassAttachmentBeginInfo',b'\x00\x00\x0B\x70VkRenderPassAttachmentBeginInfoKHR',b'\x00\x00\x0B\x71VkRenderPassBeginInfo',b'\x00\x00\x0B\x72VkRenderPassCreateFlagBits',b'\x00\x00\x00\x1FVkRenderPassCreateFlags',b'\x00\x00\x0B\x74VkRenderPassCreateInfo',b'\x00\x00\x0B\x73VkRenderPassCreateInfo2',b'\x00\x00\x0B\x73VkRenderPassCreateInfo2KHR',b'\x00\x00\x0B\x75VkRenderPassFragmentDensityMapCreateInfoEXT',b'\x00\x00\x0B\x76VkRenderPassInputAttachmentAspectCreateInfo',b'\x00\x00\x0B\x76VkRenderPassInputAttachmentAspectCreateInfoKHR',b'\x00\x00\x0B\x77VkRenderPassMultiviewCreateInfo',b'\x00\x00\x0B\x77VkRenderPassMultiviewCreateInfoKHR',b'\x00\x00\x0B\x78VkRenderPassSampleLocationsBeginInfoEXT',b'\x00\x00\x0B\x79VkRenderPassTransformBeginInfoQCOM',b'\x00\x00\x0B\x7BVkRenderingAttachmentInfo',b'\x00\x00\x0B\x7BVkRenderingAttachmentInfoKHR',b'\x00\x00\x0B\x7CVkRenderingFlagBits',b'\x00\x00\x0B\x7CVkRenderingFlagBitsKHR',b'\x00\x00\x00\x1FVkRenderingFlags',b'\x00\x00\x00\x1FVkRenderingFlagsKHR',b'\x00\x00\x0B\x7DVkRenderingFragmentDensityMapAttachmentInfoEXT',b'\x00\x00\x0B\x7EVkRenderingFragmentShadingRateAttachmentInfoKHR',b'\x00\x00\x0B\x7FVkRenderingInfo',b'\x00\x00\x0B\x7FVkRenderingInfoKHR',b'\x00\x00\x0B\x80VkResolveImageInfo2',b'\x00\x00\x0B\x80VkResolveImageInfo2KHR',b'\x00\x00\x0B\x81VkResolveModeFlagBits',b'\x00\x00\x0B\x81VkResolveModeFlagBitsKHR',b'\x00\x00\x00\x1FVkResolveModeFlags',b'\x00\x00\x00\x1FVkResolveModeFlagsKHR',b'\x00\x00\x0C\x2DVkResult',b'\x00\x00\x0C\x2EVkSRTDataNV',b'\x00\x00\x08\x0AVkSampleCountFlagBits',b'\x00\x00\x00\x1FVkSampleCountFlags',b'\x00\x00\x0C\x31VkSampleLocationEXT',b'\x00\x00\x0C\x32VkSampleLocationsInfoEXT',b'\x00\x00\x00\x1FVkSampleMask',b'\x00\x00\x07\xA3VkSampler',b'\x00\x00\x0C\x33VkSamplerAddressMode',b'\x00\x00\x0C\x34VkSamplerBorderColorComponentMappingCreateInfoEXT',b'\x00\x00\x0C\x35VkSamplerCreateFlagBits',b'\x00\x00\x00\x1FVkSamplerCreateFlags',b'\x00\x00\x0C\x36VkSamplerCreateInfo',b'\x00\x00\x0C\x37VkSamplerCustomBorderColorCreateInfoEXT',b'\x00\x00\x0C\x38VkSamplerMipmapMode',b'\x00\x00\x0C\x39VkSamplerReductionMode',b'\x00\x00\x0C\x3AVkSamplerReductionModeCreateInfo',b'\x00\x00\x0C\x3AVkSamplerReductionModeCreateInfoEXT',b'\x00\x00\x0C\x39VkSamplerReductionModeEXT',b'\x00\x00\x07\x9EVkSamplerYcbcrConversion',b'\x00\x00\x0C\x3BVkSamplerYcbcrConversionCreateInfo',b'\x00\x00\x0C\x3BVkSamplerYcbcrConversionCreateInfoKHR',b'\x00\x00\x0C\x3CVkSamplerYcbcrConversionImageFormatProperties',b'\x00\x00\x0C\x3CVkSamplerYcbcrConversionImageFormatPropertiesKHR',b'\x00\x00\x0C\x3DVkSamplerYcbcrConversionInfo',b'\x00\x00\x0C\x3DVkSamplerYcbcrConversionInfoKHR',b'\x00\x00\x07\x9EVkSamplerYcbcrConversionKHR',b'\x00\x00\x0C\x3EVkSamplerYcbcrModelConversion',b'\x00\x00\x0C\x3EVkSamplerYcbcrModelConversionKHR',b'\x00\x00\x0C\x3FVkSamplerYcbcrRange',b'\x00\x00\x0C\x3FVkSamplerYcbcrRangeKHR',b'\x00\x00\x0C\x40VkScopeNV',b'\x00\x00\x02\x1FVkSemaphore',b'\x00\x00\x00\x1FVkSemaphoreCreateFlags',b'\x00\x00\x0C\x41VkSemaphoreCreateInfo',b'\x00\x00\x0C\x42VkSemaphoreGetFdInfoKHR',b'\x00\x00\x0C\x43VkSemaphoreImportFlagBits',b'\x00\x00\x0C\x43VkSemaphoreImportFlagBitsKHR',b'\x00\x00\x00\x1FVkSemaphoreImportFlags',b'\x00\x00\x00\x1FVkSemaphoreImportFlagsKHR',b'\x00\x00\x0C\x44VkSemaphoreSignalInfo',b'\x00\x00\x0C\x44VkSemaphoreSignalInfoKHR',b'\x00\x00\x0C\x46VkSemaphoreSubmitInfo',b'\x00\x00\x0C\x46VkSemaphoreSubmitInfoKHR',b'\x00\x00\x0C\x47VkSemaphoreType',b'\x00\x00\x0C\x48VkSemaphoreTypeCreateInfo',b'\x00\x00\x0C\x48VkSemaphoreTypeCreateInfoKHR',b'\x00\x00\x0C\x47VkSemaphoreTypeKHR',b'\x00\x00\x0C\x49VkSemaphoreWaitFlagBits',b'\x00\x00\x0C\x49VkSemaphoreWaitFlagBitsKHR',b'\x00\x00\x00\x1FVkSemaphoreWaitFlags',b'\x00\x00\x00\x1FVkSemaphoreWaitFlagsKHR',b'\x00\x00\x0C\x4AVkSemaphoreWaitInfo',b'\x00\x00\x0C\x4AVkSemaphoreWaitInfoKHR',b'\x00\x00\x0C\x4BVkSetStateFlagsIndirectCommandNV',b'\x00\x00\x0C\x4CVkShaderCorePropertiesFlagBitsAMD',b'\x00\x00\x00\x1FVkShaderCorePropertiesFlagsAMD',b'\x00\x00\x0C\x4DVkShaderFloatControlsIndependence',b'\x00\x00\x0C\x4DVkShaderFloatControlsIndependenceKHR',b'\x00\x00\x03\xECVkShaderGroupShaderKHR',b'\x00\x00\x01\xFDVkShaderInfoTypeAMD',b'\x00\x00\x07\xADVkShaderModule',b'\x00\x00\x00\x1FVkShaderModuleCreateFlags',b'\x00\x00\x0C\x4EVkShaderModuleCreateInfo',b'\x00\x00\x0C\x4FVkShaderModuleValidationCacheCreateInfoEXT',b'\x00\x00\x0C\x50VkShaderResourceUsageAMD',b'\x00\x00\x01\xFCVkShaderStageFlagBits',b'\x00\x00\x00\x1FVkShaderStageFlags',b'\x00\x00\x0C\x51VkShaderStatisticsInfoAMD',b'\x00\x00\x0C\x53VkShadingRatePaletteEntryNV',b'\x00\x00\x0C\x54VkShadingRatePaletteNV',b'\x00\x00\x0C\x55VkSharedPresentSurfaceCapabilitiesKHR',b'\x00\x00\x0C\x56VkSharingMode',b'\x00\x00\x0C\x58VkSparseBufferMemoryBindInfo',b'\x00\x00\x0C\x59VkSparseImageFormatFlagBits',b'\x00\x00\x00\x1FVkSparseImageFormatFlags',b'\x00\x00\x0C\x5BVkSparseImageFormatProperties',b'\x00\x00\x0C\x5AVkSparseImageFormatProperties2',b'\x00\x00\x0C\x5AVkSparseImageFormatProperties2KHR',b'\x00\x00\x0C\x5DVkSparseImageMemoryBind',b'\x00\x00\x0C\x5FVkSparseImageMemoryBindInfo',b'\x00\x00\x0C\x61VkSparseImageMemoryRequirements',b'\x00\x00\x0C\x60VkSparseImageMemoryRequirements2',b'\x00\x00\x0C\x60VkSparseImageMemoryRequirements2KHR',b'\x00\x00\x0C\x63VkSparseImageOpaqueMemoryBindInfo',b'\x00\x00\x0C\x65VkSparseMemoryBind',b'\x00\x00\x0C\x66VkSparseMemoryBindFlagBits',b'\x00\x00\x00\x1FVkSparseMemoryBindFlags',b'\x00\x00\x0C\x68VkSpecializationInfo',b'\x00\x00\x0C\x6AVkSpecializationMapEntry',b'\x00\x00\x0C\x6BVkStencilFaceFlagBits',b'\x00\x00\x00\x1FVkStencilFaceFlags',b'\x00\x00\x05\xD0VkStencilOp',b'\x00\x00\x0C\x6CVkStencilOpState',b'\x00\x00\x0C\x6DVkStridedDeviceAddressRegionKHR',b'\x00\x00\x0C\x6EVkStructureType',b'\x00\x00\x0C\x6FVkSubgroupFeatureFlagBits',b'\x00\x00\x00\x1FVkSubgroupFeatureFlags',b'\x00\x00\x0C\x70VkSubmitFlagBits',b'\x00\x00\x0C\x70VkSubmitFlagBitsKHR',b'\x00\x00\x00\x1FVkSubmitFlags',b'\x00\x00\x00\x1FVkSubmitFlagsKHR',b'\x00\x00\x0C\x72VkSubmitInfo',b'\x00\x00\x0C\x71VkSubmitInfo2',b'\x00\x00\x0C\x71VkSubmitInfo2KHR',b'\x00\x00\x0C\x73VkSubpassBeginInfo',b'\x00\x00\x0C\x73VkSubpassBeginInfoKHR',b'\x00\x00\x04\x97VkSubpassContents',b'\x00\x00\x0C\x77VkSubpassDependency',b'\x00\x00\x0C\x76VkSubpassDependency2',b'\x00\x00\x0C\x76VkSubpassDependency2KHR',b'\x00\x00\x0C\x7BVkSubpassDescription',b'\x00\x00\x0C\x7AVkSubpassDescription2',b'\x00\x00\x0C\x7AVkSubpassDescription2KHR',b'\x00\x00\x0C\x7CVkSubpassDescriptionDepthStencilResolve',b'\x00\x00\x0C\x7CVkSubpassDescriptionDepthStencilResolveKHR',b'\x00\x00\x0C\x7DVkSubpassDescriptionFlagBits',b'\x00\x00\x00\x1FVkSubpassDescriptionFlags',b'\x00\x00\x0C\x7EVkSubpassEndInfo',b'\x00\x00\x0C\x7EVkSubpassEndInfoKHR',b'\x00\x00\x0C\x7FVkSubpassFragmentDensityMapOffsetEndInfoQCOM',b'\x00\x00\x0C\x81VkSubpassSampleLocationsEXT',b'\x00\x00\x0C\x82VkSubpassShadingPipelineCreateInfoHUAWEI',b'\x00\x00\x0C\x84VkSubresourceLayout',b'\x00\x00\x0C\x85VkSurfaceCapabilities2EXT',b'\x00\x00\x0C\x86VkSurfaceCapabilities2KHR',b'\x00\x00\x0C\x87VkSurfaceCapabilitiesKHR',b'\x00\x00\x02\x33VkSurfaceCounterFlagBitsEXT',b'\x00\x00\x00\x1FVkSurfaceCounterFlagsEXT',b'\x00\x00\x0C\x88VkSurfaceFormat2KHR',b'\x00\x00\x0C\x89VkSurfaceFormatKHR',b'\x00\x00\x02\x24VkSurfaceKHR',b'\x00\x00\x0C\x8AVkSurfaceProtectedCapabilitiesKHR',b'\x00\x00\x0C\x8BVkSurfaceTransformFlagBitsKHR',b'\x00\x00\x00\x1FVkSurfaceTransformFlagsKHR',b'\x00\x00\x0C\x8CVkSwapchainCounterCreateInfoEXT',b'\x00\x00\x0C\x8DVkSwapchainCreateFlagBitsKHR',b'\x00\x00\x00\x1FVkSwapchainCreateFlagsKHR',b'\x00\x00\x0C\x8EVkSwapchainCreateInfoKHR',b'\x00\x00\x0C\x8FVkSwapchainDisplayNativeHdrCreateInfoAMD',b'\x00\x00\x02\x29VkSwapchainKHR',b'\x00\x00\x03\xF2VkSystemAllocationScope',b'\x00\x00\x0C\x90VkTessellationDomainOrigin',b'\x00\x00\x0C\x90VkTessellationDomainOriginKHR',b'\x00\x00\x0C\x91VkTextureLODGatherFormatPropertiesAMD',b'\x00\x00\x0C\x92VkTimeDomainEXT',b'\x00\x00\x0C\x93VkTimelineSemaphoreSubmitInfo',b'\x00\x00\x0C\x93VkTimelineSemaphoreSubmitInfoKHR',b'\x00\x00\x0C\x94VkToolPurposeFlagBits',b'\x00\x00\x0C\x94VkToolPurposeFlagBitsEXT',b'\x00\x00\x00\x1FVkToolPurposeFlags',b'\x00\x00\x00\x1FVkToolPurposeFlagsEXT',b'\x00\x00\x0C\x95VkTraceRaysIndirectCommandKHR',b'\x00\x00\x0C\x96VkTransformMatrixKHR',b'\x00\x00\x0C\x96VkTransformMatrixNV',b'\x00\x00\x00\x1FVkValidationCacheCreateFlagsEXT',b'\x00\x00\x0C\x97VkValidationCacheCreateInfoEXT',b'\x00\x00\x02\x52VkValidationCacheEXT',b'\x00\x00\x0C\x98VkValidationCacheHeaderVersionEXT',b'\x00\x00\x0C\x9AVkValidationCheckEXT',b'\x00\x00\x0C\x9CVkValidationFeatureDisableEXT',b'\x00\x00\x0C\x9EVkValidationFeatureEnableEXT',b'\x00\x00\x0C\x9FVkValidationFeaturesEXT',b'\x00\x00\x0C\xA0VkValidationFlagsEXT',b'\x00\x00\x0C\xA1VkVendorId',b'\x00\x00\x0C\xA4VkVertexInputAttributeDescription',b'\x00\x00\x0C\xA3VkVertexInputAttributeDescription2EXT',b'\x00\x00\x0C\xA7VkVertexInputBindingDescription',b'\x00\x00\x0C\xA6VkVertexInputBindingDescription2EXT',b'\x00\x00\x0C\xA9VkVertexInputBindingDivisorDescriptionEXT',b'\x00\x00\x0C\xAAVkVertexInputRate',b'\x00\x00\x0C\xABVkViewport',b'\x00\x00\x0C\xACVkViewportCoordinateSwizzleNV',b'\x00\x00\x0C\xAEVkViewportSwizzleNV',b'\x00\x00\x0C\xAFVkViewportWScalingNV',b'\x00\x00\x00\x1FVkWaylandSurfaceCreateFlagsKHR',b'\x00\x00\x0C\xB0VkWaylandSurfaceCreateInfoKHR',b'\x00\x00\x0C\xB1VkWriteDescriptorSet',b'\x00\x00\x0C\xB2VkWriteDescriptorSetAccelerationStructureKHR',b'\x00\x00\x0C\xB3VkWriteDescriptorSetAccelerationStructureNV',b'\x00\x00\x0C\xB4VkWriteDescriptorSetInlineUniformBlock',b'\x00\x00\x0C\xB4VkWriteDescriptorSetInlineUniformBlockEXT',b'\x00\x00\x0C\xB5VkXYColorEXT',b'\x00\x00\x00\x1FVkXcbSurfaceCreateFlagsKHR',b'\x00\x00\x0C\xB6VkXcbSurfaceCreateInfoKHR',b'\x00\x00\x00\x1FVkXlibSurfaceCreateFlagsKHR',b'\x00\x00\x0C\xB7VkXlibSurfaceCreateInfoKHR',b'\x00\x00\x0D\xE7WCHAR',b'\x00\x00\x03\xC5Window',b'\x00\x00\x03\xC5XID',b'\x00\x00\x00\x9Bva_list',b'\x00\x00\x0D\xE8xcb_connection_t',b'\x00\x00\x00\x1Fxcb_visualid_t',b'\x00\x00\x00\x1Fxcb_window_t'),
 )
 
-jvulkanDynamicLibrary = ffi.dlopen("/home/julian/Documents/sodll/vulkan/libvulkan.so")
+from ctypes import *
+
+
+jvulkanLib = ffi.dlopen("/home/julian/Documents/sodll/vulkan/libvulkan.so")
 jvulkanInterface = ffi
+jvulkanCtypes = CDLL("/home/julian/Documents/sodll/vulkan/libvulkan.so") 
+
+def cdataStr(instr):
+    return ffi.new("char[]", instr.encode('ascii'))
+	
+# Generate Constants (ex VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR)
+UNSTATABLE = []
+try:
+    VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_OR_DEVICE_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_OR_DEVICE_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_OR_DEVICE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_BUILD_TYPE_HOST_OR_DEVICE_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_BUILD_TYPE_MAX_ENUM_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_BUILD_TYPE_MAX_ENUM_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_BUILD_TYPE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_BUILD_TYPE_MAX_ENUM_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_COMPATIBILITY_COMPATIBLE_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_COMPATIBILITY_COMPATIBLE_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_COMPATIBILITY_COMPATIBLE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_COMPATIBILITY_COMPATIBLE_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_COMPATIBILITY_INCOMPATIBLE_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_COMPATIBILITY_INCOMPATIBLE_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_COMPATIBILITY_INCOMPATIBLE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_COMPATIBILITY_INCOMPATIBLE_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_COMPATIBILITY_MAX_ENUM_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_COMPATIBILITY_MAX_ENUM_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_COMPATIBILITY_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_COMPATIBILITY_MAX_ENUM_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_CREATE_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_CREATE_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_CREATE_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_CREATE_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_CREATE_MOTION_BIT_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_CREATE_MOTION_BIT_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_CREATE_MOTION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_CREATE_MOTION_BIT_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_BUILD_SCRATCH_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_BUILD_SCRATCH_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_BUILD_SCRATCH_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_BUILD_SCRATCH_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_MAX_ENUM_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_MAX_ENUM_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_MAX_ENUM_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_OBJECT_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_OBJECT_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_OBJECT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_OBJECT_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_UPDATE_SCRATCH_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_UPDATE_SCRATCH_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_UPDATE_SCRATCH_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_TYPE_UPDATE_SCRATCH_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MATRIX_MOTION_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MATRIX_MOTION_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MATRIX_MOTION_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MATRIX_MOTION_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MAX_ENUM_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MAX_ENUM_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_MAX_ENUM_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_SRT_MOTION_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_SRT_MOTION_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_SRT_MOTION_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_SRT_MOTION_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_STATIC_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_STATIC_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_STATIC_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_MOTION_INSTANCE_TYPE_STATIC_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL_NV"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_GENERIC_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_GENERIC_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_GENERIC_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_GENERIC_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_MAX_ENUM_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_MAX_ENUM_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_MAX_ENUM_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_KHR = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_KHR
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_KHR"]
+try:
+    VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_NV = jvulkanLib.VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_NV
+    #print("statd VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL_NV"]
+try:
+    VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_NV = jvulkanLib.VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_NV
+    #print("statd VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_NV"]
+try:
+    VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_NV = jvulkanLib.VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_NV
+    #print("statd VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_NV"]
+try:
+    VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COLOR_ATTACHMENT_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT = jvulkanLib.VK_ACCESS_2_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT
+    #print("statd VK_ACCESS_2_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT"]
+try:
+    VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT = jvulkanLib.VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT
+    #print("statd VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT"]
+try:
+    VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COLOR_ATTACHMENT_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_COMMAND_PREPROCESS_READ_BIT_NV = jvulkanLib.VK_ACCESS_2_COMMAND_PREPROCESS_READ_BIT_NV
+    #print("statd VK_ACCESS_2_COMMAND_PREPROCESS_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COMMAND_PREPROCESS_READ_BIT_NV"]
+try:
+    VK_ACCESS_2_COMMAND_PREPROCESS_WRITE_BIT_NV = jvulkanLib.VK_ACCESS_2_COMMAND_PREPROCESS_WRITE_BIT_NV
+    #print("statd VK_ACCESS_2_COMMAND_PREPROCESS_WRITE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_COMMAND_PREPROCESS_WRITE_BIT_NV"]
+try:
+    VK_ACCESS_2_CONDITIONAL_RENDERING_READ_BIT_EXT = jvulkanLib.VK_ACCESS_2_CONDITIONAL_RENDERING_READ_BIT_EXT
+    #print("statd VK_ACCESS_2_CONDITIONAL_RENDERING_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_CONDITIONAL_RENDERING_READ_BIT_EXT"]
+try:
+    VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT = jvulkanLib.VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT
+    #print("statd VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT"]
+try:
+    VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_FRAGMENT_DENSITY_MAP_READ_BIT_EXT = jvulkanLib.VK_ACCESS_2_FRAGMENT_DENSITY_MAP_READ_BIT_EXT
+    #print("statd VK_ACCESS_2_FRAGMENT_DENSITY_MAP_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_FRAGMENT_DENSITY_MAP_READ_BIT_EXT"]
+try:
+    VK_ACCESS_2_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_HOST_READ_BIT = jvulkanLib.VK_ACCESS_2_HOST_READ_BIT
+    #print("statd VK_ACCESS_2_HOST_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_HOST_READ_BIT"]
+try:
+    VK_ACCESS_2_HOST_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_HOST_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_HOST_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_HOST_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_HOST_WRITE_BIT = jvulkanLib.VK_ACCESS_2_HOST_WRITE_BIT
+    #print("statd VK_ACCESS_2_HOST_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_HOST_WRITE_BIT"]
+try:
+    VK_ACCESS_2_HOST_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_HOST_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_HOST_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_HOST_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_INDEX_READ_BIT = jvulkanLib.VK_ACCESS_2_INDEX_READ_BIT
+    #print("statd VK_ACCESS_2_INDEX_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INDEX_READ_BIT"]
+try:
+    VK_ACCESS_2_INDEX_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_INDEX_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_INDEX_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INDEX_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT = jvulkanLib.VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT
+    #print("statd VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT"]
+try:
+    VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INDIRECT_COMMAND_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INPUT_ATTACHMENT_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_INVOCATION_MASK_READ_BIT_HUAWEI = jvulkanLib.VK_ACCESS_2_INVOCATION_MASK_READ_BIT_HUAWEI
+    #print("statd VK_ACCESS_2_INVOCATION_MASK_READ_BIT_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_INVOCATION_MASK_READ_BIT_HUAWEI"]
+try:
+    VK_ACCESS_2_MEMORY_READ_BIT = jvulkanLib.VK_ACCESS_2_MEMORY_READ_BIT
+    #print("statd VK_ACCESS_2_MEMORY_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_MEMORY_READ_BIT"]
+try:
+    VK_ACCESS_2_MEMORY_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_MEMORY_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_MEMORY_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_MEMORY_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_MEMORY_WRITE_BIT = jvulkanLib.VK_ACCESS_2_MEMORY_WRITE_BIT
+    #print("statd VK_ACCESS_2_MEMORY_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_MEMORY_WRITE_BIT"]
+try:
+    VK_ACCESS_2_MEMORY_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_MEMORY_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_MEMORY_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_MEMORY_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_NONE = jvulkanLib.VK_ACCESS_2_NONE
+    #print("statd VK_ACCESS_2_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_NONE"]
+try:
+    VK_ACCESS_2_NONE_KHR = jvulkanLib.VK_ACCESS_2_NONE_KHR
+    #print("statd VK_ACCESS_2_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_NONE_KHR"]
+try:
+    VK_ACCESS_2_SHADER_READ_BIT = jvulkanLib.VK_ACCESS_2_SHADER_READ_BIT
+    #print("statd VK_ACCESS_2_SHADER_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_READ_BIT"]
+try:
+    VK_ACCESS_2_SHADER_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_SHADER_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_SHADER_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_SHADER_SAMPLED_READ_BIT = jvulkanLib.VK_ACCESS_2_SHADER_SAMPLED_READ_BIT
+    #print("statd VK_ACCESS_2_SHADER_SAMPLED_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_SAMPLED_READ_BIT"]
+try:
+    VK_ACCESS_2_SHADER_SAMPLED_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_SHADER_SAMPLED_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_SHADER_SAMPLED_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_SAMPLED_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_SHADER_STORAGE_READ_BIT = jvulkanLib.VK_ACCESS_2_SHADER_STORAGE_READ_BIT
+    #print("statd VK_ACCESS_2_SHADER_STORAGE_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_STORAGE_READ_BIT"]
+try:
+    VK_ACCESS_2_SHADER_STORAGE_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_SHADER_STORAGE_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_SHADER_STORAGE_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_STORAGE_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT = jvulkanLib.VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT
+    #print("statd VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT"]
+try:
+    VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_SHADER_WRITE_BIT = jvulkanLib.VK_ACCESS_2_SHADER_WRITE_BIT
+    #print("statd VK_ACCESS_2_SHADER_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_WRITE_BIT"]
+try:
+    VK_ACCESS_2_SHADER_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_SHADER_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_SHADER_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADER_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_SHADING_RATE_IMAGE_READ_BIT_NV = jvulkanLib.VK_ACCESS_2_SHADING_RATE_IMAGE_READ_BIT_NV
+    #print("statd VK_ACCESS_2_SHADING_RATE_IMAGE_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_SHADING_RATE_IMAGE_READ_BIT_NV"]
+try:
+    VK_ACCESS_2_TRANSFER_READ_BIT = jvulkanLib.VK_ACCESS_2_TRANSFER_READ_BIT
+    #print("statd VK_ACCESS_2_TRANSFER_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFER_READ_BIT"]
+try:
+    VK_ACCESS_2_TRANSFER_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_TRANSFER_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_TRANSFER_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFER_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_TRANSFER_WRITE_BIT = jvulkanLib.VK_ACCESS_2_TRANSFER_WRITE_BIT
+    #print("statd VK_ACCESS_2_TRANSFER_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFER_WRITE_BIT"]
+try:
+    VK_ACCESS_2_TRANSFER_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_2_TRANSFER_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_2_TRANSFER_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFER_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT = jvulkanLib.VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT
+    #print("statd VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT"]
+try:
+    VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT = jvulkanLib.VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT
+    #print("statd VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT"]
+try:
+    VK_ACCESS_2_TRANSFORM_FEEDBACK_WRITE_BIT_EXT = jvulkanLib.VK_ACCESS_2_TRANSFORM_FEEDBACK_WRITE_BIT_EXT
+    #print("statd VK_ACCESS_2_TRANSFORM_FEEDBACK_WRITE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_TRANSFORM_FEEDBACK_WRITE_BIT_EXT"]
+try:
+    VK_ACCESS_2_UNIFORM_READ_BIT = jvulkanLib.VK_ACCESS_2_UNIFORM_READ_BIT
+    #print("statd VK_ACCESS_2_UNIFORM_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_UNIFORM_READ_BIT"]
+try:
+    VK_ACCESS_2_UNIFORM_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_UNIFORM_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_UNIFORM_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_UNIFORM_READ_BIT_KHR"]
+try:
+    VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT = jvulkanLib.VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT
+    #print("statd VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT"]
+try:
+    VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT_KHR = jvulkanLib.VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT_KHR
+    #print("statd VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_2_VERTEX_ATTRIBUTE_READ_BIT_KHR"]
+try:
+    VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_KHR = jvulkanLib.VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_KHR
+    #print("statd VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_KHR"]
+try:
+    VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_NV = jvulkanLib.VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_NV
+    #print("statd VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_ACCELERATION_STRUCTURE_READ_BIT_NV"]
+try:
+    VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_KHR = jvulkanLib.VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_KHR
+    #print("statd VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_KHR"]
+try:
+    VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_NV = jvulkanLib.VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_NV
+    #print("statd VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_ACCELERATION_STRUCTURE_WRITE_BIT_NV"]
+try:
+    VK_ACCESS_COLOR_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_COLOR_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_COLOR_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_COLOR_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT = jvulkanLib.VK_ACCESS_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT
+    #print("statd VK_ACCESS_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_COLOR_ATTACHMENT_READ_NONCOHERENT_BIT_EXT"]
+try:
+    VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT = jvulkanLib.VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT
+    #print("statd VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT"]
+try:
+    VK_ACCESS_COMMAND_PREPROCESS_READ_BIT_NV = jvulkanLib.VK_ACCESS_COMMAND_PREPROCESS_READ_BIT_NV
+    #print("statd VK_ACCESS_COMMAND_PREPROCESS_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_COMMAND_PREPROCESS_READ_BIT_NV"]
+try:
+    VK_ACCESS_COMMAND_PREPROCESS_WRITE_BIT_NV = jvulkanLib.VK_ACCESS_COMMAND_PREPROCESS_WRITE_BIT_NV
+    #print("statd VK_ACCESS_COMMAND_PREPROCESS_WRITE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_COMMAND_PREPROCESS_WRITE_BIT_NV"]
+try:
+    VK_ACCESS_CONDITIONAL_RENDERING_READ_BIT_EXT = jvulkanLib.VK_ACCESS_CONDITIONAL_RENDERING_READ_BIT_EXT
+    #print("statd VK_ACCESS_CONDITIONAL_RENDERING_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_CONDITIONAL_RENDERING_READ_BIT_EXT"]
+try:
+    VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT = jvulkanLib.VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT
+    #print("statd VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_DEPTH_STENCIL_ATTACHMENT_WRITE_BIT"]
+try:
+    VK_ACCESS_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_ACCESS_FLAG_BITS_MAX_ENUM
+    #print("statd VK_ACCESS_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_ACCESS_FRAGMENT_DENSITY_MAP_READ_BIT_EXT = jvulkanLib.VK_ACCESS_FRAGMENT_DENSITY_MAP_READ_BIT_EXT
+    #print("statd VK_ACCESS_FRAGMENT_DENSITY_MAP_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_FRAGMENT_DENSITY_MAP_READ_BIT_EXT"]
+try:
+    VK_ACCESS_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR = jvulkanLib.VK_ACCESS_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR
+    #print("statd VK_ACCESS_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_FRAGMENT_SHADING_RATE_ATTACHMENT_READ_BIT_KHR"]
+try:
+    VK_ACCESS_HOST_READ_BIT = jvulkanLib.VK_ACCESS_HOST_READ_BIT
+    #print("statd VK_ACCESS_HOST_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_HOST_READ_BIT"]
+try:
+    VK_ACCESS_HOST_WRITE_BIT = jvulkanLib.VK_ACCESS_HOST_WRITE_BIT
+    #print("statd VK_ACCESS_HOST_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_HOST_WRITE_BIT"]
+try:
+    VK_ACCESS_INDEX_READ_BIT = jvulkanLib.VK_ACCESS_INDEX_READ_BIT
+    #print("statd VK_ACCESS_INDEX_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_INDEX_READ_BIT"]
+try:
+    VK_ACCESS_INDIRECT_COMMAND_READ_BIT = jvulkanLib.VK_ACCESS_INDIRECT_COMMAND_READ_BIT
+    #print("statd VK_ACCESS_INDIRECT_COMMAND_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_INDIRECT_COMMAND_READ_BIT"]
+try:
+    VK_ACCESS_INPUT_ATTACHMENT_READ_BIT = jvulkanLib.VK_ACCESS_INPUT_ATTACHMENT_READ_BIT
+    #print("statd VK_ACCESS_INPUT_ATTACHMENT_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_INPUT_ATTACHMENT_READ_BIT"]
+try:
+    VK_ACCESS_MEMORY_READ_BIT = jvulkanLib.VK_ACCESS_MEMORY_READ_BIT
+    #print("statd VK_ACCESS_MEMORY_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_MEMORY_READ_BIT"]
+try:
+    VK_ACCESS_MEMORY_WRITE_BIT = jvulkanLib.VK_ACCESS_MEMORY_WRITE_BIT
+    #print("statd VK_ACCESS_MEMORY_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_MEMORY_WRITE_BIT"]
+try:
+    VK_ACCESS_NONE = jvulkanLib.VK_ACCESS_NONE
+    #print("statd VK_ACCESS_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_NONE"]
+try:
+    VK_ACCESS_NONE_KHR = jvulkanLib.VK_ACCESS_NONE_KHR
+    #print("statd VK_ACCESS_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_NONE_KHR"]
+try:
+    VK_ACCESS_SHADER_READ_BIT = jvulkanLib.VK_ACCESS_SHADER_READ_BIT
+    #print("statd VK_ACCESS_SHADER_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_SHADER_READ_BIT"]
+try:
+    VK_ACCESS_SHADER_WRITE_BIT = jvulkanLib.VK_ACCESS_SHADER_WRITE_BIT
+    #print("statd VK_ACCESS_SHADER_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_SHADER_WRITE_BIT"]
+try:
+    VK_ACCESS_SHADING_RATE_IMAGE_READ_BIT_NV = jvulkanLib.VK_ACCESS_SHADING_RATE_IMAGE_READ_BIT_NV
+    #print("statd VK_ACCESS_SHADING_RATE_IMAGE_READ_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_SHADING_RATE_IMAGE_READ_BIT_NV"]
+try:
+    VK_ACCESS_TRANSFER_READ_BIT = jvulkanLib.VK_ACCESS_TRANSFER_READ_BIT
+    #print("statd VK_ACCESS_TRANSFER_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_TRANSFER_READ_BIT"]
+try:
+    VK_ACCESS_TRANSFER_WRITE_BIT = jvulkanLib.VK_ACCESS_TRANSFER_WRITE_BIT
+    #print("statd VK_ACCESS_TRANSFER_WRITE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_TRANSFER_WRITE_BIT"]
+try:
+    VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT = jvulkanLib.VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT
+    #print("statd VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_READ_BIT_EXT"]
+try:
+    VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT = jvulkanLib.VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT
+    #print("statd VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_TRANSFORM_FEEDBACK_COUNTER_WRITE_BIT_EXT"]
+try:
+    VK_ACCESS_TRANSFORM_FEEDBACK_WRITE_BIT_EXT = jvulkanLib.VK_ACCESS_TRANSFORM_FEEDBACK_WRITE_BIT_EXT
+    #print("statd VK_ACCESS_TRANSFORM_FEEDBACK_WRITE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_TRANSFORM_FEEDBACK_WRITE_BIT_EXT"]
+try:
+    VK_ACCESS_UNIFORM_READ_BIT = jvulkanLib.VK_ACCESS_UNIFORM_READ_BIT
+    #print("statd VK_ACCESS_UNIFORM_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_UNIFORM_READ_BIT"]
+try:
+    VK_ACCESS_VERTEX_ATTRIBUTE_READ_BIT = jvulkanLib.VK_ACCESS_VERTEX_ATTRIBUTE_READ_BIT
+    #print("statd VK_ACCESS_VERTEX_ATTRIBUTE_READ_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACCESS_VERTEX_ATTRIBUTE_READ_BIT"]
+try:
+    VK_ACQUIRE_PROFILING_LOCK_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_ACQUIRE_PROFILING_LOCK_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_ACQUIRE_PROFILING_LOCK_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ACQUIRE_PROFILING_LOCK_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_ATTACHMENT_DESCRIPTION_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_ATTACHMENT_DESCRIPTION_FLAG_BITS_MAX_ENUM
+    #print("statd VK_ATTACHMENT_DESCRIPTION_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_DESCRIPTION_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_ATTACHMENT_DESCRIPTION_MAY_ALIAS_BIT = jvulkanLib.VK_ATTACHMENT_DESCRIPTION_MAY_ALIAS_BIT
+    #print("statd VK_ATTACHMENT_DESCRIPTION_MAY_ALIAS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_DESCRIPTION_MAY_ALIAS_BIT"]
+try:
+    VK_ATTACHMENT_LOAD_OP_CLEAR = jvulkanLib.VK_ATTACHMENT_LOAD_OP_CLEAR
+    #print("statd VK_ATTACHMENT_LOAD_OP_CLEAR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_LOAD_OP_CLEAR"]
+try:
+    VK_ATTACHMENT_LOAD_OP_DONT_CARE = jvulkanLib.VK_ATTACHMENT_LOAD_OP_DONT_CARE
+    #print("statd VK_ATTACHMENT_LOAD_OP_DONT_CARE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_LOAD_OP_DONT_CARE"]
+try:
+    VK_ATTACHMENT_LOAD_OP_LOAD = jvulkanLib.VK_ATTACHMENT_LOAD_OP_LOAD
+    #print("statd VK_ATTACHMENT_LOAD_OP_LOAD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_LOAD_OP_LOAD"]
+try:
+    VK_ATTACHMENT_LOAD_OP_MAX_ENUM = jvulkanLib.VK_ATTACHMENT_LOAD_OP_MAX_ENUM
+    #print("statd VK_ATTACHMENT_LOAD_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_LOAD_OP_MAX_ENUM"]
+try:
+    VK_ATTACHMENT_LOAD_OP_NONE_EXT = jvulkanLib.VK_ATTACHMENT_LOAD_OP_NONE_EXT
+    #print("statd VK_ATTACHMENT_LOAD_OP_NONE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_LOAD_OP_NONE_EXT"]
+try:
+    VK_ATTACHMENT_STORE_OP_DONT_CARE = jvulkanLib.VK_ATTACHMENT_STORE_OP_DONT_CARE
+    #print("statd VK_ATTACHMENT_STORE_OP_DONT_CARE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_DONT_CARE"]
+try:
+    VK_ATTACHMENT_STORE_OP_MAX_ENUM = jvulkanLib.VK_ATTACHMENT_STORE_OP_MAX_ENUM
+    #print("statd VK_ATTACHMENT_STORE_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_MAX_ENUM"]
+try:
+    VK_ATTACHMENT_STORE_OP_NONE = jvulkanLib.VK_ATTACHMENT_STORE_OP_NONE
+    #print("statd VK_ATTACHMENT_STORE_OP_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_NONE"]
+try:
+    VK_ATTACHMENT_STORE_OP_NONE_EXT = jvulkanLib.VK_ATTACHMENT_STORE_OP_NONE_EXT
+    #print("statd VK_ATTACHMENT_STORE_OP_NONE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_NONE_EXT"]
+try:
+    VK_ATTACHMENT_STORE_OP_NONE_KHR = jvulkanLib.VK_ATTACHMENT_STORE_OP_NONE_KHR
+    #print("statd VK_ATTACHMENT_STORE_OP_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_NONE_KHR"]
+try:
+    VK_ATTACHMENT_STORE_OP_NONE_QCOM = jvulkanLib.VK_ATTACHMENT_STORE_OP_NONE_QCOM
+    #print("statd VK_ATTACHMENT_STORE_OP_NONE_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_NONE_QCOM"]
+try:
+    VK_ATTACHMENT_STORE_OP_STORE = jvulkanLib.VK_ATTACHMENT_STORE_OP_STORE
+    #print("statd VK_ATTACHMENT_STORE_OP_STORE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ATTACHMENT_STORE_OP_STORE"]
+try:
+    VK_BLEND_FACTOR_CONSTANT_ALPHA = jvulkanLib.VK_BLEND_FACTOR_CONSTANT_ALPHA
+    #print("statd VK_BLEND_FACTOR_CONSTANT_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_CONSTANT_ALPHA"]
+try:
+    VK_BLEND_FACTOR_CONSTANT_COLOR = jvulkanLib.VK_BLEND_FACTOR_CONSTANT_COLOR
+    #print("statd VK_BLEND_FACTOR_CONSTANT_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_CONSTANT_COLOR"]
+try:
+    VK_BLEND_FACTOR_DST_ALPHA = jvulkanLib.VK_BLEND_FACTOR_DST_ALPHA
+    #print("statd VK_BLEND_FACTOR_DST_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_DST_ALPHA"]
+try:
+    VK_BLEND_FACTOR_DST_COLOR = jvulkanLib.VK_BLEND_FACTOR_DST_COLOR
+    #print("statd VK_BLEND_FACTOR_DST_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_DST_COLOR"]
+try:
+    VK_BLEND_FACTOR_MAX_ENUM = jvulkanLib.VK_BLEND_FACTOR_MAX_ENUM
+    #print("statd VK_BLEND_FACTOR_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_MAX_ENUM"]
+try:
+    VK_BLEND_FACTOR_ONE = jvulkanLib.VK_BLEND_FACTOR_ONE
+    #print("statd VK_BLEND_FACTOR_ONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_ALPHA = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_ALPHA
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_ALPHA"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_COLOR = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_COLOR
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_CONSTANT_COLOR"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_DST_ALPHA = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_DST_ALPHA
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_DST_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_DST_ALPHA"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_DST_COLOR = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_DST_COLOR
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_DST_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_DST_COLOR"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_SRC1_ALPHA = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_SRC1_ALPHA
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_SRC1_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_SRC1_ALPHA"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_SRC1_COLOR = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_SRC1_COLOR
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_SRC1_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_SRC1_COLOR"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_SRC_ALPHA = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_SRC_ALPHA
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_SRC_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_SRC_ALPHA"]
+try:
+    VK_BLEND_FACTOR_ONE_MINUS_SRC_COLOR = jvulkanLib.VK_BLEND_FACTOR_ONE_MINUS_SRC_COLOR
+    #print("statd VK_BLEND_FACTOR_ONE_MINUS_SRC_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ONE_MINUS_SRC_COLOR"]
+try:
+    VK_BLEND_FACTOR_SRC1_ALPHA = jvulkanLib.VK_BLEND_FACTOR_SRC1_ALPHA
+    #print("statd VK_BLEND_FACTOR_SRC1_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_SRC1_ALPHA"]
+try:
+    VK_BLEND_FACTOR_SRC1_COLOR = jvulkanLib.VK_BLEND_FACTOR_SRC1_COLOR
+    #print("statd VK_BLEND_FACTOR_SRC1_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_SRC1_COLOR"]
+try:
+    VK_BLEND_FACTOR_SRC_ALPHA = jvulkanLib.VK_BLEND_FACTOR_SRC_ALPHA
+    #print("statd VK_BLEND_FACTOR_SRC_ALPHA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_SRC_ALPHA"]
+try:
+    VK_BLEND_FACTOR_SRC_ALPHA_SATURATE = jvulkanLib.VK_BLEND_FACTOR_SRC_ALPHA_SATURATE
+    #print("statd VK_BLEND_FACTOR_SRC_ALPHA_SATURATE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_SRC_ALPHA_SATURATE"]
+try:
+    VK_BLEND_FACTOR_SRC_COLOR = jvulkanLib.VK_BLEND_FACTOR_SRC_COLOR
+    #print("statd VK_BLEND_FACTOR_SRC_COLOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_SRC_COLOR"]
+try:
+    VK_BLEND_FACTOR_ZERO = jvulkanLib.VK_BLEND_FACTOR_ZERO
+    #print("statd VK_BLEND_FACTOR_ZERO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_FACTOR_ZERO"]
+try:
+    VK_BLEND_OP_ADD = jvulkanLib.VK_BLEND_OP_ADD
+    #print("statd VK_BLEND_OP_ADD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_ADD"]
+try:
+    VK_BLEND_OP_BLUE_EXT = jvulkanLib.VK_BLEND_OP_BLUE_EXT
+    #print("statd VK_BLEND_OP_BLUE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_BLUE_EXT"]
+try:
+    VK_BLEND_OP_COLORBURN_EXT = jvulkanLib.VK_BLEND_OP_COLORBURN_EXT
+    #print("statd VK_BLEND_OP_COLORBURN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_COLORBURN_EXT"]
+try:
+    VK_BLEND_OP_COLORDODGE_EXT = jvulkanLib.VK_BLEND_OP_COLORDODGE_EXT
+    #print("statd VK_BLEND_OP_COLORDODGE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_COLORDODGE_EXT"]
+try:
+    VK_BLEND_OP_CONTRAST_EXT = jvulkanLib.VK_BLEND_OP_CONTRAST_EXT
+    #print("statd VK_BLEND_OP_CONTRAST_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_CONTRAST_EXT"]
+try:
+    VK_BLEND_OP_DARKEN_EXT = jvulkanLib.VK_BLEND_OP_DARKEN_EXT
+    #print("statd VK_BLEND_OP_DARKEN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DARKEN_EXT"]
+try:
+    VK_BLEND_OP_DIFFERENCE_EXT = jvulkanLib.VK_BLEND_OP_DIFFERENCE_EXT
+    #print("statd VK_BLEND_OP_DIFFERENCE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DIFFERENCE_EXT"]
+try:
+    VK_BLEND_OP_DST_ATOP_EXT = jvulkanLib.VK_BLEND_OP_DST_ATOP_EXT
+    #print("statd VK_BLEND_OP_DST_ATOP_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DST_ATOP_EXT"]
+try:
+    VK_BLEND_OP_DST_EXT = jvulkanLib.VK_BLEND_OP_DST_EXT
+    #print("statd VK_BLEND_OP_DST_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DST_EXT"]
+try:
+    VK_BLEND_OP_DST_IN_EXT = jvulkanLib.VK_BLEND_OP_DST_IN_EXT
+    #print("statd VK_BLEND_OP_DST_IN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DST_IN_EXT"]
+try:
+    VK_BLEND_OP_DST_OUT_EXT = jvulkanLib.VK_BLEND_OP_DST_OUT_EXT
+    #print("statd VK_BLEND_OP_DST_OUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DST_OUT_EXT"]
+try:
+    VK_BLEND_OP_DST_OVER_EXT = jvulkanLib.VK_BLEND_OP_DST_OVER_EXT
+    #print("statd VK_BLEND_OP_DST_OVER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_DST_OVER_EXT"]
+try:
+    VK_BLEND_OP_EXCLUSION_EXT = jvulkanLib.VK_BLEND_OP_EXCLUSION_EXT
+    #print("statd VK_BLEND_OP_EXCLUSION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_EXCLUSION_EXT"]
+try:
+    VK_BLEND_OP_GREEN_EXT = jvulkanLib.VK_BLEND_OP_GREEN_EXT
+    #print("statd VK_BLEND_OP_GREEN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_GREEN_EXT"]
+try:
+    VK_BLEND_OP_HARDLIGHT_EXT = jvulkanLib.VK_BLEND_OP_HARDLIGHT_EXT
+    #print("statd VK_BLEND_OP_HARDLIGHT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HARDLIGHT_EXT"]
+try:
+    VK_BLEND_OP_HARDMIX_EXT = jvulkanLib.VK_BLEND_OP_HARDMIX_EXT
+    #print("statd VK_BLEND_OP_HARDMIX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HARDMIX_EXT"]
+try:
+    VK_BLEND_OP_HSL_COLOR_EXT = jvulkanLib.VK_BLEND_OP_HSL_COLOR_EXT
+    #print("statd VK_BLEND_OP_HSL_COLOR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HSL_COLOR_EXT"]
+try:
+    VK_BLEND_OP_HSL_HUE_EXT = jvulkanLib.VK_BLEND_OP_HSL_HUE_EXT
+    #print("statd VK_BLEND_OP_HSL_HUE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HSL_HUE_EXT"]
+try:
+    VK_BLEND_OP_HSL_LUMINOSITY_EXT = jvulkanLib.VK_BLEND_OP_HSL_LUMINOSITY_EXT
+    #print("statd VK_BLEND_OP_HSL_LUMINOSITY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HSL_LUMINOSITY_EXT"]
+try:
+    VK_BLEND_OP_HSL_SATURATION_EXT = jvulkanLib.VK_BLEND_OP_HSL_SATURATION_EXT
+    #print("statd VK_BLEND_OP_HSL_SATURATION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_HSL_SATURATION_EXT"]
+try:
+    VK_BLEND_OP_INVERT_EXT = jvulkanLib.VK_BLEND_OP_INVERT_EXT
+    #print("statd VK_BLEND_OP_INVERT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_INVERT_EXT"]
+try:
+    VK_BLEND_OP_INVERT_OVG_EXT = jvulkanLib.VK_BLEND_OP_INVERT_OVG_EXT
+    #print("statd VK_BLEND_OP_INVERT_OVG_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_INVERT_OVG_EXT"]
+try:
+    VK_BLEND_OP_INVERT_RGB_EXT = jvulkanLib.VK_BLEND_OP_INVERT_RGB_EXT
+    #print("statd VK_BLEND_OP_INVERT_RGB_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_INVERT_RGB_EXT"]
+try:
+    VK_BLEND_OP_LIGHTEN_EXT = jvulkanLib.VK_BLEND_OP_LIGHTEN_EXT
+    #print("statd VK_BLEND_OP_LIGHTEN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_LIGHTEN_EXT"]
+try:
+    VK_BLEND_OP_LINEARBURN_EXT = jvulkanLib.VK_BLEND_OP_LINEARBURN_EXT
+    #print("statd VK_BLEND_OP_LINEARBURN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_LINEARBURN_EXT"]
+try:
+    VK_BLEND_OP_LINEARDODGE_EXT = jvulkanLib.VK_BLEND_OP_LINEARDODGE_EXT
+    #print("statd VK_BLEND_OP_LINEARDODGE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_LINEARDODGE_EXT"]
+try:
+    VK_BLEND_OP_LINEARLIGHT_EXT = jvulkanLib.VK_BLEND_OP_LINEARLIGHT_EXT
+    #print("statd VK_BLEND_OP_LINEARLIGHT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_LINEARLIGHT_EXT"]
+try:
+    VK_BLEND_OP_MAX = jvulkanLib.VK_BLEND_OP_MAX
+    #print("statd VK_BLEND_OP_MAX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MAX"]
+try:
+    VK_BLEND_OP_MAX_ENUM = jvulkanLib.VK_BLEND_OP_MAX_ENUM
+    #print("statd VK_BLEND_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MAX_ENUM"]
+try:
+    VK_BLEND_OP_MIN = jvulkanLib.VK_BLEND_OP_MIN
+    #print("statd VK_BLEND_OP_MIN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MIN"]
+try:
+    VK_BLEND_OP_MINUS_CLAMPED_EXT = jvulkanLib.VK_BLEND_OP_MINUS_CLAMPED_EXT
+    #print("statd VK_BLEND_OP_MINUS_CLAMPED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MINUS_CLAMPED_EXT"]
+try:
+    VK_BLEND_OP_MINUS_EXT = jvulkanLib.VK_BLEND_OP_MINUS_EXT
+    #print("statd VK_BLEND_OP_MINUS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MINUS_EXT"]
+try:
+    VK_BLEND_OP_MULTIPLY_EXT = jvulkanLib.VK_BLEND_OP_MULTIPLY_EXT
+    #print("statd VK_BLEND_OP_MULTIPLY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_MULTIPLY_EXT"]
+try:
+    VK_BLEND_OP_OVERLAY_EXT = jvulkanLib.VK_BLEND_OP_OVERLAY_EXT
+    #print("statd VK_BLEND_OP_OVERLAY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_OVERLAY_EXT"]
+try:
+    VK_BLEND_OP_PINLIGHT_EXT = jvulkanLib.VK_BLEND_OP_PINLIGHT_EXT
+    #print("statd VK_BLEND_OP_PINLIGHT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_PINLIGHT_EXT"]
+try:
+    VK_BLEND_OP_PLUS_CLAMPED_ALPHA_EXT = jvulkanLib.VK_BLEND_OP_PLUS_CLAMPED_ALPHA_EXT
+    #print("statd VK_BLEND_OP_PLUS_CLAMPED_ALPHA_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_PLUS_CLAMPED_ALPHA_EXT"]
+try:
+    VK_BLEND_OP_PLUS_CLAMPED_EXT = jvulkanLib.VK_BLEND_OP_PLUS_CLAMPED_EXT
+    #print("statd VK_BLEND_OP_PLUS_CLAMPED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_PLUS_CLAMPED_EXT"]
+try:
+    VK_BLEND_OP_PLUS_DARKER_EXT = jvulkanLib.VK_BLEND_OP_PLUS_DARKER_EXT
+    #print("statd VK_BLEND_OP_PLUS_DARKER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_PLUS_DARKER_EXT"]
+try:
+    VK_BLEND_OP_PLUS_EXT = jvulkanLib.VK_BLEND_OP_PLUS_EXT
+    #print("statd VK_BLEND_OP_PLUS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_PLUS_EXT"]
+try:
+    VK_BLEND_OP_RED_EXT = jvulkanLib.VK_BLEND_OP_RED_EXT
+    #print("statd VK_BLEND_OP_RED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_RED_EXT"]
+try:
+    VK_BLEND_OP_REVERSE_SUBTRACT = jvulkanLib.VK_BLEND_OP_REVERSE_SUBTRACT
+    #print("statd VK_BLEND_OP_REVERSE_SUBTRACT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_REVERSE_SUBTRACT"]
+try:
+    VK_BLEND_OP_SCREEN_EXT = jvulkanLib.VK_BLEND_OP_SCREEN_EXT
+    #print("statd VK_BLEND_OP_SCREEN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SCREEN_EXT"]
+try:
+    VK_BLEND_OP_SOFTLIGHT_EXT = jvulkanLib.VK_BLEND_OP_SOFTLIGHT_EXT
+    #print("statd VK_BLEND_OP_SOFTLIGHT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SOFTLIGHT_EXT"]
+try:
+    VK_BLEND_OP_SRC_ATOP_EXT = jvulkanLib.VK_BLEND_OP_SRC_ATOP_EXT
+    #print("statd VK_BLEND_OP_SRC_ATOP_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SRC_ATOP_EXT"]
+try:
+    VK_BLEND_OP_SRC_EXT = jvulkanLib.VK_BLEND_OP_SRC_EXT
+    #print("statd VK_BLEND_OP_SRC_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SRC_EXT"]
+try:
+    VK_BLEND_OP_SRC_IN_EXT = jvulkanLib.VK_BLEND_OP_SRC_IN_EXT
+    #print("statd VK_BLEND_OP_SRC_IN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SRC_IN_EXT"]
+try:
+    VK_BLEND_OP_SRC_OUT_EXT = jvulkanLib.VK_BLEND_OP_SRC_OUT_EXT
+    #print("statd VK_BLEND_OP_SRC_OUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SRC_OUT_EXT"]
+try:
+    VK_BLEND_OP_SRC_OVER_EXT = jvulkanLib.VK_BLEND_OP_SRC_OVER_EXT
+    #print("statd VK_BLEND_OP_SRC_OVER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SRC_OVER_EXT"]
+try:
+    VK_BLEND_OP_SUBTRACT = jvulkanLib.VK_BLEND_OP_SUBTRACT
+    #print("statd VK_BLEND_OP_SUBTRACT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_SUBTRACT"]
+try:
+    VK_BLEND_OP_VIVIDLIGHT_EXT = jvulkanLib.VK_BLEND_OP_VIVIDLIGHT_EXT
+    #print("statd VK_BLEND_OP_VIVIDLIGHT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_VIVIDLIGHT_EXT"]
+try:
+    VK_BLEND_OP_XOR_EXT = jvulkanLib.VK_BLEND_OP_XOR_EXT
+    #print("statd VK_BLEND_OP_XOR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_XOR_EXT"]
+try:
+    VK_BLEND_OP_ZERO_EXT = jvulkanLib.VK_BLEND_OP_ZERO_EXT
+    #print("statd VK_BLEND_OP_ZERO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OP_ZERO_EXT"]
+try:
+    VK_BLEND_OVERLAP_CONJOINT_EXT = jvulkanLib.VK_BLEND_OVERLAP_CONJOINT_EXT
+    #print("statd VK_BLEND_OVERLAP_CONJOINT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OVERLAP_CONJOINT_EXT"]
+try:
+    VK_BLEND_OVERLAP_DISJOINT_EXT = jvulkanLib.VK_BLEND_OVERLAP_DISJOINT_EXT
+    #print("statd VK_BLEND_OVERLAP_DISJOINT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OVERLAP_DISJOINT_EXT"]
+try:
+    VK_BLEND_OVERLAP_MAX_ENUM_EXT = jvulkanLib.VK_BLEND_OVERLAP_MAX_ENUM_EXT
+    #print("statd VK_BLEND_OVERLAP_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OVERLAP_MAX_ENUM_EXT"]
+try:
+    VK_BLEND_OVERLAP_UNCORRELATED_EXT = jvulkanLib.VK_BLEND_OVERLAP_UNCORRELATED_EXT
+    #print("statd VK_BLEND_OVERLAP_UNCORRELATED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BLEND_OVERLAP_UNCORRELATED_EXT"]
+try:
+    VK_BORDER_COLOR_FLOAT_CUSTOM_EXT = jvulkanLib.VK_BORDER_COLOR_FLOAT_CUSTOM_EXT
+    #print("statd VK_BORDER_COLOR_FLOAT_CUSTOM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_FLOAT_CUSTOM_EXT"]
+try:
+    VK_BORDER_COLOR_FLOAT_OPAQUE_BLACK = jvulkanLib.VK_BORDER_COLOR_FLOAT_OPAQUE_BLACK
+    #print("statd VK_BORDER_COLOR_FLOAT_OPAQUE_BLACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_FLOAT_OPAQUE_BLACK"]
+try:
+    VK_BORDER_COLOR_FLOAT_OPAQUE_WHITE = jvulkanLib.VK_BORDER_COLOR_FLOAT_OPAQUE_WHITE
+    #print("statd VK_BORDER_COLOR_FLOAT_OPAQUE_WHITE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_FLOAT_OPAQUE_WHITE"]
+try:
+    VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK = jvulkanLib.VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK
+    #print("statd VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK"]
+try:
+    VK_BORDER_COLOR_INT_CUSTOM_EXT = jvulkanLib.VK_BORDER_COLOR_INT_CUSTOM_EXT
+    #print("statd VK_BORDER_COLOR_INT_CUSTOM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_INT_CUSTOM_EXT"]
+try:
+    VK_BORDER_COLOR_INT_OPAQUE_BLACK = jvulkanLib.VK_BORDER_COLOR_INT_OPAQUE_BLACK
+    #print("statd VK_BORDER_COLOR_INT_OPAQUE_BLACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_INT_OPAQUE_BLACK"]
+try:
+    VK_BORDER_COLOR_INT_OPAQUE_WHITE = jvulkanLib.VK_BORDER_COLOR_INT_OPAQUE_WHITE
+    #print("statd VK_BORDER_COLOR_INT_OPAQUE_WHITE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_INT_OPAQUE_WHITE"]
+try:
+    VK_BORDER_COLOR_INT_TRANSPARENT_BLACK = jvulkanLib.VK_BORDER_COLOR_INT_TRANSPARENT_BLACK
+    #print("statd VK_BORDER_COLOR_INT_TRANSPARENT_BLACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_INT_TRANSPARENT_BLACK"]
+try:
+    VK_BORDER_COLOR_MAX_ENUM = jvulkanLib.VK_BORDER_COLOR_MAX_ENUM
+    #print("statd VK_BORDER_COLOR_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BORDER_COLOR_MAX_ENUM"]
+try:
+    VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT = jvulkanLib.VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT
+    #print("statd VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT"]
+try:
+    VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_EXT = jvulkanLib.VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_EXT
+    #print("statd VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_EXT"]
+try:
+    VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR = jvulkanLib.VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR
+    #print("statd VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR"]
+try:
+    VK_BUFFER_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_BUFFER_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_BUFFER_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_BUFFER_CREATE_PROTECTED_BIT = jvulkanLib.VK_BUFFER_CREATE_PROTECTED_BIT
+    #print("statd VK_BUFFER_CREATE_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_PROTECTED_BIT"]
+try:
+    VK_BUFFER_CREATE_SPARSE_ALIASED_BIT = jvulkanLib.VK_BUFFER_CREATE_SPARSE_ALIASED_BIT
+    #print("statd VK_BUFFER_CREATE_SPARSE_ALIASED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_SPARSE_ALIASED_BIT"]
+try:
+    VK_BUFFER_CREATE_SPARSE_BINDING_BIT = jvulkanLib.VK_BUFFER_CREATE_SPARSE_BINDING_BIT
+    #print("statd VK_BUFFER_CREATE_SPARSE_BINDING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_SPARSE_BINDING_BIT"]
+try:
+    VK_BUFFER_CREATE_SPARSE_RESIDENCY_BIT = jvulkanLib.VK_BUFFER_CREATE_SPARSE_RESIDENCY_BIT
+    #print("statd VK_BUFFER_CREATE_SPARSE_RESIDENCY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_CREATE_SPARSE_RESIDENCY_BIT"]
+try:
+    VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_BUILD_INPUT_READ_ONLY_BIT_KHR = jvulkanLib.VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_BUILD_INPUT_READ_ONLY_BIT_KHR
+    #print("statd VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_BUILD_INPUT_READ_ONLY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_BUILD_INPUT_READ_ONLY_BIT_KHR"]
+try:
+    VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_STORAGE_BIT_KHR = jvulkanLib.VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_STORAGE_BIT_KHR
+    #print("statd VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_STORAGE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_ACCELERATION_STRUCTURE_STORAGE_BIT_KHR"]
+try:
+    VK_BUFFER_USAGE_CONDITIONAL_RENDERING_BIT_EXT = jvulkanLib.VK_BUFFER_USAGE_CONDITIONAL_RENDERING_BIT_EXT
+    #print("statd VK_BUFFER_USAGE_CONDITIONAL_RENDERING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_CONDITIONAL_RENDERING_BIT_EXT"]
+try:
+    VK_BUFFER_USAGE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_BUFFER_USAGE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_BUFFER_USAGE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_BUFFER_USAGE_INDEX_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_INDEX_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_INDEX_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_INDEX_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_INDIRECT_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_INDIRECT_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_INDIRECT_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_INDIRECT_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_RAY_TRACING_BIT_NV = jvulkanLib.VK_BUFFER_USAGE_RAY_TRACING_BIT_NV
+    #print("statd VK_BUFFER_USAGE_RAY_TRACING_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_RAY_TRACING_BIT_NV"]
+try:
+    VK_BUFFER_USAGE_SHADER_BINDING_TABLE_BIT_KHR = jvulkanLib.VK_BUFFER_USAGE_SHADER_BINDING_TABLE_BIT_KHR
+    #print("statd VK_BUFFER_USAGE_SHADER_BINDING_TABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_SHADER_BINDING_TABLE_BIT_KHR"]
+try:
+    VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT = jvulkanLib.VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT
+    #print("statd VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT"]
+try:
+    VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_EXT = jvulkanLib.VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_EXT
+    #print("statd VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_EXT"]
+try:
+    VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_KHR = jvulkanLib.VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_KHR
+    #print("statd VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT_KHR"]
+try:
+    VK_BUFFER_USAGE_STORAGE_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_STORAGE_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_STORAGE_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_STORAGE_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_STORAGE_TEXEL_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_STORAGE_TEXEL_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_STORAGE_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_STORAGE_TEXEL_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_TRANSFER_DST_BIT = jvulkanLib.VK_BUFFER_USAGE_TRANSFER_DST_BIT
+    #print("statd VK_BUFFER_USAGE_TRANSFER_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_TRANSFER_DST_BIT"]
+try:
+    VK_BUFFER_USAGE_TRANSFER_SRC_BIT = jvulkanLib.VK_BUFFER_USAGE_TRANSFER_SRC_BIT
+    #print("statd VK_BUFFER_USAGE_TRANSFER_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_TRANSFER_SRC_BIT"]
+try:
+    VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_BUFFER_BIT_EXT = jvulkanLib.VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_BUFFER_BIT_EXT
+    #print("statd VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_BUFFER_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_BUFFER_BIT_EXT"]
+try:
+    VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_COUNTER_BUFFER_BIT_EXT = jvulkanLib.VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_COUNTER_BUFFER_BIT_EXT
+    #print("statd VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_COUNTER_BUFFER_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_TRANSFORM_FEEDBACK_COUNTER_BUFFER_BIT_EXT"]
+try:
+    VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_UNIFORM_TEXEL_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_UNIFORM_TEXEL_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_UNIFORM_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_UNIFORM_TEXEL_BUFFER_BIT"]
+try:
+    VK_BUFFER_USAGE_VERTEX_BUFFER_BIT = jvulkanLib.VK_BUFFER_USAGE_VERTEX_BUFFER_BIT
+    #print("statd VK_BUFFER_USAGE_VERTEX_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUFFER_USAGE_VERTEX_BUFFER_BIT"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_COMPACTION_BIT_NV"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_ALLOW_UPDATE_BIT_NV"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_LOW_MEMORY_BIT_NV"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_MODE_BUILD_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_MODE_BUILD_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_MODE_BUILD_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_MODE_BUILD_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_MODE_UPDATE_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_MODE_UPDATE_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_MODE_UPDATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_MODE_UPDATE_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_MOTION_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_MOTION_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_MOTION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_MOTION_BIT_NV"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_BUILD_BIT_NV"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_KHR = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_KHR
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_KHR"]
+try:
+    VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_NV = jvulkanLib.VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_NV
+    #print("statd VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_BUILD_ACCELERATION_STRUCTURE_PREFER_FAST_TRACE_BIT_NV"]
+try:
+    VK_CHROMA_LOCATION_COSITED_EVEN = jvulkanLib.VK_CHROMA_LOCATION_COSITED_EVEN
+    #print("statd VK_CHROMA_LOCATION_COSITED_EVEN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CHROMA_LOCATION_COSITED_EVEN"]
+try:
+    VK_CHROMA_LOCATION_COSITED_EVEN_KHR = jvulkanLib.VK_CHROMA_LOCATION_COSITED_EVEN_KHR
+    #print("statd VK_CHROMA_LOCATION_COSITED_EVEN_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CHROMA_LOCATION_COSITED_EVEN_KHR"]
+try:
+    VK_CHROMA_LOCATION_MAX_ENUM = jvulkanLib.VK_CHROMA_LOCATION_MAX_ENUM
+    #print("statd VK_CHROMA_LOCATION_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CHROMA_LOCATION_MAX_ENUM"]
+try:
+    VK_CHROMA_LOCATION_MIDPOINT = jvulkanLib.VK_CHROMA_LOCATION_MIDPOINT
+    #print("statd VK_CHROMA_LOCATION_MIDPOINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CHROMA_LOCATION_MIDPOINT"]
+try:
+    VK_CHROMA_LOCATION_MIDPOINT_KHR = jvulkanLib.VK_CHROMA_LOCATION_MIDPOINT_KHR
+    #print("statd VK_CHROMA_LOCATION_MIDPOINT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CHROMA_LOCATION_MIDPOINT_KHR"]
+try:
+    VK_COARSE_SAMPLE_ORDER_TYPE_CUSTOM_NV = jvulkanLib.VK_COARSE_SAMPLE_ORDER_TYPE_CUSTOM_NV
+    #print("statd VK_COARSE_SAMPLE_ORDER_TYPE_CUSTOM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COARSE_SAMPLE_ORDER_TYPE_CUSTOM_NV"]
+try:
+    VK_COARSE_SAMPLE_ORDER_TYPE_DEFAULT_NV = jvulkanLib.VK_COARSE_SAMPLE_ORDER_TYPE_DEFAULT_NV
+    #print("statd VK_COARSE_SAMPLE_ORDER_TYPE_DEFAULT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COARSE_SAMPLE_ORDER_TYPE_DEFAULT_NV"]
+try:
+    VK_COARSE_SAMPLE_ORDER_TYPE_MAX_ENUM_NV = jvulkanLib.VK_COARSE_SAMPLE_ORDER_TYPE_MAX_ENUM_NV
+    #print("statd VK_COARSE_SAMPLE_ORDER_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COARSE_SAMPLE_ORDER_TYPE_MAX_ENUM_NV"]
+try:
+    VK_COARSE_SAMPLE_ORDER_TYPE_PIXEL_MAJOR_NV = jvulkanLib.VK_COARSE_SAMPLE_ORDER_TYPE_PIXEL_MAJOR_NV
+    #print("statd VK_COARSE_SAMPLE_ORDER_TYPE_PIXEL_MAJOR_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COARSE_SAMPLE_ORDER_TYPE_PIXEL_MAJOR_NV"]
+try:
+    VK_COARSE_SAMPLE_ORDER_TYPE_SAMPLE_MAJOR_NV = jvulkanLib.VK_COARSE_SAMPLE_ORDER_TYPE_SAMPLE_MAJOR_NV
+    #print("statd VK_COARSE_SAMPLE_ORDER_TYPE_SAMPLE_MAJOR_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COARSE_SAMPLE_ORDER_TYPE_SAMPLE_MAJOR_NV"]
+try:
+    VK_COLORSPACE_SRGB_NONLINEAR_KHR = jvulkanLib.VK_COLORSPACE_SRGB_NONLINEAR_KHR
+    #print("statd VK_COLORSPACE_SRGB_NONLINEAR_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLORSPACE_SRGB_NONLINEAR_KHR"]
+try:
+    VK_COLOR_COMPONENT_A_BIT = jvulkanLib.VK_COLOR_COMPONENT_A_BIT
+    #print("statd VK_COLOR_COMPONENT_A_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_COMPONENT_A_BIT"]
+try:
+    VK_COLOR_COMPONENT_B_BIT = jvulkanLib.VK_COLOR_COMPONENT_B_BIT
+    #print("statd VK_COLOR_COMPONENT_B_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_COMPONENT_B_BIT"]
+try:
+    VK_COLOR_COMPONENT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_COLOR_COMPONENT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_COLOR_COMPONENT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_COMPONENT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_COLOR_COMPONENT_G_BIT = jvulkanLib.VK_COLOR_COMPONENT_G_BIT
+    #print("statd VK_COLOR_COMPONENT_G_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_COMPONENT_G_BIT"]
+try:
+    VK_COLOR_COMPONENT_R_BIT = jvulkanLib.VK_COLOR_COMPONENT_R_BIT
+    #print("statd VK_COLOR_COMPONENT_R_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_COMPONENT_R_BIT"]
+try:
+    VK_COLOR_SPACE_ADOBERGB_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_ADOBERGB_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_ADOBERGB_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_ADOBERGB_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_ADOBERGB_NONLINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_ADOBERGB_NONLINEAR_EXT
+    #print("statd VK_COLOR_SPACE_ADOBERGB_NONLINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_ADOBERGB_NONLINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_BT2020_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_BT2020_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_BT2020_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_BT2020_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_BT709_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_BT709_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_BT709_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_BT709_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_BT709_NONLINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_BT709_NONLINEAR_EXT
+    #print("statd VK_COLOR_SPACE_BT709_NONLINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_BT709_NONLINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_DCI_P3_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_DCI_P3_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_DCI_P3_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DCI_P3_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_DCI_P3_NONLINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_DCI_P3_NONLINEAR_EXT
+    #print("statd VK_COLOR_SPACE_DCI_P3_NONLINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DCI_P3_NONLINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_DISPLAY_NATIVE_AMD = jvulkanLib.VK_COLOR_SPACE_DISPLAY_NATIVE_AMD
+    #print("statd VK_COLOR_SPACE_DISPLAY_NATIVE_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DISPLAY_NATIVE_AMD"]
+try:
+    VK_COLOR_SPACE_DISPLAY_P3_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_DISPLAY_P3_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_DISPLAY_P3_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DISPLAY_P3_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_DISPLAY_P3_NONLINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_DISPLAY_P3_NONLINEAR_EXT
+    #print("statd VK_COLOR_SPACE_DISPLAY_P3_NONLINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DISPLAY_P3_NONLINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_DOLBYVISION_EXT = jvulkanLib.VK_COLOR_SPACE_DOLBYVISION_EXT
+    #print("statd VK_COLOR_SPACE_DOLBYVISION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_DOLBYVISION_EXT"]
+try:
+    VK_COLOR_SPACE_EXTENDED_SRGB_LINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_EXTENDED_SRGB_LINEAR_EXT
+    #print("statd VK_COLOR_SPACE_EXTENDED_SRGB_LINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_EXTENDED_SRGB_LINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_EXTENDED_SRGB_NONLINEAR_EXT = jvulkanLib.VK_COLOR_SPACE_EXTENDED_SRGB_NONLINEAR_EXT
+    #print("statd VK_COLOR_SPACE_EXTENDED_SRGB_NONLINEAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_EXTENDED_SRGB_NONLINEAR_EXT"]
+try:
+    VK_COLOR_SPACE_HDR10_HLG_EXT = jvulkanLib.VK_COLOR_SPACE_HDR10_HLG_EXT
+    #print("statd VK_COLOR_SPACE_HDR10_HLG_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_HDR10_HLG_EXT"]
+try:
+    VK_COLOR_SPACE_HDR10_ST2084_EXT = jvulkanLib.VK_COLOR_SPACE_HDR10_ST2084_EXT
+    #print("statd VK_COLOR_SPACE_HDR10_ST2084_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_HDR10_ST2084_EXT"]
+try:
+    VK_COLOR_SPACE_MAX_ENUM_KHR = jvulkanLib.VK_COLOR_SPACE_MAX_ENUM_KHR
+    #print("statd VK_COLOR_SPACE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_MAX_ENUM_KHR"]
+try:
+    VK_COLOR_SPACE_PASS_THROUGH_EXT = jvulkanLib.VK_COLOR_SPACE_PASS_THROUGH_EXT
+    #print("statd VK_COLOR_SPACE_PASS_THROUGH_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_PASS_THROUGH_EXT"]
+try:
+    VK_COLOR_SPACE_SRGB_NONLINEAR_KHR = jvulkanLib.VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+    #print("statd VK_COLOR_SPACE_SRGB_NONLINEAR_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COLOR_SPACE_SRGB_NONLINEAR_KHR"]
+try:
+    VK_COMMAND_BUFFER_LEVEL_MAX_ENUM = jvulkanLib.VK_COMMAND_BUFFER_LEVEL_MAX_ENUM
+    #print("statd VK_COMMAND_BUFFER_LEVEL_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_LEVEL_MAX_ENUM"]
+try:
+    VK_COMMAND_BUFFER_LEVEL_PRIMARY = jvulkanLib.VK_COMMAND_BUFFER_LEVEL_PRIMARY
+    #print("statd VK_COMMAND_BUFFER_LEVEL_PRIMARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_LEVEL_PRIMARY"]
+try:
+    VK_COMMAND_BUFFER_LEVEL_SECONDARY = jvulkanLib.VK_COMMAND_BUFFER_LEVEL_SECONDARY
+    #print("statd VK_COMMAND_BUFFER_LEVEL_SECONDARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_LEVEL_SECONDARY"]
+try:
+    VK_COMMAND_BUFFER_RESET_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_COMMAND_BUFFER_RESET_FLAG_BITS_MAX_ENUM
+    #print("statd VK_COMMAND_BUFFER_RESET_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_RESET_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_COMMAND_BUFFER_RESET_RELEASE_RESOURCES_BIT = jvulkanLib.VK_COMMAND_BUFFER_RESET_RELEASE_RESOURCES_BIT
+    #print("statd VK_COMMAND_BUFFER_RESET_RELEASE_RESOURCES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_RESET_RELEASE_RESOURCES_BIT"]
+try:
+    VK_COMMAND_BUFFER_USAGE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_COMMAND_BUFFER_USAGE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_COMMAND_BUFFER_USAGE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_USAGE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT = jvulkanLib.VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT
+    #print("statd VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT"]
+try:
+    VK_COMMAND_BUFFER_USAGE_RENDER_PASS_CONTINUE_BIT = jvulkanLib.VK_COMMAND_BUFFER_USAGE_RENDER_PASS_CONTINUE_BIT
+    #print("statd VK_COMMAND_BUFFER_USAGE_RENDER_PASS_CONTINUE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_USAGE_RENDER_PASS_CONTINUE_BIT"]
+try:
+    VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT = jvulkanLib.VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT
+    #print("statd VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT"]
+try:
+    VK_COMMAND_POOL_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_COMMAND_POOL_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_COMMAND_POOL_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_COMMAND_POOL_CREATE_PROTECTED_BIT = jvulkanLib.VK_COMMAND_POOL_CREATE_PROTECTED_BIT
+    #print("statd VK_COMMAND_POOL_CREATE_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_CREATE_PROTECTED_BIT"]
+try:
+    VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT = jvulkanLib.VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT
+    #print("statd VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT"]
+try:
+    VK_COMMAND_POOL_CREATE_TRANSIENT_BIT = jvulkanLib.VK_COMMAND_POOL_CREATE_TRANSIENT_BIT
+    #print("statd VK_COMMAND_POOL_CREATE_TRANSIENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_CREATE_TRANSIENT_BIT"]
+try:
+    VK_COMMAND_POOL_RESET_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_COMMAND_POOL_RESET_FLAG_BITS_MAX_ENUM
+    #print("statd VK_COMMAND_POOL_RESET_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_RESET_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_COMMAND_POOL_RESET_RELEASE_RESOURCES_BIT = jvulkanLib.VK_COMMAND_POOL_RESET_RELEASE_RESOURCES_BIT
+    #print("statd VK_COMMAND_POOL_RESET_RELEASE_RESOURCES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMMAND_POOL_RESET_RELEASE_RESOURCES_BIT"]
+try:
+    VK_COMPARE_OP_ALWAYS = jvulkanLib.VK_COMPARE_OP_ALWAYS
+    #print("statd VK_COMPARE_OP_ALWAYS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_ALWAYS"]
+try:
+    VK_COMPARE_OP_EQUAL = jvulkanLib.VK_COMPARE_OP_EQUAL
+    #print("statd VK_COMPARE_OP_EQUAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_EQUAL"]
+try:
+    VK_COMPARE_OP_GREATER = jvulkanLib.VK_COMPARE_OP_GREATER
+    #print("statd VK_COMPARE_OP_GREATER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_GREATER"]
+try:
+    VK_COMPARE_OP_GREATER_OR_EQUAL = jvulkanLib.VK_COMPARE_OP_GREATER_OR_EQUAL
+    #print("statd VK_COMPARE_OP_GREATER_OR_EQUAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_GREATER_OR_EQUAL"]
+try:
+    VK_COMPARE_OP_LESS = jvulkanLib.VK_COMPARE_OP_LESS
+    #print("statd VK_COMPARE_OP_LESS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_LESS"]
+try:
+    VK_COMPARE_OP_LESS_OR_EQUAL = jvulkanLib.VK_COMPARE_OP_LESS_OR_EQUAL
+    #print("statd VK_COMPARE_OP_LESS_OR_EQUAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_LESS_OR_EQUAL"]
+try:
+    VK_COMPARE_OP_MAX_ENUM = jvulkanLib.VK_COMPARE_OP_MAX_ENUM
+    #print("statd VK_COMPARE_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_MAX_ENUM"]
+try:
+    VK_COMPARE_OP_NEVER = jvulkanLib.VK_COMPARE_OP_NEVER
+    #print("statd VK_COMPARE_OP_NEVER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_NEVER"]
+try:
+    VK_COMPARE_OP_NOT_EQUAL = jvulkanLib.VK_COMPARE_OP_NOT_EQUAL
+    #print("statd VK_COMPARE_OP_NOT_EQUAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPARE_OP_NOT_EQUAL"]
+try:
+    VK_COMPONENT_SWIZZLE_A = jvulkanLib.VK_COMPONENT_SWIZZLE_A
+    #print("statd VK_COMPONENT_SWIZZLE_A")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_A"]
+try:
+    VK_COMPONENT_SWIZZLE_B = jvulkanLib.VK_COMPONENT_SWIZZLE_B
+    #print("statd VK_COMPONENT_SWIZZLE_B")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_B"]
+try:
+    VK_COMPONENT_SWIZZLE_G = jvulkanLib.VK_COMPONENT_SWIZZLE_G
+    #print("statd VK_COMPONENT_SWIZZLE_G")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_G"]
+try:
+    VK_COMPONENT_SWIZZLE_IDENTITY = jvulkanLib.VK_COMPONENT_SWIZZLE_IDENTITY
+    #print("statd VK_COMPONENT_SWIZZLE_IDENTITY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_IDENTITY"]
+try:
+    VK_COMPONENT_SWIZZLE_MAX_ENUM = jvulkanLib.VK_COMPONENT_SWIZZLE_MAX_ENUM
+    #print("statd VK_COMPONENT_SWIZZLE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_MAX_ENUM"]
+try:
+    VK_COMPONENT_SWIZZLE_ONE = jvulkanLib.VK_COMPONENT_SWIZZLE_ONE
+    #print("statd VK_COMPONENT_SWIZZLE_ONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_ONE"]
+try:
+    VK_COMPONENT_SWIZZLE_R = jvulkanLib.VK_COMPONENT_SWIZZLE_R
+    #print("statd VK_COMPONENT_SWIZZLE_R")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_R"]
+try:
+    VK_COMPONENT_SWIZZLE_ZERO = jvulkanLib.VK_COMPONENT_SWIZZLE_ZERO
+    #print("statd VK_COMPONENT_SWIZZLE_ZERO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_SWIZZLE_ZERO"]
+try:
+    VK_COMPONENT_TYPE_FLOAT16_NV = jvulkanLib.VK_COMPONENT_TYPE_FLOAT16_NV
+    #print("statd VK_COMPONENT_TYPE_FLOAT16_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_FLOAT16_NV"]
+try:
+    VK_COMPONENT_TYPE_FLOAT32_NV = jvulkanLib.VK_COMPONENT_TYPE_FLOAT32_NV
+    #print("statd VK_COMPONENT_TYPE_FLOAT32_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_FLOAT32_NV"]
+try:
+    VK_COMPONENT_TYPE_FLOAT64_NV = jvulkanLib.VK_COMPONENT_TYPE_FLOAT64_NV
+    #print("statd VK_COMPONENT_TYPE_FLOAT64_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_FLOAT64_NV"]
+try:
+    VK_COMPONENT_TYPE_MAX_ENUM_NV = jvulkanLib.VK_COMPONENT_TYPE_MAX_ENUM_NV
+    #print("statd VK_COMPONENT_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_MAX_ENUM_NV"]
+try:
+    VK_COMPONENT_TYPE_SINT16_NV = jvulkanLib.VK_COMPONENT_TYPE_SINT16_NV
+    #print("statd VK_COMPONENT_TYPE_SINT16_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_SINT16_NV"]
+try:
+    VK_COMPONENT_TYPE_SINT32_NV = jvulkanLib.VK_COMPONENT_TYPE_SINT32_NV
+    #print("statd VK_COMPONENT_TYPE_SINT32_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_SINT32_NV"]
+try:
+    VK_COMPONENT_TYPE_SINT64_NV = jvulkanLib.VK_COMPONENT_TYPE_SINT64_NV
+    #print("statd VK_COMPONENT_TYPE_SINT64_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_SINT64_NV"]
+try:
+    VK_COMPONENT_TYPE_SINT8_NV = jvulkanLib.VK_COMPONENT_TYPE_SINT8_NV
+    #print("statd VK_COMPONENT_TYPE_SINT8_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_SINT8_NV"]
+try:
+    VK_COMPONENT_TYPE_UINT16_NV = jvulkanLib.VK_COMPONENT_TYPE_UINT16_NV
+    #print("statd VK_COMPONENT_TYPE_UINT16_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_UINT16_NV"]
+try:
+    VK_COMPONENT_TYPE_UINT32_NV = jvulkanLib.VK_COMPONENT_TYPE_UINT32_NV
+    #print("statd VK_COMPONENT_TYPE_UINT32_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_UINT32_NV"]
+try:
+    VK_COMPONENT_TYPE_UINT64_NV = jvulkanLib.VK_COMPONENT_TYPE_UINT64_NV
+    #print("statd VK_COMPONENT_TYPE_UINT64_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_UINT64_NV"]
+try:
+    VK_COMPONENT_TYPE_UINT8_NV = jvulkanLib.VK_COMPONENT_TYPE_UINT8_NV
+    #print("statd VK_COMPONENT_TYPE_UINT8_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPONENT_TYPE_UINT8_NV"]
+try:
+    VK_COMPOSITE_ALPHA_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_COMPOSITE_ALPHA_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_COMPOSITE_ALPHA_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPOSITE_ALPHA_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_COMPOSITE_ALPHA_INHERIT_BIT_KHR = jvulkanLib.VK_COMPOSITE_ALPHA_INHERIT_BIT_KHR
+    #print("statd VK_COMPOSITE_ALPHA_INHERIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPOSITE_ALPHA_INHERIT_BIT_KHR"]
+try:
+    VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR = jvulkanLib.VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+    #print("statd VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR"]
+try:
+    VK_COMPOSITE_ALPHA_POST_MULTIPLIED_BIT_KHR = jvulkanLib.VK_COMPOSITE_ALPHA_POST_MULTIPLIED_BIT_KHR
+    #print("statd VK_COMPOSITE_ALPHA_POST_MULTIPLIED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPOSITE_ALPHA_POST_MULTIPLIED_BIT_KHR"]
+try:
+    VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR = jvulkanLib.VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR
+    #print("statd VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COMPOSITE_ALPHA_PRE_MULTIPLIED_BIT_KHR"]
+try:
+    VK_CONDITIONAL_RENDERING_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_CONDITIONAL_RENDERING_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_CONDITIONAL_RENDERING_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONDITIONAL_RENDERING_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_CONDITIONAL_RENDERING_INVERTED_BIT_EXT = jvulkanLib.VK_CONDITIONAL_RENDERING_INVERTED_BIT_EXT
+    #print("statd VK_CONDITIONAL_RENDERING_INVERTED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONDITIONAL_RENDERING_INVERTED_BIT_EXT"]
+try:
+    VK_CONSERVATIVE_RASTERIZATION_MODE_DISABLED_EXT = jvulkanLib.VK_CONSERVATIVE_RASTERIZATION_MODE_DISABLED_EXT
+    #print("statd VK_CONSERVATIVE_RASTERIZATION_MODE_DISABLED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONSERVATIVE_RASTERIZATION_MODE_DISABLED_EXT"]
+try:
+    VK_CONSERVATIVE_RASTERIZATION_MODE_MAX_ENUM_EXT = jvulkanLib.VK_CONSERVATIVE_RASTERIZATION_MODE_MAX_ENUM_EXT
+    #print("statd VK_CONSERVATIVE_RASTERIZATION_MODE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONSERVATIVE_RASTERIZATION_MODE_MAX_ENUM_EXT"]
+try:
+    VK_CONSERVATIVE_RASTERIZATION_MODE_OVERESTIMATE_EXT = jvulkanLib.VK_CONSERVATIVE_RASTERIZATION_MODE_OVERESTIMATE_EXT
+    #print("statd VK_CONSERVATIVE_RASTERIZATION_MODE_OVERESTIMATE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONSERVATIVE_RASTERIZATION_MODE_OVERESTIMATE_EXT"]
+try:
+    VK_CONSERVATIVE_RASTERIZATION_MODE_UNDERESTIMATE_EXT = jvulkanLib.VK_CONSERVATIVE_RASTERIZATION_MODE_UNDERESTIMATE_EXT
+    #print("statd VK_CONSERVATIVE_RASTERIZATION_MODE_UNDERESTIMATE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CONSERVATIVE_RASTERIZATION_MODE_UNDERESTIMATE_EXT"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_KHR = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_KHR
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_KHR"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_NV = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_NV
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_CLONE_NV"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_KHR = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_KHR
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_KHR"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_NV = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_NV
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_COMPACT_NV"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_DESERIALIZE_KHR = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_DESERIALIZE_KHR
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_DESERIALIZE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_DESERIALIZE_KHR"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_MAX_ENUM_KHR"]
+try:
+    VK_COPY_ACCELERATION_STRUCTURE_MODE_SERIALIZE_KHR = jvulkanLib.VK_COPY_ACCELERATION_STRUCTURE_MODE_SERIALIZE_KHR
+    #print("statd VK_COPY_ACCELERATION_STRUCTURE_MODE_SERIALIZE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COPY_ACCELERATION_STRUCTURE_MODE_SERIALIZE_KHR"]
+try:
+    VK_COVERAGE_MODULATION_MODE_ALPHA_NV = jvulkanLib.VK_COVERAGE_MODULATION_MODE_ALPHA_NV
+    #print("statd VK_COVERAGE_MODULATION_MODE_ALPHA_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_MODULATION_MODE_ALPHA_NV"]
+try:
+    VK_COVERAGE_MODULATION_MODE_MAX_ENUM_NV = jvulkanLib.VK_COVERAGE_MODULATION_MODE_MAX_ENUM_NV
+    #print("statd VK_COVERAGE_MODULATION_MODE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_MODULATION_MODE_MAX_ENUM_NV"]
+try:
+    VK_COVERAGE_MODULATION_MODE_NONE_NV = jvulkanLib.VK_COVERAGE_MODULATION_MODE_NONE_NV
+    #print("statd VK_COVERAGE_MODULATION_MODE_NONE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_MODULATION_MODE_NONE_NV"]
+try:
+    VK_COVERAGE_MODULATION_MODE_RGBA_NV = jvulkanLib.VK_COVERAGE_MODULATION_MODE_RGBA_NV
+    #print("statd VK_COVERAGE_MODULATION_MODE_RGBA_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_MODULATION_MODE_RGBA_NV"]
+try:
+    VK_COVERAGE_MODULATION_MODE_RGB_NV = jvulkanLib.VK_COVERAGE_MODULATION_MODE_RGB_NV
+    #print("statd VK_COVERAGE_MODULATION_MODE_RGB_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_MODULATION_MODE_RGB_NV"]
+try:
+    VK_COVERAGE_REDUCTION_MODE_MAX_ENUM_NV = jvulkanLib.VK_COVERAGE_REDUCTION_MODE_MAX_ENUM_NV
+    #print("statd VK_COVERAGE_REDUCTION_MODE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_REDUCTION_MODE_MAX_ENUM_NV"]
+try:
+    VK_COVERAGE_REDUCTION_MODE_MERGE_NV = jvulkanLib.VK_COVERAGE_REDUCTION_MODE_MERGE_NV
+    #print("statd VK_COVERAGE_REDUCTION_MODE_MERGE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_REDUCTION_MODE_MERGE_NV"]
+try:
+    VK_COVERAGE_REDUCTION_MODE_TRUNCATE_NV = jvulkanLib.VK_COVERAGE_REDUCTION_MODE_TRUNCATE_NV
+    #print("statd VK_COVERAGE_REDUCTION_MODE_TRUNCATE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_COVERAGE_REDUCTION_MODE_TRUNCATE_NV"]
+try:
+    VK_CULL_MODE_BACK_BIT = jvulkanLib.VK_CULL_MODE_BACK_BIT
+    #print("statd VK_CULL_MODE_BACK_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CULL_MODE_BACK_BIT"]
+try:
+    VK_CULL_MODE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_CULL_MODE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_CULL_MODE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CULL_MODE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_CULL_MODE_FRONT_AND_BACK = jvulkanLib.VK_CULL_MODE_FRONT_AND_BACK
+    #print("statd VK_CULL_MODE_FRONT_AND_BACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CULL_MODE_FRONT_AND_BACK"]
+try:
+    VK_CULL_MODE_FRONT_BIT = jvulkanLib.VK_CULL_MODE_FRONT_BIT
+    #print("statd VK_CULL_MODE_FRONT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CULL_MODE_FRONT_BIT"]
+try:
+    VK_CULL_MODE_NONE = jvulkanLib.VK_CULL_MODE_NONE
+    #print("statd VK_CULL_MODE_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_CULL_MODE_NONE"]
+try:
+    VK_DEBUG_REPORT_DEBUG_BIT_EXT = jvulkanLib.VK_DEBUG_REPORT_DEBUG_BIT_EXT
+    #print("statd VK_DEBUG_REPORT_DEBUG_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_DEBUG_BIT_EXT"]
+try:
+    VK_DEBUG_REPORT_ERROR_BIT_EXT = jvulkanLib.VK_DEBUG_REPORT_ERROR_BIT_EXT
+    #print("statd VK_DEBUG_REPORT_ERROR_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_ERROR_BIT_EXT"]
+try:
+    VK_DEBUG_REPORT_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_DEBUG_REPORT_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_DEBUG_REPORT_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_DEBUG_REPORT_INFORMATION_BIT_EXT = jvulkanLib.VK_DEBUG_REPORT_INFORMATION_BIT_EXT
+    #print("statd VK_DEBUG_REPORT_INFORMATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_INFORMATION_BIT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_VIEW_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_VIEW_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_VIEW_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_BUFFER_VIEW_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_BUFFER_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_BUFFER_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_BUFFER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_BUFFER_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_POOL_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_POOL_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_POOL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_POOL_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_CU_FUNCTION_NVX_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_CU_FUNCTION_NVX_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_CU_FUNCTION_NVX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_CU_FUNCTION_NVX_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_CU_MODULE_NVX_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_CU_MODULE_NVX_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_CU_MODULE_NVX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_CU_MODULE_NVX_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_POOL_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_POOL_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_POOL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_POOL_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_MEMORY_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_MEMORY_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_MEMORY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DEVICE_MEMORY_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_MODE_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_MODE_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_MODE_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_DISPLAY_MODE_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_EVENT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_EVENT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_EVENT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_EVENT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_FENCE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_FENCE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_FENCE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_FENCE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_FRAMEBUFFER_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_FRAMEBUFFER_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_FRAMEBUFFER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_FRAMEBUFFER_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_VIEW_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_VIEW_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_VIEW_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_VIEW_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_INSTANCE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_INSTANCE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_INSTANCE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_INSTANCE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_MAX_ENUM_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_MAX_ENUM_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_MAX_ENUM_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_PHYSICAL_DEVICE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_PHYSICAL_DEVICE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_PHYSICAL_DEVICE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_PHYSICAL_DEVICE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_CACHE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_CACHE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_CACHE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_CACHE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_LAYOUT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_LAYOUT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_LAYOUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_PIPELINE_LAYOUT_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_QUERY_POOL_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_QUERY_POOL_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_QUERY_POOL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_QUERY_POOL_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_QUEUE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_QUEUE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_QUEUE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_QUEUE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_RENDER_PASS_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_RENDER_PASS_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_RENDER_PASS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_RENDER_PASS_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SEMAPHORE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SEMAPHORE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SEMAPHORE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SEMAPHORE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SHADER_MODULE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SHADER_MODULE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SHADER_MODULE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SHADER_MODULE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SURFACE_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SURFACE_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SURFACE_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SURFACE_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_SWAPCHAIN_KHR_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_SWAPCHAIN_KHR_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_SWAPCHAIN_KHR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_SWAPCHAIN_KHR_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_UNKNOWN_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_UNKNOWN_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_UNKNOWN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_UNKNOWN_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT"]
+try:
+    VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT_EXT = jvulkanLib.VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT_EXT
+    #print("statd VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT_EXT"]
+try:
+    VK_DEBUG_REPORT_PERFORMANCE_WARNING_BIT_EXT = jvulkanLib.VK_DEBUG_REPORT_PERFORMANCE_WARNING_BIT_EXT
+    #print("statd VK_DEBUG_REPORT_PERFORMANCE_WARNING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_PERFORMANCE_WARNING_BIT_EXT"]
+try:
+    VK_DEBUG_REPORT_WARNING_BIT_EXT = jvulkanLib.VK_DEBUG_REPORT_WARNING_BIT_EXT
+    #print("statd VK_DEBUG_REPORT_WARNING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_REPORT_WARNING_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_SEVERITY_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_SEVERITY_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_SEVERITY_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_SEVERITY_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_SEVERITY_INFO_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_SEVERITY_INFO_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_SEVERITY_INFO_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_SEVERITY_INFO_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_TYPE_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_TYPE_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_TYPE_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_TYPE_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT"]
+try:
+    VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT = jvulkanLib.VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT
+    #print("statd VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT"]
+try:
+    VK_DEPENDENCY_BY_REGION_BIT = jvulkanLib.VK_DEPENDENCY_BY_REGION_BIT
+    #print("statd VK_DEPENDENCY_BY_REGION_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_BY_REGION_BIT"]
+try:
+    VK_DEPENDENCY_DEVICE_GROUP_BIT = jvulkanLib.VK_DEPENDENCY_DEVICE_GROUP_BIT
+    #print("statd VK_DEPENDENCY_DEVICE_GROUP_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_DEVICE_GROUP_BIT"]
+try:
+    VK_DEPENDENCY_DEVICE_GROUP_BIT_KHR = jvulkanLib.VK_DEPENDENCY_DEVICE_GROUP_BIT_KHR
+    #print("statd VK_DEPENDENCY_DEVICE_GROUP_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_DEVICE_GROUP_BIT_KHR"]
+try:
+    VK_DEPENDENCY_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_DEPENDENCY_FLAG_BITS_MAX_ENUM
+    #print("statd VK_DEPENDENCY_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_DEPENDENCY_VIEW_LOCAL_BIT = jvulkanLib.VK_DEPENDENCY_VIEW_LOCAL_BIT
+    #print("statd VK_DEPENDENCY_VIEW_LOCAL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_VIEW_LOCAL_BIT"]
+try:
+    VK_DEPENDENCY_VIEW_LOCAL_BIT_KHR = jvulkanLib.VK_DEPENDENCY_VIEW_LOCAL_BIT_KHR
+    #print("statd VK_DEPENDENCY_VIEW_LOCAL_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEPENDENCY_VIEW_LOCAL_BIT_KHR"]
+try:
+    VK_DESCRIPTOR_BINDING_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_DESCRIPTOR_BINDING_FLAG_BITS_MAX_ENUM
+    #print("statd VK_DESCRIPTOR_BINDING_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT = jvulkanLib.VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT
+    #print("statd VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT"]
+try:
+    VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT_EXT
+    #print("statd VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_PARTIALLY_BOUND_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT = jvulkanLib.VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT
+    #print("statd VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT"]
+try:
+    VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT_EXT
+    #print("statd VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_UPDATE_AFTER_BIND_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT = jvulkanLib.VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT
+    #print("statd VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT"]
+try:
+    VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT_EXT
+    #print("statd VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_UPDATE_UNUSED_WHILE_PENDING_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT = jvulkanLib.VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT
+    #print("statd VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT"]
+try:
+    VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT_EXT
+    #print("statd VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_POOL_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_DESCRIPTOR_POOL_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_DESCRIPTOR_POOL_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_POOL_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT = jvulkanLib.VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT
+    #print("statd VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_POOL_CREATE_FREE_DESCRIPTOR_SET_BIT"]
+try:
+    VK_DESCRIPTOR_POOL_CREATE_HOST_ONLY_BIT_VALVE = jvulkanLib.VK_DESCRIPTOR_POOL_CREATE_HOST_ONLY_BIT_VALVE
+    #print("statd VK_DESCRIPTOR_POOL_CREATE_HOST_ONLY_BIT_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_POOL_CREATE_HOST_ONLY_BIT_VALVE"]
+try:
+    VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT = jvulkanLib.VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT
+    #print("statd VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT"]
+try:
+    VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT_EXT
+    #print("statd VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_POOL_CREATE_UPDATE_AFTER_BIND_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_SET_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_DESCRIPTOR_SET_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_DESCRIPTOR_SET_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_SET_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_DESCRIPTOR_SET_LAYOUT_CREATE_HOST_ONLY_POOL_BIT_VALVE = jvulkanLib.VK_DESCRIPTOR_SET_LAYOUT_CREATE_HOST_ONLY_POOL_BIT_VALVE
+    #print("statd VK_DESCRIPTOR_SET_LAYOUT_CREATE_HOST_ONLY_POOL_BIT_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_SET_LAYOUT_CREATE_HOST_ONLY_POOL_BIT_VALVE"]
+try:
+    VK_DESCRIPTOR_SET_LAYOUT_CREATE_PUSH_DESCRIPTOR_BIT_KHR = jvulkanLib.VK_DESCRIPTOR_SET_LAYOUT_CREATE_PUSH_DESCRIPTOR_BIT_KHR
+    #print("statd VK_DESCRIPTOR_SET_LAYOUT_CREATE_PUSH_DESCRIPTOR_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_SET_LAYOUT_CREATE_PUSH_DESCRIPTOR_BIT_KHR"]
+try:
+    VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT = jvulkanLib.VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT
+    #print("statd VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT"]
+try:
+    VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT_EXT = jvulkanLib.VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT_EXT
+    #print("statd VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_SET_LAYOUT_CREATE_UPDATE_AFTER_BIND_POOL_BIT_EXT"]
+try:
+    VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR = jvulkanLib.VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR
+    #print("statd VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR"]
+try:
+    VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_NV = jvulkanLib.VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_NV
+    #print("statd VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_NV"]
+try:
+    VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER = jvulkanLib.VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER
+    #print("statd VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER"]
+try:
+    VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK = jvulkanLib.VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK
+    #print("statd VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK"]
+try:
+    VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK_EXT = jvulkanLib.VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK_EXT
+    #print("statd VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK_EXT"]
+try:
+    VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT = jvulkanLib.VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT
+    #print("statd VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT"]
+try:
+    VK_DESCRIPTOR_TYPE_MAX_ENUM = jvulkanLib.VK_DESCRIPTOR_TYPE_MAX_ENUM
+    #print("statd VK_DESCRIPTOR_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_MAX_ENUM"]
+try:
+    VK_DESCRIPTOR_TYPE_MUTABLE_VALVE = jvulkanLib.VK_DESCRIPTOR_TYPE_MUTABLE_VALVE
+    #print("statd VK_DESCRIPTOR_TYPE_MUTABLE_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_MUTABLE_VALVE"]
+try:
+    VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE = jvulkanLib.VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE
+    #print("statd VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE"]
+try:
+    VK_DESCRIPTOR_TYPE_SAMPLER = jvulkanLib.VK_DESCRIPTOR_TYPE_SAMPLER
+    #print("statd VK_DESCRIPTOR_TYPE_SAMPLER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_SAMPLER"]
+try:
+    VK_DESCRIPTOR_TYPE_STORAGE_BUFFER = jvulkanLib.VK_DESCRIPTOR_TYPE_STORAGE_BUFFER
+    #print("statd VK_DESCRIPTOR_TYPE_STORAGE_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_STORAGE_BUFFER"]
+try:
+    VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC = jvulkanLib.VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC
+    #print("statd VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC"]
+try:
+    VK_DESCRIPTOR_TYPE_STORAGE_IMAGE = jvulkanLib.VK_DESCRIPTOR_TYPE_STORAGE_IMAGE
+    #print("statd VK_DESCRIPTOR_TYPE_STORAGE_IMAGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_STORAGE_IMAGE"]
+try:
+    VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER = jvulkanLib.VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER
+    #print("statd VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER"]
+try:
+    VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER = jvulkanLib.VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER
+    #print("statd VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER"]
+try:
+    VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC = jvulkanLib.VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC
+    #print("statd VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC"]
+try:
+    VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER = jvulkanLib.VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER
+    #print("statd VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER"]
+try:
+    VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET = jvulkanLib.VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET
+    #print("statd VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET"]
+try:
+    VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET_KHR = jvulkanLib.VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET_KHR
+    #print("statd VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_DESCRIPTOR_SET_KHR"]
+try:
+    VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_MAX_ENUM = jvulkanLib.VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_MAX_ENUM
+    #print("statd VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_MAX_ENUM"]
+try:
+    VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS_KHR = jvulkanLib.VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS_KHR
+    #print("statd VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DESCRIPTOR_UPDATE_TEMPLATE_TYPE_PUSH_DESCRIPTORS_KHR"]
+try:
+    VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_AUTOMATIC_CHECKPOINTS_BIT_NV = jvulkanLib.VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_AUTOMATIC_CHECKPOINTS_BIT_NV
+    #print("statd VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_AUTOMATIC_CHECKPOINTS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_AUTOMATIC_CHECKPOINTS_BIT_NV"]
+try:
+    VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_RESOURCE_TRACKING_BIT_NV = jvulkanLib.VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_RESOURCE_TRACKING_BIT_NV
+    #print("statd VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_RESOURCE_TRACKING_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_RESOURCE_TRACKING_BIT_NV"]
+try:
+    VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_SHADER_DEBUG_INFO_BIT_NV = jvulkanLib.VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_SHADER_DEBUG_INFO_BIT_NV
+    #print("statd VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_SHADER_DEBUG_INFO_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_DIAGNOSTICS_CONFIG_ENABLE_SHADER_DEBUG_INFO_BIT_NV"]
+try:
+    VK_DEVICE_DIAGNOSTICS_CONFIG_FLAG_BITS_MAX_ENUM_NV = jvulkanLib.VK_DEVICE_DIAGNOSTICS_CONFIG_FLAG_BITS_MAX_ENUM_NV
+    #print("statd VK_DEVICE_DIAGNOSTICS_CONFIG_FLAG_BITS_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_DIAGNOSTICS_CONFIG_FLAG_BITS_MAX_ENUM_NV"]
+try:
+    VK_DEVICE_EVENT_TYPE_DISPLAY_HOTPLUG_EXT = jvulkanLib.VK_DEVICE_EVENT_TYPE_DISPLAY_HOTPLUG_EXT
+    #print("statd VK_DEVICE_EVENT_TYPE_DISPLAY_HOTPLUG_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_EVENT_TYPE_DISPLAY_HOTPLUG_EXT"]
+try:
+    VK_DEVICE_EVENT_TYPE_MAX_ENUM_EXT = jvulkanLib.VK_DEVICE_EVENT_TYPE_MAX_ENUM_EXT
+    #print("statd VK_DEVICE_EVENT_TYPE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_EVENT_TYPE_MAX_ENUM_EXT"]
+try:
+    VK_DEVICE_GROUP_PRESENT_MODE_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_DEVICE_GROUP_PRESENT_MODE_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_DEVICE_GROUP_PRESENT_MODE_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_GROUP_PRESENT_MODE_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_BIT_KHR = jvulkanLib.VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_BIT_KHR
+    #print("statd VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_BIT_KHR"]
+try:
+    VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_MULTI_DEVICE_BIT_KHR = jvulkanLib.VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_MULTI_DEVICE_BIT_KHR
+    #print("statd VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_MULTI_DEVICE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_GROUP_PRESENT_MODE_LOCAL_MULTI_DEVICE_BIT_KHR"]
+try:
+    VK_DEVICE_GROUP_PRESENT_MODE_REMOTE_BIT_KHR = jvulkanLib.VK_DEVICE_GROUP_PRESENT_MODE_REMOTE_BIT_KHR
+    #print("statd VK_DEVICE_GROUP_PRESENT_MODE_REMOTE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_GROUP_PRESENT_MODE_REMOTE_BIT_KHR"]
+try:
+    VK_DEVICE_GROUP_PRESENT_MODE_SUM_BIT_KHR = jvulkanLib.VK_DEVICE_GROUP_PRESENT_MODE_SUM_BIT_KHR
+    #print("statd VK_DEVICE_GROUP_PRESENT_MODE_SUM_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_GROUP_PRESENT_MODE_SUM_BIT_KHR"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATE_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATE_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATE_EXT"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATION_FAILED_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATION_FAILED_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATION_FAILED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_ALLOCATION_FAILED_EXT"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_FREE_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_FREE_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_FREE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_FREE_EXT"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_IMPORT_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_IMPORT_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_IMPORT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_IMPORT_EXT"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_MAX_ENUM_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_MAX_ENUM_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_MAX_ENUM_EXT"]
+try:
+    VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_UNIMPORT_EXT = jvulkanLib.VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_UNIMPORT_EXT
+    #print("statd VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_UNIMPORT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_MEMORY_REPORT_EVENT_TYPE_UNIMPORT_EXT"]
+try:
+    VK_DEVICE_QUEUE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_DEVICE_QUEUE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_DEVICE_QUEUE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_QUEUE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_DEVICE_QUEUE_CREATE_PROTECTED_BIT = jvulkanLib.VK_DEVICE_QUEUE_CREATE_PROTECTED_BIT
+    #print("statd VK_DEVICE_QUEUE_CREATE_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DEVICE_QUEUE_CREATE_PROTECTED_BIT"]
+try:
+    VK_DISCARD_RECTANGLE_MODE_EXCLUSIVE_EXT = jvulkanLib.VK_DISCARD_RECTANGLE_MODE_EXCLUSIVE_EXT
+    #print("statd VK_DISCARD_RECTANGLE_MODE_EXCLUSIVE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISCARD_RECTANGLE_MODE_EXCLUSIVE_EXT"]
+try:
+    VK_DISCARD_RECTANGLE_MODE_INCLUSIVE_EXT = jvulkanLib.VK_DISCARD_RECTANGLE_MODE_INCLUSIVE_EXT
+    #print("statd VK_DISCARD_RECTANGLE_MODE_INCLUSIVE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISCARD_RECTANGLE_MODE_INCLUSIVE_EXT"]
+try:
+    VK_DISCARD_RECTANGLE_MODE_MAX_ENUM_EXT = jvulkanLib.VK_DISCARD_RECTANGLE_MODE_MAX_ENUM_EXT
+    #print("statd VK_DISCARD_RECTANGLE_MODE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISCARD_RECTANGLE_MODE_MAX_ENUM_EXT"]
+try:
+    VK_DISPLAY_EVENT_TYPE_FIRST_PIXEL_OUT_EXT = jvulkanLib.VK_DISPLAY_EVENT_TYPE_FIRST_PIXEL_OUT_EXT
+    #print("statd VK_DISPLAY_EVENT_TYPE_FIRST_PIXEL_OUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_EVENT_TYPE_FIRST_PIXEL_OUT_EXT"]
+try:
+    VK_DISPLAY_EVENT_TYPE_MAX_ENUM_EXT = jvulkanLib.VK_DISPLAY_EVENT_TYPE_MAX_ENUM_EXT
+    #print("statd VK_DISPLAY_EVENT_TYPE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_EVENT_TYPE_MAX_ENUM_EXT"]
+try:
+    VK_DISPLAY_PLANE_ALPHA_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_DISPLAY_PLANE_ALPHA_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_DISPLAY_PLANE_ALPHA_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_PLANE_ALPHA_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_DISPLAY_PLANE_ALPHA_GLOBAL_BIT_KHR = jvulkanLib.VK_DISPLAY_PLANE_ALPHA_GLOBAL_BIT_KHR
+    #print("statd VK_DISPLAY_PLANE_ALPHA_GLOBAL_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_PLANE_ALPHA_GLOBAL_BIT_KHR"]
+try:
+    VK_DISPLAY_PLANE_ALPHA_OPAQUE_BIT_KHR = jvulkanLib.VK_DISPLAY_PLANE_ALPHA_OPAQUE_BIT_KHR
+    #print("statd VK_DISPLAY_PLANE_ALPHA_OPAQUE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_PLANE_ALPHA_OPAQUE_BIT_KHR"]
+try:
+    VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_BIT_KHR = jvulkanLib.VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_BIT_KHR
+    #print("statd VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_BIT_KHR"]
+try:
+    VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_PREMULTIPLIED_BIT_KHR = jvulkanLib.VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_PREMULTIPLIED_BIT_KHR
+    #print("statd VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_PREMULTIPLIED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_PLANE_ALPHA_PER_PIXEL_PREMULTIPLIED_BIT_KHR"]
+try:
+    VK_DISPLAY_POWER_STATE_MAX_ENUM_EXT = jvulkanLib.VK_DISPLAY_POWER_STATE_MAX_ENUM_EXT
+    #print("statd VK_DISPLAY_POWER_STATE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_POWER_STATE_MAX_ENUM_EXT"]
+try:
+    VK_DISPLAY_POWER_STATE_OFF_EXT = jvulkanLib.VK_DISPLAY_POWER_STATE_OFF_EXT
+    #print("statd VK_DISPLAY_POWER_STATE_OFF_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_POWER_STATE_OFF_EXT"]
+try:
+    VK_DISPLAY_POWER_STATE_ON_EXT = jvulkanLib.VK_DISPLAY_POWER_STATE_ON_EXT
+    #print("statd VK_DISPLAY_POWER_STATE_ON_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_POWER_STATE_ON_EXT"]
+try:
+    VK_DISPLAY_POWER_STATE_SUSPEND_EXT = jvulkanLib.VK_DISPLAY_POWER_STATE_SUSPEND_EXT
+    #print("statd VK_DISPLAY_POWER_STATE_SUSPEND_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DISPLAY_POWER_STATE_SUSPEND_EXT"]
+try:
+    VK_DRIVER_ID_AMD_OPEN_SOURCE = jvulkanLib.VK_DRIVER_ID_AMD_OPEN_SOURCE
+    #print("statd VK_DRIVER_ID_AMD_OPEN_SOURCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_AMD_OPEN_SOURCE"]
+try:
+    VK_DRIVER_ID_AMD_OPEN_SOURCE_KHR = jvulkanLib.VK_DRIVER_ID_AMD_OPEN_SOURCE_KHR
+    #print("statd VK_DRIVER_ID_AMD_OPEN_SOURCE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_AMD_OPEN_SOURCE_KHR"]
+try:
+    VK_DRIVER_ID_AMD_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_AMD_PROPRIETARY
+    #print("statd VK_DRIVER_ID_AMD_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_AMD_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_AMD_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_AMD_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_AMD_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_AMD_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_ARM_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_ARM_PROPRIETARY
+    #print("statd VK_DRIVER_ID_ARM_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_ARM_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_ARM_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_ARM_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_ARM_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_ARM_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_BROADCOM_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_BROADCOM_PROPRIETARY
+    #print("statd VK_DRIVER_ID_BROADCOM_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_BROADCOM_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_BROADCOM_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_BROADCOM_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_BROADCOM_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_BROADCOM_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_COREAVI_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_COREAVI_PROPRIETARY
+    #print("statd VK_DRIVER_ID_COREAVI_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_COREAVI_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_GGP_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_GGP_PROPRIETARY
+    #print("statd VK_DRIVER_ID_GGP_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_GGP_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_GGP_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_GGP_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_GGP_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_GGP_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_GOOGLE_SWIFTSHADER = jvulkanLib.VK_DRIVER_ID_GOOGLE_SWIFTSHADER
+    #print("statd VK_DRIVER_ID_GOOGLE_SWIFTSHADER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_GOOGLE_SWIFTSHADER"]
+try:
+    VK_DRIVER_ID_GOOGLE_SWIFTSHADER_KHR = jvulkanLib.VK_DRIVER_ID_GOOGLE_SWIFTSHADER_KHR
+    #print("statd VK_DRIVER_ID_GOOGLE_SWIFTSHADER_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_GOOGLE_SWIFTSHADER_KHR"]
+try:
+    VK_DRIVER_ID_IMAGINATION_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_IMAGINATION_PROPRIETARY
+    #print("statd VK_DRIVER_ID_IMAGINATION_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_IMAGINATION_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_IMAGINATION_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_IMAGINATION_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_IMAGINATION_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_IMAGINATION_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA = jvulkanLib.VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA
+    #print("statd VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA"]
+try:
+    VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA_KHR = jvulkanLib.VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA_KHR
+    #print("statd VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_INTEL_OPEN_SOURCE_MESA_KHR"]
+try:
+    VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS = jvulkanLib.VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS
+    #print("statd VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS"]
+try:
+    VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR = jvulkanLib.VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR
+    #print("statd VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR"]
+try:
+    VK_DRIVER_ID_JUICE_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_JUICE_PROPRIETARY
+    #print("statd VK_DRIVER_ID_JUICE_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_JUICE_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_MAX_ENUM = jvulkanLib.VK_DRIVER_ID_MAX_ENUM
+    #print("statd VK_DRIVER_ID_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MAX_ENUM"]
+try:
+    VK_DRIVER_ID_MESA_LLVMPIPE = jvulkanLib.VK_DRIVER_ID_MESA_LLVMPIPE
+    #print("statd VK_DRIVER_ID_MESA_LLVMPIPE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_LLVMPIPE"]
+try:
+    VK_DRIVER_ID_MESA_PANVK = jvulkanLib.VK_DRIVER_ID_MESA_PANVK
+    #print("statd VK_DRIVER_ID_MESA_PANVK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_PANVK"]
+try:
+    VK_DRIVER_ID_MESA_RADV = jvulkanLib.VK_DRIVER_ID_MESA_RADV
+    #print("statd VK_DRIVER_ID_MESA_RADV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_RADV"]
+try:
+    VK_DRIVER_ID_MESA_RADV_KHR = jvulkanLib.VK_DRIVER_ID_MESA_RADV_KHR
+    #print("statd VK_DRIVER_ID_MESA_RADV_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_RADV_KHR"]
+try:
+    VK_DRIVER_ID_MESA_TURNIP = jvulkanLib.VK_DRIVER_ID_MESA_TURNIP
+    #print("statd VK_DRIVER_ID_MESA_TURNIP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_TURNIP"]
+try:
+    VK_DRIVER_ID_MESA_V3DV = jvulkanLib.VK_DRIVER_ID_MESA_V3DV
+    #print("statd VK_DRIVER_ID_MESA_V3DV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_V3DV"]
+try:
+    VK_DRIVER_ID_MESA_VENUS = jvulkanLib.VK_DRIVER_ID_MESA_VENUS
+    #print("statd VK_DRIVER_ID_MESA_VENUS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MESA_VENUS"]
+try:
+    VK_DRIVER_ID_MOLTENVK = jvulkanLib.VK_DRIVER_ID_MOLTENVK
+    #print("statd VK_DRIVER_ID_MOLTENVK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_MOLTENVK"]
+try:
+    VK_DRIVER_ID_NVIDIA_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_NVIDIA_PROPRIETARY
+    #print("statd VK_DRIVER_ID_NVIDIA_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_NVIDIA_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_NVIDIA_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_NVIDIA_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_NVIDIA_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_NVIDIA_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_QUALCOMM_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_QUALCOMM_PROPRIETARY
+    #print("statd VK_DRIVER_ID_QUALCOMM_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_QUALCOMM_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_QUALCOMM_PROPRIETARY_KHR = jvulkanLib.VK_DRIVER_ID_QUALCOMM_PROPRIETARY_KHR
+    #print("statd VK_DRIVER_ID_QUALCOMM_PROPRIETARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_QUALCOMM_PROPRIETARY_KHR"]
+try:
+    VK_DRIVER_ID_SAMSUNG_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_SAMSUNG_PROPRIETARY
+    #print("statd VK_DRIVER_ID_SAMSUNG_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_SAMSUNG_PROPRIETARY"]
+try:
+    VK_DRIVER_ID_VERISILICON_PROPRIETARY = jvulkanLib.VK_DRIVER_ID_VERISILICON_PROPRIETARY
+    #print("statd VK_DRIVER_ID_VERISILICON_PROPRIETARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DRIVER_ID_VERISILICON_PROPRIETARY"]
+try:
+    VK_DYNAMIC_STATE_BLEND_CONSTANTS = jvulkanLib.VK_DYNAMIC_STATE_BLEND_CONSTANTS
+    #print("statd VK_DYNAMIC_STATE_BLEND_CONSTANTS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_BLEND_CONSTANTS"]
+try:
+    VK_DYNAMIC_STATE_COLOR_WRITE_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_COLOR_WRITE_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_COLOR_WRITE_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_COLOR_WRITE_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_CULL_MODE = jvulkanLib.VK_DYNAMIC_STATE_CULL_MODE
+    #print("statd VK_DYNAMIC_STATE_CULL_MODE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_CULL_MODE"]
+try:
+    VK_DYNAMIC_STATE_CULL_MODE_EXT = jvulkanLib.VK_DYNAMIC_STATE_CULL_MODE_EXT
+    #print("statd VK_DYNAMIC_STATE_CULL_MODE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_CULL_MODE_EXT"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BIAS = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BIAS
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BIAS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BIAS"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BIAS_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BOUNDS = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BOUNDS
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BOUNDS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BOUNDS"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_BOUNDS_TEST_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_COMPARE_OP = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_COMPARE_OP
+    #print("statd VK_DYNAMIC_STATE_DEPTH_COMPARE_OP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_COMPARE_OP"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_COMPARE_OP_EXT = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_COMPARE_OP_EXT
+    #print("statd VK_DYNAMIC_STATE_DEPTH_COMPARE_OP_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_COMPARE_OP_EXT"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE
+    #print("statd VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_TEST_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE
+    #print("statd VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DEPTH_WRITE_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_DISCARD_RECTANGLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_DISCARD_RECTANGLE_EXT
+    #print("statd VK_DYNAMIC_STATE_DISCARD_RECTANGLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_DISCARD_RECTANGLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_NV = jvulkanLib.VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_NV
+    #print("statd VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_EXCLUSIVE_SCISSOR_NV"]
+try:
+    VK_DYNAMIC_STATE_FRAGMENT_SHADING_RATE_KHR = jvulkanLib.VK_DYNAMIC_STATE_FRAGMENT_SHADING_RATE_KHR
+    #print("statd VK_DYNAMIC_STATE_FRAGMENT_SHADING_RATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_FRAGMENT_SHADING_RATE_KHR"]
+try:
+    VK_DYNAMIC_STATE_FRONT_FACE = jvulkanLib.VK_DYNAMIC_STATE_FRONT_FACE
+    #print("statd VK_DYNAMIC_STATE_FRONT_FACE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_FRONT_FACE"]
+try:
+    VK_DYNAMIC_STATE_FRONT_FACE_EXT = jvulkanLib.VK_DYNAMIC_STATE_FRONT_FACE_EXT
+    #print("statd VK_DYNAMIC_STATE_FRONT_FACE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_FRONT_FACE_EXT"]
+try:
+    VK_DYNAMIC_STATE_LINE_STIPPLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_LINE_STIPPLE_EXT
+    #print("statd VK_DYNAMIC_STATE_LINE_STIPPLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_LINE_STIPPLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_LINE_WIDTH = jvulkanLib.VK_DYNAMIC_STATE_LINE_WIDTH
+    #print("statd VK_DYNAMIC_STATE_LINE_WIDTH")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_LINE_WIDTH"]
+try:
+    VK_DYNAMIC_STATE_LOGIC_OP_EXT = jvulkanLib.VK_DYNAMIC_STATE_LOGIC_OP_EXT
+    #print("statd VK_DYNAMIC_STATE_LOGIC_OP_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_LOGIC_OP_EXT"]
+try:
+    VK_DYNAMIC_STATE_MAX_ENUM = jvulkanLib.VK_DYNAMIC_STATE_MAX_ENUM
+    #print("statd VK_DYNAMIC_STATE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_MAX_ENUM"]
+try:
+    VK_DYNAMIC_STATE_PATCH_CONTROL_POINTS_EXT = jvulkanLib.VK_DYNAMIC_STATE_PATCH_CONTROL_POINTS_EXT
+    #print("statd VK_DYNAMIC_STATE_PATCH_CONTROL_POINTS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_PATCH_CONTROL_POINTS_EXT"]
+try:
+    VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE
+    #print("statd VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_PRIMITIVE_RESTART_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY = jvulkanLib.VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY
+    #print("statd VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY"]
+try:
+    VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY_EXT = jvulkanLib.VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY_EXT
+    #print("statd VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_PRIMITIVE_TOPOLOGY_EXT"]
+try:
+    VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE
+    #print("statd VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_RASTERIZER_DISCARD_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_RAY_TRACING_PIPELINE_STACK_SIZE_KHR = jvulkanLib.VK_DYNAMIC_STATE_RAY_TRACING_PIPELINE_STACK_SIZE_KHR
+    #print("statd VK_DYNAMIC_STATE_RAY_TRACING_PIPELINE_STACK_SIZE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_RAY_TRACING_PIPELINE_STACK_SIZE_KHR"]
+try:
+    VK_DYNAMIC_STATE_SAMPLE_LOCATIONS_EXT = jvulkanLib.VK_DYNAMIC_STATE_SAMPLE_LOCATIONS_EXT
+    #print("statd VK_DYNAMIC_STATE_SAMPLE_LOCATIONS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_SAMPLE_LOCATIONS_EXT"]
+try:
+    VK_DYNAMIC_STATE_SCISSOR = jvulkanLib.VK_DYNAMIC_STATE_SCISSOR
+    #print("statd VK_DYNAMIC_STATE_SCISSOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_SCISSOR"]
+try:
+    VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT = jvulkanLib.VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT
+    #print("statd VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT"]
+try:
+    VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT_EXT = jvulkanLib.VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT_EXT
+    #print("statd VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_SCISSOR_WITH_COUNT_EXT"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_COMPARE_MASK = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_COMPARE_MASK
+    #print("statd VK_DYNAMIC_STATE_STENCIL_COMPARE_MASK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_COMPARE_MASK"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_OP = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_OP
+    #print("statd VK_DYNAMIC_STATE_STENCIL_OP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_OP"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_OP_EXT = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_OP_EXT
+    #print("statd VK_DYNAMIC_STATE_STENCIL_OP_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_OP_EXT"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_REFERENCE = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_REFERENCE
+    #print("statd VK_DYNAMIC_STATE_STENCIL_REFERENCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_REFERENCE"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE
+    #print("statd VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE_EXT = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE_EXT
+    #print("statd VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_TEST_ENABLE_EXT"]
+try:
+    VK_DYNAMIC_STATE_STENCIL_WRITE_MASK = jvulkanLib.VK_DYNAMIC_STATE_STENCIL_WRITE_MASK
+    #print("statd VK_DYNAMIC_STATE_STENCIL_WRITE_MASK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_STENCIL_WRITE_MASK"]
+try:
+    VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE = jvulkanLib.VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE
+    #print("statd VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE"]
+try:
+    VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE_EXT = jvulkanLib.VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE_EXT
+    #print("statd VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VERTEX_INPUT_BINDING_STRIDE_EXT"]
+try:
+    VK_DYNAMIC_STATE_VERTEX_INPUT_EXT = jvulkanLib.VK_DYNAMIC_STATE_VERTEX_INPUT_EXT
+    #print("statd VK_DYNAMIC_STATE_VERTEX_INPUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VERTEX_INPUT_EXT"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT_COARSE_SAMPLE_ORDER_NV = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT_COARSE_SAMPLE_ORDER_NV
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT_COARSE_SAMPLE_ORDER_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT_COARSE_SAMPLE_ORDER_NV"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT_SHADING_RATE_PALETTE_NV = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT_SHADING_RATE_PALETTE_NV
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT_SHADING_RATE_PALETTE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT_SHADING_RATE_PALETTE_NV"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT_EXT = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT_EXT
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT_WITH_COUNT_EXT"]
+try:
+    VK_DYNAMIC_STATE_VIEWPORT_W_SCALING_NV = jvulkanLib.VK_DYNAMIC_STATE_VIEWPORT_W_SCALING_NV
+    #print("statd VK_DYNAMIC_STATE_VIEWPORT_W_SCALING_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_DYNAMIC_STATE_VIEWPORT_W_SCALING_NV"]
+try:
+    VK_ERROR_DEVICE_LOST = jvulkanLib.VK_ERROR_DEVICE_LOST
+    #print("statd VK_ERROR_DEVICE_LOST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_DEVICE_LOST"]
+try:
+    VK_ERROR_EXTENSION_NOT_PRESENT = jvulkanLib.VK_ERROR_EXTENSION_NOT_PRESENT
+    #print("statd VK_ERROR_EXTENSION_NOT_PRESENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_EXTENSION_NOT_PRESENT"]
+try:
+    VK_ERROR_FEATURE_NOT_PRESENT = jvulkanLib.VK_ERROR_FEATURE_NOT_PRESENT
+    #print("statd VK_ERROR_FEATURE_NOT_PRESENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FEATURE_NOT_PRESENT"]
+try:
+    VK_ERROR_FORMAT_NOT_SUPPORTED = jvulkanLib.VK_ERROR_FORMAT_NOT_SUPPORTED
+    #print("statd VK_ERROR_FORMAT_NOT_SUPPORTED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FORMAT_NOT_SUPPORTED"]
+try:
+    VK_ERROR_FRAGMENTATION = jvulkanLib.VK_ERROR_FRAGMENTATION
+    #print("statd VK_ERROR_FRAGMENTATION")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FRAGMENTATION"]
+try:
+    VK_ERROR_FRAGMENTATION_EXT = jvulkanLib.VK_ERROR_FRAGMENTATION_EXT
+    #print("statd VK_ERROR_FRAGMENTATION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FRAGMENTATION_EXT"]
+try:
+    VK_ERROR_FRAGMENTED_POOL = jvulkanLib.VK_ERROR_FRAGMENTED_POOL
+    #print("statd VK_ERROR_FRAGMENTED_POOL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FRAGMENTED_POOL"]
+try:
+    VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT = jvulkanLib.VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT
+    #print("statd VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT"]
+try:
+    VK_ERROR_INCOMPATIBLE_DISPLAY_KHR = jvulkanLib.VK_ERROR_INCOMPATIBLE_DISPLAY_KHR
+    #print("statd VK_ERROR_INCOMPATIBLE_DISPLAY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INCOMPATIBLE_DISPLAY_KHR"]
+try:
+    VK_ERROR_INCOMPATIBLE_DRIVER = jvulkanLib.VK_ERROR_INCOMPATIBLE_DRIVER
+    #print("statd VK_ERROR_INCOMPATIBLE_DRIVER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INCOMPATIBLE_DRIVER"]
+try:
+    VK_ERROR_INITIALIZATION_FAILED = jvulkanLib.VK_ERROR_INITIALIZATION_FAILED
+    #print("statd VK_ERROR_INITIALIZATION_FAILED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INITIALIZATION_FAILED"]
+try:
+    VK_ERROR_INVALID_DEVICE_ADDRESS_EXT = jvulkanLib.VK_ERROR_INVALID_DEVICE_ADDRESS_EXT
+    #print("statd VK_ERROR_INVALID_DEVICE_ADDRESS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_DEVICE_ADDRESS_EXT"]
+try:
+    VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT = jvulkanLib.VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT
+    #print("statd VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT"]
+try:
+    VK_ERROR_INVALID_EXTERNAL_HANDLE = jvulkanLib.VK_ERROR_INVALID_EXTERNAL_HANDLE
+    #print("statd VK_ERROR_INVALID_EXTERNAL_HANDLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_EXTERNAL_HANDLE"]
+try:
+    VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR = jvulkanLib.VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR
+    #print("statd VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_EXTERNAL_HANDLE_KHR"]
+try:
+    VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS = jvulkanLib.VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS
+    #print("statd VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS"]
+try:
+    VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR = jvulkanLib.VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR
+    #print("statd VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS_KHR"]
+try:
+    VK_ERROR_INVALID_SHADER_NV = jvulkanLib.VK_ERROR_INVALID_SHADER_NV
+    #print("statd VK_ERROR_INVALID_SHADER_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_INVALID_SHADER_NV"]
+try:
+    VK_ERROR_LAYER_NOT_PRESENT = jvulkanLib.VK_ERROR_LAYER_NOT_PRESENT
+    #print("statd VK_ERROR_LAYER_NOT_PRESENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_LAYER_NOT_PRESENT"]
+try:
+    VK_ERROR_MEMORY_MAP_FAILED = jvulkanLib.VK_ERROR_MEMORY_MAP_FAILED
+    #print("statd VK_ERROR_MEMORY_MAP_FAILED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_MEMORY_MAP_FAILED"]
+try:
+    VK_ERROR_NATIVE_WINDOW_IN_USE_KHR = jvulkanLib.VK_ERROR_NATIVE_WINDOW_IN_USE_KHR
+    #print("statd VK_ERROR_NATIVE_WINDOW_IN_USE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_NATIVE_WINDOW_IN_USE_KHR"]
+try:
+    VK_ERROR_NOT_PERMITTED_EXT = jvulkanLib.VK_ERROR_NOT_PERMITTED_EXT
+    #print("statd VK_ERROR_NOT_PERMITTED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_NOT_PERMITTED_EXT"]
+try:
+    VK_ERROR_NOT_PERMITTED_KHR = jvulkanLib.VK_ERROR_NOT_PERMITTED_KHR
+    #print("statd VK_ERROR_NOT_PERMITTED_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_NOT_PERMITTED_KHR"]
+try:
+    VK_ERROR_OUT_OF_DATE_KHR = jvulkanLib.VK_ERROR_OUT_OF_DATE_KHR
+    #print("statd VK_ERROR_OUT_OF_DATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_OUT_OF_DATE_KHR"]
+try:
+    VK_ERROR_OUT_OF_DEVICE_MEMORY = jvulkanLib.VK_ERROR_OUT_OF_DEVICE_MEMORY
+    #print("statd VK_ERROR_OUT_OF_DEVICE_MEMORY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_OUT_OF_DEVICE_MEMORY"]
+try:
+    VK_ERROR_OUT_OF_HOST_MEMORY = jvulkanLib.VK_ERROR_OUT_OF_HOST_MEMORY
+    #print("statd VK_ERROR_OUT_OF_HOST_MEMORY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_OUT_OF_HOST_MEMORY"]
+try:
+    VK_ERROR_OUT_OF_POOL_MEMORY = jvulkanLib.VK_ERROR_OUT_OF_POOL_MEMORY
+    #print("statd VK_ERROR_OUT_OF_POOL_MEMORY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_OUT_OF_POOL_MEMORY"]
+try:
+    VK_ERROR_OUT_OF_POOL_MEMORY_KHR = jvulkanLib.VK_ERROR_OUT_OF_POOL_MEMORY_KHR
+    #print("statd VK_ERROR_OUT_OF_POOL_MEMORY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_OUT_OF_POOL_MEMORY_KHR"]
+try:
+    VK_ERROR_PIPELINE_COMPILE_REQUIRED_EXT = jvulkanLib.VK_ERROR_PIPELINE_COMPILE_REQUIRED_EXT
+    #print("statd VK_ERROR_PIPELINE_COMPILE_REQUIRED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_PIPELINE_COMPILE_REQUIRED_EXT"]
+try:
+    VK_ERROR_SURFACE_LOST_KHR = jvulkanLib.VK_ERROR_SURFACE_LOST_KHR
+    #print("statd VK_ERROR_SURFACE_LOST_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_SURFACE_LOST_KHR"]
+try:
+    VK_ERROR_TOO_MANY_OBJECTS = jvulkanLib.VK_ERROR_TOO_MANY_OBJECTS
+    #print("statd VK_ERROR_TOO_MANY_OBJECTS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_TOO_MANY_OBJECTS"]
+try:
+    VK_ERROR_UNKNOWN = jvulkanLib.VK_ERROR_UNKNOWN
+    #print("statd VK_ERROR_UNKNOWN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_UNKNOWN"]
+try:
+    VK_ERROR_VALIDATION_FAILED_EXT = jvulkanLib.VK_ERROR_VALIDATION_FAILED_EXT
+    #print("statd VK_ERROR_VALIDATION_FAILED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_ERROR_VALIDATION_FAILED_EXT"]
+try:
+    VK_EVENT_CREATE_DEVICE_ONLY_BIT = jvulkanLib.VK_EVENT_CREATE_DEVICE_ONLY_BIT
+    #print("statd VK_EVENT_CREATE_DEVICE_ONLY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EVENT_CREATE_DEVICE_ONLY_BIT"]
+try:
+    VK_EVENT_CREATE_DEVICE_ONLY_BIT_KHR = jvulkanLib.VK_EVENT_CREATE_DEVICE_ONLY_BIT_KHR
+    #print("statd VK_EVENT_CREATE_DEVICE_ONLY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EVENT_CREATE_DEVICE_ONLY_BIT_KHR"]
+try:
+    VK_EVENT_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EVENT_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EVENT_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EVENT_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EVENT_RESET = jvulkanLib.VK_EVENT_RESET
+    #print("statd VK_EVENT_RESET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EVENT_RESET"]
+try:
+    VK_EVENT_SET = jvulkanLib.VK_EVENT_SET
+    #print("statd VK_EVENT_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EVENT_SET"]
+try:
+    VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT
+    #print("statd VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_FEATURE_EXPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_FENCE_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_FENCE_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_FENCE_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT
+    #print("statd VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_FEATURE_IMPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT"]
+try:
+    VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT_KHR = jvulkanLib.VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT_KHR
+    #print("statd VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_FENCE_HANDLE_TYPE_SYNC_FD_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_DEDICATED_ONLY_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_EXPORTABLE_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM_NV = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM_NV
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM_NV"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_FEATURE_IMPORTABLE_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_ANDROID_HARDWARE_BUFFER_BIT_ANDROID = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_ANDROID_HARDWARE_BUFFER_BIT_ANDROID
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_ANDROID_HARDWARE_BUFFER_BIT_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_ANDROID_HARDWARE_BUFFER_BIT_ANDROID"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_KMT_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_KMT_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_KMT_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_IMAGE_KMT_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D11_TEXTURE_KMT_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_HEAP_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_D3D12_RESOURCE_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_DMA_BUF_BIT_EXT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_DMA_BUF_BIT_EXT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_DMA_BUF_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_DMA_BUF_BIT_EXT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_FLAG_BITS_MAX_ENUM_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_ALLOCATION_BIT_EXT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_MAPPED_FOREIGN_MEMORY_BIT_EXT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_MAPPED_FOREIGN_MEMORY_BIT_EXT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_MAPPED_FOREIGN_MEMORY_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_HOST_MAPPED_FOREIGN_MEMORY_BIT_EXT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_FD_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_RDMA_ADDRESS_BIT_NV"]
+try:
+    VK_EXTERNAL_MEMORY_HANDLE_TYPE_ZIRCON_VMO_BIT_FUCHSIA = jvulkanLib.VK_EXTERNAL_MEMORY_HANDLE_TYPE_ZIRCON_VMO_BIT_FUCHSIA
+    #print("statd VK_EXTERNAL_MEMORY_HANDLE_TYPE_ZIRCON_VMO_BIT_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_MEMORY_HANDLE_TYPE_ZIRCON_VMO_BIT_FUCHSIA"]
+try:
+    VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_FEATURE_EXPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_SEMAPHORE_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_SEMAPHORE_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_FEATURE_IMPORTABLE_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_FENCE_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_FENCE_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_FENCE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D11_FENCE_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_D3D12_FENCE_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_FD_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_OPAQUE_WIN32_KMT_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT_KHR = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT_KHR
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_SYNC_FD_BIT_KHR"]
+try:
+    VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_ZIRCON_EVENT_BIT_FUCHSIA = jvulkanLib.VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_ZIRCON_EVENT_BIT_FUCHSIA
+    #print("statd VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_ZIRCON_EVENT_BIT_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_EXTERNAL_SEMAPHORE_HANDLE_TYPE_ZIRCON_EVENT_BIT_FUCHSIA"]
+try:
+    VK_FENCE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_FENCE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_FENCE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FENCE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_FENCE_CREATE_SIGNALED_BIT = jvulkanLib.VK_FENCE_CREATE_SIGNALED_BIT
+    #print("statd VK_FENCE_CREATE_SIGNALED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FENCE_CREATE_SIGNALED_BIT"]
+try:
+    VK_FENCE_IMPORT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_FENCE_IMPORT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_FENCE_IMPORT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FENCE_IMPORT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_FENCE_IMPORT_TEMPORARY_BIT = jvulkanLib.VK_FENCE_IMPORT_TEMPORARY_BIT
+    #print("statd VK_FENCE_IMPORT_TEMPORARY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FENCE_IMPORT_TEMPORARY_BIT"]
+try:
+    VK_FENCE_IMPORT_TEMPORARY_BIT_KHR = jvulkanLib.VK_FENCE_IMPORT_TEMPORARY_BIT_KHR
+    #print("statd VK_FENCE_IMPORT_TEMPORARY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FENCE_IMPORT_TEMPORARY_BIT_KHR"]
+try:
+    VK_FILTER_CUBIC_EXT = jvulkanLib.VK_FILTER_CUBIC_EXT
+    #print("statd VK_FILTER_CUBIC_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FILTER_CUBIC_EXT"]
+try:
+    VK_FILTER_CUBIC_IMG = jvulkanLib.VK_FILTER_CUBIC_IMG
+    #print("statd VK_FILTER_CUBIC_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FILTER_CUBIC_IMG"]
+try:
+    VK_FILTER_LINEAR = jvulkanLib.VK_FILTER_LINEAR
+    #print("statd VK_FILTER_LINEAR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FILTER_LINEAR"]
+try:
+    VK_FILTER_MAX_ENUM = jvulkanLib.VK_FILTER_MAX_ENUM
+    #print("statd VK_FILTER_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FILTER_MAX_ENUM"]
+try:
+    VK_FILTER_NEAREST = jvulkanLib.VK_FILTER_NEAREST
+    #print("statd VK_FILTER_NEAREST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FILTER_NEAREST"]
+try:
+    VK_FORMAT_A1R5G5B5_UNORM_PACK16 = jvulkanLib.VK_FORMAT_A1R5G5B5_UNORM_PACK16
+    #print("statd VK_FORMAT_A1R5G5B5_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A1R5G5B5_UNORM_PACK16"]
+try:
+    VK_FORMAT_A2B10G10R10_SINT_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_SINT_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_SINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_SINT_PACK32"]
+try:
+    VK_FORMAT_A2B10G10R10_SNORM_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_SNORM_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_SNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_SNORM_PACK32"]
+try:
+    VK_FORMAT_A2B10G10R10_SSCALED_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_SSCALED_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_SSCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_SSCALED_PACK32"]
+try:
+    VK_FORMAT_A2B10G10R10_UINT_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_UINT_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_UINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_UINT_PACK32"]
+try:
+    VK_FORMAT_A2B10G10R10_UNORM_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_UNORM_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_UNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_UNORM_PACK32"]
+try:
+    VK_FORMAT_A2B10G10R10_USCALED_PACK32 = jvulkanLib.VK_FORMAT_A2B10G10R10_USCALED_PACK32
+    #print("statd VK_FORMAT_A2B10G10R10_USCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2B10G10R10_USCALED_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_SINT_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_SINT_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_SINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_SINT_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_SNORM_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_SNORM_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_SNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_SNORM_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_SSCALED_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_SSCALED_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_SSCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_SSCALED_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_UINT_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_UINT_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_UINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_UINT_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_UNORM_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_UNORM_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_UNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_UNORM_PACK32"]
+try:
+    VK_FORMAT_A2R10G10B10_USCALED_PACK32 = jvulkanLib.VK_FORMAT_A2R10G10B10_USCALED_PACK32
+    #print("statd VK_FORMAT_A2R10G10B10_USCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A2R10G10B10_USCALED_PACK32"]
+try:
+    VK_FORMAT_A4B4G4R4_UNORM_PACK16 = jvulkanLib.VK_FORMAT_A4B4G4R4_UNORM_PACK16
+    #print("statd VK_FORMAT_A4B4G4R4_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A4B4G4R4_UNORM_PACK16"]
+try:
+    VK_FORMAT_A4B4G4R4_UNORM_PACK16_EXT = jvulkanLib.VK_FORMAT_A4B4G4R4_UNORM_PACK16_EXT
+    #print("statd VK_FORMAT_A4B4G4R4_UNORM_PACK16_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A4B4G4R4_UNORM_PACK16_EXT"]
+try:
+    VK_FORMAT_A4R4G4B4_UNORM_PACK16 = jvulkanLib.VK_FORMAT_A4R4G4B4_UNORM_PACK16
+    #print("statd VK_FORMAT_A4R4G4B4_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A4R4G4B4_UNORM_PACK16"]
+try:
+    VK_FORMAT_A4R4G4B4_UNORM_PACK16_EXT = jvulkanLib.VK_FORMAT_A4R4G4B4_UNORM_PACK16_EXT
+    #print("statd VK_FORMAT_A4R4G4B4_UNORM_PACK16_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A4R4G4B4_UNORM_PACK16_EXT"]
+try:
+    VK_FORMAT_A8B8G8R8_SINT_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_SINT_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_SINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_SINT_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_SNORM_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_SNORM_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_SNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_SNORM_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_SRGB_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_SRGB_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_SRGB_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_SRGB_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_SSCALED_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_SSCALED_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_SSCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_SSCALED_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_UINT_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_UINT_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_UINT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_UINT_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_UNORM_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_UNORM_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_UNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_UNORM_PACK32"]
+try:
+    VK_FORMAT_A8B8G8R8_USCALED_PACK32 = jvulkanLib.VK_FORMAT_A8B8G8R8_USCALED_PACK32
+    #print("statd VK_FORMAT_A8B8G8R8_USCALED_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_A8B8G8R8_USCALED_PACK32"]
+try:
+    VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x10_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_10x10_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x10_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x10_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x10_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x10_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x10_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x10_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x10_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x5_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_10x5_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x5_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x5_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x5_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x5_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x5_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x5_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x5_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x6_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_10x6_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x6_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x6_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x6_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x6_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x6_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x6_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x6_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x8_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_10x8_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x8_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x8_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x8_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_10x8_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_10x8_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_10x8_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_10x8_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x10_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_12x10_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x10_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x10_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x10_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x10_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x10_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x10_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x10_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x12_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_12x12_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x12_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x12_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x12_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_12x12_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_12x12_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_12x12_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_12x12_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_4x4_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_4x4_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_4x4_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_4x4_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_4x4_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_4x4_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_4x4_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_4x4_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_4x4_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x4_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_5x4_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x4_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x4_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x4_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x4_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x4_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x4_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x4_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x5_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_5x5_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x5_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x5_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x5_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_5x5_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_5x5_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_5x5_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_5x5_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x5_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_6x5_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x5_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x5_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x5_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x5_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x5_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x5_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x5_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x6_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_6x6_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x6_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x6_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x6_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_6x6_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_6x6_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_6x6_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_6x6_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x5_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_8x5_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x5_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x5_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x5_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x5_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x5_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x5_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x5_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x6_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_8x6_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x6_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x6_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x6_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x6_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x6_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x6_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x6_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK_EXT = jvulkanLib.VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK_EXT
+    #print("statd VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x8_SFLOAT_BLOCK_EXT"]
+try:
+    VK_FORMAT_ASTC_8x8_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x8_SRGB_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x8_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x8_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ASTC_8x8_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ASTC_8x8_UNORM_BLOCK
+    #print("statd VK_FORMAT_ASTC_8x8_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ASTC_8x8_UNORM_BLOCK"]
+try:
+    VK_FORMAT_B10G11R11_UFLOAT_PACK32 = jvulkanLib.VK_FORMAT_B10G11R11_UFLOAT_PACK32
+    #print("statd VK_FORMAT_B10G11R11_UFLOAT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B10G11R11_UFLOAT_PACK32"]
+try:
+    VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16
+    #print("statd VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16"]
+try:
+    VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16
+    #print("statd VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16"]
+try:
+    VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_B16G16R16G16_422_UNORM = jvulkanLib.VK_FORMAT_B16G16R16G16_422_UNORM
+    #print("statd VK_FORMAT_B16G16R16G16_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B16G16R16G16_422_UNORM"]
+try:
+    VK_FORMAT_B16G16R16G16_422_UNORM_KHR = jvulkanLib.VK_FORMAT_B16G16R16G16_422_UNORM_KHR
+    #print("statd VK_FORMAT_B16G16R16G16_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B16G16R16G16_422_UNORM_KHR"]
+try:
+    VK_FORMAT_B4G4R4A4_UNORM_PACK16 = jvulkanLib.VK_FORMAT_B4G4R4A4_UNORM_PACK16
+    #print("statd VK_FORMAT_B4G4R4A4_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B4G4R4A4_UNORM_PACK16"]
+try:
+    VK_FORMAT_B5G5R5A1_UNORM_PACK16 = jvulkanLib.VK_FORMAT_B5G5R5A1_UNORM_PACK16
+    #print("statd VK_FORMAT_B5G5R5A1_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B5G5R5A1_UNORM_PACK16"]
+try:
+    VK_FORMAT_B5G6R5_UNORM_PACK16 = jvulkanLib.VK_FORMAT_B5G6R5_UNORM_PACK16
+    #print("statd VK_FORMAT_B5G6R5_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B5G6R5_UNORM_PACK16"]
+try:
+    VK_FORMAT_B8G8R8A8_SINT = jvulkanLib.VK_FORMAT_B8G8R8A8_SINT
+    #print("statd VK_FORMAT_B8G8R8A8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_SINT"]
+try:
+    VK_FORMAT_B8G8R8A8_SNORM = jvulkanLib.VK_FORMAT_B8G8R8A8_SNORM
+    #print("statd VK_FORMAT_B8G8R8A8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_SNORM"]
+try:
+    VK_FORMAT_B8G8R8A8_SRGB = jvulkanLib.VK_FORMAT_B8G8R8A8_SRGB
+    #print("statd VK_FORMAT_B8G8R8A8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_SRGB"]
+try:
+    VK_FORMAT_B8G8R8A8_SSCALED = jvulkanLib.VK_FORMAT_B8G8R8A8_SSCALED
+    #print("statd VK_FORMAT_B8G8R8A8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_SSCALED"]
+try:
+    VK_FORMAT_B8G8R8A8_UINT = jvulkanLib.VK_FORMAT_B8G8R8A8_UINT
+    #print("statd VK_FORMAT_B8G8R8A8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_UINT"]
+try:
+    VK_FORMAT_B8G8R8A8_UNORM = jvulkanLib.VK_FORMAT_B8G8R8A8_UNORM
+    #print("statd VK_FORMAT_B8G8R8A8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_UNORM"]
+try:
+    VK_FORMAT_B8G8R8A8_USCALED = jvulkanLib.VK_FORMAT_B8G8R8A8_USCALED
+    #print("statd VK_FORMAT_B8G8R8A8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8A8_USCALED"]
+try:
+    VK_FORMAT_B8G8R8G8_422_UNORM = jvulkanLib.VK_FORMAT_B8G8R8G8_422_UNORM
+    #print("statd VK_FORMAT_B8G8R8G8_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8G8_422_UNORM"]
+try:
+    VK_FORMAT_B8G8R8G8_422_UNORM_KHR = jvulkanLib.VK_FORMAT_B8G8R8G8_422_UNORM_KHR
+    #print("statd VK_FORMAT_B8G8R8G8_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8G8_422_UNORM_KHR"]
+try:
+    VK_FORMAT_B8G8R8_SINT = jvulkanLib.VK_FORMAT_B8G8R8_SINT
+    #print("statd VK_FORMAT_B8G8R8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_SINT"]
+try:
+    VK_FORMAT_B8G8R8_SNORM = jvulkanLib.VK_FORMAT_B8G8R8_SNORM
+    #print("statd VK_FORMAT_B8G8R8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_SNORM"]
+try:
+    VK_FORMAT_B8G8R8_SRGB = jvulkanLib.VK_FORMAT_B8G8R8_SRGB
+    #print("statd VK_FORMAT_B8G8R8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_SRGB"]
+try:
+    VK_FORMAT_B8G8R8_SSCALED = jvulkanLib.VK_FORMAT_B8G8R8_SSCALED
+    #print("statd VK_FORMAT_B8G8R8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_SSCALED"]
+try:
+    VK_FORMAT_B8G8R8_UINT = jvulkanLib.VK_FORMAT_B8G8R8_UINT
+    #print("statd VK_FORMAT_B8G8R8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_UINT"]
+try:
+    VK_FORMAT_B8G8R8_UNORM = jvulkanLib.VK_FORMAT_B8G8R8_UNORM
+    #print("statd VK_FORMAT_B8G8R8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_UNORM"]
+try:
+    VK_FORMAT_B8G8R8_USCALED = jvulkanLib.VK_FORMAT_B8G8R8_USCALED
+    #print("statd VK_FORMAT_B8G8R8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_B8G8R8_USCALED"]
+try:
+    VK_FORMAT_BC1_RGBA_SRGB_BLOCK = jvulkanLib.VK_FORMAT_BC1_RGBA_SRGB_BLOCK
+    #print("statd VK_FORMAT_BC1_RGBA_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC1_RGBA_SRGB_BLOCK"]
+try:
+    VK_FORMAT_BC1_RGBA_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC1_RGBA_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC1_RGBA_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC1_RGBA_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC1_RGB_SRGB_BLOCK = jvulkanLib.VK_FORMAT_BC1_RGB_SRGB_BLOCK
+    #print("statd VK_FORMAT_BC1_RGB_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC1_RGB_SRGB_BLOCK"]
+try:
+    VK_FORMAT_BC1_RGB_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC1_RGB_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC1_RGB_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC1_RGB_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC2_SRGB_BLOCK = jvulkanLib.VK_FORMAT_BC2_SRGB_BLOCK
+    #print("statd VK_FORMAT_BC2_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC2_SRGB_BLOCK"]
+try:
+    VK_FORMAT_BC2_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC2_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC2_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC2_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC3_SRGB_BLOCK = jvulkanLib.VK_FORMAT_BC3_SRGB_BLOCK
+    #print("statd VK_FORMAT_BC3_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC3_SRGB_BLOCK"]
+try:
+    VK_FORMAT_BC3_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC3_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC3_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC3_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC4_SNORM_BLOCK = jvulkanLib.VK_FORMAT_BC4_SNORM_BLOCK
+    #print("statd VK_FORMAT_BC4_SNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC4_SNORM_BLOCK"]
+try:
+    VK_FORMAT_BC4_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC4_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC4_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC4_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC5_SNORM_BLOCK = jvulkanLib.VK_FORMAT_BC5_SNORM_BLOCK
+    #print("statd VK_FORMAT_BC5_SNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC5_SNORM_BLOCK"]
+try:
+    VK_FORMAT_BC5_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC5_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC5_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC5_UNORM_BLOCK"]
+try:
+    VK_FORMAT_BC6H_SFLOAT_BLOCK = jvulkanLib.VK_FORMAT_BC6H_SFLOAT_BLOCK
+    #print("statd VK_FORMAT_BC6H_SFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC6H_SFLOAT_BLOCK"]
+try:
+    VK_FORMAT_BC6H_UFLOAT_BLOCK = jvulkanLib.VK_FORMAT_BC6H_UFLOAT_BLOCK
+    #print("statd VK_FORMAT_BC6H_UFLOAT_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC6H_UFLOAT_BLOCK"]
+try:
+    VK_FORMAT_BC7_SRGB_BLOCK = jvulkanLib.VK_FORMAT_BC7_SRGB_BLOCK
+    #print("statd VK_FORMAT_BC7_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC7_SRGB_BLOCK"]
+try:
+    VK_FORMAT_BC7_UNORM_BLOCK = jvulkanLib.VK_FORMAT_BC7_UNORM_BLOCK
+    #print("statd VK_FORMAT_BC7_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_BC7_UNORM_BLOCK"]
+try:
+    VK_FORMAT_D16_UNORM = jvulkanLib.VK_FORMAT_D16_UNORM
+    #print("statd VK_FORMAT_D16_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_D16_UNORM"]
+try:
+    VK_FORMAT_D16_UNORM_S8_UINT = jvulkanLib.VK_FORMAT_D16_UNORM_S8_UINT
+    #print("statd VK_FORMAT_D16_UNORM_S8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_D16_UNORM_S8_UINT"]
+try:
+    VK_FORMAT_D24_UNORM_S8_UINT = jvulkanLib.VK_FORMAT_D24_UNORM_S8_UINT
+    #print("statd VK_FORMAT_D24_UNORM_S8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_D24_UNORM_S8_UINT"]
+try:
+    VK_FORMAT_D32_SFLOAT = jvulkanLib.VK_FORMAT_D32_SFLOAT
+    #print("statd VK_FORMAT_D32_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_D32_SFLOAT"]
+try:
+    VK_FORMAT_D32_SFLOAT_S8_UINT = jvulkanLib.VK_FORMAT_D32_SFLOAT_S8_UINT
+    #print("statd VK_FORMAT_D32_SFLOAT_S8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_D32_SFLOAT_S8_UINT"]
+try:
+    VK_FORMAT_E5B9G9R9_UFLOAT_PACK32 = jvulkanLib.VK_FORMAT_E5B9G9R9_UFLOAT_PACK32
+    #print("statd VK_FORMAT_E5B9G9R9_UFLOAT_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_E5B9G9R9_UFLOAT_PACK32"]
+try:
+    VK_FORMAT_EAC_R11G11_SNORM_BLOCK = jvulkanLib.VK_FORMAT_EAC_R11G11_SNORM_BLOCK
+    #print("statd VK_FORMAT_EAC_R11G11_SNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_EAC_R11G11_SNORM_BLOCK"]
+try:
+    VK_FORMAT_EAC_R11G11_UNORM_BLOCK = jvulkanLib.VK_FORMAT_EAC_R11G11_UNORM_BLOCK
+    #print("statd VK_FORMAT_EAC_R11G11_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_EAC_R11G11_UNORM_BLOCK"]
+try:
+    VK_FORMAT_EAC_R11_SNORM_BLOCK = jvulkanLib.VK_FORMAT_EAC_R11_SNORM_BLOCK
+    #print("statd VK_FORMAT_EAC_R11_SNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_EAC_R11_SNORM_BLOCK"]
+try:
+    VK_FORMAT_EAC_R11_UNORM_BLOCK = jvulkanLib.VK_FORMAT_EAC_R11_UNORM_BLOCK
+    #print("statd VK_FORMAT_EAC_R11_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_EAC_R11_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8_SRGB_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8_SRGB_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8_SRGB_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8_SRGB_BLOCK"]
+try:
+    VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK = jvulkanLib.VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK
+    #print("statd VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK"]
+try:
+    VK_FORMAT_FEATURE_2_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_BLIT_DST_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_BLIT_DST_BIT
+    #print("statd VK_FORMAT_FEATURE_2_BLIT_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_BLIT_DST_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_BLIT_DST_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_BLIT_DST_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_BLIT_DST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_BLIT_DST_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_BLIT_SRC_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_BLIT_SRC_BIT
+    #print("statd VK_FORMAT_FEATURE_2_BLIT_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_BLIT_SRC_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_BLIT_SRC_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_BLIT_SRC_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_BLIT_SRC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_BLIT_SRC_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT
+    #print("statd VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COLOR_ATTACHMENT_BLEND_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT
+    #print("statd VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_COSITED_CHROMA_SAMPLES_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_DEPTH_STENCIL_ATTACHMENT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_DISJOINT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_DISJOINT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_DISJOINT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_DISJOINT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_DISJOINT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_DISJOINT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_DISJOINT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_DISJOINT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_FRAGMENT_DENSITY_MAP_BIT_EXT = jvulkanLib.VK_FORMAT_FEATURE_2_FRAGMENT_DENSITY_MAP_BIT_EXT
+    #print("statd VK_FORMAT_FEATURE_2_FRAGMENT_DENSITY_MAP_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_FRAGMENT_DENSITY_MAP_BIT_EXT"]
+try:
+    VK_FORMAT_FEATURE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_LINEAR_COLOR_ATTACHMENT_BIT_NV = jvulkanLib.VK_FORMAT_FEATURE_2_LINEAR_COLOR_ATTACHMENT_BIT_NV
+    #print("statd VK_FORMAT_FEATURE_2_LINEAR_COLOR_ATTACHMENT_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_LINEAR_COLOR_ATTACHMENT_BIT_NV"]
+try:
+    VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT
+    #print("statd VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_MIDPOINT_CHROMA_SAMPLES_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_IMAGE_ATOMIC_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_IMAGE_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_READ_WITHOUT_FORMAT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_ATOMIC_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_TEXEL_BUFFER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_STORAGE_WRITE_WITHOUT_FORMAT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT
+    #print("statd VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT
+    #print("statd VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_UNIFORM_TEXEL_BUFFER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT"]
+try:
+    VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_2_VERTEX_BUFFER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_ACCELERATION_STRUCTURE_VERTEX_BUFFER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_BLIT_DST_BIT = jvulkanLib.VK_FORMAT_FEATURE_BLIT_DST_BIT
+    #print("statd VK_FORMAT_FEATURE_BLIT_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_BLIT_DST_BIT"]
+try:
+    VK_FORMAT_FEATURE_BLIT_SRC_BIT = jvulkanLib.VK_FORMAT_FEATURE_BLIT_SRC_BIT
+    #print("statd VK_FORMAT_FEATURE_BLIT_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_BLIT_SRC_BIT"]
+try:
+    VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT = jvulkanLib.VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+    #print("statd VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT"]
+try:
+    VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT = jvulkanLib.VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+    #print("statd VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT"]
+try:
+    VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT = jvulkanLib.VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT
+    #print("statd VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT"]
+try:
+    VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_COSITED_CHROMA_SAMPLES_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT = jvulkanLib.VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+    #print("statd VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT"]
+try:
+    VK_FORMAT_FEATURE_DISJOINT_BIT = jvulkanLib.VK_FORMAT_FEATURE_DISJOINT_BIT
+    #print("statd VK_FORMAT_FEATURE_DISJOINT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_DISJOINT_BIT"]
+try:
+    VK_FORMAT_FEATURE_DISJOINT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_DISJOINT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_DISJOINT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_DISJOINT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_FORMAT_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_FORMAT_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_FORMAT_FEATURE_FRAGMENT_DENSITY_MAP_BIT_EXT = jvulkanLib.VK_FORMAT_FEATURE_FRAGMENT_DENSITY_MAP_BIT_EXT
+    #print("statd VK_FORMAT_FEATURE_FRAGMENT_DENSITY_MAP_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_FRAGMENT_DENSITY_MAP_BIT_EXT"]
+try:
+    VK_FORMAT_FEATURE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT = jvulkanLib.VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT
+    #print("statd VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT"]
+try:
+    VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_MIDPOINT_CHROMA_SAMPLES_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_EXT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_IMG = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_IMG
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_CUBIC_BIT_IMG"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_CHROMA_RECONSTRUCTION_EXPLICIT_FORCEABLE_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT"]
+try:
+    VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT = jvulkanLib.VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT
+    #print("statd VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT"]
+try:
+    VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT = jvulkanLib.VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+    #print("statd VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT"]
+try:
+    VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT = jvulkanLib.VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT
+    #print("statd VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT"]
+try:
+    VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT"]
+try:
+    VK_FORMAT_FEATURE_TRANSFER_DST_BIT = jvulkanLib.VK_FORMAT_FEATURE_TRANSFER_DST_BIT
+    #print("statd VK_FORMAT_FEATURE_TRANSFER_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_TRANSFER_DST_BIT"]
+try:
+    VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_TRANSFER_SRC_BIT = jvulkanLib.VK_FORMAT_FEATURE_TRANSFER_SRC_BIT
+    #print("statd VK_FORMAT_FEATURE_TRANSFER_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_TRANSFER_SRC_BIT"]
+try:
+    VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR = jvulkanLib.VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+    #print("statd VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR"]
+try:
+    VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT"]
+try:
+    VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT = jvulkanLib.VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+    #print("statd VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT"]
+try:
+    VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16
+    #print("statd VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16"]
+try:
+    VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16_EXT = jvulkanLib.VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16_EXT
+    #print("statd VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6R10X6_2PLANE_444_UNORM_3PACK16_EXT"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16
+    #print("statd VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16"]
+try:
+    VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16_EXT = jvulkanLib.VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16_EXT
+    #print("statd VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4R12X4_2PLANE_444_UNORM_3PACK16_EXT"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16 = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16"]
+try:
+    VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16_KHR = jvulkanLib.VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16_KHR
+    #print("statd VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16_KHR"]
+try:
+    VK_FORMAT_G16B16G16R16_422_UNORM = jvulkanLib.VK_FORMAT_G16B16G16R16_422_UNORM
+    #print("statd VK_FORMAT_G16B16G16R16_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16B16G16R16_422_UNORM"]
+try:
+    VK_FORMAT_G16B16G16R16_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G16B16G16R16_422_UNORM_KHR
+    #print("statd VK_FORMAT_G16B16G16R16_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16B16G16R16_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_420_UNORM = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_420_UNORM
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_420_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_420_UNORM"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_420_UNORM_KHR = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_420_UNORM_KHR
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_420_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_420_UNORM_KHR"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_422_UNORM = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_422_UNORM
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_422_UNORM"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_422_UNORM_KHR
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_444_UNORM = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_444_UNORM
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_444_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_444_UNORM"]
+try:
+    VK_FORMAT_G16_B16R16_2PLANE_444_UNORM_EXT = jvulkanLib.VK_FORMAT_G16_B16R16_2PLANE_444_UNORM_EXT
+    #print("statd VK_FORMAT_G16_B16R16_2PLANE_444_UNORM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16R16_2PLANE_444_UNORM_EXT"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM_KHR = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM_KHR
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM_KHR"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM_KHR
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM"]
+try:
+    VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM_KHR = jvulkanLib.VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM_KHR
+    #print("statd VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM_KHR"]
+try:
+    VK_FORMAT_G8B8G8R8_422_UNORM = jvulkanLib.VK_FORMAT_G8B8G8R8_422_UNORM
+    #print("statd VK_FORMAT_G8B8G8R8_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8B8G8R8_422_UNORM"]
+try:
+    VK_FORMAT_G8B8G8R8_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G8B8G8R8_422_UNORM_KHR
+    #print("statd VK_FORMAT_G8B8G8R8_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8B8G8R8_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_420_UNORM = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_420_UNORM
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_420_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_420_UNORM"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_420_UNORM_KHR = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_420_UNORM_KHR
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_420_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_420_UNORM_KHR"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_422_UNORM = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_422_UNORM
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_422_UNORM"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_422_UNORM_KHR
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_444_UNORM = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_444_UNORM
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_444_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_444_UNORM"]
+try:
+    VK_FORMAT_G8_B8R8_2PLANE_444_UNORM_EXT = jvulkanLib.VK_FORMAT_G8_B8R8_2PLANE_444_UNORM_EXT
+    #print("statd VK_FORMAT_G8_B8R8_2PLANE_444_UNORM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8R8_2PLANE_444_UNORM_EXT"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM_KHR = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM_KHR
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM_KHR"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM_KHR = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM_KHR
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM_KHR"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM"]
+try:
+    VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM_KHR = jvulkanLib.VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM_KHR
+    #print("statd VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM_KHR"]
+try:
+    VK_FORMAT_MAX_ENUM = jvulkanLib.VK_FORMAT_MAX_ENUM
+    #print("statd VK_FORMAT_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_MAX_ENUM"]
+try:
+    VK_FORMAT_PVRTC1_2BPP_SRGB_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC1_2BPP_SRGB_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC1_2BPP_SRGB_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC1_2BPP_SRGB_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC1_2BPP_UNORM_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC1_4BPP_SRGB_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC1_4BPP_SRGB_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC1_4BPP_SRGB_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC1_4BPP_SRGB_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC1_4BPP_UNORM_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC1_4BPP_UNORM_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC1_4BPP_UNORM_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC1_4BPP_UNORM_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC2_2BPP_SRGB_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC2_2BPP_SRGB_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC2_2BPP_SRGB_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC2_2BPP_SRGB_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC2_2BPP_UNORM_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC2_2BPP_UNORM_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC2_2BPP_UNORM_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC2_2BPP_UNORM_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC2_4BPP_SRGB_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC2_4BPP_SRGB_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC2_4BPP_SRGB_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC2_4BPP_SRGB_BLOCK_IMG"]
+try:
+    VK_FORMAT_PVRTC2_4BPP_UNORM_BLOCK_IMG = jvulkanLib.VK_FORMAT_PVRTC2_4BPP_UNORM_BLOCK_IMG
+    #print("statd VK_FORMAT_PVRTC2_4BPP_UNORM_BLOCK_IMG")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_PVRTC2_4BPP_UNORM_BLOCK_IMG"]
+try:
+    VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16
+    #print("statd VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16"]
+try:
+    VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_R10X6G10X6_UNORM_2PACK16 = jvulkanLib.VK_FORMAT_R10X6G10X6_UNORM_2PACK16
+    #print("statd VK_FORMAT_R10X6G10X6_UNORM_2PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6G10X6_UNORM_2PACK16"]
+try:
+    VK_FORMAT_R10X6G10X6_UNORM_2PACK16_KHR = jvulkanLib.VK_FORMAT_R10X6G10X6_UNORM_2PACK16_KHR
+    #print("statd VK_FORMAT_R10X6G10X6_UNORM_2PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6G10X6_UNORM_2PACK16_KHR"]
+try:
+    VK_FORMAT_R10X6_UNORM_PACK16 = jvulkanLib.VK_FORMAT_R10X6_UNORM_PACK16
+    #print("statd VK_FORMAT_R10X6_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6_UNORM_PACK16"]
+try:
+    VK_FORMAT_R10X6_UNORM_PACK16_KHR = jvulkanLib.VK_FORMAT_R10X6_UNORM_PACK16_KHR
+    #print("statd VK_FORMAT_R10X6_UNORM_PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R10X6_UNORM_PACK16_KHR"]
+try:
+    VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16 = jvulkanLib.VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16
+    #print("statd VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16"]
+try:
+    VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16_KHR = jvulkanLib.VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16_KHR
+    #print("statd VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16_KHR"]
+try:
+    VK_FORMAT_R12X4G12X4_UNORM_2PACK16 = jvulkanLib.VK_FORMAT_R12X4G12X4_UNORM_2PACK16
+    #print("statd VK_FORMAT_R12X4G12X4_UNORM_2PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4G12X4_UNORM_2PACK16"]
+try:
+    VK_FORMAT_R12X4G12X4_UNORM_2PACK16_KHR = jvulkanLib.VK_FORMAT_R12X4G12X4_UNORM_2PACK16_KHR
+    #print("statd VK_FORMAT_R12X4G12X4_UNORM_2PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4G12X4_UNORM_2PACK16_KHR"]
+try:
+    VK_FORMAT_R12X4_UNORM_PACK16 = jvulkanLib.VK_FORMAT_R12X4_UNORM_PACK16
+    #print("statd VK_FORMAT_R12X4_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4_UNORM_PACK16"]
+try:
+    VK_FORMAT_R12X4_UNORM_PACK16_KHR = jvulkanLib.VK_FORMAT_R12X4_UNORM_PACK16_KHR
+    #print("statd VK_FORMAT_R12X4_UNORM_PACK16_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R12X4_UNORM_PACK16_KHR"]
+try:
+    VK_FORMAT_R16G16B16A16_SFLOAT = jvulkanLib.VK_FORMAT_R16G16B16A16_SFLOAT
+    #print("statd VK_FORMAT_R16G16B16A16_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_SFLOAT"]
+try:
+    VK_FORMAT_R16G16B16A16_SINT = jvulkanLib.VK_FORMAT_R16G16B16A16_SINT
+    #print("statd VK_FORMAT_R16G16B16A16_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_SINT"]
+try:
+    VK_FORMAT_R16G16B16A16_SNORM = jvulkanLib.VK_FORMAT_R16G16B16A16_SNORM
+    #print("statd VK_FORMAT_R16G16B16A16_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_SNORM"]
+try:
+    VK_FORMAT_R16G16B16A16_SSCALED = jvulkanLib.VK_FORMAT_R16G16B16A16_SSCALED
+    #print("statd VK_FORMAT_R16G16B16A16_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_SSCALED"]
+try:
+    VK_FORMAT_R16G16B16A16_UINT = jvulkanLib.VK_FORMAT_R16G16B16A16_UINT
+    #print("statd VK_FORMAT_R16G16B16A16_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_UINT"]
+try:
+    VK_FORMAT_R16G16B16A16_UNORM = jvulkanLib.VK_FORMAT_R16G16B16A16_UNORM
+    #print("statd VK_FORMAT_R16G16B16A16_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_UNORM"]
+try:
+    VK_FORMAT_R16G16B16A16_USCALED = jvulkanLib.VK_FORMAT_R16G16B16A16_USCALED
+    #print("statd VK_FORMAT_R16G16B16A16_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16A16_USCALED"]
+try:
+    VK_FORMAT_R16G16B16_SFLOAT = jvulkanLib.VK_FORMAT_R16G16B16_SFLOAT
+    #print("statd VK_FORMAT_R16G16B16_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_SFLOAT"]
+try:
+    VK_FORMAT_R16G16B16_SINT = jvulkanLib.VK_FORMAT_R16G16B16_SINT
+    #print("statd VK_FORMAT_R16G16B16_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_SINT"]
+try:
+    VK_FORMAT_R16G16B16_SNORM = jvulkanLib.VK_FORMAT_R16G16B16_SNORM
+    #print("statd VK_FORMAT_R16G16B16_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_SNORM"]
+try:
+    VK_FORMAT_R16G16B16_SSCALED = jvulkanLib.VK_FORMAT_R16G16B16_SSCALED
+    #print("statd VK_FORMAT_R16G16B16_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_SSCALED"]
+try:
+    VK_FORMAT_R16G16B16_UINT = jvulkanLib.VK_FORMAT_R16G16B16_UINT
+    #print("statd VK_FORMAT_R16G16B16_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_UINT"]
+try:
+    VK_FORMAT_R16G16B16_UNORM = jvulkanLib.VK_FORMAT_R16G16B16_UNORM
+    #print("statd VK_FORMAT_R16G16B16_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_UNORM"]
+try:
+    VK_FORMAT_R16G16B16_USCALED = jvulkanLib.VK_FORMAT_R16G16B16_USCALED
+    #print("statd VK_FORMAT_R16G16B16_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16B16_USCALED"]
+try:
+    VK_FORMAT_R16G16_SFLOAT = jvulkanLib.VK_FORMAT_R16G16_SFLOAT
+    #print("statd VK_FORMAT_R16G16_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_SFLOAT"]
+try:
+    VK_FORMAT_R16G16_SINT = jvulkanLib.VK_FORMAT_R16G16_SINT
+    #print("statd VK_FORMAT_R16G16_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_SINT"]
+try:
+    VK_FORMAT_R16G16_SNORM = jvulkanLib.VK_FORMAT_R16G16_SNORM
+    #print("statd VK_FORMAT_R16G16_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_SNORM"]
+try:
+    VK_FORMAT_R16G16_SSCALED = jvulkanLib.VK_FORMAT_R16G16_SSCALED
+    #print("statd VK_FORMAT_R16G16_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_SSCALED"]
+try:
+    VK_FORMAT_R16G16_UINT = jvulkanLib.VK_FORMAT_R16G16_UINT
+    #print("statd VK_FORMAT_R16G16_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_UINT"]
+try:
+    VK_FORMAT_R16G16_UNORM = jvulkanLib.VK_FORMAT_R16G16_UNORM
+    #print("statd VK_FORMAT_R16G16_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_UNORM"]
+try:
+    VK_FORMAT_R16G16_USCALED = jvulkanLib.VK_FORMAT_R16G16_USCALED
+    #print("statd VK_FORMAT_R16G16_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16G16_USCALED"]
+try:
+    VK_FORMAT_R16_SFLOAT = jvulkanLib.VK_FORMAT_R16_SFLOAT
+    #print("statd VK_FORMAT_R16_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_SFLOAT"]
+try:
+    VK_FORMAT_R16_SINT = jvulkanLib.VK_FORMAT_R16_SINT
+    #print("statd VK_FORMAT_R16_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_SINT"]
+try:
+    VK_FORMAT_R16_SNORM = jvulkanLib.VK_FORMAT_R16_SNORM
+    #print("statd VK_FORMAT_R16_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_SNORM"]
+try:
+    VK_FORMAT_R16_SSCALED = jvulkanLib.VK_FORMAT_R16_SSCALED
+    #print("statd VK_FORMAT_R16_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_SSCALED"]
+try:
+    VK_FORMAT_R16_UINT = jvulkanLib.VK_FORMAT_R16_UINT
+    #print("statd VK_FORMAT_R16_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_UINT"]
+try:
+    VK_FORMAT_R16_UNORM = jvulkanLib.VK_FORMAT_R16_UNORM
+    #print("statd VK_FORMAT_R16_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_UNORM"]
+try:
+    VK_FORMAT_R16_USCALED = jvulkanLib.VK_FORMAT_R16_USCALED
+    #print("statd VK_FORMAT_R16_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R16_USCALED"]
+try:
+    VK_FORMAT_R32G32B32A32_SFLOAT = jvulkanLib.VK_FORMAT_R32G32B32A32_SFLOAT
+    #print("statd VK_FORMAT_R32G32B32A32_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32A32_SFLOAT"]
+try:
+    VK_FORMAT_R32G32B32A32_SINT = jvulkanLib.VK_FORMAT_R32G32B32A32_SINT
+    #print("statd VK_FORMAT_R32G32B32A32_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32A32_SINT"]
+try:
+    VK_FORMAT_R32G32B32A32_UINT = jvulkanLib.VK_FORMAT_R32G32B32A32_UINT
+    #print("statd VK_FORMAT_R32G32B32A32_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32A32_UINT"]
+try:
+    VK_FORMAT_R32G32B32_SFLOAT = jvulkanLib.VK_FORMAT_R32G32B32_SFLOAT
+    #print("statd VK_FORMAT_R32G32B32_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32_SFLOAT"]
+try:
+    VK_FORMAT_R32G32B32_SINT = jvulkanLib.VK_FORMAT_R32G32B32_SINT
+    #print("statd VK_FORMAT_R32G32B32_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32_SINT"]
+try:
+    VK_FORMAT_R32G32B32_UINT = jvulkanLib.VK_FORMAT_R32G32B32_UINT
+    #print("statd VK_FORMAT_R32G32B32_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32B32_UINT"]
+try:
+    VK_FORMAT_R32G32_SFLOAT = jvulkanLib.VK_FORMAT_R32G32_SFLOAT
+    #print("statd VK_FORMAT_R32G32_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32_SFLOAT"]
+try:
+    VK_FORMAT_R32G32_SINT = jvulkanLib.VK_FORMAT_R32G32_SINT
+    #print("statd VK_FORMAT_R32G32_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32_SINT"]
+try:
+    VK_FORMAT_R32G32_UINT = jvulkanLib.VK_FORMAT_R32G32_UINT
+    #print("statd VK_FORMAT_R32G32_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32G32_UINT"]
+try:
+    VK_FORMAT_R32_SFLOAT = jvulkanLib.VK_FORMAT_R32_SFLOAT
+    #print("statd VK_FORMAT_R32_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32_SFLOAT"]
+try:
+    VK_FORMAT_R32_SINT = jvulkanLib.VK_FORMAT_R32_SINT
+    #print("statd VK_FORMAT_R32_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32_SINT"]
+try:
+    VK_FORMAT_R32_UINT = jvulkanLib.VK_FORMAT_R32_UINT
+    #print("statd VK_FORMAT_R32_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R32_UINT"]
+try:
+    VK_FORMAT_R4G4B4A4_UNORM_PACK16 = jvulkanLib.VK_FORMAT_R4G4B4A4_UNORM_PACK16
+    #print("statd VK_FORMAT_R4G4B4A4_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R4G4B4A4_UNORM_PACK16"]
+try:
+    VK_FORMAT_R4G4_UNORM_PACK8 = jvulkanLib.VK_FORMAT_R4G4_UNORM_PACK8
+    #print("statd VK_FORMAT_R4G4_UNORM_PACK8")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R4G4_UNORM_PACK8"]
+try:
+    VK_FORMAT_R5G5B5A1_UNORM_PACK16 = jvulkanLib.VK_FORMAT_R5G5B5A1_UNORM_PACK16
+    #print("statd VK_FORMAT_R5G5B5A1_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R5G5B5A1_UNORM_PACK16"]
+try:
+    VK_FORMAT_R5G6B5_UNORM_PACK16 = jvulkanLib.VK_FORMAT_R5G6B5_UNORM_PACK16
+    #print("statd VK_FORMAT_R5G6B5_UNORM_PACK16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R5G6B5_UNORM_PACK16"]
+try:
+    VK_FORMAT_R64G64B64A64_SFLOAT = jvulkanLib.VK_FORMAT_R64G64B64A64_SFLOAT
+    #print("statd VK_FORMAT_R64G64B64A64_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64A64_SFLOAT"]
+try:
+    VK_FORMAT_R64G64B64A64_SINT = jvulkanLib.VK_FORMAT_R64G64B64A64_SINT
+    #print("statd VK_FORMAT_R64G64B64A64_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64A64_SINT"]
+try:
+    VK_FORMAT_R64G64B64A64_UINT = jvulkanLib.VK_FORMAT_R64G64B64A64_UINT
+    #print("statd VK_FORMAT_R64G64B64A64_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64A64_UINT"]
+try:
+    VK_FORMAT_R64G64B64_SFLOAT = jvulkanLib.VK_FORMAT_R64G64B64_SFLOAT
+    #print("statd VK_FORMAT_R64G64B64_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64_SFLOAT"]
+try:
+    VK_FORMAT_R64G64B64_SINT = jvulkanLib.VK_FORMAT_R64G64B64_SINT
+    #print("statd VK_FORMAT_R64G64B64_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64_SINT"]
+try:
+    VK_FORMAT_R64G64B64_UINT = jvulkanLib.VK_FORMAT_R64G64B64_UINT
+    #print("statd VK_FORMAT_R64G64B64_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64B64_UINT"]
+try:
+    VK_FORMAT_R64G64_SFLOAT = jvulkanLib.VK_FORMAT_R64G64_SFLOAT
+    #print("statd VK_FORMAT_R64G64_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64_SFLOAT"]
+try:
+    VK_FORMAT_R64G64_SINT = jvulkanLib.VK_FORMAT_R64G64_SINT
+    #print("statd VK_FORMAT_R64G64_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64_SINT"]
+try:
+    VK_FORMAT_R64G64_UINT = jvulkanLib.VK_FORMAT_R64G64_UINT
+    #print("statd VK_FORMAT_R64G64_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64G64_UINT"]
+try:
+    VK_FORMAT_R64_SFLOAT = jvulkanLib.VK_FORMAT_R64_SFLOAT
+    #print("statd VK_FORMAT_R64_SFLOAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64_SFLOAT"]
+try:
+    VK_FORMAT_R64_SINT = jvulkanLib.VK_FORMAT_R64_SINT
+    #print("statd VK_FORMAT_R64_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64_SINT"]
+try:
+    VK_FORMAT_R64_UINT = jvulkanLib.VK_FORMAT_R64_UINT
+    #print("statd VK_FORMAT_R64_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R64_UINT"]
+try:
+    VK_FORMAT_R8G8B8A8_SINT = jvulkanLib.VK_FORMAT_R8G8B8A8_SINT
+    #print("statd VK_FORMAT_R8G8B8A8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_SINT"]
+try:
+    VK_FORMAT_R8G8B8A8_SNORM = jvulkanLib.VK_FORMAT_R8G8B8A8_SNORM
+    #print("statd VK_FORMAT_R8G8B8A8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_SNORM"]
+try:
+    VK_FORMAT_R8G8B8A8_SRGB = jvulkanLib.VK_FORMAT_R8G8B8A8_SRGB
+    #print("statd VK_FORMAT_R8G8B8A8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_SRGB"]
+try:
+    VK_FORMAT_R8G8B8A8_SSCALED = jvulkanLib.VK_FORMAT_R8G8B8A8_SSCALED
+    #print("statd VK_FORMAT_R8G8B8A8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_SSCALED"]
+try:
+    VK_FORMAT_R8G8B8A8_UINT = jvulkanLib.VK_FORMAT_R8G8B8A8_UINT
+    #print("statd VK_FORMAT_R8G8B8A8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_UINT"]
+try:
+    VK_FORMAT_R8G8B8A8_UNORM = jvulkanLib.VK_FORMAT_R8G8B8A8_UNORM
+    #print("statd VK_FORMAT_R8G8B8A8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_UNORM"]
+try:
+    VK_FORMAT_R8G8B8A8_USCALED = jvulkanLib.VK_FORMAT_R8G8B8A8_USCALED
+    #print("statd VK_FORMAT_R8G8B8A8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8A8_USCALED"]
+try:
+    VK_FORMAT_R8G8B8_SINT = jvulkanLib.VK_FORMAT_R8G8B8_SINT
+    #print("statd VK_FORMAT_R8G8B8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_SINT"]
+try:
+    VK_FORMAT_R8G8B8_SNORM = jvulkanLib.VK_FORMAT_R8G8B8_SNORM
+    #print("statd VK_FORMAT_R8G8B8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_SNORM"]
+try:
+    VK_FORMAT_R8G8B8_SRGB = jvulkanLib.VK_FORMAT_R8G8B8_SRGB
+    #print("statd VK_FORMAT_R8G8B8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_SRGB"]
+try:
+    VK_FORMAT_R8G8B8_SSCALED = jvulkanLib.VK_FORMAT_R8G8B8_SSCALED
+    #print("statd VK_FORMAT_R8G8B8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_SSCALED"]
+try:
+    VK_FORMAT_R8G8B8_UINT = jvulkanLib.VK_FORMAT_R8G8B8_UINT
+    #print("statd VK_FORMAT_R8G8B8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_UINT"]
+try:
+    VK_FORMAT_R8G8B8_UNORM = jvulkanLib.VK_FORMAT_R8G8B8_UNORM
+    #print("statd VK_FORMAT_R8G8B8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_UNORM"]
+try:
+    VK_FORMAT_R8G8B8_USCALED = jvulkanLib.VK_FORMAT_R8G8B8_USCALED
+    #print("statd VK_FORMAT_R8G8B8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8B8_USCALED"]
+try:
+    VK_FORMAT_R8G8_SINT = jvulkanLib.VK_FORMAT_R8G8_SINT
+    #print("statd VK_FORMAT_R8G8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_SINT"]
+try:
+    VK_FORMAT_R8G8_SNORM = jvulkanLib.VK_FORMAT_R8G8_SNORM
+    #print("statd VK_FORMAT_R8G8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_SNORM"]
+try:
+    VK_FORMAT_R8G8_SRGB = jvulkanLib.VK_FORMAT_R8G8_SRGB
+    #print("statd VK_FORMAT_R8G8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_SRGB"]
+try:
+    VK_FORMAT_R8G8_SSCALED = jvulkanLib.VK_FORMAT_R8G8_SSCALED
+    #print("statd VK_FORMAT_R8G8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_SSCALED"]
+try:
+    VK_FORMAT_R8G8_UINT = jvulkanLib.VK_FORMAT_R8G8_UINT
+    #print("statd VK_FORMAT_R8G8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_UINT"]
+try:
+    VK_FORMAT_R8G8_UNORM = jvulkanLib.VK_FORMAT_R8G8_UNORM
+    #print("statd VK_FORMAT_R8G8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_UNORM"]
+try:
+    VK_FORMAT_R8G8_USCALED = jvulkanLib.VK_FORMAT_R8G8_USCALED
+    #print("statd VK_FORMAT_R8G8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8G8_USCALED"]
+try:
+    VK_FORMAT_R8_SINT = jvulkanLib.VK_FORMAT_R8_SINT
+    #print("statd VK_FORMAT_R8_SINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_SINT"]
+try:
+    VK_FORMAT_R8_SNORM = jvulkanLib.VK_FORMAT_R8_SNORM
+    #print("statd VK_FORMAT_R8_SNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_SNORM"]
+try:
+    VK_FORMAT_R8_SRGB = jvulkanLib.VK_FORMAT_R8_SRGB
+    #print("statd VK_FORMAT_R8_SRGB")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_SRGB"]
+try:
+    VK_FORMAT_R8_SSCALED = jvulkanLib.VK_FORMAT_R8_SSCALED
+    #print("statd VK_FORMAT_R8_SSCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_SSCALED"]
+try:
+    VK_FORMAT_R8_UINT = jvulkanLib.VK_FORMAT_R8_UINT
+    #print("statd VK_FORMAT_R8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_UINT"]
+try:
+    VK_FORMAT_R8_UNORM = jvulkanLib.VK_FORMAT_R8_UNORM
+    #print("statd VK_FORMAT_R8_UNORM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_UNORM"]
+try:
+    VK_FORMAT_R8_USCALED = jvulkanLib.VK_FORMAT_R8_USCALED
+    #print("statd VK_FORMAT_R8_USCALED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_R8_USCALED"]
+try:
+    VK_FORMAT_S8_UINT = jvulkanLib.VK_FORMAT_S8_UINT
+    #print("statd VK_FORMAT_S8_UINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_S8_UINT"]
+try:
+    VK_FORMAT_UNDEFINED = jvulkanLib.VK_FORMAT_UNDEFINED
+    #print("statd VK_FORMAT_UNDEFINED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_UNDEFINED"]
+try:
+    VK_FORMAT_X8_D24_UNORM_PACK32 = jvulkanLib.VK_FORMAT_X8_D24_UNORM_PACK32
+    #print("statd VK_FORMAT_X8_D24_UNORM_PACK32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FORMAT_X8_D24_UNORM_PACK32"]
+try:
+    VK_FRAGMENT_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_16_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_1X2_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X1_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X2_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_2X4_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X2_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_4X4_PIXELS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_1_INVOCATION_PER_PIXEL_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_2_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_4_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_8_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_KEEP_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_KEEP_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_KEEP_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_KEEP_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_ENUM_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_ENUM_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_ENUM_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MAX_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MIN_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MIN_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MIN_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MIN_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MUL_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MUL_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MUL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_MUL_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_COMBINER_OP_REPLACE_KHR = jvulkanLib.VK_FRAGMENT_SHADING_RATE_COMBINER_OP_REPLACE_KHR
+    #print("statd VK_FRAGMENT_SHADING_RATE_COMBINER_OP_REPLACE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_COMBINER_OP_REPLACE_KHR"]
+try:
+    VK_FRAGMENT_SHADING_RATE_MAX_ENUM_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_MAX_ENUM_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_MAX_ENUM_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_NO_INVOCATIONS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_NO_INVOCATIONS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_NO_INVOCATIONS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_NO_INVOCATIONS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_TYPE_ENUMS_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_TYPE_ENUMS_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_TYPE_ENUMS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_TYPE_ENUMS_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_TYPE_FRAGMENT_SIZE_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_TYPE_FRAGMENT_SIZE_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_TYPE_FRAGMENT_SIZE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_TYPE_FRAGMENT_SIZE_NV"]
+try:
+    VK_FRAGMENT_SHADING_RATE_TYPE_MAX_ENUM_NV = jvulkanLib.VK_FRAGMENT_SHADING_RATE_TYPE_MAX_ENUM_NV
+    #print("statd VK_FRAGMENT_SHADING_RATE_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAGMENT_SHADING_RATE_TYPE_MAX_ENUM_NV"]
+try:
+    VK_FRAMEBUFFER_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_FRAMEBUFFER_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_FRAMEBUFFER_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAMEBUFFER_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT = jvulkanLib.VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT
+    #print("statd VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT"]
+try:
+    VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT_KHR = jvulkanLib.VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT_KHR
+    #print("statd VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRAMEBUFFER_CREATE_IMAGELESS_BIT_KHR"]
+try:
+    VK_FRONT_FACE_CLOCKWISE = jvulkanLib.VK_FRONT_FACE_CLOCKWISE
+    #print("statd VK_FRONT_FACE_CLOCKWISE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRONT_FACE_CLOCKWISE"]
+try:
+    VK_FRONT_FACE_COUNTER_CLOCKWISE = jvulkanLib.VK_FRONT_FACE_COUNTER_CLOCKWISE
+    #print("statd VK_FRONT_FACE_COUNTER_CLOCKWISE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRONT_FACE_COUNTER_CLOCKWISE"]
+try:
+    VK_FRONT_FACE_MAX_ENUM = jvulkanLib.VK_FRONT_FACE_MAX_ENUM
+    #print("statd VK_FRONT_FACE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_FRONT_FACE_MAX_ENUM"]
+try:
+    VK_GEOMETRY_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_GEOMETRY_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_GEOMETRY_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_NV = jvulkanLib.VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_NV
+    #print("statd VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_FORCE_NO_OPAQUE_BIT_NV"]
+try:
+    VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_NV = jvulkanLib.VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_NV
+    #print("statd VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_FORCE_OPAQUE_BIT_NV"]
+try:
+    VK_GEOMETRY_INSTANCE_TRIANGLE_CULL_DISABLE_BIT_NV = jvulkanLib.VK_GEOMETRY_INSTANCE_TRIANGLE_CULL_DISABLE_BIT_NV
+    #print("statd VK_GEOMETRY_INSTANCE_TRIANGLE_CULL_DISABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_TRIANGLE_CULL_DISABLE_BIT_NV"]
+try:
+    VK_GEOMETRY_INSTANCE_TRIANGLE_FACING_CULL_DISABLE_BIT_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_TRIANGLE_FACING_CULL_DISABLE_BIT_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_TRIANGLE_FACING_CULL_DISABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_TRIANGLE_FACING_CULL_DISABLE_BIT_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_TRIANGLE_FLIP_FACING_BIT_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_TRIANGLE_FLIP_FACING_BIT_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_TRIANGLE_FLIP_FACING_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_TRIANGLE_FLIP_FACING_BIT_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_KHR = jvulkanLib.VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_KHR
+    #print("statd VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_KHR"]
+try:
+    VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_NV = jvulkanLib.VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_NV
+    #print("statd VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_INSTANCE_TRIANGLE_FRONT_COUNTERCLOCKWISE_BIT_NV"]
+try:
+    VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_KHR = jvulkanLib.VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_KHR
+    #print("statd VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_KHR"]
+try:
+    VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_NV = jvulkanLib.VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_NV
+    #print("statd VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_NO_DUPLICATE_ANY_HIT_INVOCATION_BIT_NV"]
+try:
+    VK_GEOMETRY_OPAQUE_BIT_KHR = jvulkanLib.VK_GEOMETRY_OPAQUE_BIT_KHR
+    #print("statd VK_GEOMETRY_OPAQUE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_OPAQUE_BIT_KHR"]
+try:
+    VK_GEOMETRY_OPAQUE_BIT_NV = jvulkanLib.VK_GEOMETRY_OPAQUE_BIT_NV
+    #print("statd VK_GEOMETRY_OPAQUE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_OPAQUE_BIT_NV"]
+try:
+    VK_GEOMETRY_TYPE_AABBS_KHR = jvulkanLib.VK_GEOMETRY_TYPE_AABBS_KHR
+    #print("statd VK_GEOMETRY_TYPE_AABBS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_AABBS_KHR"]
+try:
+    VK_GEOMETRY_TYPE_AABBS_NV = jvulkanLib.VK_GEOMETRY_TYPE_AABBS_NV
+    #print("statd VK_GEOMETRY_TYPE_AABBS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_AABBS_NV"]
+try:
+    VK_GEOMETRY_TYPE_INSTANCES_KHR = jvulkanLib.VK_GEOMETRY_TYPE_INSTANCES_KHR
+    #print("statd VK_GEOMETRY_TYPE_INSTANCES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_INSTANCES_KHR"]
+try:
+    VK_GEOMETRY_TYPE_MAX_ENUM_KHR = jvulkanLib.VK_GEOMETRY_TYPE_MAX_ENUM_KHR
+    #print("statd VK_GEOMETRY_TYPE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_MAX_ENUM_KHR"]
+try:
+    VK_GEOMETRY_TYPE_TRIANGLES_KHR = jvulkanLib.VK_GEOMETRY_TYPE_TRIANGLES_KHR
+    #print("statd VK_GEOMETRY_TYPE_TRIANGLES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_TRIANGLES_KHR"]
+try:
+    VK_GEOMETRY_TYPE_TRIANGLES_NV = jvulkanLib.VK_GEOMETRY_TYPE_TRIANGLES_NV
+    #print("statd VK_GEOMETRY_TYPE_TRIANGLES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GEOMETRY_TYPE_TRIANGLES_NV"]
+try:
+    VK_GRAPHICS_PIPELINE_LIBRARY_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_GRAPHICS_PIPELINE_LIBRARY_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_GRAPHICS_PIPELINE_LIBRARY_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GRAPHICS_PIPELINE_LIBRARY_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_OUTPUT_INTERFACE_BIT_EXT = jvulkanLib.VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_OUTPUT_INTERFACE_BIT_EXT
+    #print("statd VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_OUTPUT_INTERFACE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_OUTPUT_INTERFACE_BIT_EXT"]
+try:
+    VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_SHADER_BIT_EXT = jvulkanLib.VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_SHADER_BIT_EXT
+    #print("statd VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_SHADER_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GRAPHICS_PIPELINE_LIBRARY_FRAGMENT_SHADER_BIT_EXT"]
+try:
+    VK_GRAPHICS_PIPELINE_LIBRARY_PRE_RASTERIZATION_SHADERS_BIT_EXT = jvulkanLib.VK_GRAPHICS_PIPELINE_LIBRARY_PRE_RASTERIZATION_SHADERS_BIT_EXT
+    #print("statd VK_GRAPHICS_PIPELINE_LIBRARY_PRE_RASTERIZATION_SHADERS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GRAPHICS_PIPELINE_LIBRARY_PRE_RASTERIZATION_SHADERS_BIT_EXT"]
+try:
+    VK_GRAPHICS_PIPELINE_LIBRARY_VERTEX_INPUT_INTERFACE_BIT_EXT = jvulkanLib.VK_GRAPHICS_PIPELINE_LIBRARY_VERTEX_INPUT_INTERFACE_BIT_EXT
+    #print("statd VK_GRAPHICS_PIPELINE_LIBRARY_VERTEX_INPUT_INTERFACE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_GRAPHICS_PIPELINE_LIBRARY_VERTEX_INPUT_INTERFACE_BIT_EXT"]
+try:
+    VK_IMAGE_ASPECT_COLOR_BIT = jvulkanLib.VK_IMAGE_ASPECT_COLOR_BIT
+    #print("statd VK_IMAGE_ASPECT_COLOR_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_COLOR_BIT"]
+try:
+    VK_IMAGE_ASPECT_DEPTH_BIT = jvulkanLib.VK_IMAGE_ASPECT_DEPTH_BIT
+    #print("statd VK_IMAGE_ASPECT_DEPTH_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_DEPTH_BIT"]
+try:
+    VK_IMAGE_ASPECT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_IMAGE_ASPECT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_IMAGE_ASPECT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_IMAGE_ASPECT_MEMORY_PLANE_0_BIT_EXT = jvulkanLib.VK_IMAGE_ASPECT_MEMORY_PLANE_0_BIT_EXT
+    #print("statd VK_IMAGE_ASPECT_MEMORY_PLANE_0_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_MEMORY_PLANE_0_BIT_EXT"]
+try:
+    VK_IMAGE_ASPECT_MEMORY_PLANE_1_BIT_EXT = jvulkanLib.VK_IMAGE_ASPECT_MEMORY_PLANE_1_BIT_EXT
+    #print("statd VK_IMAGE_ASPECT_MEMORY_PLANE_1_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_MEMORY_PLANE_1_BIT_EXT"]
+try:
+    VK_IMAGE_ASPECT_MEMORY_PLANE_2_BIT_EXT = jvulkanLib.VK_IMAGE_ASPECT_MEMORY_PLANE_2_BIT_EXT
+    #print("statd VK_IMAGE_ASPECT_MEMORY_PLANE_2_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_MEMORY_PLANE_2_BIT_EXT"]
+try:
+    VK_IMAGE_ASPECT_MEMORY_PLANE_3_BIT_EXT = jvulkanLib.VK_IMAGE_ASPECT_MEMORY_PLANE_3_BIT_EXT
+    #print("statd VK_IMAGE_ASPECT_MEMORY_PLANE_3_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_MEMORY_PLANE_3_BIT_EXT"]
+try:
+    VK_IMAGE_ASPECT_METADATA_BIT = jvulkanLib.VK_IMAGE_ASPECT_METADATA_BIT
+    #print("statd VK_IMAGE_ASPECT_METADATA_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_METADATA_BIT"]
+try:
+    VK_IMAGE_ASPECT_NONE = jvulkanLib.VK_IMAGE_ASPECT_NONE
+    #print("statd VK_IMAGE_ASPECT_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_NONE"]
+try:
+    VK_IMAGE_ASPECT_NONE_KHR = jvulkanLib.VK_IMAGE_ASPECT_NONE_KHR
+    #print("statd VK_IMAGE_ASPECT_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_NONE_KHR"]
+try:
+    VK_IMAGE_ASPECT_PLANE_0_BIT = jvulkanLib.VK_IMAGE_ASPECT_PLANE_0_BIT
+    #print("statd VK_IMAGE_ASPECT_PLANE_0_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_0_BIT"]
+try:
+    VK_IMAGE_ASPECT_PLANE_0_BIT_KHR = jvulkanLib.VK_IMAGE_ASPECT_PLANE_0_BIT_KHR
+    #print("statd VK_IMAGE_ASPECT_PLANE_0_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_0_BIT_KHR"]
+try:
+    VK_IMAGE_ASPECT_PLANE_1_BIT = jvulkanLib.VK_IMAGE_ASPECT_PLANE_1_BIT
+    #print("statd VK_IMAGE_ASPECT_PLANE_1_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_1_BIT"]
+try:
+    VK_IMAGE_ASPECT_PLANE_1_BIT_KHR = jvulkanLib.VK_IMAGE_ASPECT_PLANE_1_BIT_KHR
+    #print("statd VK_IMAGE_ASPECT_PLANE_1_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_1_BIT_KHR"]
+try:
+    VK_IMAGE_ASPECT_PLANE_2_BIT = jvulkanLib.VK_IMAGE_ASPECT_PLANE_2_BIT
+    #print("statd VK_IMAGE_ASPECT_PLANE_2_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_2_BIT"]
+try:
+    VK_IMAGE_ASPECT_PLANE_2_BIT_KHR = jvulkanLib.VK_IMAGE_ASPECT_PLANE_2_BIT_KHR
+    #print("statd VK_IMAGE_ASPECT_PLANE_2_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_PLANE_2_BIT_KHR"]
+try:
+    VK_IMAGE_ASPECT_STENCIL_BIT = jvulkanLib.VK_IMAGE_ASPECT_STENCIL_BIT
+    #print("statd VK_IMAGE_ASPECT_STENCIL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_ASPECT_STENCIL_BIT"]
+try:
+    VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT = jvulkanLib.VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT
+    #print("statd VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT"]
+try:
+    VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_2D_ARRAY_COMPATIBLE_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_2D_VIEW_COMPATIBLE_BIT_EXT = jvulkanLib.VK_IMAGE_CREATE_2D_VIEW_COMPATIBLE_BIT_EXT
+    #print("statd VK_IMAGE_CREATE_2D_VIEW_COMPATIBLE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_2D_VIEW_COMPATIBLE_BIT_EXT"]
+try:
+    VK_IMAGE_CREATE_ALIAS_BIT = jvulkanLib.VK_IMAGE_CREATE_ALIAS_BIT
+    #print("statd VK_IMAGE_CREATE_ALIAS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_ALIAS_BIT"]
+try:
+    VK_IMAGE_CREATE_ALIAS_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_ALIAS_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_ALIAS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_ALIAS_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT = jvulkanLib.VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT
+    #print("statd VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT"]
+try:
+    VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_BLOCK_TEXEL_VIEW_COMPATIBLE_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_CORNER_SAMPLED_BIT_NV = jvulkanLib.VK_IMAGE_CREATE_CORNER_SAMPLED_BIT_NV
+    #print("statd VK_IMAGE_CREATE_CORNER_SAMPLED_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_CORNER_SAMPLED_BIT_NV"]
+try:
+    VK_IMAGE_CREATE_CUBE_COMPATIBLE_BIT = jvulkanLib.VK_IMAGE_CREATE_CUBE_COMPATIBLE_BIT
+    #print("statd VK_IMAGE_CREATE_CUBE_COMPATIBLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_CUBE_COMPATIBLE_BIT"]
+try:
+    VK_IMAGE_CREATE_DISJOINT_BIT = jvulkanLib.VK_IMAGE_CREATE_DISJOINT_BIT
+    #print("statd VK_IMAGE_CREATE_DISJOINT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_DISJOINT_BIT"]
+try:
+    VK_IMAGE_CREATE_DISJOINT_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_DISJOINT_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_DISJOINT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_DISJOINT_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_EXTENDED_USAGE_BIT = jvulkanLib.VK_IMAGE_CREATE_EXTENDED_USAGE_BIT
+    #print("statd VK_IMAGE_CREATE_EXTENDED_USAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_EXTENDED_USAGE_BIT"]
+try:
+    VK_IMAGE_CREATE_EXTENDED_USAGE_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_EXTENDED_USAGE_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_EXTENDED_USAGE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_EXTENDED_USAGE_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_IMAGE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_IMAGE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_IMAGE_CREATE_FRAGMENT_DENSITY_MAP_OFFSET_BIT_QCOM = jvulkanLib.VK_IMAGE_CREATE_FRAGMENT_DENSITY_MAP_OFFSET_BIT_QCOM
+    #print("statd VK_IMAGE_CREATE_FRAGMENT_DENSITY_MAP_OFFSET_BIT_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_FRAGMENT_DENSITY_MAP_OFFSET_BIT_QCOM"]
+try:
+    VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT = jvulkanLib.VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT
+    #print("statd VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT"]
+try:
+    VK_IMAGE_CREATE_PROTECTED_BIT = jvulkanLib.VK_IMAGE_CREATE_PROTECTED_BIT
+    #print("statd VK_IMAGE_CREATE_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_PROTECTED_BIT"]
+try:
+    VK_IMAGE_CREATE_SAMPLE_LOCATIONS_COMPATIBLE_DEPTH_BIT_EXT = jvulkanLib.VK_IMAGE_CREATE_SAMPLE_LOCATIONS_COMPATIBLE_DEPTH_BIT_EXT
+    #print("statd VK_IMAGE_CREATE_SAMPLE_LOCATIONS_COMPATIBLE_DEPTH_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SAMPLE_LOCATIONS_COMPATIBLE_DEPTH_BIT_EXT"]
+try:
+    VK_IMAGE_CREATE_SPARSE_ALIASED_BIT = jvulkanLib.VK_IMAGE_CREATE_SPARSE_ALIASED_BIT
+    #print("statd VK_IMAGE_CREATE_SPARSE_ALIASED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SPARSE_ALIASED_BIT"]
+try:
+    VK_IMAGE_CREATE_SPARSE_BINDING_BIT = jvulkanLib.VK_IMAGE_CREATE_SPARSE_BINDING_BIT
+    #print("statd VK_IMAGE_CREATE_SPARSE_BINDING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SPARSE_BINDING_BIT"]
+try:
+    VK_IMAGE_CREATE_SPARSE_RESIDENCY_BIT = jvulkanLib.VK_IMAGE_CREATE_SPARSE_RESIDENCY_BIT
+    #print("statd VK_IMAGE_CREATE_SPARSE_RESIDENCY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SPARSE_RESIDENCY_BIT"]
+try:
+    VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT = jvulkanLib.VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT
+    #print("statd VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT"]
+try:
+    VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR = jvulkanLib.VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR
+    #print("statd VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR"]
+try:
+    VK_IMAGE_CREATE_SUBSAMPLED_BIT_EXT = jvulkanLib.VK_IMAGE_CREATE_SUBSAMPLED_BIT_EXT
+    #print("statd VK_IMAGE_CREATE_SUBSAMPLED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_CREATE_SUBSAMPLED_BIT_EXT"]
+try:
+    VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_ATTACHMENT_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT = jvulkanLib.VK_IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT
+    #print("statd VK_IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT"]
+try:
+    VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_GENERAL = jvulkanLib.VK_IMAGE_LAYOUT_GENERAL
+    #print("statd VK_IMAGE_LAYOUT_GENERAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_GENERAL"]
+try:
+    VK_IMAGE_LAYOUT_MAX_ENUM = jvulkanLib.VK_IMAGE_LAYOUT_MAX_ENUM
+    #print("statd VK_IMAGE_LAYOUT_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_MAX_ENUM"]
+try:
+    VK_IMAGE_LAYOUT_PREINITIALIZED = jvulkanLib.VK_IMAGE_LAYOUT_PREINITIALIZED
+    #print("statd VK_IMAGE_LAYOUT_PREINITIALIZED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_PREINITIALIZED"]
+try:
+    VK_IMAGE_LAYOUT_PRESENT_SRC_KHR = jvulkanLib.VK_IMAGE_LAYOUT_PRESENT_SRC_KHR
+    #print("statd VK_IMAGE_LAYOUT_PRESENT_SRC_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_PRESENT_SRC_KHR"]
+try:
+    VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_READ_ONLY_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV = jvulkanLib.VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV
+    #print("statd VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_SHADING_RATE_OPTIMAL_NV"]
+try:
+    VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR = jvulkanLib.VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR
+    #print("statd VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_SHARED_PRESENT_KHR"]
+try:
+    VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL_KHR = jvulkanLib.VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL_KHR
+    #print("statd VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL_KHR"]
+try:
+    VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL = jvulkanLib.VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL
+    #print("statd VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL"]
+try:
+    VK_IMAGE_LAYOUT_UNDEFINED = jvulkanLib.VK_IMAGE_LAYOUT_UNDEFINED
+    #print("statd VK_IMAGE_LAYOUT_UNDEFINED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_LAYOUT_UNDEFINED"]
+try:
+    VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT = jvulkanLib.VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT
+    #print("statd VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TILING_DRM_FORMAT_MODIFIER_EXT"]
+try:
+    VK_IMAGE_TILING_LINEAR = jvulkanLib.VK_IMAGE_TILING_LINEAR
+    #print("statd VK_IMAGE_TILING_LINEAR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TILING_LINEAR"]
+try:
+    VK_IMAGE_TILING_MAX_ENUM = jvulkanLib.VK_IMAGE_TILING_MAX_ENUM
+    #print("statd VK_IMAGE_TILING_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TILING_MAX_ENUM"]
+try:
+    VK_IMAGE_TILING_OPTIMAL = jvulkanLib.VK_IMAGE_TILING_OPTIMAL
+    #print("statd VK_IMAGE_TILING_OPTIMAL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TILING_OPTIMAL"]
+try:
+    VK_IMAGE_TYPE_1D = jvulkanLib.VK_IMAGE_TYPE_1D
+    #print("statd VK_IMAGE_TYPE_1D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TYPE_1D"]
+try:
+    VK_IMAGE_TYPE_2D = jvulkanLib.VK_IMAGE_TYPE_2D
+    #print("statd VK_IMAGE_TYPE_2D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TYPE_2D"]
+try:
+    VK_IMAGE_TYPE_3D = jvulkanLib.VK_IMAGE_TYPE_3D
+    #print("statd VK_IMAGE_TYPE_3D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TYPE_3D"]
+try:
+    VK_IMAGE_TYPE_MAX_ENUM = jvulkanLib.VK_IMAGE_TYPE_MAX_ENUM
+    #print("statd VK_IMAGE_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_TYPE_MAX_ENUM"]
+try:
+    VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT = jvulkanLib.VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+    #print("statd VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT"]
+try:
+    VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT = jvulkanLib.VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT
+    #print("statd VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_DEPTH_STENCIL_ATTACHMENT_BIT"]
+try:
+    VK_IMAGE_USAGE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_IMAGE_USAGE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_IMAGE_USAGE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_IMAGE_USAGE_FRAGMENT_DENSITY_MAP_BIT_EXT = jvulkanLib.VK_IMAGE_USAGE_FRAGMENT_DENSITY_MAP_BIT_EXT
+    #print("statd VK_IMAGE_USAGE_FRAGMENT_DENSITY_MAP_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_FRAGMENT_DENSITY_MAP_BIT_EXT"]
+try:
+    VK_IMAGE_USAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_IMAGE_USAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_IMAGE_USAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT = jvulkanLib.VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT
+    #print("statd VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT"]
+try:
+    VK_IMAGE_USAGE_INVOCATION_MASK_BIT_HUAWEI = jvulkanLib.VK_IMAGE_USAGE_INVOCATION_MASK_BIT_HUAWEI
+    #print("statd VK_IMAGE_USAGE_INVOCATION_MASK_BIT_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_INVOCATION_MASK_BIT_HUAWEI"]
+try:
+    VK_IMAGE_USAGE_SAMPLED_BIT = jvulkanLib.VK_IMAGE_USAGE_SAMPLED_BIT
+    #print("statd VK_IMAGE_USAGE_SAMPLED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_SAMPLED_BIT"]
+try:
+    VK_IMAGE_USAGE_SHADING_RATE_IMAGE_BIT_NV = jvulkanLib.VK_IMAGE_USAGE_SHADING_RATE_IMAGE_BIT_NV
+    #print("statd VK_IMAGE_USAGE_SHADING_RATE_IMAGE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_SHADING_RATE_IMAGE_BIT_NV"]
+try:
+    VK_IMAGE_USAGE_STORAGE_BIT = jvulkanLib.VK_IMAGE_USAGE_STORAGE_BIT
+    #print("statd VK_IMAGE_USAGE_STORAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_STORAGE_BIT"]
+try:
+    VK_IMAGE_USAGE_TRANSFER_DST_BIT = jvulkanLib.VK_IMAGE_USAGE_TRANSFER_DST_BIT
+    #print("statd VK_IMAGE_USAGE_TRANSFER_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_TRANSFER_DST_BIT"]
+try:
+    VK_IMAGE_USAGE_TRANSFER_SRC_BIT = jvulkanLib.VK_IMAGE_USAGE_TRANSFER_SRC_BIT
+    #print("statd VK_IMAGE_USAGE_TRANSFER_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_TRANSFER_SRC_BIT"]
+try:
+    VK_IMAGE_USAGE_TRANSIENT_ATTACHMENT_BIT = jvulkanLib.VK_IMAGE_USAGE_TRANSIENT_ATTACHMENT_BIT
+    #print("statd VK_IMAGE_USAGE_TRANSIENT_ATTACHMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_USAGE_TRANSIENT_ATTACHMENT_BIT"]
+try:
+    VK_IMAGE_VIEW_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_IMAGE_VIEW_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_IMAGE_VIEW_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DEFERRED_BIT_EXT = jvulkanLib.VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DEFERRED_BIT_EXT
+    #print("statd VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DEFERRED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DEFERRED_BIT_EXT"]
+try:
+    VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DYNAMIC_BIT_EXT = jvulkanLib.VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DYNAMIC_BIT_EXT
+    #print("statd VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DYNAMIC_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_CREATE_FRAGMENT_DENSITY_MAP_DYNAMIC_BIT_EXT"]
+try:
+    VK_IMAGE_VIEW_TYPE_1D = jvulkanLib.VK_IMAGE_VIEW_TYPE_1D
+    #print("statd VK_IMAGE_VIEW_TYPE_1D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_1D"]
+try:
+    VK_IMAGE_VIEW_TYPE_1D_ARRAY = jvulkanLib.VK_IMAGE_VIEW_TYPE_1D_ARRAY
+    #print("statd VK_IMAGE_VIEW_TYPE_1D_ARRAY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_1D_ARRAY"]
+try:
+    VK_IMAGE_VIEW_TYPE_2D = jvulkanLib.VK_IMAGE_VIEW_TYPE_2D
+    #print("statd VK_IMAGE_VIEW_TYPE_2D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_2D"]
+try:
+    VK_IMAGE_VIEW_TYPE_2D_ARRAY = jvulkanLib.VK_IMAGE_VIEW_TYPE_2D_ARRAY
+    #print("statd VK_IMAGE_VIEW_TYPE_2D_ARRAY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_2D_ARRAY"]
+try:
+    VK_IMAGE_VIEW_TYPE_3D = jvulkanLib.VK_IMAGE_VIEW_TYPE_3D
+    #print("statd VK_IMAGE_VIEW_TYPE_3D")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_3D"]
+try:
+    VK_IMAGE_VIEW_TYPE_CUBE = jvulkanLib.VK_IMAGE_VIEW_TYPE_CUBE
+    #print("statd VK_IMAGE_VIEW_TYPE_CUBE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_CUBE"]
+try:
+    VK_IMAGE_VIEW_TYPE_CUBE_ARRAY = jvulkanLib.VK_IMAGE_VIEW_TYPE_CUBE_ARRAY
+    #print("statd VK_IMAGE_VIEW_TYPE_CUBE_ARRAY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_CUBE_ARRAY"]
+try:
+    VK_IMAGE_VIEW_TYPE_MAX_ENUM = jvulkanLib.VK_IMAGE_VIEW_TYPE_MAX_ENUM
+    #print("statd VK_IMAGE_VIEW_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_IMAGE_VIEW_TYPE_MAX_ENUM"]
+try:
+    VK_INCOMPLETE = jvulkanLib.VK_INCOMPLETE
+    #print("statd VK_INCOMPLETE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INCOMPLETE"]
+try:
+    VK_INDEX_TYPE_MAX_ENUM = jvulkanLib.VK_INDEX_TYPE_MAX_ENUM
+    #print("statd VK_INDEX_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_MAX_ENUM"]
+try:
+    VK_INDEX_TYPE_NONE_KHR = jvulkanLib.VK_INDEX_TYPE_NONE_KHR
+    #print("statd VK_INDEX_TYPE_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_NONE_KHR"]
+try:
+    VK_INDEX_TYPE_NONE_NV = jvulkanLib.VK_INDEX_TYPE_NONE_NV
+    #print("statd VK_INDEX_TYPE_NONE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_NONE_NV"]
+try:
+    VK_INDEX_TYPE_UINT16 = jvulkanLib.VK_INDEX_TYPE_UINT16
+    #print("statd VK_INDEX_TYPE_UINT16")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_UINT16"]
+try:
+    VK_INDEX_TYPE_UINT32 = jvulkanLib.VK_INDEX_TYPE_UINT32
+    #print("statd VK_INDEX_TYPE_UINT32")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_UINT32"]
+try:
+    VK_INDEX_TYPE_UINT8_EXT = jvulkanLib.VK_INDEX_TYPE_UINT8_EXT
+    #print("statd VK_INDEX_TYPE_UINT8_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDEX_TYPE_UINT8_EXT"]
+try:
+    VK_INDIRECT_COMMANDS_LAYOUT_USAGE_EXPLICIT_PREPROCESS_BIT_NV = jvulkanLib.VK_INDIRECT_COMMANDS_LAYOUT_USAGE_EXPLICIT_PREPROCESS_BIT_NV
+    #print("statd VK_INDIRECT_COMMANDS_LAYOUT_USAGE_EXPLICIT_PREPROCESS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_LAYOUT_USAGE_EXPLICIT_PREPROCESS_BIT_NV"]
+try:
+    VK_INDIRECT_COMMANDS_LAYOUT_USAGE_FLAG_BITS_MAX_ENUM_NV = jvulkanLib.VK_INDIRECT_COMMANDS_LAYOUT_USAGE_FLAG_BITS_MAX_ENUM_NV
+    #print("statd VK_INDIRECT_COMMANDS_LAYOUT_USAGE_FLAG_BITS_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_LAYOUT_USAGE_FLAG_BITS_MAX_ENUM_NV"]
+try:
+    VK_INDIRECT_COMMANDS_LAYOUT_USAGE_INDEXED_SEQUENCES_BIT_NV = jvulkanLib.VK_INDIRECT_COMMANDS_LAYOUT_USAGE_INDEXED_SEQUENCES_BIT_NV
+    #print("statd VK_INDIRECT_COMMANDS_LAYOUT_USAGE_INDEXED_SEQUENCES_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_LAYOUT_USAGE_INDEXED_SEQUENCES_BIT_NV"]
+try:
+    VK_INDIRECT_COMMANDS_LAYOUT_USAGE_UNORDERED_SEQUENCES_BIT_NV = jvulkanLib.VK_INDIRECT_COMMANDS_LAYOUT_USAGE_UNORDERED_SEQUENCES_BIT_NV
+    #print("statd VK_INDIRECT_COMMANDS_LAYOUT_USAGE_UNORDERED_SEQUENCES_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_LAYOUT_USAGE_UNORDERED_SEQUENCES_BIT_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_INDEXED_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_INDEXED_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_INDEXED_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_INDEXED_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_TASKS_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_TASKS_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_TASKS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_DRAW_TASKS_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_INDEX_BUFFER_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_INDEX_BUFFER_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_INDEX_BUFFER_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_INDEX_BUFFER_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_MAX_ENUM_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_MAX_ENUM_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_MAX_ENUM_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_PUSH_CONSTANT_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_PUSH_CONSTANT_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_PUSH_CONSTANT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_PUSH_CONSTANT_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_SHADER_GROUP_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_SHADER_GROUP_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_SHADER_GROUP_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_SHADER_GROUP_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_STATE_FLAGS_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_STATE_FLAGS_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_STATE_FLAGS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_STATE_FLAGS_NV"]
+try:
+    VK_INDIRECT_COMMANDS_TOKEN_TYPE_VERTEX_BUFFER_NV = jvulkanLib.VK_INDIRECT_COMMANDS_TOKEN_TYPE_VERTEX_BUFFER_NV
+    #print("statd VK_INDIRECT_COMMANDS_TOKEN_TYPE_VERTEX_BUFFER_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_COMMANDS_TOKEN_TYPE_VERTEX_BUFFER_NV"]
+try:
+    VK_INDIRECT_STATE_FLAG_BITS_MAX_ENUM_NV = jvulkanLib.VK_INDIRECT_STATE_FLAG_BITS_MAX_ENUM_NV
+    #print("statd VK_INDIRECT_STATE_FLAG_BITS_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_STATE_FLAG_BITS_MAX_ENUM_NV"]
+try:
+    VK_INDIRECT_STATE_FLAG_FRONTFACE_BIT_NV = jvulkanLib.VK_INDIRECT_STATE_FLAG_FRONTFACE_BIT_NV
+    #print("statd VK_INDIRECT_STATE_FLAG_FRONTFACE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INDIRECT_STATE_FLAG_FRONTFACE_BIT_NV"]
+try:
+    VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR = jvulkanLib.VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR
+    #print("statd VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INSTANCE_CREATE_ENUMERATE_PORTABILITY_BIT_KHR"]
+try:
+    VK_INSTANCE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_INSTANCE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_INSTANCE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INSTANCE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_INTERNAL_ALLOCATION_TYPE_EXECUTABLE = jvulkanLib.VK_INTERNAL_ALLOCATION_TYPE_EXECUTABLE
+    #print("statd VK_INTERNAL_ALLOCATION_TYPE_EXECUTABLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INTERNAL_ALLOCATION_TYPE_EXECUTABLE"]
+try:
+    VK_INTERNAL_ALLOCATION_TYPE_MAX_ENUM = jvulkanLib.VK_INTERNAL_ALLOCATION_TYPE_MAX_ENUM
+    #print("statd VK_INTERNAL_ALLOCATION_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_INTERNAL_ALLOCATION_TYPE_MAX_ENUM"]
+try:
+    VK_LINE_RASTERIZATION_MODE_BRESENHAM_EXT = jvulkanLib.VK_LINE_RASTERIZATION_MODE_BRESENHAM_EXT
+    #print("statd VK_LINE_RASTERIZATION_MODE_BRESENHAM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LINE_RASTERIZATION_MODE_BRESENHAM_EXT"]
+try:
+    VK_LINE_RASTERIZATION_MODE_DEFAULT_EXT = jvulkanLib.VK_LINE_RASTERIZATION_MODE_DEFAULT_EXT
+    #print("statd VK_LINE_RASTERIZATION_MODE_DEFAULT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LINE_RASTERIZATION_MODE_DEFAULT_EXT"]
+try:
+    VK_LINE_RASTERIZATION_MODE_MAX_ENUM_EXT = jvulkanLib.VK_LINE_RASTERIZATION_MODE_MAX_ENUM_EXT
+    #print("statd VK_LINE_RASTERIZATION_MODE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LINE_RASTERIZATION_MODE_MAX_ENUM_EXT"]
+try:
+    VK_LINE_RASTERIZATION_MODE_RECTANGULAR_EXT = jvulkanLib.VK_LINE_RASTERIZATION_MODE_RECTANGULAR_EXT
+    #print("statd VK_LINE_RASTERIZATION_MODE_RECTANGULAR_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LINE_RASTERIZATION_MODE_RECTANGULAR_EXT"]
+try:
+    VK_LINE_RASTERIZATION_MODE_RECTANGULAR_SMOOTH_EXT = jvulkanLib.VK_LINE_RASTERIZATION_MODE_RECTANGULAR_SMOOTH_EXT
+    #print("statd VK_LINE_RASTERIZATION_MODE_RECTANGULAR_SMOOTH_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LINE_RASTERIZATION_MODE_RECTANGULAR_SMOOTH_EXT"]
+try:
+    VK_LOGIC_OP_AND = jvulkanLib.VK_LOGIC_OP_AND
+    #print("statd VK_LOGIC_OP_AND")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_AND"]
+try:
+    VK_LOGIC_OP_AND_INVERTED = jvulkanLib.VK_LOGIC_OP_AND_INVERTED
+    #print("statd VK_LOGIC_OP_AND_INVERTED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_AND_INVERTED"]
+try:
+    VK_LOGIC_OP_AND_REVERSE = jvulkanLib.VK_LOGIC_OP_AND_REVERSE
+    #print("statd VK_LOGIC_OP_AND_REVERSE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_AND_REVERSE"]
+try:
+    VK_LOGIC_OP_CLEAR = jvulkanLib.VK_LOGIC_OP_CLEAR
+    #print("statd VK_LOGIC_OP_CLEAR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_CLEAR"]
+try:
+    VK_LOGIC_OP_COPY = jvulkanLib.VK_LOGIC_OP_COPY
+    #print("statd VK_LOGIC_OP_COPY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_COPY"]
+try:
+    VK_LOGIC_OP_COPY_INVERTED = jvulkanLib.VK_LOGIC_OP_COPY_INVERTED
+    #print("statd VK_LOGIC_OP_COPY_INVERTED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_COPY_INVERTED"]
+try:
+    VK_LOGIC_OP_EQUIVALENT = jvulkanLib.VK_LOGIC_OP_EQUIVALENT
+    #print("statd VK_LOGIC_OP_EQUIVALENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_EQUIVALENT"]
+try:
+    VK_LOGIC_OP_INVERT = jvulkanLib.VK_LOGIC_OP_INVERT
+    #print("statd VK_LOGIC_OP_INVERT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_INVERT"]
+try:
+    VK_LOGIC_OP_MAX_ENUM = jvulkanLib.VK_LOGIC_OP_MAX_ENUM
+    #print("statd VK_LOGIC_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_MAX_ENUM"]
+try:
+    VK_LOGIC_OP_NAND = jvulkanLib.VK_LOGIC_OP_NAND
+    #print("statd VK_LOGIC_OP_NAND")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_NAND"]
+try:
+    VK_LOGIC_OP_NOR = jvulkanLib.VK_LOGIC_OP_NOR
+    #print("statd VK_LOGIC_OP_NOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_NOR"]
+try:
+    VK_LOGIC_OP_NO_OP = jvulkanLib.VK_LOGIC_OP_NO_OP
+    #print("statd VK_LOGIC_OP_NO_OP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_NO_OP"]
+try:
+    VK_LOGIC_OP_OR = jvulkanLib.VK_LOGIC_OP_OR
+    #print("statd VK_LOGIC_OP_OR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_OR"]
+try:
+    VK_LOGIC_OP_OR_INVERTED = jvulkanLib.VK_LOGIC_OP_OR_INVERTED
+    #print("statd VK_LOGIC_OP_OR_INVERTED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_OR_INVERTED"]
+try:
+    VK_LOGIC_OP_OR_REVERSE = jvulkanLib.VK_LOGIC_OP_OR_REVERSE
+    #print("statd VK_LOGIC_OP_OR_REVERSE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_OR_REVERSE"]
+try:
+    VK_LOGIC_OP_SET = jvulkanLib.VK_LOGIC_OP_SET
+    #print("statd VK_LOGIC_OP_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_SET"]
+try:
+    VK_LOGIC_OP_XOR = jvulkanLib.VK_LOGIC_OP_XOR
+    #print("statd VK_LOGIC_OP_XOR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_LOGIC_OP_XOR"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT_KHR = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT_KHR
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_BIT_KHR"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_ADDRESS_CAPTURE_REPLAY_BIT_KHR"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT"]
+try:
+    VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT_KHR = jvulkanLib.VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT_KHR
+    #print("statd VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_DEVICE_MASK_BIT_KHR"]
+try:
+    VK_MEMORY_ALLOCATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_MEMORY_ALLOCATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_MEMORY_ALLOCATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_ALLOCATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_MEMORY_HEAP_DEVICE_LOCAL_BIT = jvulkanLib.VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
+    #print("statd VK_MEMORY_HEAP_DEVICE_LOCAL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_HEAP_DEVICE_LOCAL_BIT"]
+try:
+    VK_MEMORY_HEAP_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_MEMORY_HEAP_FLAG_BITS_MAX_ENUM
+    #print("statd VK_MEMORY_HEAP_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_HEAP_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_MEMORY_HEAP_MULTI_INSTANCE_BIT = jvulkanLib.VK_MEMORY_HEAP_MULTI_INSTANCE_BIT
+    #print("statd VK_MEMORY_HEAP_MULTI_INSTANCE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_HEAP_MULTI_INSTANCE_BIT"]
+try:
+    VK_MEMORY_HEAP_MULTI_INSTANCE_BIT_KHR = jvulkanLib.VK_MEMORY_HEAP_MULTI_INSTANCE_BIT_KHR
+    #print("statd VK_MEMORY_HEAP_MULTI_INSTANCE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_HEAP_MULTI_INSTANCE_BIT_KHR"]
+try:
+    VK_MEMORY_OVERALLOCATION_BEHAVIOR_ALLOWED_AMD = jvulkanLib.VK_MEMORY_OVERALLOCATION_BEHAVIOR_ALLOWED_AMD
+    #print("statd VK_MEMORY_OVERALLOCATION_BEHAVIOR_ALLOWED_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_OVERALLOCATION_BEHAVIOR_ALLOWED_AMD"]
+try:
+    VK_MEMORY_OVERALLOCATION_BEHAVIOR_DEFAULT_AMD = jvulkanLib.VK_MEMORY_OVERALLOCATION_BEHAVIOR_DEFAULT_AMD
+    #print("statd VK_MEMORY_OVERALLOCATION_BEHAVIOR_DEFAULT_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_OVERALLOCATION_BEHAVIOR_DEFAULT_AMD"]
+try:
+    VK_MEMORY_OVERALLOCATION_BEHAVIOR_DISALLOWED_AMD = jvulkanLib.VK_MEMORY_OVERALLOCATION_BEHAVIOR_DISALLOWED_AMD
+    #print("statd VK_MEMORY_OVERALLOCATION_BEHAVIOR_DISALLOWED_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_OVERALLOCATION_BEHAVIOR_DISALLOWED_AMD"]
+try:
+    VK_MEMORY_OVERALLOCATION_BEHAVIOR_MAX_ENUM_AMD = jvulkanLib.VK_MEMORY_OVERALLOCATION_BEHAVIOR_MAX_ENUM_AMD
+    #print("statd VK_MEMORY_OVERALLOCATION_BEHAVIOR_MAX_ENUM_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_OVERALLOCATION_BEHAVIOR_MAX_ENUM_AMD"]
+try:
+    VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD = jvulkanLib.VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD
+    #print("statd VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_DEVICE_COHERENT_BIT_AMD"]
+try:
+    VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT = jvulkanLib.VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+    #print("statd VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT"]
+try:
+    VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD = jvulkanLib.VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD
+    #print("statd VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_DEVICE_UNCACHED_BIT_AMD"]
+try:
+    VK_MEMORY_PROPERTY_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_MEMORY_PROPERTY_FLAG_BITS_MAX_ENUM
+    #print("statd VK_MEMORY_PROPERTY_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_MEMORY_PROPERTY_HOST_CACHED_BIT = jvulkanLib.VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+    #print("statd VK_MEMORY_PROPERTY_HOST_CACHED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_HOST_CACHED_BIT"]
+try:
+    VK_MEMORY_PROPERTY_HOST_COHERENT_BIT = jvulkanLib.VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+    #print("statd VK_MEMORY_PROPERTY_HOST_COHERENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_HOST_COHERENT_BIT"]
+try:
+    VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT = jvulkanLib.VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT
+    #print("statd VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT"]
+try:
+    VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT = jvulkanLib.VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT
+    #print("statd VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT"]
+try:
+    VK_MEMORY_PROPERTY_PROTECTED_BIT = jvulkanLib.VK_MEMORY_PROPERTY_PROTECTED_BIT
+    #print("statd VK_MEMORY_PROPERTY_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_PROTECTED_BIT"]
+try:
+    VK_MEMORY_PROPERTY_RDMA_CAPABLE_BIT_NV = jvulkanLib.VK_MEMORY_PROPERTY_RDMA_CAPABLE_BIT_NV
+    #print("statd VK_MEMORY_PROPERTY_RDMA_CAPABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_MEMORY_PROPERTY_RDMA_CAPABLE_BIT_NV"]
+try:
+    VK_NOT_READY = jvulkanLib.VK_NOT_READY
+    #print("statd VK_NOT_READY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_NOT_READY"]
+try:
+    VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR = jvulkanLib.VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR
+    #print("statd VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_KHR"]
+try:
+    VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV = jvulkanLib.VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV
+    #print("statd VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_ACCELERATION_STRUCTURE_NV"]
+try:
+    VK_OBJECT_TYPE_BUFFER = jvulkanLib.VK_OBJECT_TYPE_BUFFER
+    #print("statd VK_OBJECT_TYPE_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_BUFFER"]
+try:
+    VK_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA = jvulkanLib.VK_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA
+    #print("statd VK_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_BUFFER_COLLECTION_FUCHSIA"]
+try:
+    VK_OBJECT_TYPE_BUFFER_VIEW = jvulkanLib.VK_OBJECT_TYPE_BUFFER_VIEW
+    #print("statd VK_OBJECT_TYPE_BUFFER_VIEW")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_BUFFER_VIEW"]
+try:
+    VK_OBJECT_TYPE_COMMAND_BUFFER = jvulkanLib.VK_OBJECT_TYPE_COMMAND_BUFFER
+    #print("statd VK_OBJECT_TYPE_COMMAND_BUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_COMMAND_BUFFER"]
+try:
+    VK_OBJECT_TYPE_COMMAND_POOL = jvulkanLib.VK_OBJECT_TYPE_COMMAND_POOL
+    #print("statd VK_OBJECT_TYPE_COMMAND_POOL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_COMMAND_POOL"]
+try:
+    VK_OBJECT_TYPE_CU_FUNCTION_NVX = jvulkanLib.VK_OBJECT_TYPE_CU_FUNCTION_NVX
+    #print("statd VK_OBJECT_TYPE_CU_FUNCTION_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_CU_FUNCTION_NVX"]
+try:
+    VK_OBJECT_TYPE_CU_MODULE_NVX = jvulkanLib.VK_OBJECT_TYPE_CU_MODULE_NVX
+    #print("statd VK_OBJECT_TYPE_CU_MODULE_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_CU_MODULE_NVX"]
+try:
+    VK_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT = jvulkanLib.VK_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT
+    #print("statd VK_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT"]
+try:
+    VK_OBJECT_TYPE_DEBUG_UTILS_MESSENGER_EXT = jvulkanLib.VK_OBJECT_TYPE_DEBUG_UTILS_MESSENGER_EXT
+    #print("statd VK_OBJECT_TYPE_DEBUG_UTILS_MESSENGER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DEBUG_UTILS_MESSENGER_EXT"]
+try:
+    VK_OBJECT_TYPE_DEFERRED_OPERATION_KHR = jvulkanLib.VK_OBJECT_TYPE_DEFERRED_OPERATION_KHR
+    #print("statd VK_OBJECT_TYPE_DEFERRED_OPERATION_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DEFERRED_OPERATION_KHR"]
+try:
+    VK_OBJECT_TYPE_DESCRIPTOR_POOL = jvulkanLib.VK_OBJECT_TYPE_DESCRIPTOR_POOL
+    #print("statd VK_OBJECT_TYPE_DESCRIPTOR_POOL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DESCRIPTOR_POOL"]
+try:
+    VK_OBJECT_TYPE_DESCRIPTOR_SET = jvulkanLib.VK_OBJECT_TYPE_DESCRIPTOR_SET
+    #print("statd VK_OBJECT_TYPE_DESCRIPTOR_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DESCRIPTOR_SET"]
+try:
+    VK_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT = jvulkanLib.VK_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT
+    #print("statd VK_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DESCRIPTOR_SET_LAYOUT"]
+try:
+    VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE = jvulkanLib.VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE
+    #print("statd VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE"]
+try:
+    VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR = jvulkanLib.VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR
+    #print("statd VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_KHR"]
+try:
+    VK_OBJECT_TYPE_DEVICE = jvulkanLib.VK_OBJECT_TYPE_DEVICE
+    #print("statd VK_OBJECT_TYPE_DEVICE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DEVICE"]
+try:
+    VK_OBJECT_TYPE_DEVICE_MEMORY = jvulkanLib.VK_OBJECT_TYPE_DEVICE_MEMORY
+    #print("statd VK_OBJECT_TYPE_DEVICE_MEMORY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DEVICE_MEMORY"]
+try:
+    VK_OBJECT_TYPE_DISPLAY_KHR = jvulkanLib.VK_OBJECT_TYPE_DISPLAY_KHR
+    #print("statd VK_OBJECT_TYPE_DISPLAY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DISPLAY_KHR"]
+try:
+    VK_OBJECT_TYPE_DISPLAY_MODE_KHR = jvulkanLib.VK_OBJECT_TYPE_DISPLAY_MODE_KHR
+    #print("statd VK_OBJECT_TYPE_DISPLAY_MODE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_DISPLAY_MODE_KHR"]
+try:
+    VK_OBJECT_TYPE_EVENT = jvulkanLib.VK_OBJECT_TYPE_EVENT
+    #print("statd VK_OBJECT_TYPE_EVENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_EVENT"]
+try:
+    VK_OBJECT_TYPE_FENCE = jvulkanLib.VK_OBJECT_TYPE_FENCE
+    #print("statd VK_OBJECT_TYPE_FENCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_FENCE"]
+try:
+    VK_OBJECT_TYPE_FRAMEBUFFER = jvulkanLib.VK_OBJECT_TYPE_FRAMEBUFFER
+    #print("statd VK_OBJECT_TYPE_FRAMEBUFFER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_FRAMEBUFFER"]
+try:
+    VK_OBJECT_TYPE_IMAGE = jvulkanLib.VK_OBJECT_TYPE_IMAGE
+    #print("statd VK_OBJECT_TYPE_IMAGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_IMAGE"]
+try:
+    VK_OBJECT_TYPE_IMAGE_VIEW = jvulkanLib.VK_OBJECT_TYPE_IMAGE_VIEW
+    #print("statd VK_OBJECT_TYPE_IMAGE_VIEW")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_IMAGE_VIEW"]
+try:
+    VK_OBJECT_TYPE_INDIRECT_COMMANDS_LAYOUT_NV = jvulkanLib.VK_OBJECT_TYPE_INDIRECT_COMMANDS_LAYOUT_NV
+    #print("statd VK_OBJECT_TYPE_INDIRECT_COMMANDS_LAYOUT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_INDIRECT_COMMANDS_LAYOUT_NV"]
+try:
+    VK_OBJECT_TYPE_INSTANCE = jvulkanLib.VK_OBJECT_TYPE_INSTANCE
+    #print("statd VK_OBJECT_TYPE_INSTANCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_INSTANCE"]
+try:
+    VK_OBJECT_TYPE_MAX_ENUM = jvulkanLib.VK_OBJECT_TYPE_MAX_ENUM
+    #print("statd VK_OBJECT_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_MAX_ENUM"]
+try:
+    VK_OBJECT_TYPE_PERFORMANCE_CONFIGURATION_INTEL = jvulkanLib.VK_OBJECT_TYPE_PERFORMANCE_CONFIGURATION_INTEL
+    #print("statd VK_OBJECT_TYPE_PERFORMANCE_CONFIGURATION_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PERFORMANCE_CONFIGURATION_INTEL"]
+try:
+    VK_OBJECT_TYPE_PHYSICAL_DEVICE = jvulkanLib.VK_OBJECT_TYPE_PHYSICAL_DEVICE
+    #print("statd VK_OBJECT_TYPE_PHYSICAL_DEVICE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PHYSICAL_DEVICE"]
+try:
+    VK_OBJECT_TYPE_PIPELINE = jvulkanLib.VK_OBJECT_TYPE_PIPELINE
+    #print("statd VK_OBJECT_TYPE_PIPELINE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PIPELINE"]
+try:
+    VK_OBJECT_TYPE_PIPELINE_CACHE = jvulkanLib.VK_OBJECT_TYPE_PIPELINE_CACHE
+    #print("statd VK_OBJECT_TYPE_PIPELINE_CACHE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PIPELINE_CACHE"]
+try:
+    VK_OBJECT_TYPE_PIPELINE_LAYOUT = jvulkanLib.VK_OBJECT_TYPE_PIPELINE_LAYOUT
+    #print("statd VK_OBJECT_TYPE_PIPELINE_LAYOUT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PIPELINE_LAYOUT"]
+try:
+    VK_OBJECT_TYPE_PRIVATE_DATA_SLOT = jvulkanLib.VK_OBJECT_TYPE_PRIVATE_DATA_SLOT
+    #print("statd VK_OBJECT_TYPE_PRIVATE_DATA_SLOT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PRIVATE_DATA_SLOT"]
+try:
+    VK_OBJECT_TYPE_PRIVATE_DATA_SLOT_EXT = jvulkanLib.VK_OBJECT_TYPE_PRIVATE_DATA_SLOT_EXT
+    #print("statd VK_OBJECT_TYPE_PRIVATE_DATA_SLOT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_PRIVATE_DATA_SLOT_EXT"]
+try:
+    VK_OBJECT_TYPE_QUERY_POOL = jvulkanLib.VK_OBJECT_TYPE_QUERY_POOL
+    #print("statd VK_OBJECT_TYPE_QUERY_POOL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_QUERY_POOL"]
+try:
+    VK_OBJECT_TYPE_QUEUE = jvulkanLib.VK_OBJECT_TYPE_QUEUE
+    #print("statd VK_OBJECT_TYPE_QUEUE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_QUEUE"]
+try:
+    VK_OBJECT_TYPE_RENDER_PASS = jvulkanLib.VK_OBJECT_TYPE_RENDER_PASS
+    #print("statd VK_OBJECT_TYPE_RENDER_PASS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_RENDER_PASS"]
+try:
+    VK_OBJECT_TYPE_SAMPLER = jvulkanLib.VK_OBJECT_TYPE_SAMPLER
+    #print("statd VK_OBJECT_TYPE_SAMPLER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SAMPLER"]
+try:
+    VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION = jvulkanLib.VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION
+    #print("statd VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION"]
+try:
+    VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR = jvulkanLib.VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR
+    #print("statd VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SAMPLER_YCBCR_CONVERSION_KHR"]
+try:
+    VK_OBJECT_TYPE_SEMAPHORE = jvulkanLib.VK_OBJECT_TYPE_SEMAPHORE
+    #print("statd VK_OBJECT_TYPE_SEMAPHORE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SEMAPHORE"]
+try:
+    VK_OBJECT_TYPE_SHADER_MODULE = jvulkanLib.VK_OBJECT_TYPE_SHADER_MODULE
+    #print("statd VK_OBJECT_TYPE_SHADER_MODULE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SHADER_MODULE"]
+try:
+    VK_OBJECT_TYPE_SURFACE_KHR = jvulkanLib.VK_OBJECT_TYPE_SURFACE_KHR
+    #print("statd VK_OBJECT_TYPE_SURFACE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SURFACE_KHR"]
+try:
+    VK_OBJECT_TYPE_SWAPCHAIN_KHR = jvulkanLib.VK_OBJECT_TYPE_SWAPCHAIN_KHR
+    #print("statd VK_OBJECT_TYPE_SWAPCHAIN_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_SWAPCHAIN_KHR"]
+try:
+    VK_OBJECT_TYPE_UNKNOWN = jvulkanLib.VK_OBJECT_TYPE_UNKNOWN
+    #print("statd VK_OBJECT_TYPE_UNKNOWN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_UNKNOWN"]
+try:
+    VK_OBJECT_TYPE_VALIDATION_CACHE_EXT = jvulkanLib.VK_OBJECT_TYPE_VALIDATION_CACHE_EXT
+    #print("statd VK_OBJECT_TYPE_VALIDATION_CACHE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OBJECT_TYPE_VALIDATION_CACHE_EXT"]
+try:
+    VK_OPERATION_DEFERRED_KHR = jvulkanLib.VK_OPERATION_DEFERRED_KHR
+    #print("statd VK_OPERATION_DEFERRED_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OPERATION_DEFERRED_KHR"]
+try:
+    VK_OPERATION_NOT_DEFERRED_KHR = jvulkanLib.VK_OPERATION_NOT_DEFERRED_KHR
+    #print("statd VK_OPERATION_NOT_DEFERRED_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_OPERATION_NOT_DEFERRED_KHR"]
+try:
+    VK_PEER_MEMORY_FEATURE_COPY_DST_BIT = jvulkanLib.VK_PEER_MEMORY_FEATURE_COPY_DST_BIT
+    #print("statd VK_PEER_MEMORY_FEATURE_COPY_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_COPY_DST_BIT"]
+try:
+    VK_PEER_MEMORY_FEATURE_COPY_DST_BIT_KHR = jvulkanLib.VK_PEER_MEMORY_FEATURE_COPY_DST_BIT_KHR
+    #print("statd VK_PEER_MEMORY_FEATURE_COPY_DST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_COPY_DST_BIT_KHR"]
+try:
+    VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT = jvulkanLib.VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT
+    #print("statd VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT"]
+try:
+    VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT_KHR = jvulkanLib.VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT_KHR
+    #print("statd VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_COPY_SRC_BIT_KHR"]
+try:
+    VK_PEER_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PEER_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PEER_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT = jvulkanLib.VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT
+    #print("statd VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT"]
+try:
+    VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT_KHR = jvulkanLib.VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT_KHR
+    #print("statd VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_GENERIC_DST_BIT_KHR"]
+try:
+    VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT = jvulkanLib.VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT
+    #print("statd VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT"]
+try:
+    VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT_KHR = jvulkanLib.VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT_KHR
+    #print("statd VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PEER_MEMORY_FEATURE_GENERIC_SRC_BIT_KHR"]
+try:
+    VK_PERFORMANCE_CONFIGURATION_TYPE_COMMAND_QUEUE_METRICS_DISCOVERY_ACTIVATED_INTEL = jvulkanLib.VK_PERFORMANCE_CONFIGURATION_TYPE_COMMAND_QUEUE_METRICS_DISCOVERY_ACTIVATED_INTEL
+    #print("statd VK_PERFORMANCE_CONFIGURATION_TYPE_COMMAND_QUEUE_METRICS_DISCOVERY_ACTIVATED_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_CONFIGURATION_TYPE_COMMAND_QUEUE_METRICS_DISCOVERY_ACTIVATED_INTEL"]
+try:
+    VK_PERFORMANCE_CONFIGURATION_TYPE_MAX_ENUM_INTEL = jvulkanLib.VK_PERFORMANCE_CONFIGURATION_TYPE_MAX_ENUM_INTEL
+    #print("statd VK_PERFORMANCE_CONFIGURATION_TYPE_MAX_ENUM_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_CONFIGURATION_TYPE_MAX_ENUM_INTEL"]
+try:
+    VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_BIT_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_BIT_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_BIT_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_DESCRIPTION_CONCURRENTLY_IMPACTED_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_DESCRIPTION_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_DESCRIPTION_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_DESCRIPTION_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_DESCRIPTION_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_BIT_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_BIT_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_BIT_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_DESCRIPTION_PERFORMANCE_IMPACTING_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_BUFFER_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_BUFFER_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_BUFFER_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_BUFFER_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_SCOPE_COMMAND_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_SCOPE_MAX_ENUM_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_SCOPE_MAX_ENUM_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_SCOPE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_SCOPE_MAX_ENUM_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_SCOPE_RENDER_PASS_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_SCOPE_RENDER_PASS_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_SCOPE_RENDER_PASS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_SCOPE_RENDER_PASS_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_FLOAT32_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_FLOAT32_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_FLOAT32_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_FLOAT32_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_FLOAT64_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_FLOAT64_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_FLOAT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_FLOAT64_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_INT32_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_INT32_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_INT32_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_INT32_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_INT64_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_INT64_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_INT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_INT64_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_MAX_ENUM_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_MAX_ENUM_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_MAX_ENUM_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_UINT32_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_UINT32_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_UINT32_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_UINT32_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_STORAGE_UINT64_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_STORAGE_UINT64_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_STORAGE_UINT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_STORAGE_UINT64_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_AMPS_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_AMPS_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_AMPS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_AMPS_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_BYTES_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_BYTES_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_BYTES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_BYTES_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_BYTES_PER_SECOND_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_BYTES_PER_SECOND_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_BYTES_PER_SECOND_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_BYTES_PER_SECOND_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_CYCLES_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_CYCLES_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_CYCLES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_CYCLES_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_GENERIC_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_GENERIC_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_GENERIC_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_GENERIC_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_HERTZ_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_HERTZ_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_HERTZ_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_HERTZ_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_KELVIN_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_KELVIN_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_KELVIN_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_KELVIN_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_MAX_ENUM_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_MAX_ENUM_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_MAX_ENUM_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_NANOSECONDS_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_NANOSECONDS_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_NANOSECONDS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_NANOSECONDS_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_PERCENTAGE_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_PERCENTAGE_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_PERCENTAGE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_PERCENTAGE_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_VOLTS_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_VOLTS_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_VOLTS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_VOLTS_KHR"]
+try:
+    VK_PERFORMANCE_COUNTER_UNIT_WATTS_KHR = jvulkanLib.VK_PERFORMANCE_COUNTER_UNIT_WATTS_KHR
+    #print("statd VK_PERFORMANCE_COUNTER_UNIT_WATTS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_COUNTER_UNIT_WATTS_KHR"]
+try:
+    VK_PERFORMANCE_OVERRIDE_TYPE_FLUSH_GPU_CACHES_INTEL = jvulkanLib.VK_PERFORMANCE_OVERRIDE_TYPE_FLUSH_GPU_CACHES_INTEL
+    #print("statd VK_PERFORMANCE_OVERRIDE_TYPE_FLUSH_GPU_CACHES_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_OVERRIDE_TYPE_FLUSH_GPU_CACHES_INTEL"]
+try:
+    VK_PERFORMANCE_OVERRIDE_TYPE_MAX_ENUM_INTEL = jvulkanLib.VK_PERFORMANCE_OVERRIDE_TYPE_MAX_ENUM_INTEL
+    #print("statd VK_PERFORMANCE_OVERRIDE_TYPE_MAX_ENUM_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_OVERRIDE_TYPE_MAX_ENUM_INTEL"]
+try:
+    VK_PERFORMANCE_OVERRIDE_TYPE_NULL_HARDWARE_INTEL = jvulkanLib.VK_PERFORMANCE_OVERRIDE_TYPE_NULL_HARDWARE_INTEL
+    #print("statd VK_PERFORMANCE_OVERRIDE_TYPE_NULL_HARDWARE_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_OVERRIDE_TYPE_NULL_HARDWARE_INTEL"]
+try:
+    VK_PERFORMANCE_PARAMETER_TYPE_HW_COUNTERS_SUPPORTED_INTEL = jvulkanLib.VK_PERFORMANCE_PARAMETER_TYPE_HW_COUNTERS_SUPPORTED_INTEL
+    #print("statd VK_PERFORMANCE_PARAMETER_TYPE_HW_COUNTERS_SUPPORTED_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_PARAMETER_TYPE_HW_COUNTERS_SUPPORTED_INTEL"]
+try:
+    VK_PERFORMANCE_PARAMETER_TYPE_MAX_ENUM_INTEL = jvulkanLib.VK_PERFORMANCE_PARAMETER_TYPE_MAX_ENUM_INTEL
+    #print("statd VK_PERFORMANCE_PARAMETER_TYPE_MAX_ENUM_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_PARAMETER_TYPE_MAX_ENUM_INTEL"]
+try:
+    VK_PERFORMANCE_PARAMETER_TYPE_STREAM_MARKER_VALID_BITS_INTEL = jvulkanLib.VK_PERFORMANCE_PARAMETER_TYPE_STREAM_MARKER_VALID_BITS_INTEL
+    #print("statd VK_PERFORMANCE_PARAMETER_TYPE_STREAM_MARKER_VALID_BITS_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_PARAMETER_TYPE_STREAM_MARKER_VALID_BITS_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_BOOL_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_BOOL_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_BOOL_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_BOOL_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_FLOAT_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_FLOAT_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_FLOAT_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_FLOAT_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_MAX_ENUM_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_MAX_ENUM_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_MAX_ENUM_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_MAX_ENUM_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_STRING_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_STRING_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_STRING_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_STRING_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_UINT32_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_UINT32_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_UINT32_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_UINT32_INTEL"]
+try:
+    VK_PERFORMANCE_VALUE_TYPE_UINT64_INTEL = jvulkanLib.VK_PERFORMANCE_VALUE_TYPE_UINT64_INTEL
+    #print("statd VK_PERFORMANCE_VALUE_TYPE_UINT64_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PERFORMANCE_VALUE_TYPE_UINT64_INTEL"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_CPU = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_CPU
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_CPU")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_CPU"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_MAX_ENUM = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_MAX_ENUM
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_MAX_ENUM"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_OTHER = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_OTHER
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_OTHER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_OTHER"]
+try:
+    VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU = jvulkanLib.VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU
+    #print("statd VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU"]
+try:
+    VK_PIPELINE_BIND_POINT_COMPUTE = jvulkanLib.VK_PIPELINE_BIND_POINT_COMPUTE
+    #print("statd VK_PIPELINE_BIND_POINT_COMPUTE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_COMPUTE"]
+try:
+    VK_PIPELINE_BIND_POINT_GRAPHICS = jvulkanLib.VK_PIPELINE_BIND_POINT_GRAPHICS
+    #print("statd VK_PIPELINE_BIND_POINT_GRAPHICS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_GRAPHICS"]
+try:
+    VK_PIPELINE_BIND_POINT_MAX_ENUM = jvulkanLib.VK_PIPELINE_BIND_POINT_MAX_ENUM
+    #print("statd VK_PIPELINE_BIND_POINT_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_MAX_ENUM"]
+try:
+    VK_PIPELINE_BIND_POINT_RAY_TRACING_KHR = jvulkanLib.VK_PIPELINE_BIND_POINT_RAY_TRACING_KHR
+    #print("statd VK_PIPELINE_BIND_POINT_RAY_TRACING_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_RAY_TRACING_KHR"]
+try:
+    VK_PIPELINE_BIND_POINT_RAY_TRACING_NV = jvulkanLib.VK_PIPELINE_BIND_POINT_RAY_TRACING_NV
+    #print("statd VK_PIPELINE_BIND_POINT_RAY_TRACING_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_RAY_TRACING_NV"]
+try:
+    VK_PIPELINE_BIND_POINT_SUBPASS_SHADING_HUAWEI = jvulkanLib.VK_PIPELINE_BIND_POINT_SUBPASS_SHADING_HUAWEI
+    #print("statd VK_PIPELINE_BIND_POINT_SUBPASS_SHADING_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_BIND_POINT_SUBPASS_SHADING_HUAWEI"]
+try:
+    VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT = jvulkanLib.VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT
+    #print("statd VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT"]
+try:
+    VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT_EXT = jvulkanLib.VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT_EXT
+    #print("statd VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CACHE_CREATE_EXTERNALLY_SYNCHRONIZED_BIT_EXT"]
+try:
+    VK_PIPELINE_CACHE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_CACHE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_CACHE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CACHE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM = jvulkanLib.VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM
+    #print("statd VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CACHE_HEADER_VERSION_MAX_ENUM"]
+try:
+    VK_PIPELINE_CACHE_HEADER_VERSION_ONE = jvulkanLib.VK_PIPELINE_CACHE_HEADER_VERSION_ONE
+    #print("statd VK_PIPELINE_CACHE_HEADER_VERSION_ONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CACHE_HEADER_VERSION_ONE"]
+try:
+    VK_PIPELINE_COLOR_BLEND_STATE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_COLOR_BLEND_STATE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_COLOR_BLEND_STATE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_COLOR_BLEND_STATE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_COLOR_BLEND_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_BIT_ARM = jvulkanLib.VK_PIPELINE_COLOR_BLEND_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_BIT_ARM
+    #print("statd VK_PIPELINE_COLOR_BLEND_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_COLOR_BLEND_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_BIT_ARM"]
+try:
+    VK_PIPELINE_COMPILER_CONTROL_FLAG_BITS_MAX_ENUM_AMD = jvulkanLib.VK_PIPELINE_COMPILER_CONTROL_FLAG_BITS_MAX_ENUM_AMD
+    #print("statd VK_PIPELINE_COMPILER_CONTROL_FLAG_BITS_MAX_ENUM_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_COMPILER_CONTROL_FLAG_BITS_MAX_ENUM_AMD"]
+try:
+    VK_PIPELINE_COMPILE_REQUIRED = jvulkanLib.VK_PIPELINE_COMPILE_REQUIRED
+    #print("statd VK_PIPELINE_COMPILE_REQUIRED")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_COMPILE_REQUIRED"]
+try:
+    VK_PIPELINE_COMPILE_REQUIRED_EXT = jvulkanLib.VK_PIPELINE_COMPILE_REQUIRED_EXT
+    #print("statd VK_PIPELINE_COMPILE_REQUIRED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_COMPILE_REQUIRED_EXT"]
+try:
+    VK_PIPELINE_CREATE_ALLOW_DERIVATIVES_BIT = jvulkanLib.VK_PIPELINE_CREATE_ALLOW_DERIVATIVES_BIT
+    #print("statd VK_PIPELINE_CREATE_ALLOW_DERIVATIVES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_ALLOW_DERIVATIVES_BIT"]
+try:
+    VK_PIPELINE_CREATE_CAPTURE_INTERNAL_REPRESENTATIONS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_CAPTURE_INTERNAL_REPRESENTATIONS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_CAPTURE_INTERNAL_REPRESENTATIONS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_CAPTURE_INTERNAL_REPRESENTATIONS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_CAPTURE_STATISTICS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_CAPTURE_STATISTICS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_CAPTURE_STATISTICS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_CAPTURE_STATISTICS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_DEFER_COMPILE_BIT_NV = jvulkanLib.VK_PIPELINE_CREATE_DEFER_COMPILE_BIT_NV
+    #print("statd VK_PIPELINE_CREATE_DEFER_COMPILE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DEFER_COMPILE_BIT_NV"]
+try:
+    VK_PIPELINE_CREATE_DERIVATIVE_BIT = jvulkanLib.VK_PIPELINE_CREATE_DERIVATIVE_BIT
+    #print("statd VK_PIPELINE_CREATE_DERIVATIVE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DERIVATIVE_BIT"]
+try:
+    VK_PIPELINE_CREATE_DISABLE_OPTIMIZATION_BIT = jvulkanLib.VK_PIPELINE_CREATE_DISABLE_OPTIMIZATION_BIT
+    #print("statd VK_PIPELINE_CREATE_DISABLE_OPTIMIZATION_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DISABLE_OPTIMIZATION_BIT"]
+try:
+    VK_PIPELINE_CREATE_DISPATCH_BASE = jvulkanLib.VK_PIPELINE_CREATE_DISPATCH_BASE
+    #print("statd VK_PIPELINE_CREATE_DISPATCH_BASE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DISPATCH_BASE"]
+try:
+    VK_PIPELINE_CREATE_DISPATCH_BASE_BIT = jvulkanLib.VK_PIPELINE_CREATE_DISPATCH_BASE_BIT
+    #print("statd VK_PIPELINE_CREATE_DISPATCH_BASE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DISPATCH_BASE_BIT"]
+try:
+    VK_PIPELINE_CREATE_DISPATCH_BASE_KHR = jvulkanLib.VK_PIPELINE_CREATE_DISPATCH_BASE_KHR
+    #print("statd VK_PIPELINE_CREATE_DISPATCH_BASE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_DISPATCH_BASE_KHR"]
+try:
+    VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT = jvulkanLib.VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT
+    #print("statd VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT"]
+try:
+    VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT_EXT
+    #print("statd VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_EARLY_RETURN_ON_FAILURE_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT = jvulkanLib.VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT
+    #print("statd VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT"]
+try:
+    VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT_EXT
+    #print("statd VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_CREATE_INDIRECT_BINDABLE_BIT_NV = jvulkanLib.VK_PIPELINE_CREATE_INDIRECT_BINDABLE_BIT_NV
+    #print("statd VK_PIPELINE_CREATE_INDIRECT_BINDABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_INDIRECT_BINDABLE_BIT_NV"]
+try:
+    VK_PIPELINE_CREATE_LIBRARY_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_LIBRARY_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_LIBRARY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_LIBRARY_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_LINK_TIME_OPTIMIZATION_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATE_LINK_TIME_OPTIMIZATION_BIT_EXT
+    #print("statd VK_PIPELINE_CREATE_LINK_TIME_OPTIMIZATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_LINK_TIME_OPTIMIZATION_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_ALLOW_MOTION_BIT_NV = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_ALLOW_MOTION_BIT_NV
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_ALLOW_MOTION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_ALLOW_MOTION_BIT_NV"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_ANY_HIT_SHADERS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_ANY_HIT_SHADERS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_ANY_HIT_SHADERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_ANY_HIT_SHADERS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_CLOSEST_HIT_SHADERS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_CLOSEST_HIT_SHADERS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_CLOSEST_HIT_SHADERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_CLOSEST_HIT_SHADERS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_INTERSECTION_SHADERS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_INTERSECTION_SHADERS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_INTERSECTION_SHADERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_INTERSECTION_SHADERS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_MISS_SHADERS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_MISS_SHADERS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_MISS_SHADERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_NO_NULL_MISS_SHADERS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_SHADER_GROUP_HANDLE_CAPTURE_REPLAY_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_SHADER_GROUP_HANDLE_CAPTURE_REPLAY_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_SHADER_GROUP_HANDLE_CAPTURE_REPLAY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_SHADER_GROUP_HANDLE_CAPTURE_REPLAY_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_SKIP_AABBS_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_SKIP_AABBS_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_SKIP_AABBS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_SKIP_AABBS_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RAY_TRACING_SKIP_TRIANGLES_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RAY_TRACING_SKIP_TRIANGLES_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RAY_TRACING_SKIP_TRIANGLES_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RAY_TRACING_SKIP_TRIANGLES_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT
+    #print("statd VK_PIPELINE_CREATE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATE_RETAIN_LINK_TIME_OPTIMIZATION_INFO_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATE_RETAIN_LINK_TIME_OPTIMIZATION_INFO_BIT_EXT
+    #print("statd VK_PIPELINE_CREATE_RETAIN_LINK_TIME_OPTIMIZATION_INFO_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_RETAIN_LINK_TIME_OPTIMIZATION_INFO_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT = jvulkanLib.VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT
+    #print("statd VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT"]
+try:
+    VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT_KHR = jvulkanLib.VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT_KHR
+    #print("statd VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATE_VIEW_INDEX_FROM_DEVICE_INDEX_BIT_KHR"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT_EXT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_APPLICATION_PIPELINE_CACHE_HIT_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT_EXT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_BASE_PIPELINE_ACCELERATION_BIT_EXT"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT"]
+try:
+    VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT_EXT = jvulkanLib.VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT_EXT
+    #print("statd VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_CREATION_FEEDBACK_VALID_BIT_EXT"]
+try:
+    VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM = jvulkanLib.VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM
+    #print("statd VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM"]
+try:
+    VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM = jvulkanLib.VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM
+    #print("statd VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_DEPTH_STENCIL_STATE_CREATE_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM"]
+try:
+    VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_BOOL32_KHR = jvulkanLib.VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_BOOL32_KHR
+    #print("statd VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_BOOL32_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_BOOL32_KHR"]
+try:
+    VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_FLOAT64_KHR = jvulkanLib.VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_FLOAT64_KHR
+    #print("statd VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_FLOAT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_FLOAT64_KHR"]
+try:
+    VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_INT64_KHR = jvulkanLib.VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_INT64_KHR
+    #print("statd VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_INT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_INT64_KHR"]
+try:
+    VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_MAX_ENUM_KHR = jvulkanLib.VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_MAX_ENUM_KHR
+    #print("statd VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_MAX_ENUM_KHR"]
+try:
+    VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_UINT64_KHR = jvulkanLib.VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_UINT64_KHR
+    #print("statd VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_UINT64_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_EXECUTABLE_STATISTIC_FORMAT_UINT64_KHR"]
+try:
+    VK_PIPELINE_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_LAYOUT_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_LAYOUT_CREATE_INDEPENDENT_SETS_BIT_EXT = jvulkanLib.VK_PIPELINE_LAYOUT_CREATE_INDEPENDENT_SETS_BIT_EXT
+    #print("statd VK_PIPELINE_LAYOUT_CREATE_INDEPENDENT_SETS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_LAYOUT_CREATE_INDEPENDENT_SETS_BIT_EXT"]
+try:
+    VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT = jvulkanLib.VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT
+    #print("statd VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_DENSITY_MAP_ATTACHMENT_BIT_EXT"]
+try:
+    VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_RASTERIZATION_STATE_CREATE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT = jvulkanLib.VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT
+    #print("statd VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT"]
+try:
+    VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT_EXT = jvulkanLib.VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT_EXT
+    #print("statd VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_SHADER_STAGE_CREATE_ALLOW_VARYING_SUBGROUP_SIZE_BIT_EXT"]
+try:
+    VK_PIPELINE_SHADER_STAGE_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_SHADER_STAGE_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_SHADER_STAGE_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_SHADER_STAGE_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT = jvulkanLib.VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT
+    #print("statd VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT"]
+try:
+    VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT_EXT = jvulkanLib.VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT_EXT
+    #print("statd VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_SHADER_STAGE_CREATE_REQUIRE_FULL_SUBGROUPS_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT
+    #print("statd VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT
+    #print("statd VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_BLIT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_BLIT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_BLIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_BLIT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_BLIT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_BLIT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_BLIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_BLIT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT
+    #print("statd VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_BOTTOM_OF_PIPE_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_CLEAR_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_CLEAR_BIT
+    #print("statd VK_PIPELINE_STAGE_2_CLEAR_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_CLEAR_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_CLEAR_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_CLEAR_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_CLEAR_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_CLEAR_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COLOR_ATTACHMENT_OUTPUT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_COMMAND_PREPROCESS_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_COMMAND_PREPROCESS_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_COMMAND_PREPROCESS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COMMAND_PREPROCESS_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_CONDITIONAL_RENDERING_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_2_CONDITIONAL_RENDERING_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_2_CONDITIONAL_RENDERING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_CONDITIONAL_RENDERING_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_2_COPY_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_COPY_BIT
+    #print("statd VK_PIPELINE_STAGE_2_COPY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COPY_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_COPY_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_COPY_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_COPY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_COPY_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_DRAW_INDIRECT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT
+    #print("statd VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_EARLY_FRAGMENT_TESTS_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_FRAGMENT_DENSITY_PROCESS_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_2_FRAGMENT_DENSITY_PROCESS_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_2_FRAGMENT_DENSITY_PROCESS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_FRAGMENT_DENSITY_PROCESS_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_GEOMETRY_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_HOST_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_HOST_BIT
+    #print("statd VK_PIPELINE_STAGE_2_HOST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_HOST_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_HOST_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_HOST_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_HOST_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_HOST_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_INVOCATION_MASK_BIT_HUAWEI = jvulkanLib.VK_PIPELINE_STAGE_2_INVOCATION_MASK_BIT_HUAWEI
+    #print("statd VK_PIPELINE_STAGE_2_INVOCATION_MASK_BIT_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_INVOCATION_MASK_BIT_HUAWEI"]
+try:
+    VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT
+    #print("statd VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_LATE_FRAGMENT_TESTS_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_MESH_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_MESH_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_MESH_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_MESH_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_NONE = jvulkanLib.VK_PIPELINE_STAGE_2_NONE
+    #print("statd VK_PIPELINE_STAGE_2_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_NONE"]
+try:
+    VK_PIPELINE_STAGE_2_NONE_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_NONE_KHR
+    #print("statd VK_PIPELINE_STAGE_2_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_NONE_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT
+    #print("statd VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_PRE_RASTERIZATION_SHADERS_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_RESOLVE_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_RESOLVE_BIT
+    #print("statd VK_PIPELINE_STAGE_2_RESOLVE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_RESOLVE_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_RESOLVE_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_RESOLVE_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_RESOLVE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_RESOLVE_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_SHADING_RATE_IMAGE_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_SHADING_RATE_IMAGE_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_SHADING_RATE_IMAGE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_SHADING_RATE_IMAGE_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_SUBPASS_SHADING_BIT_HUAWEI = jvulkanLib.VK_PIPELINE_STAGE_2_SUBPASS_SHADING_BIT_HUAWEI
+    #print("statd VK_PIPELINE_STAGE_2_SUBPASS_SHADING_BIT_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_SUBPASS_SHADING_BIT_HUAWEI"]
+try:
+    VK_PIPELINE_STAGE_2_TASK_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_2_TASK_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_2_TASK_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TASK_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TESSELLATION_CONTROL_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TESSELLATION_EVALUATION_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT
+    #print("statd VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TOP_OF_PIPE_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_TRANSFER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_TRANSFER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_TRANSFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TRANSFER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_TRANSFER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_TRANSFER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_TRANSFER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TRANSFER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_TRANSFORM_FEEDBACK_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_2_TRANSFORM_FEEDBACK_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_2_TRANSFORM_FEEDBACK_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_TRANSFORM_FEEDBACK_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_ATTRIBUTE_INPUT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_ACCELERATION_STRUCTURE_BUILD_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_ALL_COMMANDS_BIT = jvulkanLib.VK_PIPELINE_STAGE_ALL_COMMANDS_BIT
+    #print("statd VK_PIPELINE_STAGE_ALL_COMMANDS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_ALL_COMMANDS_BIT"]
+try:
+    VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT = jvulkanLib.VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT
+    #print("statd VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT"]
+try:
+    VK_PIPELINE_STAGE_BOTTOM_OF_PIPE_BIT = jvulkanLib.VK_PIPELINE_STAGE_BOTTOM_OF_PIPE_BIT
+    #print("statd VK_PIPELINE_STAGE_BOTTOM_OF_PIPE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_BOTTOM_OF_PIPE_BIT"]
+try:
+    VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_COLOR_ATTACHMENT_OUTPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_COMMAND_PREPROCESS_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_COMMAND_PREPROCESS_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_COMMAND_PREPROCESS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_COMMAND_PREPROCESS_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_COMPUTE_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_CONDITIONAL_RENDERING_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_CONDITIONAL_RENDERING_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_CONDITIONAL_RENDERING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_CONDITIONAL_RENDERING_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_DRAW_INDIRECT_BIT = jvulkanLib.VK_PIPELINE_STAGE_DRAW_INDIRECT_BIT
+    #print("statd VK_PIPELINE_STAGE_DRAW_INDIRECT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_DRAW_INDIRECT_BIT"]
+try:
+    VK_PIPELINE_STAGE_EARLY_FRAGMENT_TESTS_BIT = jvulkanLib.VK_PIPELINE_STAGE_EARLY_FRAGMENT_TESTS_BIT
+    #print("statd VK_PIPELINE_STAGE_EARLY_FRAGMENT_TESTS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_EARLY_FRAGMENT_TESTS_BIT"]
+try:
+    VK_PIPELINE_STAGE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_PIPELINE_STAGE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_PIPELINE_STAGE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_PIPELINE_STAGE_FRAGMENT_DENSITY_PROCESS_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_FRAGMENT_DENSITY_PROCESS_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_FRAGMENT_DENSITY_PROCESS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_FRAGMENT_DENSITY_PROCESS_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_FRAGMENT_SHADING_RATE_ATTACHMENT_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_GEOMETRY_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_GEOMETRY_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_GEOMETRY_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_GEOMETRY_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_HOST_BIT = jvulkanLib.VK_PIPELINE_STAGE_HOST_BIT
+    #print("statd VK_PIPELINE_STAGE_HOST_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_HOST_BIT"]
+try:
+    VK_PIPELINE_STAGE_LATE_FRAGMENT_TESTS_BIT = jvulkanLib.VK_PIPELINE_STAGE_LATE_FRAGMENT_TESTS_BIT
+    #print("statd VK_PIPELINE_STAGE_LATE_FRAGMENT_TESTS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_LATE_FRAGMENT_TESTS_BIT"]
+try:
+    VK_PIPELINE_STAGE_MESH_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_MESH_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_MESH_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_MESH_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_NONE = jvulkanLib.VK_PIPELINE_STAGE_NONE
+    #print("statd VK_PIPELINE_STAGE_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_NONE"]
+try:
+    VK_PIPELINE_STAGE_NONE_KHR = jvulkanLib.VK_PIPELINE_STAGE_NONE_KHR
+    #print("statd VK_PIPELINE_STAGE_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_NONE_KHR"]
+try:
+    VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_KHR = jvulkanLib.VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_KHR
+    #print("statd VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_KHR"]
+try:
+    VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_RAY_TRACING_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_SHADING_RATE_IMAGE_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_SHADING_RATE_IMAGE_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_SHADING_RATE_IMAGE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_SHADING_RATE_IMAGE_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_TASK_SHADER_BIT_NV = jvulkanLib.VK_PIPELINE_STAGE_TASK_SHADER_BIT_NV
+    #print("statd VK_PIPELINE_STAGE_TASK_SHADER_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TASK_SHADER_BIT_NV"]
+try:
+    VK_PIPELINE_STAGE_TESSELLATION_CONTROL_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_TESSELLATION_CONTROL_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_TESSELLATION_CONTROL_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TESSELLATION_CONTROL_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_TESSELLATION_EVALUATION_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_TESSELLATION_EVALUATION_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_TESSELLATION_EVALUATION_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TESSELLATION_EVALUATION_SHADER_BIT"]
+try:
+    VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT = jvulkanLib.VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT
+    #print("statd VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT"]
+try:
+    VK_PIPELINE_STAGE_TRANSFER_BIT = jvulkanLib.VK_PIPELINE_STAGE_TRANSFER_BIT
+    #print("statd VK_PIPELINE_STAGE_TRANSFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TRANSFER_BIT"]
+try:
+    VK_PIPELINE_STAGE_TRANSFORM_FEEDBACK_BIT_EXT = jvulkanLib.VK_PIPELINE_STAGE_TRANSFORM_FEEDBACK_BIT_EXT
+    #print("statd VK_PIPELINE_STAGE_TRANSFORM_FEEDBACK_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_TRANSFORM_FEEDBACK_BIT_EXT"]
+try:
+    VK_PIPELINE_STAGE_VERTEX_INPUT_BIT = jvulkanLib.VK_PIPELINE_STAGE_VERTEX_INPUT_BIT
+    #print("statd VK_PIPELINE_STAGE_VERTEX_INPUT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_VERTEX_INPUT_BIT"]
+try:
+    VK_PIPELINE_STAGE_VERTEX_SHADER_BIT = jvulkanLib.VK_PIPELINE_STAGE_VERTEX_SHADER_BIT
+    #print("statd VK_PIPELINE_STAGE_VERTEX_SHADER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PIPELINE_STAGE_VERTEX_SHADER_BIT"]
+try:
+    VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES = jvulkanLib.VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES
+    #print("statd VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES"]
+try:
+    VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES_KHR = jvulkanLib.VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES_KHR
+    #print("statd VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES_KHR"]
+try:
+    VK_POINT_CLIPPING_BEHAVIOR_MAX_ENUM = jvulkanLib.VK_POINT_CLIPPING_BEHAVIOR_MAX_ENUM
+    #print("statd VK_POINT_CLIPPING_BEHAVIOR_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POINT_CLIPPING_BEHAVIOR_MAX_ENUM"]
+try:
+    VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY = jvulkanLib.VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY
+    #print("statd VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY"]
+try:
+    VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY_KHR = jvulkanLib.VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY_KHR
+    #print("statd VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY_KHR"]
+try:
+    VK_POLYGON_MODE_FILL = jvulkanLib.VK_POLYGON_MODE_FILL
+    #print("statd VK_POLYGON_MODE_FILL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POLYGON_MODE_FILL"]
+try:
+    VK_POLYGON_MODE_FILL_RECTANGLE_NV = jvulkanLib.VK_POLYGON_MODE_FILL_RECTANGLE_NV
+    #print("statd VK_POLYGON_MODE_FILL_RECTANGLE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POLYGON_MODE_FILL_RECTANGLE_NV"]
+try:
+    VK_POLYGON_MODE_LINE = jvulkanLib.VK_POLYGON_MODE_LINE
+    #print("statd VK_POLYGON_MODE_LINE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POLYGON_MODE_LINE"]
+try:
+    VK_POLYGON_MODE_MAX_ENUM = jvulkanLib.VK_POLYGON_MODE_MAX_ENUM
+    #print("statd VK_POLYGON_MODE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POLYGON_MODE_MAX_ENUM"]
+try:
+    VK_POLYGON_MODE_POINT = jvulkanLib.VK_POLYGON_MODE_POINT
+    #print("statd VK_POLYGON_MODE_POINT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_POLYGON_MODE_POINT"]
+try:
+    VK_PRESENT_MODE_FIFO_KHR = jvulkanLib.VK_PRESENT_MODE_FIFO_KHR
+    #print("statd VK_PRESENT_MODE_FIFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_FIFO_KHR"]
+try:
+    VK_PRESENT_MODE_FIFO_RELAXED_KHR = jvulkanLib.VK_PRESENT_MODE_FIFO_RELAXED_KHR
+    #print("statd VK_PRESENT_MODE_FIFO_RELAXED_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_FIFO_RELAXED_KHR"]
+try:
+    VK_PRESENT_MODE_IMMEDIATE_KHR = jvulkanLib.VK_PRESENT_MODE_IMMEDIATE_KHR
+    #print("statd VK_PRESENT_MODE_IMMEDIATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_IMMEDIATE_KHR"]
+try:
+    VK_PRESENT_MODE_MAILBOX_KHR = jvulkanLib.VK_PRESENT_MODE_MAILBOX_KHR
+    #print("statd VK_PRESENT_MODE_MAILBOX_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_MAILBOX_KHR"]
+try:
+    VK_PRESENT_MODE_MAX_ENUM_KHR = jvulkanLib.VK_PRESENT_MODE_MAX_ENUM_KHR
+    #print("statd VK_PRESENT_MODE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_MAX_ENUM_KHR"]
+try:
+    VK_PRESENT_MODE_SHARED_CONTINUOUS_REFRESH_KHR = jvulkanLib.VK_PRESENT_MODE_SHARED_CONTINUOUS_REFRESH_KHR
+    #print("statd VK_PRESENT_MODE_SHARED_CONTINUOUS_REFRESH_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_SHARED_CONTINUOUS_REFRESH_KHR"]
+try:
+    VK_PRESENT_MODE_SHARED_DEMAND_REFRESH_KHR = jvulkanLib.VK_PRESENT_MODE_SHARED_DEMAND_REFRESH_KHR
+    #print("statd VK_PRESENT_MODE_SHARED_DEMAND_REFRESH_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRESENT_MODE_SHARED_DEMAND_REFRESH_KHR"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_LINE_LIST = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_LINE_LIST
+    #print("statd VK_PRIMITIVE_TOPOLOGY_LINE_LIST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_LINE_LIST"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_LINE_LIST_WITH_ADJACENCY = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_LINE_LIST_WITH_ADJACENCY
+    #print("statd VK_PRIMITIVE_TOPOLOGY_LINE_LIST_WITH_ADJACENCY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_LINE_LIST_WITH_ADJACENCY"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_LINE_STRIP = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_LINE_STRIP
+    #print("statd VK_PRIMITIVE_TOPOLOGY_LINE_STRIP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_LINE_STRIP"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_LINE_STRIP_WITH_ADJACENCY = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_LINE_STRIP_WITH_ADJACENCY
+    #print("statd VK_PRIMITIVE_TOPOLOGY_LINE_STRIP_WITH_ADJACENCY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_LINE_STRIP_WITH_ADJACENCY"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_MAX_ENUM = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_MAX_ENUM
+    #print("statd VK_PRIMITIVE_TOPOLOGY_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_MAX_ENUM"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_PATCH_LIST = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_PATCH_LIST
+    #print("statd VK_PRIMITIVE_TOPOLOGY_PATCH_LIST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_PATCH_LIST"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_POINT_LIST = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_POINT_LIST
+    #print("statd VK_PRIMITIVE_TOPOLOGY_POINT_LIST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_POINT_LIST"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_TRIANGLE_FAN = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_TRIANGLE_FAN
+    #print("statd VK_PRIMITIVE_TOPOLOGY_TRIANGLE_FAN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_TRIANGLE_FAN"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST
+    #print("statd VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST_WITH_ADJACENCY = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST_WITH_ADJACENCY
+    #print("statd VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST_WITH_ADJACENCY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST_WITH_ADJACENCY"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP
+    #print("statd VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP"]
+try:
+    VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP_WITH_ADJACENCY = jvulkanLib.VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP_WITH_ADJACENCY
+    #print("statd VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP_WITH_ADJACENCY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP_WITH_ADJACENCY"]
+try:
+    VK_PROVOKING_VERTEX_MODE_FIRST_VERTEX_EXT = jvulkanLib.VK_PROVOKING_VERTEX_MODE_FIRST_VERTEX_EXT
+    #print("statd VK_PROVOKING_VERTEX_MODE_FIRST_VERTEX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PROVOKING_VERTEX_MODE_FIRST_VERTEX_EXT"]
+try:
+    VK_PROVOKING_VERTEX_MODE_LAST_VERTEX_EXT = jvulkanLib.VK_PROVOKING_VERTEX_MODE_LAST_VERTEX_EXT
+    #print("statd VK_PROVOKING_VERTEX_MODE_LAST_VERTEX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PROVOKING_VERTEX_MODE_LAST_VERTEX_EXT"]
+try:
+    VK_PROVOKING_VERTEX_MODE_MAX_ENUM_EXT = jvulkanLib.VK_PROVOKING_VERTEX_MODE_MAX_ENUM_EXT
+    #print("statd VK_PROVOKING_VERTEX_MODE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_PROVOKING_VERTEX_MODE_MAX_ENUM_EXT"]
+try:
+    VK_QUERY_CONTROL_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_QUERY_CONTROL_FLAG_BITS_MAX_ENUM
+    #print("statd VK_QUERY_CONTROL_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_CONTROL_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_QUERY_CONTROL_PRECISE_BIT = jvulkanLib.VK_QUERY_CONTROL_PRECISE_BIT
+    #print("statd VK_QUERY_CONTROL_PRECISE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_CONTROL_PRECISE_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_CLIPPING_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_CLIPPING_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_CLIPPING_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_CLIPPING_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_CLIPPING_PRIMITIVES_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_CLIPPING_PRIMITIVES_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_CLIPPING_PRIMITIVES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_CLIPPING_PRIMITIVES_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_COMPUTE_SHADER_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_COMPUTE_SHADER_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_COMPUTE_SHADER_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_COMPUTE_SHADER_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_FLAG_BITS_MAX_ENUM
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_FRAGMENT_SHADER_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_FRAGMENT_SHADER_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_FRAGMENT_SHADER_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_FRAGMENT_SHADER_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_PRIMITIVES_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_PRIMITIVES_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_PRIMITIVES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_GEOMETRY_SHADER_PRIMITIVES_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_PRIMITIVES_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_PRIMITIVES_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_PRIMITIVES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_PRIMITIVES_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_VERTICES_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_VERTICES_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_VERTICES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_INPUT_ASSEMBLY_VERTICES_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_CONTROL_SHADER_PATCHES_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_CONTROL_SHADER_PATCHES_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_CONTROL_SHADER_PATCHES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_CONTROL_SHADER_PATCHES_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_EVALUATION_SHADER_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_EVALUATION_SHADER_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_EVALUATION_SHADER_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_TESSELLATION_EVALUATION_SHADER_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_PIPELINE_STATISTIC_VERTEX_SHADER_INVOCATIONS_BIT = jvulkanLib.VK_QUERY_PIPELINE_STATISTIC_VERTEX_SHADER_INVOCATIONS_BIT
+    #print("statd VK_QUERY_PIPELINE_STATISTIC_VERTEX_SHADER_INVOCATIONS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_PIPELINE_STATISTIC_VERTEX_SHADER_INVOCATIONS_BIT"]
+try:
+    VK_QUERY_POOL_SAMPLING_MODE_MANUAL_INTEL = jvulkanLib.VK_QUERY_POOL_SAMPLING_MODE_MANUAL_INTEL
+    #print("statd VK_QUERY_POOL_SAMPLING_MODE_MANUAL_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_POOL_SAMPLING_MODE_MANUAL_INTEL"]
+try:
+    VK_QUERY_POOL_SAMPLING_MODE_MAX_ENUM_INTEL = jvulkanLib.VK_QUERY_POOL_SAMPLING_MODE_MAX_ENUM_INTEL
+    #print("statd VK_QUERY_POOL_SAMPLING_MODE_MAX_ENUM_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_POOL_SAMPLING_MODE_MAX_ENUM_INTEL"]
+try:
+    VK_QUERY_RESULT_64_BIT = jvulkanLib.VK_QUERY_RESULT_64_BIT
+    #print("statd VK_QUERY_RESULT_64_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_RESULT_64_BIT"]
+try:
+    VK_QUERY_RESULT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_QUERY_RESULT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_QUERY_RESULT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_RESULT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_QUERY_RESULT_PARTIAL_BIT = jvulkanLib.VK_QUERY_RESULT_PARTIAL_BIT
+    #print("statd VK_QUERY_RESULT_PARTIAL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_RESULT_PARTIAL_BIT"]
+try:
+    VK_QUERY_RESULT_WAIT_BIT = jvulkanLib.VK_QUERY_RESULT_WAIT_BIT
+    #print("statd VK_QUERY_RESULT_WAIT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_RESULT_WAIT_BIT"]
+try:
+    VK_QUERY_RESULT_WITH_AVAILABILITY_BIT = jvulkanLib.VK_QUERY_RESULT_WITH_AVAILABILITY_BIT
+    #print("statd VK_QUERY_RESULT_WITH_AVAILABILITY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_RESULT_WITH_AVAILABILITY_BIT"]
+try:
+    VK_QUERY_SCOPE_COMMAND_BUFFER_KHR = jvulkanLib.VK_QUERY_SCOPE_COMMAND_BUFFER_KHR
+    #print("statd VK_QUERY_SCOPE_COMMAND_BUFFER_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_SCOPE_COMMAND_BUFFER_KHR"]
+try:
+    VK_QUERY_SCOPE_COMMAND_KHR = jvulkanLib.VK_QUERY_SCOPE_COMMAND_KHR
+    #print("statd VK_QUERY_SCOPE_COMMAND_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_SCOPE_COMMAND_KHR"]
+try:
+    VK_QUERY_SCOPE_RENDER_PASS_KHR = jvulkanLib.VK_QUERY_SCOPE_RENDER_PASS_KHR
+    #print("statd VK_QUERY_SCOPE_RENDER_PASS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_SCOPE_RENDER_PASS_KHR"]
+try:
+    VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_KHR = jvulkanLib.VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_KHR
+    #print("statd VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_KHR"]
+try:
+    VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_NV = jvulkanLib.VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_NV
+    #print("statd VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_ACCELERATION_STRUCTURE_COMPACTED_SIZE_NV"]
+try:
+    VK_QUERY_TYPE_ACCELERATION_STRUCTURE_SERIALIZATION_SIZE_KHR = jvulkanLib.VK_QUERY_TYPE_ACCELERATION_STRUCTURE_SERIALIZATION_SIZE_KHR
+    #print("statd VK_QUERY_TYPE_ACCELERATION_STRUCTURE_SERIALIZATION_SIZE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_ACCELERATION_STRUCTURE_SERIALIZATION_SIZE_KHR"]
+try:
+    VK_QUERY_TYPE_MAX_ENUM = jvulkanLib.VK_QUERY_TYPE_MAX_ENUM
+    #print("statd VK_QUERY_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_MAX_ENUM"]
+try:
+    VK_QUERY_TYPE_OCCLUSION = jvulkanLib.VK_QUERY_TYPE_OCCLUSION
+    #print("statd VK_QUERY_TYPE_OCCLUSION")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_OCCLUSION"]
+try:
+    VK_QUERY_TYPE_PERFORMANCE_QUERY_INTEL = jvulkanLib.VK_QUERY_TYPE_PERFORMANCE_QUERY_INTEL
+    #print("statd VK_QUERY_TYPE_PERFORMANCE_QUERY_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_PERFORMANCE_QUERY_INTEL"]
+try:
+    VK_QUERY_TYPE_PERFORMANCE_QUERY_KHR = jvulkanLib.VK_QUERY_TYPE_PERFORMANCE_QUERY_KHR
+    #print("statd VK_QUERY_TYPE_PERFORMANCE_QUERY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_PERFORMANCE_QUERY_KHR"]
+try:
+    VK_QUERY_TYPE_PIPELINE_STATISTICS = jvulkanLib.VK_QUERY_TYPE_PIPELINE_STATISTICS
+    #print("statd VK_QUERY_TYPE_PIPELINE_STATISTICS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_PIPELINE_STATISTICS"]
+try:
+    VK_QUERY_TYPE_PRIMITIVES_GENERATED_EXT = jvulkanLib.VK_QUERY_TYPE_PRIMITIVES_GENERATED_EXT
+    #print("statd VK_QUERY_TYPE_PRIMITIVES_GENERATED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_PRIMITIVES_GENERATED_EXT"]
+try:
+    VK_QUERY_TYPE_TIMESTAMP = jvulkanLib.VK_QUERY_TYPE_TIMESTAMP
+    #print("statd VK_QUERY_TYPE_TIMESTAMP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_TIMESTAMP"]
+try:
+    VK_QUERY_TYPE_TRANSFORM_FEEDBACK_STREAM_EXT = jvulkanLib.VK_QUERY_TYPE_TRANSFORM_FEEDBACK_STREAM_EXT
+    #print("statd VK_QUERY_TYPE_TRANSFORM_FEEDBACK_STREAM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUERY_TYPE_TRANSFORM_FEEDBACK_STREAM_EXT"]
+try:
+    VK_QUEUE_COMPUTE_BIT = jvulkanLib.VK_QUEUE_COMPUTE_BIT
+    #print("statd VK_QUEUE_COMPUTE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_COMPUTE_BIT"]
+try:
+    VK_QUEUE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_QUEUE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_QUEUE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_HIGH_EXT = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_HIGH_EXT
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_HIGH_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_HIGH_EXT"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_HIGH_KHR = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_HIGH_KHR
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_HIGH_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_HIGH_KHR"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_LOW_EXT = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_LOW_EXT
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_LOW_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_LOW_EXT"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_LOW_KHR = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_LOW_KHR
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_LOW_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_LOW_KHR"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_MAX_ENUM_KHR = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_MAX_ENUM_KHR
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_MAX_ENUM_KHR"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_EXT = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_EXT
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_EXT"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_KHR = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_KHR
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_MEDIUM_KHR"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_REALTIME_EXT = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_REALTIME_EXT
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_REALTIME_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_REALTIME_EXT"]
+try:
+    VK_QUEUE_GLOBAL_PRIORITY_REALTIME_KHR = jvulkanLib.VK_QUEUE_GLOBAL_PRIORITY_REALTIME_KHR
+    #print("statd VK_QUEUE_GLOBAL_PRIORITY_REALTIME_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GLOBAL_PRIORITY_REALTIME_KHR"]
+try:
+    VK_QUEUE_GRAPHICS_BIT = jvulkanLib.VK_QUEUE_GRAPHICS_BIT
+    #print("statd VK_QUEUE_GRAPHICS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_GRAPHICS_BIT"]
+try:
+    VK_QUEUE_PROTECTED_BIT = jvulkanLib.VK_QUEUE_PROTECTED_BIT
+    #print("statd VK_QUEUE_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_PROTECTED_BIT"]
+try:
+    VK_QUEUE_SPARSE_BINDING_BIT = jvulkanLib.VK_QUEUE_SPARSE_BINDING_BIT
+    #print("statd VK_QUEUE_SPARSE_BINDING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_SPARSE_BINDING_BIT"]
+try:
+    VK_QUEUE_TRANSFER_BIT = jvulkanLib.VK_QUEUE_TRANSFER_BIT
+    #print("statd VK_QUEUE_TRANSFER_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_QUEUE_TRANSFER_BIT"]
+try:
+    VK_RASTERIZATION_ORDER_MAX_ENUM_AMD = jvulkanLib.VK_RASTERIZATION_ORDER_MAX_ENUM_AMD
+    #print("statd VK_RASTERIZATION_ORDER_MAX_ENUM_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RASTERIZATION_ORDER_MAX_ENUM_AMD"]
+try:
+    VK_RASTERIZATION_ORDER_RELAXED_AMD = jvulkanLib.VK_RASTERIZATION_ORDER_RELAXED_AMD
+    #print("statd VK_RASTERIZATION_ORDER_RELAXED_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RASTERIZATION_ORDER_RELAXED_AMD"]
+try:
+    VK_RASTERIZATION_ORDER_STRICT_AMD = jvulkanLib.VK_RASTERIZATION_ORDER_STRICT_AMD
+    #print("statd VK_RASTERIZATION_ORDER_STRICT_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RASTERIZATION_ORDER_STRICT_AMD"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_KHR = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_KHR
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_KHR"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_NV = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_NV
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_GENERAL_NV"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_MAX_ENUM_KHR = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_MAX_ENUM_KHR
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_MAX_ENUM_KHR"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_KHR = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_KHR
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_KHR"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_NV = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_NV
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_PROCEDURAL_HIT_GROUP_NV"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_KHR = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_KHR
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_KHR"]
+try:
+    VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_NV = jvulkanLib.VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_NV
+    #print("statd VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RAY_TRACING_SHADER_GROUP_TYPE_TRIANGLES_HIT_GROUP_NV"]
+try:
+    VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT = jvulkanLib.VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT
+    #print("statd VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT"]
+try:
+    VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT_KHR = jvulkanLib.VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT_KHR
+    #print("statd VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_CONTENTS_SECONDARY_COMMAND_BUFFERS_BIT_KHR"]
+try:
+    VK_RENDERING_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_RENDERING_FLAG_BITS_MAX_ENUM
+    #print("statd VK_RENDERING_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_RENDERING_RESUMING_BIT = jvulkanLib.VK_RENDERING_RESUMING_BIT
+    #print("statd VK_RENDERING_RESUMING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_RESUMING_BIT"]
+try:
+    VK_RENDERING_RESUMING_BIT_KHR = jvulkanLib.VK_RENDERING_RESUMING_BIT_KHR
+    #print("statd VK_RENDERING_RESUMING_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_RESUMING_BIT_KHR"]
+try:
+    VK_RENDERING_SUSPENDING_BIT = jvulkanLib.VK_RENDERING_SUSPENDING_BIT
+    #print("statd VK_RENDERING_SUSPENDING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_SUSPENDING_BIT"]
+try:
+    VK_RENDERING_SUSPENDING_BIT_KHR = jvulkanLib.VK_RENDERING_SUSPENDING_BIT_KHR
+    #print("statd VK_RENDERING_SUSPENDING_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDERING_SUSPENDING_BIT_KHR"]
+try:
+    VK_RENDER_PASS_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_RENDER_PASS_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_RENDER_PASS_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDER_PASS_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_RENDER_PASS_CREATE_TRANSFORM_BIT_QCOM = jvulkanLib.VK_RENDER_PASS_CREATE_TRANSFORM_BIT_QCOM
+    #print("statd VK_RENDER_PASS_CREATE_TRANSFORM_BIT_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RENDER_PASS_CREATE_TRANSFORM_BIT_QCOM"]
+try:
+    VK_RESOLVE_MODE_AVERAGE_BIT = jvulkanLib.VK_RESOLVE_MODE_AVERAGE_BIT
+    #print("statd VK_RESOLVE_MODE_AVERAGE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_AVERAGE_BIT"]
+try:
+    VK_RESOLVE_MODE_AVERAGE_BIT_KHR = jvulkanLib.VK_RESOLVE_MODE_AVERAGE_BIT_KHR
+    #print("statd VK_RESOLVE_MODE_AVERAGE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_AVERAGE_BIT_KHR"]
+try:
+    VK_RESOLVE_MODE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_RESOLVE_MODE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_RESOLVE_MODE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_RESOLVE_MODE_MAX_BIT = jvulkanLib.VK_RESOLVE_MODE_MAX_BIT
+    #print("statd VK_RESOLVE_MODE_MAX_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_MAX_BIT"]
+try:
+    VK_RESOLVE_MODE_MAX_BIT_KHR = jvulkanLib.VK_RESOLVE_MODE_MAX_BIT_KHR
+    #print("statd VK_RESOLVE_MODE_MAX_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_MAX_BIT_KHR"]
+try:
+    VK_RESOLVE_MODE_MIN_BIT = jvulkanLib.VK_RESOLVE_MODE_MIN_BIT
+    #print("statd VK_RESOLVE_MODE_MIN_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_MIN_BIT"]
+try:
+    VK_RESOLVE_MODE_MIN_BIT_KHR = jvulkanLib.VK_RESOLVE_MODE_MIN_BIT_KHR
+    #print("statd VK_RESOLVE_MODE_MIN_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_MIN_BIT_KHR"]
+try:
+    VK_RESOLVE_MODE_NONE = jvulkanLib.VK_RESOLVE_MODE_NONE
+    #print("statd VK_RESOLVE_MODE_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_NONE"]
+try:
+    VK_RESOLVE_MODE_NONE_KHR = jvulkanLib.VK_RESOLVE_MODE_NONE_KHR
+    #print("statd VK_RESOLVE_MODE_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_NONE_KHR"]
+try:
+    VK_RESOLVE_MODE_SAMPLE_ZERO_BIT = jvulkanLib.VK_RESOLVE_MODE_SAMPLE_ZERO_BIT
+    #print("statd VK_RESOLVE_MODE_SAMPLE_ZERO_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_SAMPLE_ZERO_BIT"]
+try:
+    VK_RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR = jvulkanLib.VK_RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR
+    #print("statd VK_RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR"]
+try:
+    VK_RESULT_MAX_ENUM = jvulkanLib.VK_RESULT_MAX_ENUM
+    #print("statd VK_RESULT_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_RESULT_MAX_ENUM"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_BORDER = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_BORDER
+    #print("statd VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_BORDER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_BORDER"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE
+    #print("statd VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_MAX_ENUM = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_MAX_ENUM
+    #print("statd VK_SAMPLER_ADDRESS_MODE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_MAX_ENUM"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_MIRRORED_REPEAT = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_MIRRORED_REPEAT
+    #print("statd VK_SAMPLER_ADDRESS_MODE_MIRRORED_REPEAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_MIRRORED_REPEAT"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE
+    #print("statd VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE_KHR = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE_KHR
+    #print("statd VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_MIRROR_CLAMP_TO_EDGE_KHR"]
+try:
+    VK_SAMPLER_ADDRESS_MODE_REPEAT = jvulkanLib.VK_SAMPLER_ADDRESS_MODE_REPEAT
+    #print("statd VK_SAMPLER_ADDRESS_MODE_REPEAT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_ADDRESS_MODE_REPEAT"]
+try:
+    VK_SAMPLER_CREATE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SAMPLER_CREATE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SAMPLER_CREATE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_CREATE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SAMPLER_CREATE_SUBSAMPLED_BIT_EXT = jvulkanLib.VK_SAMPLER_CREATE_SUBSAMPLED_BIT_EXT
+    #print("statd VK_SAMPLER_CREATE_SUBSAMPLED_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_CREATE_SUBSAMPLED_BIT_EXT"]
+try:
+    VK_SAMPLER_CREATE_SUBSAMPLED_COARSE_RECONSTRUCTION_BIT_EXT = jvulkanLib.VK_SAMPLER_CREATE_SUBSAMPLED_COARSE_RECONSTRUCTION_BIT_EXT
+    #print("statd VK_SAMPLER_CREATE_SUBSAMPLED_COARSE_RECONSTRUCTION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_CREATE_SUBSAMPLED_COARSE_RECONSTRUCTION_BIT_EXT"]
+try:
+    VK_SAMPLER_MIPMAP_MODE_LINEAR = jvulkanLib.VK_SAMPLER_MIPMAP_MODE_LINEAR
+    #print("statd VK_SAMPLER_MIPMAP_MODE_LINEAR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_MIPMAP_MODE_LINEAR"]
+try:
+    VK_SAMPLER_MIPMAP_MODE_MAX_ENUM = jvulkanLib.VK_SAMPLER_MIPMAP_MODE_MAX_ENUM
+    #print("statd VK_SAMPLER_MIPMAP_MODE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_MIPMAP_MODE_MAX_ENUM"]
+try:
+    VK_SAMPLER_MIPMAP_MODE_NEAREST = jvulkanLib.VK_SAMPLER_MIPMAP_MODE_NEAREST
+    #print("statd VK_SAMPLER_MIPMAP_MODE_NEAREST")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_MIPMAP_MODE_NEAREST"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_MAX = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_MAX
+    #print("statd VK_SAMPLER_REDUCTION_MODE_MAX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_MAX"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_MAX_ENUM = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_MAX_ENUM
+    #print("statd VK_SAMPLER_REDUCTION_MODE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_MAX_ENUM"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_MAX_EXT = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_MAX_EXT
+    #print("statd VK_SAMPLER_REDUCTION_MODE_MAX_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_MAX_EXT"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_MIN = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_MIN
+    #print("statd VK_SAMPLER_REDUCTION_MODE_MIN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_MIN"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_MIN_EXT = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_MIN_EXT
+    #print("statd VK_SAMPLER_REDUCTION_MODE_MIN_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_MIN_EXT"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE
+    #print("statd VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE"]
+try:
+    VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_EXT = jvulkanLib.VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_EXT
+    #print("statd VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_EXT"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_MAX_ENUM = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_MAX_ENUM
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_MAX_ENUM"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY_KHR = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY_KHR
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY_KHR"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020 = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020_KHR = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020_KHR
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020_KHR"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601 = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601_KHR = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601_KHR
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601_KHR"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709 = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709_KHR = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709_KHR
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709_KHR"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY"]
+try:
+    VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY_KHR = jvulkanLib.VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY_KHR
+    #print("statd VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_IDENTITY_KHR"]
+try:
+    VK_SAMPLER_YCBCR_RANGE_ITU_FULL = jvulkanLib.VK_SAMPLER_YCBCR_RANGE_ITU_FULL
+    #print("statd VK_SAMPLER_YCBCR_RANGE_ITU_FULL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_RANGE_ITU_FULL"]
+try:
+    VK_SAMPLER_YCBCR_RANGE_ITU_FULL_KHR = jvulkanLib.VK_SAMPLER_YCBCR_RANGE_ITU_FULL_KHR
+    #print("statd VK_SAMPLER_YCBCR_RANGE_ITU_FULL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_RANGE_ITU_FULL_KHR"]
+try:
+    VK_SAMPLER_YCBCR_RANGE_ITU_NARROW = jvulkanLib.VK_SAMPLER_YCBCR_RANGE_ITU_NARROW
+    #print("statd VK_SAMPLER_YCBCR_RANGE_ITU_NARROW")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_RANGE_ITU_NARROW"]
+try:
+    VK_SAMPLER_YCBCR_RANGE_ITU_NARROW_KHR = jvulkanLib.VK_SAMPLER_YCBCR_RANGE_ITU_NARROW_KHR
+    #print("statd VK_SAMPLER_YCBCR_RANGE_ITU_NARROW_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_RANGE_ITU_NARROW_KHR"]
+try:
+    VK_SAMPLER_YCBCR_RANGE_MAX_ENUM = jvulkanLib.VK_SAMPLER_YCBCR_RANGE_MAX_ENUM
+    #print("statd VK_SAMPLER_YCBCR_RANGE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLER_YCBCR_RANGE_MAX_ENUM"]
+try:
+    VK_SAMPLE_COUNT_16_BIT = jvulkanLib.VK_SAMPLE_COUNT_16_BIT
+    #print("statd VK_SAMPLE_COUNT_16_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_16_BIT"]
+try:
+    VK_SAMPLE_COUNT_1_BIT = jvulkanLib.VK_SAMPLE_COUNT_1_BIT
+    #print("statd VK_SAMPLE_COUNT_1_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_1_BIT"]
+try:
+    VK_SAMPLE_COUNT_2_BIT = jvulkanLib.VK_SAMPLE_COUNT_2_BIT
+    #print("statd VK_SAMPLE_COUNT_2_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_2_BIT"]
+try:
+    VK_SAMPLE_COUNT_32_BIT = jvulkanLib.VK_SAMPLE_COUNT_32_BIT
+    #print("statd VK_SAMPLE_COUNT_32_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_32_BIT"]
+try:
+    VK_SAMPLE_COUNT_4_BIT = jvulkanLib.VK_SAMPLE_COUNT_4_BIT
+    #print("statd VK_SAMPLE_COUNT_4_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_4_BIT"]
+try:
+    VK_SAMPLE_COUNT_64_BIT = jvulkanLib.VK_SAMPLE_COUNT_64_BIT
+    #print("statd VK_SAMPLE_COUNT_64_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_64_BIT"]
+try:
+    VK_SAMPLE_COUNT_8_BIT = jvulkanLib.VK_SAMPLE_COUNT_8_BIT
+    #print("statd VK_SAMPLE_COUNT_8_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_8_BIT"]
+try:
+    VK_SAMPLE_COUNT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SAMPLE_COUNT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SAMPLE_COUNT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SAMPLE_COUNT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SCOPE_DEVICE_NV = jvulkanLib.VK_SCOPE_DEVICE_NV
+    #print("statd VK_SCOPE_DEVICE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SCOPE_DEVICE_NV"]
+try:
+    VK_SCOPE_MAX_ENUM_NV = jvulkanLib.VK_SCOPE_MAX_ENUM_NV
+    #print("statd VK_SCOPE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SCOPE_MAX_ENUM_NV"]
+try:
+    VK_SCOPE_QUEUE_FAMILY_NV = jvulkanLib.VK_SCOPE_QUEUE_FAMILY_NV
+    #print("statd VK_SCOPE_QUEUE_FAMILY_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SCOPE_QUEUE_FAMILY_NV"]
+try:
+    VK_SCOPE_SUBGROUP_NV = jvulkanLib.VK_SCOPE_SUBGROUP_NV
+    #print("statd VK_SCOPE_SUBGROUP_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SCOPE_SUBGROUP_NV"]
+try:
+    VK_SCOPE_WORKGROUP_NV = jvulkanLib.VK_SCOPE_WORKGROUP_NV
+    #print("statd VK_SCOPE_WORKGROUP_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SCOPE_WORKGROUP_NV"]
+try:
+    VK_SEMAPHORE_IMPORT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SEMAPHORE_IMPORT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SEMAPHORE_IMPORT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_IMPORT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SEMAPHORE_IMPORT_TEMPORARY_BIT = jvulkanLib.VK_SEMAPHORE_IMPORT_TEMPORARY_BIT
+    #print("statd VK_SEMAPHORE_IMPORT_TEMPORARY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_IMPORT_TEMPORARY_BIT"]
+try:
+    VK_SEMAPHORE_IMPORT_TEMPORARY_BIT_KHR = jvulkanLib.VK_SEMAPHORE_IMPORT_TEMPORARY_BIT_KHR
+    #print("statd VK_SEMAPHORE_IMPORT_TEMPORARY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_IMPORT_TEMPORARY_BIT_KHR"]
+try:
+    VK_SEMAPHORE_TYPE_BINARY = jvulkanLib.VK_SEMAPHORE_TYPE_BINARY
+    #print("statd VK_SEMAPHORE_TYPE_BINARY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_TYPE_BINARY"]
+try:
+    VK_SEMAPHORE_TYPE_BINARY_KHR = jvulkanLib.VK_SEMAPHORE_TYPE_BINARY_KHR
+    #print("statd VK_SEMAPHORE_TYPE_BINARY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_TYPE_BINARY_KHR"]
+try:
+    VK_SEMAPHORE_TYPE_MAX_ENUM = jvulkanLib.VK_SEMAPHORE_TYPE_MAX_ENUM
+    #print("statd VK_SEMAPHORE_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_TYPE_MAX_ENUM"]
+try:
+    VK_SEMAPHORE_TYPE_TIMELINE = jvulkanLib.VK_SEMAPHORE_TYPE_TIMELINE
+    #print("statd VK_SEMAPHORE_TYPE_TIMELINE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_TYPE_TIMELINE"]
+try:
+    VK_SEMAPHORE_TYPE_TIMELINE_KHR = jvulkanLib.VK_SEMAPHORE_TYPE_TIMELINE_KHR
+    #print("statd VK_SEMAPHORE_TYPE_TIMELINE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_TYPE_TIMELINE_KHR"]
+try:
+    VK_SEMAPHORE_WAIT_ANY_BIT = jvulkanLib.VK_SEMAPHORE_WAIT_ANY_BIT
+    #print("statd VK_SEMAPHORE_WAIT_ANY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_WAIT_ANY_BIT"]
+try:
+    VK_SEMAPHORE_WAIT_ANY_BIT_KHR = jvulkanLib.VK_SEMAPHORE_WAIT_ANY_BIT_KHR
+    #print("statd VK_SEMAPHORE_WAIT_ANY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_WAIT_ANY_BIT_KHR"]
+try:
+    VK_SEMAPHORE_WAIT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SEMAPHORE_WAIT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SEMAPHORE_WAIT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SEMAPHORE_WAIT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SHADER_CORE_PROPERTIES_FLAG_BITS_MAX_ENUM_AMD = jvulkanLib.VK_SHADER_CORE_PROPERTIES_FLAG_BITS_MAX_ENUM_AMD
+    #print("statd VK_SHADER_CORE_PROPERTIES_FLAG_BITS_MAX_ENUM_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_CORE_PROPERTIES_FLAG_BITS_MAX_ENUM_AMD"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY_KHR = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY_KHR
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY_KHR"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_MAX_ENUM = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_MAX_ENUM
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_MAX_ENUM"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE"]
+try:
+    VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE_KHR = jvulkanLib.VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE_KHR
+    #print("statd VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_NONE_KHR"]
+try:
+    VK_SHADER_GROUP_SHADER_ANY_HIT_KHR = jvulkanLib.VK_SHADER_GROUP_SHADER_ANY_HIT_KHR
+    #print("statd VK_SHADER_GROUP_SHADER_ANY_HIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_GROUP_SHADER_ANY_HIT_KHR"]
+try:
+    VK_SHADER_GROUP_SHADER_CLOSEST_HIT_KHR = jvulkanLib.VK_SHADER_GROUP_SHADER_CLOSEST_HIT_KHR
+    #print("statd VK_SHADER_GROUP_SHADER_CLOSEST_HIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_GROUP_SHADER_CLOSEST_HIT_KHR"]
+try:
+    VK_SHADER_GROUP_SHADER_GENERAL_KHR = jvulkanLib.VK_SHADER_GROUP_SHADER_GENERAL_KHR
+    #print("statd VK_SHADER_GROUP_SHADER_GENERAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_GROUP_SHADER_GENERAL_KHR"]
+try:
+    VK_SHADER_GROUP_SHADER_INTERSECTION_KHR = jvulkanLib.VK_SHADER_GROUP_SHADER_INTERSECTION_KHR
+    #print("statd VK_SHADER_GROUP_SHADER_INTERSECTION_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_GROUP_SHADER_INTERSECTION_KHR"]
+try:
+    VK_SHADER_GROUP_SHADER_MAX_ENUM_KHR = jvulkanLib.VK_SHADER_GROUP_SHADER_MAX_ENUM_KHR
+    #print("statd VK_SHADER_GROUP_SHADER_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_GROUP_SHADER_MAX_ENUM_KHR"]
+try:
+    VK_SHADER_INFO_TYPE_BINARY_AMD = jvulkanLib.VK_SHADER_INFO_TYPE_BINARY_AMD
+    #print("statd VK_SHADER_INFO_TYPE_BINARY_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_INFO_TYPE_BINARY_AMD"]
+try:
+    VK_SHADER_INFO_TYPE_DISASSEMBLY_AMD = jvulkanLib.VK_SHADER_INFO_TYPE_DISASSEMBLY_AMD
+    #print("statd VK_SHADER_INFO_TYPE_DISASSEMBLY_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_INFO_TYPE_DISASSEMBLY_AMD"]
+try:
+    VK_SHADER_INFO_TYPE_MAX_ENUM_AMD = jvulkanLib.VK_SHADER_INFO_TYPE_MAX_ENUM_AMD
+    #print("statd VK_SHADER_INFO_TYPE_MAX_ENUM_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_INFO_TYPE_MAX_ENUM_AMD"]
+try:
+    VK_SHADER_INFO_TYPE_STATISTICS_AMD = jvulkanLib.VK_SHADER_INFO_TYPE_STATISTICS_AMD
+    #print("statd VK_SHADER_INFO_TYPE_STATISTICS_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_INFO_TYPE_STATISTICS_AMD"]
+try:
+    VK_SHADER_STAGE_ALL = jvulkanLib.VK_SHADER_STAGE_ALL
+    #print("statd VK_SHADER_STAGE_ALL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_ALL"]
+try:
+    VK_SHADER_STAGE_ALL_GRAPHICS = jvulkanLib.VK_SHADER_STAGE_ALL_GRAPHICS
+    #print("statd VK_SHADER_STAGE_ALL_GRAPHICS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_ALL_GRAPHICS"]
+try:
+    VK_SHADER_STAGE_ANY_HIT_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_ANY_HIT_BIT_KHR
+    #print("statd VK_SHADER_STAGE_ANY_HIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_ANY_HIT_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_ANY_HIT_BIT_NV = jvulkanLib.VK_SHADER_STAGE_ANY_HIT_BIT_NV
+    #print("statd VK_SHADER_STAGE_ANY_HIT_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_ANY_HIT_BIT_NV"]
+try:
+    VK_SHADER_STAGE_CALLABLE_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_CALLABLE_BIT_KHR
+    #print("statd VK_SHADER_STAGE_CALLABLE_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_CALLABLE_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_CALLABLE_BIT_NV = jvulkanLib.VK_SHADER_STAGE_CALLABLE_BIT_NV
+    #print("statd VK_SHADER_STAGE_CALLABLE_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_CALLABLE_BIT_NV"]
+try:
+    VK_SHADER_STAGE_CLOSEST_HIT_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_CLOSEST_HIT_BIT_KHR
+    #print("statd VK_SHADER_STAGE_CLOSEST_HIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_CLOSEST_HIT_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_CLOSEST_HIT_BIT_NV = jvulkanLib.VK_SHADER_STAGE_CLOSEST_HIT_BIT_NV
+    #print("statd VK_SHADER_STAGE_CLOSEST_HIT_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_CLOSEST_HIT_BIT_NV"]
+try:
+    VK_SHADER_STAGE_COMPUTE_BIT = jvulkanLib.VK_SHADER_STAGE_COMPUTE_BIT
+    #print("statd VK_SHADER_STAGE_COMPUTE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_COMPUTE_BIT"]
+try:
+    VK_SHADER_STAGE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SHADER_STAGE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SHADER_STAGE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SHADER_STAGE_FRAGMENT_BIT = jvulkanLib.VK_SHADER_STAGE_FRAGMENT_BIT
+    #print("statd VK_SHADER_STAGE_FRAGMENT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_FRAGMENT_BIT"]
+try:
+    VK_SHADER_STAGE_GEOMETRY_BIT = jvulkanLib.VK_SHADER_STAGE_GEOMETRY_BIT
+    #print("statd VK_SHADER_STAGE_GEOMETRY_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_GEOMETRY_BIT"]
+try:
+    VK_SHADER_STAGE_INTERSECTION_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_INTERSECTION_BIT_KHR
+    #print("statd VK_SHADER_STAGE_INTERSECTION_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_INTERSECTION_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_INTERSECTION_BIT_NV = jvulkanLib.VK_SHADER_STAGE_INTERSECTION_BIT_NV
+    #print("statd VK_SHADER_STAGE_INTERSECTION_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_INTERSECTION_BIT_NV"]
+try:
+    VK_SHADER_STAGE_MESH_BIT_NV = jvulkanLib.VK_SHADER_STAGE_MESH_BIT_NV
+    #print("statd VK_SHADER_STAGE_MESH_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_MESH_BIT_NV"]
+try:
+    VK_SHADER_STAGE_MISS_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_MISS_BIT_KHR
+    #print("statd VK_SHADER_STAGE_MISS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_MISS_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_MISS_BIT_NV = jvulkanLib.VK_SHADER_STAGE_MISS_BIT_NV
+    #print("statd VK_SHADER_STAGE_MISS_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_MISS_BIT_NV"]
+try:
+    VK_SHADER_STAGE_RAYGEN_BIT_KHR = jvulkanLib.VK_SHADER_STAGE_RAYGEN_BIT_KHR
+    #print("statd VK_SHADER_STAGE_RAYGEN_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_RAYGEN_BIT_KHR"]
+try:
+    VK_SHADER_STAGE_RAYGEN_BIT_NV = jvulkanLib.VK_SHADER_STAGE_RAYGEN_BIT_NV
+    #print("statd VK_SHADER_STAGE_RAYGEN_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_RAYGEN_BIT_NV"]
+try:
+    VK_SHADER_STAGE_SUBPASS_SHADING_BIT_HUAWEI = jvulkanLib.VK_SHADER_STAGE_SUBPASS_SHADING_BIT_HUAWEI
+    #print("statd VK_SHADER_STAGE_SUBPASS_SHADING_BIT_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_SUBPASS_SHADING_BIT_HUAWEI"]
+try:
+    VK_SHADER_STAGE_TASK_BIT_NV = jvulkanLib.VK_SHADER_STAGE_TASK_BIT_NV
+    #print("statd VK_SHADER_STAGE_TASK_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_TASK_BIT_NV"]
+try:
+    VK_SHADER_STAGE_TESSELLATION_CONTROL_BIT = jvulkanLib.VK_SHADER_STAGE_TESSELLATION_CONTROL_BIT
+    #print("statd VK_SHADER_STAGE_TESSELLATION_CONTROL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_TESSELLATION_CONTROL_BIT"]
+try:
+    VK_SHADER_STAGE_TESSELLATION_EVALUATION_BIT = jvulkanLib.VK_SHADER_STAGE_TESSELLATION_EVALUATION_BIT
+    #print("statd VK_SHADER_STAGE_TESSELLATION_EVALUATION_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_TESSELLATION_EVALUATION_BIT"]
+try:
+    VK_SHADER_STAGE_VERTEX_BIT = jvulkanLib.VK_SHADER_STAGE_VERTEX_BIT
+    #print("statd VK_SHADER_STAGE_VERTEX_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADER_STAGE_VERTEX_BIT"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_16_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_16_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_16_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_16_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_1X2_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_1X2_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_1X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_1X2_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X1_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X1_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X1_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X1_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X2_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X2_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X2_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X4_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X4_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X4_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_2X4_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X2_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X2_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X2_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X2_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X4_PIXELS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X4_PIXELS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X4_PIXELS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_4X4_PIXELS_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_PIXEL_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_PIXEL_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_1_INVOCATION_PER_PIXEL_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_2_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_2_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_2_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_2_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_4_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_4_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_4_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_4_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_8_INVOCATIONS_PER_PIXEL_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_8_INVOCATIONS_PER_PIXEL_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_8_INVOCATIONS_PER_PIXEL_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_8_INVOCATIONS_PER_PIXEL_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_MAX_ENUM_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_MAX_ENUM_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_MAX_ENUM_NV"]
+try:
+    VK_SHADING_RATE_PALETTE_ENTRY_NO_INVOCATIONS_NV = jvulkanLib.VK_SHADING_RATE_PALETTE_ENTRY_NO_INVOCATIONS_NV
+    #print("statd VK_SHADING_RATE_PALETTE_ENTRY_NO_INVOCATIONS_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHADING_RATE_PALETTE_ENTRY_NO_INVOCATIONS_NV"]
+try:
+    VK_SHARING_MODE_CONCURRENT = jvulkanLib.VK_SHARING_MODE_CONCURRENT
+    #print("statd VK_SHARING_MODE_CONCURRENT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHARING_MODE_CONCURRENT"]
+try:
+    VK_SHARING_MODE_EXCLUSIVE = jvulkanLib.VK_SHARING_MODE_EXCLUSIVE
+    #print("statd VK_SHARING_MODE_EXCLUSIVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHARING_MODE_EXCLUSIVE"]
+try:
+    VK_SHARING_MODE_MAX_ENUM = jvulkanLib.VK_SHARING_MODE_MAX_ENUM
+    #print("statd VK_SHARING_MODE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SHARING_MODE_MAX_ENUM"]
+try:
+    VK_SPARSE_IMAGE_FORMAT_ALIGNED_MIP_SIZE_BIT = jvulkanLib.VK_SPARSE_IMAGE_FORMAT_ALIGNED_MIP_SIZE_BIT
+    #print("statd VK_SPARSE_IMAGE_FORMAT_ALIGNED_MIP_SIZE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_IMAGE_FORMAT_ALIGNED_MIP_SIZE_BIT"]
+try:
+    VK_SPARSE_IMAGE_FORMAT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SPARSE_IMAGE_FORMAT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SPARSE_IMAGE_FORMAT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_IMAGE_FORMAT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SPARSE_IMAGE_FORMAT_NONSTANDARD_BLOCK_SIZE_BIT = jvulkanLib.VK_SPARSE_IMAGE_FORMAT_NONSTANDARD_BLOCK_SIZE_BIT
+    #print("statd VK_SPARSE_IMAGE_FORMAT_NONSTANDARD_BLOCK_SIZE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_IMAGE_FORMAT_NONSTANDARD_BLOCK_SIZE_BIT"]
+try:
+    VK_SPARSE_IMAGE_FORMAT_SINGLE_MIPTAIL_BIT = jvulkanLib.VK_SPARSE_IMAGE_FORMAT_SINGLE_MIPTAIL_BIT
+    #print("statd VK_SPARSE_IMAGE_FORMAT_SINGLE_MIPTAIL_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_IMAGE_FORMAT_SINGLE_MIPTAIL_BIT"]
+try:
+    VK_SPARSE_MEMORY_BIND_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SPARSE_MEMORY_BIND_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SPARSE_MEMORY_BIND_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_MEMORY_BIND_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SPARSE_MEMORY_BIND_METADATA_BIT = jvulkanLib.VK_SPARSE_MEMORY_BIND_METADATA_BIT
+    #print("statd VK_SPARSE_MEMORY_BIND_METADATA_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SPARSE_MEMORY_BIND_METADATA_BIT"]
+try:
+    VK_STENCIL_FACE_BACK_BIT = jvulkanLib.VK_STENCIL_FACE_BACK_BIT
+    #print("statd VK_STENCIL_FACE_BACK_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_FACE_BACK_BIT"]
+try:
+    VK_STENCIL_FACE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_STENCIL_FACE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_STENCIL_FACE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_FACE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_STENCIL_FACE_FRONT_AND_BACK = jvulkanLib.VK_STENCIL_FACE_FRONT_AND_BACK
+    #print("statd VK_STENCIL_FACE_FRONT_AND_BACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_FACE_FRONT_AND_BACK"]
+try:
+    VK_STENCIL_FACE_FRONT_BIT = jvulkanLib.VK_STENCIL_FACE_FRONT_BIT
+    #print("statd VK_STENCIL_FACE_FRONT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_FACE_FRONT_BIT"]
+try:
+    VK_STENCIL_FRONT_AND_BACK = jvulkanLib.VK_STENCIL_FRONT_AND_BACK
+    #print("statd VK_STENCIL_FRONT_AND_BACK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_FRONT_AND_BACK"]
+try:
+    VK_STENCIL_OP_DECREMENT_AND_CLAMP = jvulkanLib.VK_STENCIL_OP_DECREMENT_AND_CLAMP
+    #print("statd VK_STENCIL_OP_DECREMENT_AND_CLAMP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_DECREMENT_AND_CLAMP"]
+try:
+    VK_STENCIL_OP_DECREMENT_AND_WRAP = jvulkanLib.VK_STENCIL_OP_DECREMENT_AND_WRAP
+    #print("statd VK_STENCIL_OP_DECREMENT_AND_WRAP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_DECREMENT_AND_WRAP"]
+try:
+    VK_STENCIL_OP_INCREMENT_AND_CLAMP = jvulkanLib.VK_STENCIL_OP_INCREMENT_AND_CLAMP
+    #print("statd VK_STENCIL_OP_INCREMENT_AND_CLAMP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_INCREMENT_AND_CLAMP"]
+try:
+    VK_STENCIL_OP_INCREMENT_AND_WRAP = jvulkanLib.VK_STENCIL_OP_INCREMENT_AND_WRAP
+    #print("statd VK_STENCIL_OP_INCREMENT_AND_WRAP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_INCREMENT_AND_WRAP"]
+try:
+    VK_STENCIL_OP_INVERT = jvulkanLib.VK_STENCIL_OP_INVERT
+    #print("statd VK_STENCIL_OP_INVERT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_INVERT"]
+try:
+    VK_STENCIL_OP_KEEP = jvulkanLib.VK_STENCIL_OP_KEEP
+    #print("statd VK_STENCIL_OP_KEEP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_KEEP"]
+try:
+    VK_STENCIL_OP_MAX_ENUM = jvulkanLib.VK_STENCIL_OP_MAX_ENUM
+    #print("statd VK_STENCIL_OP_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_MAX_ENUM"]
+try:
+    VK_STENCIL_OP_REPLACE = jvulkanLib.VK_STENCIL_OP_REPLACE
+    #print("statd VK_STENCIL_OP_REPLACE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_REPLACE"]
+try:
+    VK_STENCIL_OP_ZERO = jvulkanLib.VK_STENCIL_OP_ZERO
+    #print("statd VK_STENCIL_OP_ZERO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STENCIL_OP_ZERO"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_GEOMETRY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_GEOMETRY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_GEOMETRY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_GEOMETRY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_SIZES_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_SIZES_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_SIZES_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_BUILD_SIZES_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_DEVICE_ADDRESS_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_DEVICE_ADDRESS_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_DEVICE_ADDRESS_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_DEVICE_ADDRESS_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_AABBS_DATA_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_AABBS_DATA_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_AABBS_DATA_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_AABBS_DATA_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_INSTANCES_DATA_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_INSTANCES_DATA_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_INSTANCES_DATA_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_INSTANCES_DATA_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_MOTION_TRIANGLES_DATA_NV = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_MOTION_TRIANGLES_DATA_NV
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_MOTION_TRIANGLES_DATA_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_MOTION_TRIANGLES_DATA_NV"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_TRIANGLES_DATA_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_TRIANGLES_DATA_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_TRIANGLES_DATA_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_GEOMETRY_TRIANGLES_DATA_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MEMORY_REQUIREMENTS_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MOTION_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MOTION_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MOTION_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_MOTION_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_VERSION_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_VERSION_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_VERSION_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACCELERATION_STRUCTURE_VERSION_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACQUIRE_NEXT_IMAGE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ACQUIRE_PROFILING_LOCK_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_2_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_2_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_2_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_2_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_FORMAT_PROPERTIES_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_PROPERTIES_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ANDROID_HARDWARE_BUFFER_USAGE_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ANDROID_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_APPLICATION_INFO = jvulkanLib.VK_STRUCTURE_TYPE_APPLICATION_INFO
+    #print("statd VK_STRUCTURE_TYPE_APPLICATION_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_APPLICATION_INFO"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2 = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_DESCRIPTION_STENCIL_LAYOUT_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2 = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_REFERENCE_STENCIL_LAYOUT_KHR"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_AMD = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_AMD
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_AMD"]
+try:
+    VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_ATTACHMENT_SAMPLE_COUNT_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_ACCELERATION_STRUCTURE_MEMORY_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_DEVICE_GROUP_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_BUFFER_MEMORY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_DEVICE_GROUP_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_MEMORY_SWAPCHAIN_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_IMAGE_PLANE_MEMORY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BIND_SPARSE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BIND_SPARSE_INFO
+    #print("statd VK_STRUCTURE_TYPE_BIND_SPARSE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BIND_SPARSE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BLIT_IMAGE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COLLECTION_BUFFER_CREATE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COLLECTION_BUFFER_CREATE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COLLECTION_BUFFER_CREATE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COLLECTION_BUFFER_CREATE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CONSTRAINTS_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CONSTRAINTS_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CONSTRAINTS_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CONSTRAINTS_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CREATE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CREATE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CREATE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COLLECTION_CREATE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COLLECTION_IMAGE_CREATE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COLLECTION_IMAGE_CREATE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COLLECTION_IMAGE_CREATE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COLLECTION_IMAGE_CREATE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COLLECTION_PROPERTIES_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COLLECTION_PROPERTIES_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COLLECTION_PROPERTIES_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COLLECTION_PROPERTIES_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_CONSTRAINTS_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_CONSTRAINTS_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_CONSTRAINTS_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_CONSTRAINTS_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COPY_2 = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COPY_2
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COPY_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COPY_2"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_COPY_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_COPY_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_COPY_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_COPY_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2 = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_IMAGE_COPY_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2 = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_MEMORY_REQUIREMENTS_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_OPAQUE_CAPTURE_ADDRESS_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_BUFFER_VIEW_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CALIBRATED_TIMESTAMP_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_CHECKPOINT_DATA_2_NV = jvulkanLib.VK_STRUCTURE_TYPE_CHECKPOINT_DATA_2_NV
+    #print("statd VK_STRUCTURE_TYPE_CHECKPOINT_DATA_2_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CHECKPOINT_DATA_2_NV"]
+try:
+    VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV = jvulkanLib.VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV
+    #print("statd VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CHECKPOINT_DATA_NV"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_CONDITIONAL_RENDERING_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDERING_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDER_PASS_TRANSFORM_INFO_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDER_PASS_TRANSFORM_INFO_QCOM
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDER_PASS_TRANSFORM_INFO_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_RENDER_PASS_TRANSFORM_INFO_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_VIEWPORT_SCISSOR_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_VIEWPORT_SCISSOR_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_VIEWPORT_SCISSOR_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_INHERITANCE_VIEWPORT_SCISSOR_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_BUFFER_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COMPUTE_PIPELINE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CONDITIONAL_RENDERING_BEGIN_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COOPERATIVE_MATRIX_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_TO_MEMORY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_TO_MEMORY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_TO_MEMORY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_ACCELERATION_STRUCTURE_TO_MEMORY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_BUFFER_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_BUFFER_TO_IMAGE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_COMMAND_TRANSFORM_INFO_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_COPY_COMMAND_TRANSFORM_INFO_QCOM
+    #print("statd VK_STRUCTURE_TYPE_COPY_COMMAND_TRANSFORM_INFO_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_COMMAND_TRANSFORM_INFO_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET = jvulkanLib.VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET
+    #print("statd VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_DESCRIPTOR_SET"]
+try:
+    VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_IMAGE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_IMAGE_TO_BUFFER_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_COPY_MEMORY_TO_ACCELERATION_STRUCTURE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_COPY_MEMORY_TO_ACCELERATION_STRUCTURE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_COPY_MEMORY_TO_ACCELERATION_STRUCTURE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_COPY_MEMORY_TO_ACCELERATION_STRUCTURE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_CU_FUNCTION_CREATE_INFO_NVX = jvulkanLib.VK_STRUCTURE_TYPE_CU_FUNCTION_CREATE_INFO_NVX
+    #print("statd VK_STRUCTURE_TYPE_CU_FUNCTION_CREATE_INFO_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CU_FUNCTION_CREATE_INFO_NVX"]
+try:
+    VK_STRUCTURE_TYPE_CU_LAUNCH_INFO_NVX = jvulkanLib.VK_STRUCTURE_TYPE_CU_LAUNCH_INFO_NVX
+    #print("statd VK_STRUCTURE_TYPE_CU_LAUNCH_INFO_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CU_LAUNCH_INFO_NVX"]
+try:
+    VK_STRUCTURE_TYPE_CU_MODULE_CREATE_INFO_NVX = jvulkanLib.VK_STRUCTURE_TYPE_CU_MODULE_CREATE_INFO_NVX
+    #print("statd VK_STRUCTURE_TYPE_CU_MODULE_CREATE_INFO_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_CU_MODULE_CREATE_INFO_NVX"]
+try:
+    VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_D3D12_FENCE_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_MARKER_MARKER_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_NAME_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_MARKER_OBJECT_TAG_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_REPORT_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_UTILS_LABEL_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_TAG_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_BUFFER_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_IMAGE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEDICATED_ALLOCATION_MEMORY_ALLOCATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_DEPENDENCY_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEPENDENCY_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEPENDENCY_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEPENDENCY_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEPENDENCY_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEPENDENCY_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEPENDENCY_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEPENDENCY_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_POOL_INLINE_UNIFORM_BLOCK_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_BINDING_REFERENCE_VALVE = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_BINDING_REFERENCE_VALVE
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_BINDING_REFERENCE_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_BINDING_REFERENCE_VALVE"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_BINDING_FLAGS_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_HOST_MAPPING_INFO_VALVE = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_HOST_MAPPING_INFO_VALVE
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_HOST_MAPPING_INFO_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_HOST_MAPPING_INFO_VALVE"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_LAYOUT_SUPPORT_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_ALLOCATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_SET_VARIABLE_DESCRIPTOR_COUNT_LAYOUT_SUPPORT_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DESCRIPTOR_UPDATE_TEMPLATE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_BUFFER_MEMORY_REQUIREMENTS_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_DEVICE_MEMORY_REPORT_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_DEVICE_MEMORY_REPORT_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_DEVICE_MEMORY_REPORT_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_DEVICE_MEMORY_REPORT_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_DIAGNOSTICS_CONFIG_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_DIAGNOSTICS_CONFIG_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_DIAGNOSTICS_CONFIG_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_DIAGNOSTICS_CONFIG_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_EVENT_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_BIND_SPARSE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_COMMAND_BUFFER_BEGIN_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_DEVICE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_CAPABILITIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_PRESENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_RENDER_PASS_BEGIN_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_GROUP_SWAPCHAIN_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_IMAGE_MEMORY_REQUIREMENTS_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_MEMORY_OPAQUE_CAPTURE_ADDRESS_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_MEMORY_OVERALLOCATION_CREATE_INFO_AMD"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_MEMORY_REPORT_CALLBACK_DATA_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_MEMORY_REPORT_CALLBACK_DATA_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_MEMORY_REPORT_CALLBACK_DATA_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_MEMORY_REPORT_CALLBACK_DATA_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_PRIVATE_DATA_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_QUEUE_GLOBAL_PRIORITY_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DEVICE_QUEUE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_DIRECTFB_SURFACE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DIRECTFB_SURFACE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DIRECTFB_SURFACE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DIRECTFB_SURFACE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_EVENT_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_MODE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_MODE_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_NATIVE_HDR_SURFACE_CAPABILITIES_AMD"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_PLANE_CAPABILITIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_PLANE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_PLANE_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_POWER_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_PRESENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DISPLAY_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_2_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_2_EXT
+    #print("statd VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_2_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_2_EXT"]
+try:
+    VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT = jvulkanLib.VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT
+    #print("statd VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_DRM_FORMAT_MODIFIER_PROPERTIES_LIST_EXT"]
+try:
+    VK_STRUCTURE_TYPE_EVENT_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EVENT_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EVENT_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EVENT_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_FENCE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_FENCE_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_MEMORY_ALLOCATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_MEMORY_WIN32_HANDLE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_BUFFER_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_FENCE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_FORMAT_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_IMAGE_FORMAT_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_BUFFER_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_MEMORY_IMAGE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_EXTERNAL_SEMAPHORE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FENCE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_FENCE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_FENCE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FENCE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FENCE_GET_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FENCE_GET_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FILTER_CUBIC_IMAGE_VIEW_IMAGE_FORMAT_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3 = jvulkanLib.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3
+    #print("statd VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3"]
+try:
+    VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3_KHR
+    #print("statd VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FORMAT_PROPERTIES_3_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENTS_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_ATTACHMENT_IMAGE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV = jvulkanLib.VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV
+    #print("statd VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_FRAMEBUFFER_MIXED_SAMPLES_COMBINATION_NV"]
+try:
+    VK_STRUCTURE_TYPE_GENERATED_COMMANDS_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_GENERATED_COMMANDS_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_GENERATED_COMMANDS_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GENERATED_COMMANDS_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_GENERATED_COMMANDS_MEMORY_REQUIREMENTS_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_GENERATED_COMMANDS_MEMORY_REQUIREMENTS_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_GENERATED_COMMANDS_MEMORY_REQUIREMENTS_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GENERATED_COMMANDS_MEMORY_REQUIREMENTS_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV = jvulkanLib.VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV
+    #print("statd VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GEOMETRY_AABB_NV"]
+try:
+    VK_STRUCTURE_TYPE_GEOMETRY_NV = jvulkanLib.VK_STRUCTURE_TYPE_GEOMETRY_NV
+    #print("statd VK_STRUCTURE_TYPE_GEOMETRY_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GEOMETRY_NV"]
+try:
+    VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV = jvulkanLib.VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV
+    #print("statd VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GEOMETRY_TRIANGLES_NV"]
+try:
+    VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_LIBRARY_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_LIBRARY_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_LIBRARY_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_LIBRARY_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_SHADER_GROUPS_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_SHADER_GROUPS_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_SHADER_GROUPS_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GRAPHICS_PIPELINE_SHADER_GROUPS_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_GRAPHICS_SHADER_GROUP_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_GRAPHICS_SHADER_GROUP_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_GRAPHICS_SHADER_GROUP_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_GRAPHICS_SHADER_GROUP_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_HDR_METADATA_EXT = jvulkanLib.VK_STRUCTURE_TYPE_HDR_METADATA_EXT
+    #print("statd VK_STRUCTURE_TYPE_HDR_METADATA_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_HDR_METADATA_EXT"]
+try:
+    VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_HEADLESS_SURFACE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGEPIPE_SURFACE_CREATE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_BLIT_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_BLIT_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_BLIT_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_BLIT_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_BLIT_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_BLIT_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_BLIT_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_BLIT_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_CONSTRAINTS_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_CONSTRAINTS_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_CONSTRAINTS_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_CONSTRAINTS_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_COPY_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_COPY_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_COPY_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_COPY_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_COPY_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_COPY_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_COPY_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_COPY_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_EXPLICIT_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_LIST_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_DRM_FORMAT_MODIFIER_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_FORMAT_CONSTRAINTS_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_FORMAT_CONSTRAINTS_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_FORMAT_CONSTRAINTS_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_FORMAT_CONSTRAINTS_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_FORMAT_LIST_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_FORMAT_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_MEMORY_REQUIREMENTS_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_PLANE_MEMORY_REQUIREMENTS_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_RESOLVE_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_SPARSE_MEMORY_REQUIREMENTS_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_STENCIL_USAGE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_SWAPCHAIN_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_ADDRESS_PROPERTIES_NVX = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_ADDRESS_PROPERTIES_NVX
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_ADDRESS_PROPERTIES_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_ADDRESS_PROPERTIES_NVX"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_ASTC_DECODE_MODE_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_HANDLE_INFO_NVX"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_MIN_LOD_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_MIN_LOD_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_MIN_LOD_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_MIN_LOD_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMAGE_VIEW_USAGE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_ANDROID_HARDWARE_BUFFER_INFO_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_FENCE_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_FENCE_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_BUFFER_COLLECTION_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_BUFFER_COLLECTION_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_BUFFER_COLLECTION_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_BUFFER_COLLECTION_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_HOST_POINTER_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_WIN32_HANDLE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_MEMORY_ZIRCON_HANDLE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_MEMORY_ZIRCON_HANDLE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_MEMORY_ZIRCON_HANDLE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_MEMORY_ZIRCON_HANDLE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_ZIRCON_HANDLE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_ZIRCON_HANDLE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_ZIRCON_HANDLE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IMPORT_SEMAPHORE_ZIRCON_HANDLE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_TOKEN_NV = jvulkanLib.VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_TOKEN_NV
+    #print("statd VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_TOKEN_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_INDIRECT_COMMANDS_LAYOUT_TOKEN_NV"]
+try:
+    VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_INITIALIZE_PERFORMANCE_API_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK = jvulkanLib.VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK
+    #print("statd VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK"]
+try:
+    VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_LOADER_DEVICE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_LOADER_INSTANCE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK = jvulkanLib.VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK
+    #print("statd VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MACOS_SURFACE_CREATE_INFO_MVK"]
+try:
+    VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE = jvulkanLib.VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE
+    #print("statd VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MAPPED_MEMORY_RANGE"]
+try:
+    VK_STRUCTURE_TYPE_MAX_ENUM = jvulkanLib.VK_STRUCTURE_TYPE_MAX_ENUM
+    #print("statd VK_STRUCTURE_TYPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MAX_ENUM"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_FLAGS_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_BARRIER = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_BARRIER
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_BARRIER")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_BARRIER"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_BARRIER_2 = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_BARRIER_2
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_BARRIER_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_BARRIER_2"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_BARRIER_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_BARRIER_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_BARRIER_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_BARRIER_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_DEDICATED_ALLOCATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_DEDICATED_REQUIREMENTS_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_FD_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_GET_ANDROID_HARDWARE_BUFFER_INFO_ANDROID"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_GET_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_GET_REMOTE_ADDRESS_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_GET_REMOTE_ADDRESS_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_GET_REMOTE_ADDRESS_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_GET_REMOTE_ADDRESS_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_GET_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_GET_ZIRCON_HANDLE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_GET_ZIRCON_HANDLE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_GET_ZIRCON_HANDLE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_GET_ZIRCON_HANDLE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_HOST_POINTER_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_OPAQUE_CAPTURE_ADDRESS_ALLOCATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_PRIORITY_ALLOCATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2 = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_REQUIREMENTS_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_WIN32_HANDLE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_MEMORY_ZIRCON_HANDLE_PROPERTIES_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_MEMORY_ZIRCON_HANDLE_PROPERTIES_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_MEMORY_ZIRCON_HANDLE_PROPERTIES_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MEMORY_ZIRCON_HANDLE_PROPERTIES_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MULTISAMPLE_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_MULTIVIEW_PER_VIEW_ATTRIBUTES_INFO_NVX = jvulkanLib.VK_STRUCTURE_TYPE_MULTIVIEW_PER_VIEW_ATTRIBUTES_INFO_NVX
+    #print("statd VK_STRUCTURE_TYPE_MULTIVIEW_PER_VIEW_ATTRIBUTES_INFO_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MULTIVIEW_PER_VIEW_ATTRIBUTES_INFO_NVX"]
+try:
+    VK_STRUCTURE_TYPE_MUTABLE_DESCRIPTOR_TYPE_CREATE_INFO_VALVE = jvulkanLib.VK_STRUCTURE_TYPE_MUTABLE_DESCRIPTOR_TYPE_CREATE_INFO_VALVE
+    #print("statd VK_STRUCTURE_TYPE_MUTABLE_DESCRIPTOR_TYPE_CREATE_INFO_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_MUTABLE_DESCRIPTOR_TYPE_CREATE_INFO_VALVE"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_CONFIGURATION_ACQUIRE_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_DESCRIPTION_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_COUNTER_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_MARKER_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_OVERRIDE_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_QUERY_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PERFORMANCE_STREAM_MARKER_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_16BIT_STORAGE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_4444_FORMATS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_4444_FORMATS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_4444_FORMATS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_4444_FORMATS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_8BIT_STORAGE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ACCELERATION_STRUCTURE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ASTC_DECODE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BLEND_OPERATION_ADVANCED_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BORDER_COLOR_SWIZZLE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BORDER_COLOR_SWIZZLE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BORDER_COLOR_SWIZZLE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BORDER_COLOR_SWIZZLE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_ADDRESS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COHERENT_MEMORY_FEATURES_AMD"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COLOR_WRITE_ENABLE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COLOR_WRITE_ENABLE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COLOR_WRITE_ENABLE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COLOR_WRITE_ENABLE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COMPUTE_SHADER_DERIVATIVES_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONDITIONAL_RENDERING_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CONSERVATIVE_RASTERIZATION_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COOPERATIVE_MATRIX_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CORNER_SAMPLED_IMAGE_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_COVERAGE_REDUCTION_MODE_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_CUSTOM_BORDER_COLOR_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEDICATED_ALLOCATION_IMAGE_ALIASING_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_CONTROL_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_CONTROL_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_CONTROL_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_CONTROL_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_CLIP_ENABLE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEPTH_STENCIL_RESOLVE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_SET_HOST_MAPPING_FEATURES_VALVE = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_SET_HOST_MAPPING_FEATURES_VALVE
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_SET_HOST_MAPPING_FEATURES_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DESCRIPTOR_SET_HOST_MAPPING_FEATURES_VALVE"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_GENERATED_COMMANDS_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_MEMORY_REPORT_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_MEMORY_REPORT_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_MEMORY_REPORT_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DEVICE_MEMORY_REPORT_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DIAGNOSTICS_CONFIG_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DIAGNOSTICS_CONFIG_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DIAGNOSTICS_CONFIG_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DIAGNOSTICS_CONFIG_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DISCARD_RECTANGLE_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRIVER_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRM_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRM_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRM_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DRM_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_DYNAMIC_RENDERING_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXCLUSIVE_SCISSOR_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_2_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTENDED_DYNAMIC_STATE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_BUFFER_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_FENCE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_IMAGE_FORMAT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_HOST_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_RDMA_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_RDMA_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_RDMA_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_MEMORY_RDMA_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_EXTERNAL_SEMAPHORE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2 = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT16_INT8_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FLOAT_CONTROLS_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_2_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_FEATURES_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_FEATURES_QCOM
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_FEATURES_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_FEATURES_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_PROPERTIES_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_PROPERTIES_QCOM
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_PROPERTIES_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_OFFSET_PROPERTIES_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_DENSITY_MAP_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_BARYCENTRIC_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADER_INTERLOCK_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_ENUMS_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FRAGMENT_SHADING_RATE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GLOBAL_PRIORITY_QUERY_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GRAPHICS_PIPELINE_LIBRARY_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_GROUP_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_HOST_QUERY_RESET_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ID_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_2D_VIEW_OF_3D_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_2D_VIEW_OF_3D_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_2D_VIEW_OF_3D_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_2D_VIEW_OF_3D_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_DRM_FORMAT_MODIFIER_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_FORMAT_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_ROBUSTNESS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_IMAGE_FORMAT_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_IMAGE_VIEW_MIN_LOD_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INDEX_TYPE_UINT8_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INHERITED_VIEWPORT_SCISSOR_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INHERITED_VIEWPORT_SCISSOR_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INHERITED_VIEWPORT_SCISSOR_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INHERITED_VIEWPORT_SCISSOR_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INLINE_UNIFORM_BLOCK_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INVOCATION_MASK_FEATURES_HUAWEI = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INVOCATION_MASK_FEATURES_HUAWEI
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INVOCATION_MASK_FEATURES_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_INVOCATION_MASK_FEATURES_HUAWEI"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINEAR_COLOR_ATTACHMENT_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINEAR_COLOR_ATTACHMENT_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINEAR_COLOR_ATTACHMENT_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINEAR_COLOR_ATTACHMENT_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_LINE_RASTERIZATION_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_3_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MAINTENANCE_4_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_BUDGET_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PRIORITY_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MEMORY_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MESH_SHADER_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PER_VIEW_ATTRIBUTES_PROPERTIES_NVX"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTIVIEW_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MULTI_DRAW_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MUTABLE_DESCRIPTOR_TYPE_FEATURES_VALVE = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MUTABLE_DESCRIPTOR_TYPE_FEATURES_VALVE
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MUTABLE_DESCRIPTOR_TYPE_FEATURES_VALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_MUTABLE_DESCRIPTOR_TYPE_FEATURES_VALVE"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PAGEABLE_DEVICE_LOCAL_MEMORY_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PAGEABLE_DEVICE_LOCAL_MEMORY_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PAGEABLE_DEVICE_LOCAL_MEMORY_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PAGEABLE_DEVICE_LOCAL_MEMORY_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PCI_BUS_INFO_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PERFORMANCE_QUERY_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_CREATION_CACHE_CONTROL_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PIPELINE_EXECUTABLE_PROPERTIES_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_POINT_CLIPPING_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_ID_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_ID_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_ID_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_ID_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_WAIT_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_WAIT_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_WAIT_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_WAIT_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVES_GENERATED_QUERY_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVES_GENERATED_QUERY_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVES_GENERATED_QUERY_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVES_GENERATED_QUERY_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVE_TOPOLOGY_LIST_RESTART_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVE_TOPOLOGY_LIST_RESTART_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVE_TOPOLOGY_LIST_RESTART_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIMITIVE_TOPOLOGY_LIST_RESTART_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRIVATE_DATA_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROTECTED_MEMORY_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PROVOKING_VERTEX_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PUSH_DESCRIPTOR_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_FEATURES_ARM = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_FEATURES_ARM
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_FEATURES_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RASTERIZATION_ORDER_ATTACHMENT_ACCESS_FEATURES_ARM"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_QUERY_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_QUERY_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_QUERY_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_QUERY_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_MOTION_BLUR_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_MOTION_BLUR_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_MOTION_BLUR_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_MOTION_BLUR_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_REPRESENTATIVE_FRAGMENT_TEST_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RGBA10X6_FORMATS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RGBA10X6_FORMATS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RGBA10X6_FORMATS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RGBA10X6_FORMATS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ROBUSTNESS_2_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_FILTER_MINMAX_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLER_YCBCR_CONVERSION_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SAMPLE_LOCATIONS_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SEPARATE_DEPTH_STENCIL_LAYOUTS_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_2_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_FLOAT_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_ATOMIC_INT64_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CLOCK_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_2_AMD"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_CORE_PROPERTIES_AMD"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DEMOTE_TO_HELPER_INVOCATION_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETER_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_ATOMIC_INT64_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_ATOMIC_INT64_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_ATOMIC_INT64_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_ATOMIC_INT64_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_IMAGE_FOOTPRINT_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_DOT_PRODUCT_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_INTEGER_FUNCTIONS_2_FEATURES_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SM_BUILTINS_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_EXTENDED_TYPES_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_UNIFORM_CONTROL_FLOW_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_UNIFORM_CONTROL_FLOW_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_UNIFORM_CONTROL_FLOW_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_SUBGROUP_UNIFORM_CONTROL_FLOW_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_TERMINATE_INVOCATION_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_FEATURES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADING_RATE_IMAGE_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SPARSE_IMAGE_FORMAT_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBGROUP_SIZE_CONTROL_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_FEATURES_HUAWEI = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_FEATURES_HUAWEI
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_FEATURES_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_FEATURES_HUAWEI"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_PROPERTIES_HUAWEI = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_PROPERTIES_HUAWEI
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_PROPERTIES_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SUBPASS_SHADING_PROPERTIES_HUAWEI"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SURFACE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SYNCHRONIZATION_2_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXEL_BUFFER_ALIGNMENT_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TEXTURE_COMPRESSION_ASTC_HDR_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TIMELINE_SEMAPHORE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TOOL_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_TRANSFORM_FEEDBACK_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_UNIFORM_BUFFER_STANDARD_LAYOUT_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTER_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_ATTRIBUTE_DIVISOR_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VERTEX_INPUT_DYNAMIC_STATE_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_2_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_3_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_WORKGROUP_MEMORY_EXPLICIT_LAYOUT_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_WORKGROUP_MEMORY_EXPLICIT_LAYOUT_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_WORKGROUP_MEMORY_EXPLICIT_LAYOUT_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_WORKGROUP_MEMORY_EXPLICIT_LAYOUT_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_2_PLANE_444_FORMATS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_2_PLANE_444_FORMATS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_2_PLANE_444_FORMATS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_2_PLANE_444_FORMATS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_YCBCR_IMAGE_ARRAYS_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES"]
+try:
+    VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_ZERO_INITIALIZE_WORKGROUP_MEMORY_FEATURES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_CACHE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_ADVANCED_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COLOR_WRITE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COLOR_WRITE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COLOR_WRITE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COLOR_WRITE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COMPILER_CONTROL_CREATE_INFO_AMD"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_MODULATION_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_REDUCTION_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_COVERAGE_TO_COLOR_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_CREATION_FEEDBACK_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_DISCARD_RECTANGLE_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_DYNAMIC_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_INTERNAL_REPRESENTATION_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_EXECUTABLE_STATISTIC_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_ENUM_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_ENUM_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_ENUM_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_ENUM_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_STATE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_STATE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_STATE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_FRAGMENT_SHADING_RATE_STATE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_INPUT_ASSEMBLY_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_LAYOUT_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_LIBRARY_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_LIBRARY_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_LIBRARY_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_LIBRARY_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_MULTISAMPLE_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_CONSERVATIVE_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_DEPTH_CLIP_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_LINE_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_PROVOKING_VERTEX_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_PROVOKING_VERTEX_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_PROVOKING_VERTEX_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_PROVOKING_VERTEX_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_RASTERIZATION_ORDER_AMD"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_STREAM_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_RENDERING_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_REPRESENTATIVE_FRAGMENT_TEST_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_SAMPLE_LOCATIONS_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_REQUIRED_SUBGROUP_SIZE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_DOMAIN_ORIGIN_STATE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_TESSELLATION_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_DIVISOR_STATE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_COARSE_SAMPLE_ORDER_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_DEPTH_CLIP_CONTROL_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_DEPTH_CLIP_CONTROL_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_DEPTH_CLIP_CONTROL_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_DEPTH_CLIP_CONTROL_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_EXCLUSIVE_SCISSOR_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SHADING_RATE_IMAGE_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_STATE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_SWIZZLE_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PIPELINE_VIEWPORT_W_SCALING_STATE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP = jvulkanLib.VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP
+    #print("statd VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRESENT_FRAME_TOKEN_GGP"]
+try:
+    VK_STRUCTURE_TYPE_PRESENT_ID_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PRESENT_ID_KHR
+    #print("statd VK_STRUCTURE_TYPE_PRESENT_ID_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRESENT_ID_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PRESENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PRESENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_PRESENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRESENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR = jvulkanLib.VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR
+    #print("statd VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRESENT_REGIONS_KHR"]
+try:
+    VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE = jvulkanLib.VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE
+    #print("statd VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRESENT_TIMES_INFO_GOOGLE"]
+try:
+    VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PRIVATE_DATA_SLOT_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_PROTECTED_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUERY_POOL_CREATE_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_QUERY_CREATE_INFO_INTEL = jvulkanLib.VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_QUERY_CREATE_INFO_INTEL
+    #print("statd VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_QUERY_CREATE_INFO_INTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUERY_POOL_PERFORMANCE_QUERY_CREATE_INFO_INTEL"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_2_NV = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_2_NV
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_2_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_2_NV"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_CHECKPOINT_PROPERTIES_NV"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_EXT
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_GLOBAL_PRIORITY_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_QUEUE_FAMILY_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_INTERFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_INTERFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_INTERFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RAY_TRACING_PIPELINE_INTERFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RAY_TRACING_SHADER_GROUP_CREATE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_ATTACHMENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_DENSITY_MAP_ATTACHMENT_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_FRAGMENT_SHADING_RATE_ATTACHMENT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDERING_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDERING_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDERING_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDERING_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_ATTACHMENT_BEGIN_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_CREATE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_FRAGMENT_DENSITY_MAP_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_INPUT_ATTACHMENT_ASPECT_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_MULTIVIEW_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_SAMPLE_LOCATIONS_BEGIN_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_RENDER_PASS_TRANSFORM_BEGIN_INFO_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_RENDER_PASS_TRANSFORM_BEGIN_INFO_QCOM
+    #print("statd VK_STRUCTURE_TYPE_RENDER_PASS_TRANSFORM_BEGIN_INFO_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RENDER_PASS_TRANSFORM_BEGIN_INFO_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_RESOLVE_IMAGE_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_BORDER_COLOR_COMPONENT_MAPPING_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_BORDER_COLOR_COMPONENT_MAPPING_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_BORDER_COLOR_COMPONENT_MAPPING_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_BORDER_COLOR_COMPONENT_MAPPING_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_CUSTOM_BORDER_COLOR_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_CUSTOM_BORDER_COLOR_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_CUSTOM_BORDER_COLOR_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_CUSTOM_BORDER_COLOR_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_REDUCTION_MODE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_IMAGE_FORMAT_PROPERTIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLER_YCBCR_CONVERSION_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SAMPLE_LOCATIONS_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SCREEN_SURFACE_CREATE_INFO_QNX = jvulkanLib.VK_STRUCTURE_TYPE_SCREEN_SURFACE_CREATE_INFO_QNX
+    #print("statd VK_STRUCTURE_TYPE_SCREEN_SURFACE_CREATE_INFO_QNX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SCREEN_SURFACE_CREATE_INFO_QNX"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_GET_FD_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_GET_WIN32_HANDLE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_GET_ZIRCON_HANDLE_INFO_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_GET_ZIRCON_HANDLE_INFO_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_GET_ZIRCON_HANDLE_INFO_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_GET_ZIRCON_HANDLE_INFO_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_SIGNAL_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_TYPE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SEMAPHORE_WAIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO
+    #print("statd VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SHADER_MODULE_VALIDATION_CACHE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SHARED_PRESENT_SURFACE_CAPABILITIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2 = jvulkanLib.VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2
+    #print("statd VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2"]
+try:
+    VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SPARSE_IMAGE_FORMAT_PROPERTIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2 = jvulkanLib.VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2
+    #print("statd VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2"]
+try:
+    VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SPARSE_IMAGE_MEMORY_REQUIREMENTS_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP = jvulkanLib.VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP
+    #print("statd VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_STREAM_DESCRIPTOR_SURFACE_CREATE_INFO_GGP"]
+try:
+    VK_STRUCTURE_TYPE_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SUBMIT_INFO_2 = jvulkanLib.VK_STRUCTURE_TYPE_SUBMIT_INFO_2
+    #print("statd VK_STRUCTURE_TYPE_SUBMIT_INFO_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBMIT_INFO_2"]
+try:
+    VK_STRUCTURE_TYPE_SUBMIT_INFO_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBMIT_INFO_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBMIT_INFO_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBMIT_INFO_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_BEGIN_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2 = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DEPENDENCY_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2 = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_DESCRIPTION_DEPTH_STENCIL_RESOLVE_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_END_INFO = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_END_INFO
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_END_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_END_INFO"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_END_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_QCOM = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_QCOM
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_FRAGMENT_DENSITY_MAP_OFFSET_END_INFO_QCOM"]
+try:
+    VK_STRUCTURE_TYPE_SUBPASS_SHADING_PIPELINE_CREATE_INFO_HUAWEI = jvulkanLib.VK_STRUCTURE_TYPE_SUBPASS_SHADING_PIPELINE_CREATE_INFO_HUAWEI
+    #print("statd VK_STRUCTURE_TYPE_SUBPASS_SHADING_PIPELINE_CREATE_INFO_HUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SUBPASS_SHADING_PIPELINE_CREATE_INFO_HUAWEI"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES2_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_CAPABILITIES_FULL_SCREEN_EXCLUSIVE_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_FORMAT_2_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_WIN32_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR
+    #print("statd VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SURFACE_PROTECTED_CAPABILITIES_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SWAPCHAIN_COUNTER_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD = jvulkanLib.VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD
+    #print("statd VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SWAPCHAIN_DISPLAY_NATIVE_HDR_CREATE_INFO_AMD"]
+try:
+    VK_STRUCTURE_TYPE_SYSMEM_COLOR_SPACE_FUCHSIA = jvulkanLib.VK_STRUCTURE_TYPE_SYSMEM_COLOR_SPACE_FUCHSIA
+    #print("statd VK_STRUCTURE_TYPE_SYSMEM_COLOR_SPACE_FUCHSIA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_SYSMEM_COLOR_SPACE_FUCHSIA"]
+try:
+    VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD = jvulkanLib.VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD
+    #print("statd VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_TEXTURE_LOD_GATHER_FORMAT_PROPERTIES_AMD"]
+try:
+    VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO = jvulkanLib.VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO
+    #print("statd VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO"]
+try:
+    VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_TIMELINE_SEMAPHORE_SUBMIT_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT = jvulkanLib.VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT
+    #print("statd VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VALIDATION_CACHE_CREATE_INFO_EXT"]
+try:
+    VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT = jvulkanLib.VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT
+    #print("statd VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VALIDATION_FEATURES_EXT"]
+try:
+    VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT = jvulkanLib.VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT
+    #print("statd VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VALIDATION_FLAGS_EXT"]
+try:
+    VK_STRUCTURE_TYPE_VERTEX_INPUT_ATTRIBUTE_DESCRIPTION_2_EXT = jvulkanLib.VK_STRUCTURE_TYPE_VERTEX_INPUT_ATTRIBUTE_DESCRIPTION_2_EXT
+    #print("statd VK_STRUCTURE_TYPE_VERTEX_INPUT_ATTRIBUTE_DESCRIPTION_2_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VERTEX_INPUT_ATTRIBUTE_DESCRIPTION_2_EXT"]
+try:
+    VK_STRUCTURE_TYPE_VERTEX_INPUT_BINDING_DESCRIPTION_2_EXT = jvulkanLib.VK_STRUCTURE_TYPE_VERTEX_INPUT_BINDING_DESCRIPTION_2_EXT
+    #print("statd VK_STRUCTURE_TYPE_VERTEX_INPUT_BINDING_DESCRIPTION_2_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VERTEX_INPUT_BINDING_DESCRIPTION_2_EXT"]
+try:
+    VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN = jvulkanLib.VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN
+    #print("statd VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_VI_SURFACE_CREATE_INFO_NN"]
+try:
+    VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV = jvulkanLib.VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV
+    #print("statd VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WIN32_KEYED_MUTEX_ACQUIRE_RELEASE_INFO_NV"]
+try:
+    VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET = jvulkanLib.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET
+    #print("statd VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET"]
+try:
+    VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_KHR = jvulkanLib.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_KHR
+    #print("statd VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_KHR"]
+try:
+    VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV = jvulkanLib.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV
+    #print("statd VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_ACCELERATION_STRUCTURE_NV"]
+try:
+    VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK = jvulkanLib.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK
+    #print("statd VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK"]
+try:
+    VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT = jvulkanLib.VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT
+    #print("statd VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET_INLINE_UNIFORM_BLOCK_EXT"]
+try:
+    VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_XCB_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR = jvulkanLib.VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR
+    #print("statd VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR"]
+try:
+    VK_SUBGROUP_FEATURE_ARITHMETIC_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_ARITHMETIC_BIT
+    #print("statd VK_SUBGROUP_FEATURE_ARITHMETIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_ARITHMETIC_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_BALLOT_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_BALLOT_BIT
+    #print("statd VK_SUBGROUP_FEATURE_BALLOT_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_BALLOT_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_BASIC_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_BASIC_BIT
+    #print("statd VK_SUBGROUP_FEATURE_BASIC_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_BASIC_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_CLUSTERED_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_CLUSTERED_BIT
+    #print("statd VK_SUBGROUP_FEATURE_CLUSTERED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_CLUSTERED_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SUBGROUP_FEATURE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SUBGROUP_FEATURE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SUBGROUP_FEATURE_PARTITIONED_BIT_NV = jvulkanLib.VK_SUBGROUP_FEATURE_PARTITIONED_BIT_NV
+    #print("statd VK_SUBGROUP_FEATURE_PARTITIONED_BIT_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_PARTITIONED_BIT_NV"]
+try:
+    VK_SUBGROUP_FEATURE_QUAD_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_QUAD_BIT
+    #print("statd VK_SUBGROUP_FEATURE_QUAD_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_QUAD_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_SHUFFLE_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_SHUFFLE_BIT
+    #print("statd VK_SUBGROUP_FEATURE_SHUFFLE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_SHUFFLE_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT
+    #print("statd VK_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT"]
+try:
+    VK_SUBGROUP_FEATURE_VOTE_BIT = jvulkanLib.VK_SUBGROUP_FEATURE_VOTE_BIT
+    #print("statd VK_SUBGROUP_FEATURE_VOTE_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBGROUP_FEATURE_VOTE_BIT"]
+try:
+    VK_SUBMIT_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SUBMIT_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SUBMIT_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBMIT_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SUBMIT_PROTECTED_BIT = jvulkanLib.VK_SUBMIT_PROTECTED_BIT
+    #print("statd VK_SUBMIT_PROTECTED_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBMIT_PROTECTED_BIT"]
+try:
+    VK_SUBMIT_PROTECTED_BIT_KHR = jvulkanLib.VK_SUBMIT_PROTECTED_BIT_KHR
+    #print("statd VK_SUBMIT_PROTECTED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBMIT_PROTECTED_BIT_KHR"]
+try:
+    VK_SUBOPTIMAL_KHR = jvulkanLib.VK_SUBOPTIMAL_KHR
+    #print("statd VK_SUBOPTIMAL_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBOPTIMAL_KHR"]
+try:
+    VK_SUBPASS_CONTENTS_INLINE = jvulkanLib.VK_SUBPASS_CONTENTS_INLINE
+    #print("statd VK_SUBPASS_CONTENTS_INLINE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_CONTENTS_INLINE"]
+try:
+    VK_SUBPASS_CONTENTS_MAX_ENUM = jvulkanLib.VK_SUBPASS_CONTENTS_MAX_ENUM
+    #print("statd VK_SUBPASS_CONTENTS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_CONTENTS_MAX_ENUM"]
+try:
+    VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS = jvulkanLib.VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS
+    #print("statd VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_CONTENTS_SECONDARY_COMMAND_BUFFERS"]
+try:
+    VK_SUBPASS_DESCRIPTION_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_SUBPASS_DESCRIPTION_FLAG_BITS_MAX_ENUM
+    #print("statd VK_SUBPASS_DESCRIPTION_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM = jvulkanLib.VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM
+    #print("statd VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_FRAGMENT_REGION_BIT_QCOM"]
+try:
+    VK_SUBPASS_DESCRIPTION_PER_VIEW_ATTRIBUTES_BIT_NVX = jvulkanLib.VK_SUBPASS_DESCRIPTION_PER_VIEW_ATTRIBUTES_BIT_NVX
+    #print("statd VK_SUBPASS_DESCRIPTION_PER_VIEW_ATTRIBUTES_BIT_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_PER_VIEW_ATTRIBUTES_BIT_NVX"]
+try:
+    VK_SUBPASS_DESCRIPTION_PER_VIEW_POSITION_X_ONLY_BIT_NVX = jvulkanLib.VK_SUBPASS_DESCRIPTION_PER_VIEW_POSITION_X_ONLY_BIT_NVX
+    #print("statd VK_SUBPASS_DESCRIPTION_PER_VIEW_POSITION_X_ONLY_BIT_NVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_PER_VIEW_POSITION_X_ONLY_BIT_NVX"]
+try:
+    VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_COLOR_ACCESS_BIT_ARM = jvulkanLib.VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_COLOR_ACCESS_BIT_ARM
+    #print("statd VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_COLOR_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_COLOR_ACCESS_BIT_ARM"]
+try:
+    VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM = jvulkanLib.VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM
+    #print("statd VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_DEPTH_ACCESS_BIT_ARM"]
+try:
+    VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM = jvulkanLib.VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM
+    #print("statd VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_RASTERIZATION_ORDER_ATTACHMENT_STENCIL_ACCESS_BIT_ARM"]
+try:
+    VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM = jvulkanLib.VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM
+    #print("statd VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUBPASS_DESCRIPTION_SHADER_RESOLVE_BIT_QCOM"]
+try:
+    VK_SUCCESS = jvulkanLib.VK_SUCCESS
+    #print("statd VK_SUCCESS")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SUCCESS"]
+try:
+    VK_SURFACE_COUNTER_FLAG_BITS_MAX_ENUM_EXT = jvulkanLib.VK_SURFACE_COUNTER_FLAG_BITS_MAX_ENUM_EXT
+    #print("statd VK_SURFACE_COUNTER_FLAG_BITS_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_COUNTER_FLAG_BITS_MAX_ENUM_EXT"]
+try:
+    VK_SURFACE_COUNTER_VBLANK_BIT_EXT = jvulkanLib.VK_SURFACE_COUNTER_VBLANK_BIT_EXT
+    #print("statd VK_SURFACE_COUNTER_VBLANK_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_COUNTER_VBLANK_BIT_EXT"]
+try:
+    VK_SURFACE_COUNTER_VBLANK_EXT = jvulkanLib.VK_SURFACE_COUNTER_VBLANK_EXT
+    #print("statd VK_SURFACE_COUNTER_VBLANK_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_COUNTER_VBLANK_EXT"]
+try:
+    VK_SURFACE_TRANSFORM_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_SURFACE_TRANSFORM_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_180_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_180_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_180_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_180_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_270_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_270_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_270_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_270_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_90_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_90_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_90_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_HORIZONTAL_MIRROR_ROTATE_90_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_INHERIT_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_INHERIT_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_INHERIT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_INHERIT_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_ROTATE_180_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_ROTATE_180_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_ROTATE_180_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_ROTATE_180_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_ROTATE_270_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_ROTATE_270_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_ROTATE_270_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_ROTATE_270_BIT_KHR"]
+try:
+    VK_SURFACE_TRANSFORM_ROTATE_90_BIT_KHR = jvulkanLib.VK_SURFACE_TRANSFORM_ROTATE_90_BIT_KHR
+    #print("statd VK_SURFACE_TRANSFORM_ROTATE_90_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SURFACE_TRANSFORM_ROTATE_90_BIT_KHR"]
+try:
+    VK_SWAPCHAIN_CREATE_FLAG_BITS_MAX_ENUM_KHR = jvulkanLib.VK_SWAPCHAIN_CREATE_FLAG_BITS_MAX_ENUM_KHR
+    #print("statd VK_SWAPCHAIN_CREATE_FLAG_BITS_MAX_ENUM_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SWAPCHAIN_CREATE_FLAG_BITS_MAX_ENUM_KHR"]
+try:
+    VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR = jvulkanLib.VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR
+    #print("statd VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR"]
+try:
+    VK_SWAPCHAIN_CREATE_PROTECTED_BIT_KHR = jvulkanLib.VK_SWAPCHAIN_CREATE_PROTECTED_BIT_KHR
+    #print("statd VK_SWAPCHAIN_CREATE_PROTECTED_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SWAPCHAIN_CREATE_PROTECTED_BIT_KHR"]
+try:
+    VK_SWAPCHAIN_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR = jvulkanLib.VK_SWAPCHAIN_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR
+    #print("statd VK_SWAPCHAIN_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SWAPCHAIN_CREATE_SPLIT_INSTANCE_BIND_REGIONS_BIT_KHR"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_CACHE = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_CACHE
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_CACHE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_CACHE"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_COMMAND = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_COMMAND
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_COMMAND")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_COMMAND"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_DEVICE = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_DEVICE
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_DEVICE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_DEVICE"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_INSTANCE = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_INSTANCE
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_INSTANCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_INSTANCE"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_MAX_ENUM = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_MAX_ENUM
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_MAX_ENUM"]
+try:
+    VK_SYSTEM_ALLOCATION_SCOPE_OBJECT = jvulkanLib.VK_SYSTEM_ALLOCATION_SCOPE_OBJECT
+    #print("statd VK_SYSTEM_ALLOCATION_SCOPE_OBJECT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_SYSTEM_ALLOCATION_SCOPE_OBJECT"]
+try:
+    VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT = jvulkanLib.VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT
+    #print("statd VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT"]
+try:
+    VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT_KHR = jvulkanLib.VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT_KHR
+    #print("statd VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TESSELLATION_DOMAIN_ORIGIN_LOWER_LEFT_KHR"]
+try:
+    VK_TESSELLATION_DOMAIN_ORIGIN_MAX_ENUM = jvulkanLib.VK_TESSELLATION_DOMAIN_ORIGIN_MAX_ENUM
+    #print("statd VK_TESSELLATION_DOMAIN_ORIGIN_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TESSELLATION_DOMAIN_ORIGIN_MAX_ENUM"]
+try:
+    VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT = jvulkanLib.VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT
+    #print("statd VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT"]
+try:
+    VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT_KHR = jvulkanLib.VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT_KHR
+    #print("statd VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TESSELLATION_DOMAIN_ORIGIN_UPPER_LEFT_KHR"]
+try:
+    VK_THREAD_DONE_KHR = jvulkanLib.VK_THREAD_DONE_KHR
+    #print("statd VK_THREAD_DONE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_THREAD_DONE_KHR"]
+try:
+    VK_THREAD_IDLE_KHR = jvulkanLib.VK_THREAD_IDLE_KHR
+    #print("statd VK_THREAD_IDLE_KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_THREAD_IDLE_KHR"]
+try:
+    VK_TIMEOUT = jvulkanLib.VK_TIMEOUT
+    #print("statd VK_TIMEOUT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIMEOUT"]
+try:
+    VK_TIME_DOMAIN_CLOCK_MONOTONIC_EXT = jvulkanLib.VK_TIME_DOMAIN_CLOCK_MONOTONIC_EXT
+    #print("statd VK_TIME_DOMAIN_CLOCK_MONOTONIC_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIME_DOMAIN_CLOCK_MONOTONIC_EXT"]
+try:
+    VK_TIME_DOMAIN_CLOCK_MONOTONIC_RAW_EXT = jvulkanLib.VK_TIME_DOMAIN_CLOCK_MONOTONIC_RAW_EXT
+    #print("statd VK_TIME_DOMAIN_CLOCK_MONOTONIC_RAW_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIME_DOMAIN_CLOCK_MONOTONIC_RAW_EXT"]
+try:
+    VK_TIME_DOMAIN_DEVICE_EXT = jvulkanLib.VK_TIME_DOMAIN_DEVICE_EXT
+    #print("statd VK_TIME_DOMAIN_DEVICE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIME_DOMAIN_DEVICE_EXT"]
+try:
+    VK_TIME_DOMAIN_MAX_ENUM_EXT = jvulkanLib.VK_TIME_DOMAIN_MAX_ENUM_EXT
+    #print("statd VK_TIME_DOMAIN_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIME_DOMAIN_MAX_ENUM_EXT"]
+try:
+    VK_TIME_DOMAIN_QUERY_PERFORMANCE_COUNTER_EXT = jvulkanLib.VK_TIME_DOMAIN_QUERY_PERFORMANCE_COUNTER_EXT
+    #print("statd VK_TIME_DOMAIN_QUERY_PERFORMANCE_COUNTER_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TIME_DOMAIN_QUERY_PERFORMANCE_COUNTER_EXT"]
+try:
+    VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT = jvulkanLib.VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT
+    #print("statd VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT"]
+try:
+    VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_ADDITIONAL_FEATURES_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_DEBUG_MARKERS_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_DEBUG_MARKERS_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_DEBUG_MARKERS_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_DEBUG_MARKERS_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_DEBUG_REPORTING_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_DEBUG_REPORTING_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_DEBUG_REPORTING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_DEBUG_REPORTING_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_FLAG_BITS_MAX_ENUM = jvulkanLib.VK_TOOL_PURPOSE_FLAG_BITS_MAX_ENUM
+    #print("statd VK_TOOL_PURPOSE_FLAG_BITS_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_FLAG_BITS_MAX_ENUM"]
+try:
+    VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT = jvulkanLib.VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT
+    #print("statd VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT"]
+try:
+    VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_MODIFYING_FEATURES_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_PROFILING_BIT = jvulkanLib.VK_TOOL_PURPOSE_PROFILING_BIT
+    #print("statd VK_TOOL_PURPOSE_PROFILING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_PROFILING_BIT"]
+try:
+    VK_TOOL_PURPOSE_PROFILING_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_PROFILING_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_PROFILING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_PROFILING_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_TRACING_BIT = jvulkanLib.VK_TOOL_PURPOSE_TRACING_BIT
+    #print("statd VK_TOOL_PURPOSE_TRACING_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_TRACING_BIT"]
+try:
+    VK_TOOL_PURPOSE_TRACING_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_TRACING_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_TRACING_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_TRACING_BIT_EXT"]
+try:
+    VK_TOOL_PURPOSE_VALIDATION_BIT = jvulkanLib.VK_TOOL_PURPOSE_VALIDATION_BIT
+    #print("statd VK_TOOL_PURPOSE_VALIDATION_BIT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_VALIDATION_BIT"]
+try:
+    VK_TOOL_PURPOSE_VALIDATION_BIT_EXT = jvulkanLib.VK_TOOL_PURPOSE_VALIDATION_BIT_EXT
+    #print("statd VK_TOOL_PURPOSE_VALIDATION_BIT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_TOOL_PURPOSE_VALIDATION_BIT_EXT"]
+try:
+    VK_VALIDATION_CACHE_HEADER_VERSION_MAX_ENUM_EXT = jvulkanLib.VK_VALIDATION_CACHE_HEADER_VERSION_MAX_ENUM_EXT
+    #print("statd VK_VALIDATION_CACHE_HEADER_VERSION_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_CACHE_HEADER_VERSION_MAX_ENUM_EXT"]
+try:
+    VK_VALIDATION_CACHE_HEADER_VERSION_ONE_EXT = jvulkanLib.VK_VALIDATION_CACHE_HEADER_VERSION_ONE_EXT
+    #print("statd VK_VALIDATION_CACHE_HEADER_VERSION_ONE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_CACHE_HEADER_VERSION_ONE_EXT"]
+try:
+    VK_VALIDATION_CHECK_ALL_EXT = jvulkanLib.VK_VALIDATION_CHECK_ALL_EXT
+    #print("statd VK_VALIDATION_CHECK_ALL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_CHECK_ALL_EXT"]
+try:
+    VK_VALIDATION_CHECK_MAX_ENUM_EXT = jvulkanLib.VK_VALIDATION_CHECK_MAX_ENUM_EXT
+    #print("statd VK_VALIDATION_CHECK_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_CHECK_MAX_ENUM_EXT"]
+try:
+    VK_VALIDATION_CHECK_SHADERS_EXT = jvulkanLib.VK_VALIDATION_CHECK_SHADERS_EXT
+    #print("statd VK_VALIDATION_CHECK_SHADERS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_CHECK_SHADERS_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_ALL_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_ALL_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_ALL_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_ALL_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_API_PARAMETERS_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_API_PARAMETERS_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_API_PARAMETERS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_API_PARAMETERS_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_CORE_CHECKS_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_CORE_CHECKS_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_CORE_CHECKS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_CORE_CHECKS_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_MAX_ENUM_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_MAX_ENUM_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_MAX_ENUM_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_OBJECT_LIFETIMES_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_OBJECT_LIFETIMES_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_OBJECT_LIFETIMES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_OBJECT_LIFETIMES_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_SHADERS_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_SHADERS_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_SHADERS_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_SHADERS_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_SHADER_VALIDATION_CACHE_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_SHADER_VALIDATION_CACHE_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_SHADER_VALIDATION_CACHE_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_SHADER_VALIDATION_CACHE_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_THREAD_SAFETY_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_THREAD_SAFETY_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_THREAD_SAFETY_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_THREAD_SAFETY_EXT"]
+try:
+    VK_VALIDATION_FEATURE_DISABLE_UNIQUE_HANDLES_EXT = jvulkanLib.VK_VALIDATION_FEATURE_DISABLE_UNIQUE_HANDLES_EXT
+    #print("statd VK_VALIDATION_FEATURE_DISABLE_UNIQUE_HANDLES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_DISABLE_UNIQUE_HANDLES_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_BEST_PRACTICES_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_BEST_PRACTICES_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_BEST_PRACTICES_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_BEST_PRACTICES_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_DEBUG_PRINTF_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_DEBUG_PRINTF_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_DEBUG_PRINTF_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_DEBUG_PRINTF_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_RESERVE_BINDING_SLOT_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_RESERVE_BINDING_SLOT_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_RESERVE_BINDING_SLOT_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_RESERVE_BINDING_SLOT_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_MAX_ENUM_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_MAX_ENUM_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_MAX_ENUM_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_MAX_ENUM_EXT"]
+try:
+    VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT = jvulkanLib.VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT
+    #print("statd VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT"]
+try:
+    VK_VENDOR_ID_CODEPLAY = jvulkanLib.VK_VENDOR_ID_CODEPLAY
+    #print("statd VK_VENDOR_ID_CODEPLAY")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_CODEPLAY"]
+try:
+    VK_VENDOR_ID_KAZAN = jvulkanLib.VK_VENDOR_ID_KAZAN
+    #print("statd VK_VENDOR_ID_KAZAN")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_KAZAN"]
+try:
+    VK_VENDOR_ID_MAX_ENUM = jvulkanLib.VK_VENDOR_ID_MAX_ENUM
+    #print("statd VK_VENDOR_ID_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_MAX_ENUM"]
+try:
+    VK_VENDOR_ID_MESA = jvulkanLib.VK_VENDOR_ID_MESA
+    #print("statd VK_VENDOR_ID_MESA")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_MESA"]
+try:
+    VK_VENDOR_ID_POCL = jvulkanLib.VK_VENDOR_ID_POCL
+    #print("statd VK_VENDOR_ID_POCL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_POCL"]
+try:
+    VK_VENDOR_ID_VIV = jvulkanLib.VK_VENDOR_ID_VIV
+    #print("statd VK_VENDOR_ID_VIV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_VIV"]
+try:
+    VK_VENDOR_ID_VSI = jvulkanLib.VK_VENDOR_ID_VSI
+    #print("statd VK_VENDOR_ID_VSI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VENDOR_ID_VSI"]
+try:
+    VK_VERTEX_INPUT_RATE_INSTANCE = jvulkanLib.VK_VERTEX_INPUT_RATE_INSTANCE
+    #print("statd VK_VERTEX_INPUT_RATE_INSTANCE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VERTEX_INPUT_RATE_INSTANCE"]
+try:
+    VK_VERTEX_INPUT_RATE_MAX_ENUM = jvulkanLib.VK_VERTEX_INPUT_RATE_MAX_ENUM
+    #print("statd VK_VERTEX_INPUT_RATE_MAX_ENUM")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VERTEX_INPUT_RATE_MAX_ENUM"]
+try:
+    VK_VERTEX_INPUT_RATE_VERTEX = jvulkanLib.VK_VERTEX_INPUT_RATE_VERTEX
+    #print("statd VK_VERTEX_INPUT_RATE_VERTEX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VERTEX_INPUT_RATE_VERTEX"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_MAX_ENUM_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_MAX_ENUM_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_MAX_ENUM_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_MAX_ENUM_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_W_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_W_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_W_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_W_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_X_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_X_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_X_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_X_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Y_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Y_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Y_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Y_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Z_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Z_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Z_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_NEGATIVE_Z_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_W_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_W_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_W_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_W_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_X_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_X_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_X_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_X_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Y_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Y_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Y_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Y_NV"]
+try:
+    VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Z_NV = jvulkanLib.VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Z_NV
+    #print("statd VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Z_NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["VK_VIEWPORT_COORDINATE_SWIZZLE_POSITIVE_Z_NV"]
+try:
+    vkAcquireDrmDisplayEXT = jvulkanLib.vkAcquireDrmDisplayEXT
+    #print("statd vkAcquireDrmDisplayEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquireDrmDisplayEXT"]
+try:
+    vkAcquireNextImage2KHR = jvulkanLib.vkAcquireNextImage2KHR
+    #print("statd vkAcquireNextImage2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquireNextImage2KHR"]
+try:
+    vkAcquireNextImageKHR = jvulkanLib.vkAcquireNextImageKHR
+    #print("statd vkAcquireNextImageKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquireNextImageKHR"]
+try:
+    vkAcquirePerformanceConfigurationINTEL = jvulkanLib.vkAcquirePerformanceConfigurationINTEL
+    #print("statd vkAcquirePerformanceConfigurationINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquirePerformanceConfigurationINTEL"]
+try:
+    vkAcquireProfilingLockKHR = jvulkanLib.vkAcquireProfilingLockKHR
+    #print("statd vkAcquireProfilingLockKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquireProfilingLockKHR"]
+try:
+    vkAcquireWinrtDisplayNV = jvulkanLib.vkAcquireWinrtDisplayNV
+    #print("statd vkAcquireWinrtDisplayNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAcquireWinrtDisplayNV"]
+try:
+    vkAllocateCommandBuffers = jvulkanLib.vkAllocateCommandBuffers
+    #print("statd vkAllocateCommandBuffers")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAllocateCommandBuffers"]
+try:
+    vkAllocateDescriptorSets = jvulkanLib.vkAllocateDescriptorSets
+    #print("statd vkAllocateDescriptorSets")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAllocateDescriptorSets"]
+try:
+    vkAllocateMemory = jvulkanLib.vkAllocateMemory
+    #print("statd vkAllocateMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkAllocateMemory"]
+try:
+    vkBeginCommandBuffer = jvulkanLib.vkBeginCommandBuffer
+    #print("statd vkBeginCommandBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBeginCommandBuffer"]
+try:
+    vkBindAccelerationStructureMemoryNV = jvulkanLib.vkBindAccelerationStructureMemoryNV
+    #print("statd vkBindAccelerationStructureMemoryNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindAccelerationStructureMemoryNV"]
+try:
+    vkBindBufferMemory = jvulkanLib.vkBindBufferMemory
+    #print("statd vkBindBufferMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindBufferMemory"]
+try:
+    vkBindBufferMemory2 = jvulkanLib.vkBindBufferMemory2
+    #print("statd vkBindBufferMemory2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindBufferMemory2"]
+try:
+    vkBindBufferMemory2KHR = jvulkanLib.vkBindBufferMemory2KHR
+    #print("statd vkBindBufferMemory2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindBufferMemory2KHR"]
+try:
+    vkBindImageMemory = jvulkanLib.vkBindImageMemory
+    #print("statd vkBindImageMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindImageMemory"]
+try:
+    vkBindImageMemory2 = jvulkanLib.vkBindImageMemory2
+    #print("statd vkBindImageMemory2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindImageMemory2"]
+try:
+    vkBindImageMemory2KHR = jvulkanLib.vkBindImageMemory2KHR
+    #print("statd vkBindImageMemory2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBindImageMemory2KHR"]
+try:
+    vkBuildAccelerationStructuresKHR = jvulkanLib.vkBuildAccelerationStructuresKHR
+    #print("statd vkBuildAccelerationStructuresKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkBuildAccelerationStructuresKHR"]
+try:
+    vkCmdBeginConditionalRenderingEXT = jvulkanLib.vkCmdBeginConditionalRenderingEXT
+    #print("statd vkCmdBeginConditionalRenderingEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginConditionalRenderingEXT"]
+try:
+    vkCmdBeginDebugUtilsLabelEXT = jvulkanLib.vkCmdBeginDebugUtilsLabelEXT
+    #print("statd vkCmdBeginDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginDebugUtilsLabelEXT"]
+try:
+    vkCmdBeginQuery = jvulkanLib.vkCmdBeginQuery
+    #print("statd vkCmdBeginQuery")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginQuery"]
+try:
+    vkCmdBeginQueryIndexedEXT = jvulkanLib.vkCmdBeginQueryIndexedEXT
+    #print("statd vkCmdBeginQueryIndexedEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginQueryIndexedEXT"]
+try:
+    vkCmdBeginRenderPass = jvulkanLib.vkCmdBeginRenderPass
+    #print("statd vkCmdBeginRenderPass")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginRenderPass"]
+try:
+    vkCmdBeginRenderPass2 = jvulkanLib.vkCmdBeginRenderPass2
+    #print("statd vkCmdBeginRenderPass2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginRenderPass2"]
+try:
+    vkCmdBeginRenderPass2KHR = jvulkanLib.vkCmdBeginRenderPass2KHR
+    #print("statd vkCmdBeginRenderPass2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginRenderPass2KHR"]
+try:
+    vkCmdBeginRendering = jvulkanLib.vkCmdBeginRendering
+    #print("statd vkCmdBeginRendering")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginRendering"]
+try:
+    vkCmdBeginRenderingKHR = jvulkanLib.vkCmdBeginRenderingKHR
+    #print("statd vkCmdBeginRenderingKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginRenderingKHR"]
+try:
+    vkCmdBeginTransformFeedbackEXT = jvulkanLib.vkCmdBeginTransformFeedbackEXT
+    #print("statd vkCmdBeginTransformFeedbackEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBeginTransformFeedbackEXT"]
+try:
+    vkCmdBindDescriptorSets = jvulkanLib.vkCmdBindDescriptorSets
+    #print("statd vkCmdBindDescriptorSets")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindDescriptorSets"]
+try:
+    vkCmdBindIndexBuffer = jvulkanLib.vkCmdBindIndexBuffer
+    #print("statd vkCmdBindIndexBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindIndexBuffer"]
+try:
+    vkCmdBindInvocationMaskHUAWEI = jvulkanLib.vkCmdBindInvocationMaskHUAWEI
+    #print("statd vkCmdBindInvocationMaskHUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindInvocationMaskHUAWEI"]
+try:
+    vkCmdBindPipeline = jvulkanLib.vkCmdBindPipeline
+    #print("statd vkCmdBindPipeline")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindPipeline"]
+try:
+    vkCmdBindPipelineShaderGroupNV = jvulkanLib.vkCmdBindPipelineShaderGroupNV
+    #print("statd vkCmdBindPipelineShaderGroupNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindPipelineShaderGroupNV"]
+try:
+    vkCmdBindShadingRateImageNV = jvulkanLib.vkCmdBindShadingRateImageNV
+    #print("statd vkCmdBindShadingRateImageNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindShadingRateImageNV"]
+try:
+    vkCmdBindTransformFeedbackBuffersEXT = jvulkanLib.vkCmdBindTransformFeedbackBuffersEXT
+    #print("statd vkCmdBindTransformFeedbackBuffersEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindTransformFeedbackBuffersEXT"]
+try:
+    vkCmdBindVertexBuffers = jvulkanLib.vkCmdBindVertexBuffers
+    #print("statd vkCmdBindVertexBuffers")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindVertexBuffers"]
+try:
+    vkCmdBindVertexBuffers2 = jvulkanLib.vkCmdBindVertexBuffers2
+    #print("statd vkCmdBindVertexBuffers2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindVertexBuffers2"]
+try:
+    vkCmdBindVertexBuffers2EXT = jvulkanLib.vkCmdBindVertexBuffers2EXT
+    #print("statd vkCmdBindVertexBuffers2EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBindVertexBuffers2EXT"]
+try:
+    vkCmdBlitImage = jvulkanLib.vkCmdBlitImage
+    #print("statd vkCmdBlitImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBlitImage"]
+try:
+    vkCmdBlitImage2 = jvulkanLib.vkCmdBlitImage2
+    #print("statd vkCmdBlitImage2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBlitImage2"]
+try:
+    vkCmdBlitImage2KHR = jvulkanLib.vkCmdBlitImage2KHR
+    #print("statd vkCmdBlitImage2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBlitImage2KHR"]
+try:
+    vkCmdBuildAccelerationStructureNV = jvulkanLib.vkCmdBuildAccelerationStructureNV
+    #print("statd vkCmdBuildAccelerationStructureNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBuildAccelerationStructureNV"]
+try:
+    vkCmdBuildAccelerationStructuresIndirectKHR = jvulkanLib.vkCmdBuildAccelerationStructuresIndirectKHR
+    #print("statd vkCmdBuildAccelerationStructuresIndirectKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBuildAccelerationStructuresIndirectKHR"]
+try:
+    vkCmdBuildAccelerationStructuresKHR = jvulkanLib.vkCmdBuildAccelerationStructuresKHR
+    #print("statd vkCmdBuildAccelerationStructuresKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdBuildAccelerationStructuresKHR"]
+try:
+    vkCmdClearAttachments = jvulkanLib.vkCmdClearAttachments
+    #print("statd vkCmdClearAttachments")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdClearAttachments"]
+try:
+    vkCmdClearColorImage = jvulkanLib.vkCmdClearColorImage
+    #print("statd vkCmdClearColorImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdClearColorImage"]
+try:
+    vkCmdClearDepthStencilImage = jvulkanLib.vkCmdClearDepthStencilImage
+    #print("statd vkCmdClearDepthStencilImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdClearDepthStencilImage"]
+try:
+    vkCmdCopyAccelerationStructureKHR = jvulkanLib.vkCmdCopyAccelerationStructureKHR
+    #print("statd vkCmdCopyAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyAccelerationStructureKHR"]
+try:
+    vkCmdCopyAccelerationStructureNV = jvulkanLib.vkCmdCopyAccelerationStructureNV
+    #print("statd vkCmdCopyAccelerationStructureNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyAccelerationStructureNV"]
+try:
+    vkCmdCopyAccelerationStructureToMemoryKHR = jvulkanLib.vkCmdCopyAccelerationStructureToMemoryKHR
+    #print("statd vkCmdCopyAccelerationStructureToMemoryKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyAccelerationStructureToMemoryKHR"]
+try:
+    vkCmdCopyBuffer = jvulkanLib.vkCmdCopyBuffer
+    #print("statd vkCmdCopyBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBuffer"]
+try:
+    vkCmdCopyBuffer2 = jvulkanLib.vkCmdCopyBuffer2
+    #print("statd vkCmdCopyBuffer2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBuffer2"]
+try:
+    vkCmdCopyBuffer2KHR = jvulkanLib.vkCmdCopyBuffer2KHR
+    #print("statd vkCmdCopyBuffer2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBuffer2KHR"]
+try:
+    vkCmdCopyBufferToImage = jvulkanLib.vkCmdCopyBufferToImage
+    #print("statd vkCmdCopyBufferToImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBufferToImage"]
+try:
+    vkCmdCopyBufferToImage2 = jvulkanLib.vkCmdCopyBufferToImage2
+    #print("statd vkCmdCopyBufferToImage2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBufferToImage2"]
+try:
+    vkCmdCopyBufferToImage2KHR = jvulkanLib.vkCmdCopyBufferToImage2KHR
+    #print("statd vkCmdCopyBufferToImage2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyBufferToImage2KHR"]
+try:
+    vkCmdCopyImage = jvulkanLib.vkCmdCopyImage
+    #print("statd vkCmdCopyImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImage"]
+try:
+    vkCmdCopyImage2 = jvulkanLib.vkCmdCopyImage2
+    #print("statd vkCmdCopyImage2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImage2"]
+try:
+    vkCmdCopyImage2KHR = jvulkanLib.vkCmdCopyImage2KHR
+    #print("statd vkCmdCopyImage2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImage2KHR"]
+try:
+    vkCmdCopyImageToBuffer = jvulkanLib.vkCmdCopyImageToBuffer
+    #print("statd vkCmdCopyImageToBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImageToBuffer"]
+try:
+    vkCmdCopyImageToBuffer2 = jvulkanLib.vkCmdCopyImageToBuffer2
+    #print("statd vkCmdCopyImageToBuffer2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImageToBuffer2"]
+try:
+    vkCmdCopyImageToBuffer2KHR = jvulkanLib.vkCmdCopyImageToBuffer2KHR
+    #print("statd vkCmdCopyImageToBuffer2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyImageToBuffer2KHR"]
+try:
+    vkCmdCopyMemoryToAccelerationStructureKHR = jvulkanLib.vkCmdCopyMemoryToAccelerationStructureKHR
+    #print("statd vkCmdCopyMemoryToAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyMemoryToAccelerationStructureKHR"]
+try:
+    vkCmdCopyQueryPoolResults = jvulkanLib.vkCmdCopyQueryPoolResults
+    #print("statd vkCmdCopyQueryPoolResults")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCopyQueryPoolResults"]
+try:
+    vkCmdCuLaunchKernelNVX = jvulkanLib.vkCmdCuLaunchKernelNVX
+    #print("statd vkCmdCuLaunchKernelNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdCuLaunchKernelNVX"]
+try:
+    vkCmdDebugMarkerBeginEXT = jvulkanLib.vkCmdDebugMarkerBeginEXT
+    #print("statd vkCmdDebugMarkerBeginEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDebugMarkerBeginEXT"]
+try:
+    vkCmdDebugMarkerEndEXT = jvulkanLib.vkCmdDebugMarkerEndEXT
+    #print("statd vkCmdDebugMarkerEndEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDebugMarkerEndEXT"]
+try:
+    vkCmdDebugMarkerInsertEXT = jvulkanLib.vkCmdDebugMarkerInsertEXT
+    #print("statd vkCmdDebugMarkerInsertEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDebugMarkerInsertEXT"]
+try:
+    vkCmdDispatch = jvulkanLib.vkCmdDispatch
+    #print("statd vkCmdDispatch")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDispatch"]
+try:
+    vkCmdDispatchBase = jvulkanLib.vkCmdDispatchBase
+    #print("statd vkCmdDispatchBase")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDispatchBase"]
+try:
+    vkCmdDispatchBaseKHR = jvulkanLib.vkCmdDispatchBaseKHR
+    #print("statd vkCmdDispatchBaseKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDispatchBaseKHR"]
+try:
+    vkCmdDispatchIndirect = jvulkanLib.vkCmdDispatchIndirect
+    #print("statd vkCmdDispatchIndirect")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDispatchIndirect"]
+try:
+    vkCmdDraw = jvulkanLib.vkCmdDraw
+    #print("statd vkCmdDraw")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDraw"]
+try:
+    vkCmdDrawIndexed = jvulkanLib.vkCmdDrawIndexed
+    #print("statd vkCmdDrawIndexed")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndexed"]
+try:
+    vkCmdDrawIndexedIndirect = jvulkanLib.vkCmdDrawIndexedIndirect
+    #print("statd vkCmdDrawIndexedIndirect")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndexedIndirect"]
+try:
+    vkCmdDrawIndexedIndirectCount = jvulkanLib.vkCmdDrawIndexedIndirectCount
+    #print("statd vkCmdDrawIndexedIndirectCount")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndexedIndirectCount"]
+try:
+    vkCmdDrawIndexedIndirectCountAMD = jvulkanLib.vkCmdDrawIndexedIndirectCountAMD
+    #print("statd vkCmdDrawIndexedIndirectCountAMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndexedIndirectCountAMD"]
+try:
+    vkCmdDrawIndexedIndirectCountKHR = jvulkanLib.vkCmdDrawIndexedIndirectCountKHR
+    #print("statd vkCmdDrawIndexedIndirectCountKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndexedIndirectCountKHR"]
+try:
+    vkCmdDrawIndirect = jvulkanLib.vkCmdDrawIndirect
+    #print("statd vkCmdDrawIndirect")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndirect"]
+try:
+    vkCmdDrawIndirectByteCountEXT = jvulkanLib.vkCmdDrawIndirectByteCountEXT
+    #print("statd vkCmdDrawIndirectByteCountEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndirectByteCountEXT"]
+try:
+    vkCmdDrawIndirectCount = jvulkanLib.vkCmdDrawIndirectCount
+    #print("statd vkCmdDrawIndirectCount")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndirectCount"]
+try:
+    vkCmdDrawIndirectCountAMD = jvulkanLib.vkCmdDrawIndirectCountAMD
+    #print("statd vkCmdDrawIndirectCountAMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndirectCountAMD"]
+try:
+    vkCmdDrawIndirectCountKHR = jvulkanLib.vkCmdDrawIndirectCountKHR
+    #print("statd vkCmdDrawIndirectCountKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawIndirectCountKHR"]
+try:
+    vkCmdDrawMeshTasksIndirectCountNV = jvulkanLib.vkCmdDrawMeshTasksIndirectCountNV
+    #print("statd vkCmdDrawMeshTasksIndirectCountNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawMeshTasksIndirectCountNV"]
+try:
+    vkCmdDrawMeshTasksIndirectNV = jvulkanLib.vkCmdDrawMeshTasksIndirectNV
+    #print("statd vkCmdDrawMeshTasksIndirectNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawMeshTasksIndirectNV"]
+try:
+    vkCmdDrawMeshTasksNV = jvulkanLib.vkCmdDrawMeshTasksNV
+    #print("statd vkCmdDrawMeshTasksNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawMeshTasksNV"]
+try:
+    vkCmdDrawMultiEXT = jvulkanLib.vkCmdDrawMultiEXT
+    #print("statd vkCmdDrawMultiEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawMultiEXT"]
+try:
+    vkCmdDrawMultiIndexedEXT = jvulkanLib.vkCmdDrawMultiIndexedEXT
+    #print("statd vkCmdDrawMultiIndexedEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdDrawMultiIndexedEXT"]
+try:
+    vkCmdEndConditionalRenderingEXT = jvulkanLib.vkCmdEndConditionalRenderingEXT
+    #print("statd vkCmdEndConditionalRenderingEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndConditionalRenderingEXT"]
+try:
+    vkCmdEndDebugUtilsLabelEXT = jvulkanLib.vkCmdEndDebugUtilsLabelEXT
+    #print("statd vkCmdEndDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndDebugUtilsLabelEXT"]
+try:
+    vkCmdEndQuery = jvulkanLib.vkCmdEndQuery
+    #print("statd vkCmdEndQuery")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndQuery"]
+try:
+    vkCmdEndQueryIndexedEXT = jvulkanLib.vkCmdEndQueryIndexedEXT
+    #print("statd vkCmdEndQueryIndexedEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndQueryIndexedEXT"]
+try:
+    vkCmdEndRenderPass = jvulkanLib.vkCmdEndRenderPass
+    #print("statd vkCmdEndRenderPass")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndRenderPass"]
+try:
+    vkCmdEndRenderPass2 = jvulkanLib.vkCmdEndRenderPass2
+    #print("statd vkCmdEndRenderPass2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndRenderPass2"]
+try:
+    vkCmdEndRenderPass2KHR = jvulkanLib.vkCmdEndRenderPass2KHR
+    #print("statd vkCmdEndRenderPass2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndRenderPass2KHR"]
+try:
+    vkCmdEndRendering = jvulkanLib.vkCmdEndRendering
+    #print("statd vkCmdEndRendering")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndRendering"]
+try:
+    vkCmdEndRenderingKHR = jvulkanLib.vkCmdEndRenderingKHR
+    #print("statd vkCmdEndRenderingKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndRenderingKHR"]
+try:
+    vkCmdEndTransformFeedbackEXT = jvulkanLib.vkCmdEndTransformFeedbackEXT
+    #print("statd vkCmdEndTransformFeedbackEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdEndTransformFeedbackEXT"]
+try:
+    vkCmdExecuteCommands = jvulkanLib.vkCmdExecuteCommands
+    #print("statd vkCmdExecuteCommands")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdExecuteCommands"]
+try:
+    vkCmdExecuteGeneratedCommandsNV = jvulkanLib.vkCmdExecuteGeneratedCommandsNV
+    #print("statd vkCmdExecuteGeneratedCommandsNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdExecuteGeneratedCommandsNV"]
+try:
+    vkCmdFillBuffer = jvulkanLib.vkCmdFillBuffer
+    #print("statd vkCmdFillBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdFillBuffer"]
+try:
+    vkCmdInsertDebugUtilsLabelEXT = jvulkanLib.vkCmdInsertDebugUtilsLabelEXT
+    #print("statd vkCmdInsertDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdInsertDebugUtilsLabelEXT"]
+try:
+    vkCmdNextSubpass = jvulkanLib.vkCmdNextSubpass
+    #print("statd vkCmdNextSubpass")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdNextSubpass"]
+try:
+    vkCmdNextSubpass2 = jvulkanLib.vkCmdNextSubpass2
+    #print("statd vkCmdNextSubpass2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdNextSubpass2"]
+try:
+    vkCmdNextSubpass2KHR = jvulkanLib.vkCmdNextSubpass2KHR
+    #print("statd vkCmdNextSubpass2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdNextSubpass2KHR"]
+try:
+    vkCmdPipelineBarrier = jvulkanLib.vkCmdPipelineBarrier
+    #print("statd vkCmdPipelineBarrier")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPipelineBarrier"]
+try:
+    vkCmdPipelineBarrier2 = jvulkanLib.vkCmdPipelineBarrier2
+    #print("statd vkCmdPipelineBarrier2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPipelineBarrier2"]
+try:
+    vkCmdPipelineBarrier2KHR = jvulkanLib.vkCmdPipelineBarrier2KHR
+    #print("statd vkCmdPipelineBarrier2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPipelineBarrier2KHR"]
+try:
+    vkCmdPreprocessGeneratedCommandsNV = jvulkanLib.vkCmdPreprocessGeneratedCommandsNV
+    #print("statd vkCmdPreprocessGeneratedCommandsNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPreprocessGeneratedCommandsNV"]
+try:
+    vkCmdPushConstants = jvulkanLib.vkCmdPushConstants
+    #print("statd vkCmdPushConstants")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPushConstants"]
+try:
+    vkCmdPushDescriptorSetKHR = jvulkanLib.vkCmdPushDescriptorSetKHR
+    #print("statd vkCmdPushDescriptorSetKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPushDescriptorSetKHR"]
+try:
+    vkCmdPushDescriptorSetWithTemplateKHR = jvulkanLib.vkCmdPushDescriptorSetWithTemplateKHR
+    #print("statd vkCmdPushDescriptorSetWithTemplateKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdPushDescriptorSetWithTemplateKHR"]
+try:
+    vkCmdResetEvent = jvulkanLib.vkCmdResetEvent
+    #print("statd vkCmdResetEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResetEvent"]
+try:
+    vkCmdResetEvent2 = jvulkanLib.vkCmdResetEvent2
+    #print("statd vkCmdResetEvent2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResetEvent2"]
+try:
+    vkCmdResetEvent2KHR = jvulkanLib.vkCmdResetEvent2KHR
+    #print("statd vkCmdResetEvent2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResetEvent2KHR"]
+try:
+    vkCmdResetQueryPool = jvulkanLib.vkCmdResetQueryPool
+    #print("statd vkCmdResetQueryPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResetQueryPool"]
+try:
+    vkCmdResolveImage = jvulkanLib.vkCmdResolveImage
+    #print("statd vkCmdResolveImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResolveImage"]
+try:
+    vkCmdResolveImage2 = jvulkanLib.vkCmdResolveImage2
+    #print("statd vkCmdResolveImage2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResolveImage2"]
+try:
+    vkCmdResolveImage2KHR = jvulkanLib.vkCmdResolveImage2KHR
+    #print("statd vkCmdResolveImage2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdResolveImage2KHR"]
+try:
+    vkCmdSetBlendConstants = jvulkanLib.vkCmdSetBlendConstants
+    #print("statd vkCmdSetBlendConstants")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetBlendConstants"]
+try:
+    vkCmdSetCheckpointNV = jvulkanLib.vkCmdSetCheckpointNV
+    #print("statd vkCmdSetCheckpointNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetCheckpointNV"]
+try:
+    vkCmdSetCoarseSampleOrderNV = jvulkanLib.vkCmdSetCoarseSampleOrderNV
+    #print("statd vkCmdSetCoarseSampleOrderNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetCoarseSampleOrderNV"]
+try:
+    vkCmdSetColorWriteEnableEXT = jvulkanLib.vkCmdSetColorWriteEnableEXT
+    #print("statd vkCmdSetColorWriteEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetColorWriteEnableEXT"]
+try:
+    vkCmdSetCullMode = jvulkanLib.vkCmdSetCullMode
+    #print("statd vkCmdSetCullMode")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetCullMode"]
+try:
+    vkCmdSetCullModeEXT = jvulkanLib.vkCmdSetCullModeEXT
+    #print("statd vkCmdSetCullModeEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetCullModeEXT"]
+try:
+    vkCmdSetDepthBias = jvulkanLib.vkCmdSetDepthBias
+    #print("statd vkCmdSetDepthBias")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBias"]
+try:
+    vkCmdSetDepthBiasEnable = jvulkanLib.vkCmdSetDepthBiasEnable
+    #print("statd vkCmdSetDepthBiasEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBiasEnable"]
+try:
+    vkCmdSetDepthBiasEnableEXT = jvulkanLib.vkCmdSetDepthBiasEnableEXT
+    #print("statd vkCmdSetDepthBiasEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBiasEnableEXT"]
+try:
+    vkCmdSetDepthBounds = jvulkanLib.vkCmdSetDepthBounds
+    #print("statd vkCmdSetDepthBounds")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBounds"]
+try:
+    vkCmdSetDepthBoundsTestEnable = jvulkanLib.vkCmdSetDepthBoundsTestEnable
+    #print("statd vkCmdSetDepthBoundsTestEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBoundsTestEnable"]
+try:
+    vkCmdSetDepthBoundsTestEnableEXT = jvulkanLib.vkCmdSetDepthBoundsTestEnableEXT
+    #print("statd vkCmdSetDepthBoundsTestEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthBoundsTestEnableEXT"]
+try:
+    vkCmdSetDepthCompareOp = jvulkanLib.vkCmdSetDepthCompareOp
+    #print("statd vkCmdSetDepthCompareOp")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthCompareOp"]
+try:
+    vkCmdSetDepthCompareOpEXT = jvulkanLib.vkCmdSetDepthCompareOpEXT
+    #print("statd vkCmdSetDepthCompareOpEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthCompareOpEXT"]
+try:
+    vkCmdSetDepthTestEnable = jvulkanLib.vkCmdSetDepthTestEnable
+    #print("statd vkCmdSetDepthTestEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthTestEnable"]
+try:
+    vkCmdSetDepthTestEnableEXT = jvulkanLib.vkCmdSetDepthTestEnableEXT
+    #print("statd vkCmdSetDepthTestEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthTestEnableEXT"]
+try:
+    vkCmdSetDepthWriteEnable = jvulkanLib.vkCmdSetDepthWriteEnable
+    #print("statd vkCmdSetDepthWriteEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthWriteEnable"]
+try:
+    vkCmdSetDepthWriteEnableEXT = jvulkanLib.vkCmdSetDepthWriteEnableEXT
+    #print("statd vkCmdSetDepthWriteEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDepthWriteEnableEXT"]
+try:
+    vkCmdSetDeviceMask = jvulkanLib.vkCmdSetDeviceMask
+    #print("statd vkCmdSetDeviceMask")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDeviceMask"]
+try:
+    vkCmdSetDeviceMaskKHR = jvulkanLib.vkCmdSetDeviceMaskKHR
+    #print("statd vkCmdSetDeviceMaskKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDeviceMaskKHR"]
+try:
+    vkCmdSetDiscardRectangleEXT = jvulkanLib.vkCmdSetDiscardRectangleEXT
+    #print("statd vkCmdSetDiscardRectangleEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetDiscardRectangleEXT"]
+try:
+    vkCmdSetEvent = jvulkanLib.vkCmdSetEvent
+    #print("statd vkCmdSetEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetEvent"]
+try:
+    vkCmdSetEvent2 = jvulkanLib.vkCmdSetEvent2
+    #print("statd vkCmdSetEvent2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetEvent2"]
+try:
+    vkCmdSetEvent2KHR = jvulkanLib.vkCmdSetEvent2KHR
+    #print("statd vkCmdSetEvent2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetEvent2KHR"]
+try:
+    vkCmdSetExclusiveScissorNV = jvulkanLib.vkCmdSetExclusiveScissorNV
+    #print("statd vkCmdSetExclusiveScissorNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetExclusiveScissorNV"]
+try:
+    vkCmdSetFragmentShadingRateEnumNV = jvulkanLib.vkCmdSetFragmentShadingRateEnumNV
+    #print("statd vkCmdSetFragmentShadingRateEnumNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetFragmentShadingRateEnumNV"]
+try:
+    vkCmdSetFragmentShadingRateKHR = jvulkanLib.vkCmdSetFragmentShadingRateKHR
+    #print("statd vkCmdSetFragmentShadingRateKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetFragmentShadingRateKHR"]
+try:
+    vkCmdSetFrontFace = jvulkanLib.vkCmdSetFrontFace
+    #print("statd vkCmdSetFrontFace")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetFrontFace"]
+try:
+    vkCmdSetFrontFaceEXT = jvulkanLib.vkCmdSetFrontFaceEXT
+    #print("statd vkCmdSetFrontFaceEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetFrontFaceEXT"]
+try:
+    vkCmdSetLineStippleEXT = jvulkanLib.vkCmdSetLineStippleEXT
+    #print("statd vkCmdSetLineStippleEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetLineStippleEXT"]
+try:
+    vkCmdSetLineWidth = jvulkanLib.vkCmdSetLineWidth
+    #print("statd vkCmdSetLineWidth")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetLineWidth"]
+try:
+    vkCmdSetLogicOpEXT = jvulkanLib.vkCmdSetLogicOpEXT
+    #print("statd vkCmdSetLogicOpEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetLogicOpEXT"]
+try:
+    vkCmdSetPatchControlPointsEXT = jvulkanLib.vkCmdSetPatchControlPointsEXT
+    #print("statd vkCmdSetPatchControlPointsEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPatchControlPointsEXT"]
+try:
+    vkCmdSetPerformanceMarkerINTEL = jvulkanLib.vkCmdSetPerformanceMarkerINTEL
+    #print("statd vkCmdSetPerformanceMarkerINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPerformanceMarkerINTEL"]
+try:
+    vkCmdSetPerformanceOverrideINTEL = jvulkanLib.vkCmdSetPerformanceOverrideINTEL
+    #print("statd vkCmdSetPerformanceOverrideINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPerformanceOverrideINTEL"]
+try:
+    vkCmdSetPerformanceStreamMarkerINTEL = jvulkanLib.vkCmdSetPerformanceStreamMarkerINTEL
+    #print("statd vkCmdSetPerformanceStreamMarkerINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPerformanceStreamMarkerINTEL"]
+try:
+    vkCmdSetPrimitiveRestartEnable = jvulkanLib.vkCmdSetPrimitiveRestartEnable
+    #print("statd vkCmdSetPrimitiveRestartEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPrimitiveRestartEnable"]
+try:
+    vkCmdSetPrimitiveRestartEnableEXT = jvulkanLib.vkCmdSetPrimitiveRestartEnableEXT
+    #print("statd vkCmdSetPrimitiveRestartEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPrimitiveRestartEnableEXT"]
+try:
+    vkCmdSetPrimitiveTopology = jvulkanLib.vkCmdSetPrimitiveTopology
+    #print("statd vkCmdSetPrimitiveTopology")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPrimitiveTopology"]
+try:
+    vkCmdSetPrimitiveTopologyEXT = jvulkanLib.vkCmdSetPrimitiveTopologyEXT
+    #print("statd vkCmdSetPrimitiveTopologyEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetPrimitiveTopologyEXT"]
+try:
+    vkCmdSetRasterizerDiscardEnable = jvulkanLib.vkCmdSetRasterizerDiscardEnable
+    #print("statd vkCmdSetRasterizerDiscardEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetRasterizerDiscardEnable"]
+try:
+    vkCmdSetRasterizerDiscardEnableEXT = jvulkanLib.vkCmdSetRasterizerDiscardEnableEXT
+    #print("statd vkCmdSetRasterizerDiscardEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetRasterizerDiscardEnableEXT"]
+try:
+    vkCmdSetRayTracingPipelineStackSizeKHR = jvulkanLib.vkCmdSetRayTracingPipelineStackSizeKHR
+    #print("statd vkCmdSetRayTracingPipelineStackSizeKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetRayTracingPipelineStackSizeKHR"]
+try:
+    vkCmdSetSampleLocationsEXT = jvulkanLib.vkCmdSetSampleLocationsEXT
+    #print("statd vkCmdSetSampleLocationsEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetSampleLocationsEXT"]
+try:
+    vkCmdSetScissor = jvulkanLib.vkCmdSetScissor
+    #print("statd vkCmdSetScissor")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetScissor"]
+try:
+    vkCmdSetScissorWithCount = jvulkanLib.vkCmdSetScissorWithCount
+    #print("statd vkCmdSetScissorWithCount")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetScissorWithCount"]
+try:
+    vkCmdSetScissorWithCountEXT = jvulkanLib.vkCmdSetScissorWithCountEXT
+    #print("statd vkCmdSetScissorWithCountEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetScissorWithCountEXT"]
+try:
+    vkCmdSetStencilCompareMask = jvulkanLib.vkCmdSetStencilCompareMask
+    #print("statd vkCmdSetStencilCompareMask")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilCompareMask"]
+try:
+    vkCmdSetStencilOp = jvulkanLib.vkCmdSetStencilOp
+    #print("statd vkCmdSetStencilOp")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilOp"]
+try:
+    vkCmdSetStencilOpEXT = jvulkanLib.vkCmdSetStencilOpEXT
+    #print("statd vkCmdSetStencilOpEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilOpEXT"]
+try:
+    vkCmdSetStencilReference = jvulkanLib.vkCmdSetStencilReference
+    #print("statd vkCmdSetStencilReference")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilReference"]
+try:
+    vkCmdSetStencilTestEnable = jvulkanLib.vkCmdSetStencilTestEnable
+    #print("statd vkCmdSetStencilTestEnable")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilTestEnable"]
+try:
+    vkCmdSetStencilTestEnableEXT = jvulkanLib.vkCmdSetStencilTestEnableEXT
+    #print("statd vkCmdSetStencilTestEnableEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilTestEnableEXT"]
+try:
+    vkCmdSetStencilWriteMask = jvulkanLib.vkCmdSetStencilWriteMask
+    #print("statd vkCmdSetStencilWriteMask")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetStencilWriteMask"]
+try:
+    vkCmdSetVertexInputEXT = jvulkanLib.vkCmdSetVertexInputEXT
+    #print("statd vkCmdSetVertexInputEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetVertexInputEXT"]
+try:
+    vkCmdSetViewport = jvulkanLib.vkCmdSetViewport
+    #print("statd vkCmdSetViewport")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetViewport"]
+try:
+    vkCmdSetViewportShadingRatePaletteNV = jvulkanLib.vkCmdSetViewportShadingRatePaletteNV
+    #print("statd vkCmdSetViewportShadingRatePaletteNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetViewportShadingRatePaletteNV"]
+try:
+    vkCmdSetViewportWScalingNV = jvulkanLib.vkCmdSetViewportWScalingNV
+    #print("statd vkCmdSetViewportWScalingNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetViewportWScalingNV"]
+try:
+    vkCmdSetViewportWithCount = jvulkanLib.vkCmdSetViewportWithCount
+    #print("statd vkCmdSetViewportWithCount")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetViewportWithCount"]
+try:
+    vkCmdSetViewportWithCountEXT = jvulkanLib.vkCmdSetViewportWithCountEXT
+    #print("statd vkCmdSetViewportWithCountEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSetViewportWithCountEXT"]
+try:
+    vkCmdSubpassShadingHUAWEI = jvulkanLib.vkCmdSubpassShadingHUAWEI
+    #print("statd vkCmdSubpassShadingHUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdSubpassShadingHUAWEI"]
+try:
+    vkCmdTraceRaysIndirectKHR = jvulkanLib.vkCmdTraceRaysIndirectKHR
+    #print("statd vkCmdTraceRaysIndirectKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdTraceRaysIndirectKHR"]
+try:
+    vkCmdTraceRaysKHR = jvulkanLib.vkCmdTraceRaysKHR
+    #print("statd vkCmdTraceRaysKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdTraceRaysKHR"]
+try:
+    vkCmdTraceRaysNV = jvulkanLib.vkCmdTraceRaysNV
+    #print("statd vkCmdTraceRaysNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdTraceRaysNV"]
+try:
+    vkCmdUpdateBuffer = jvulkanLib.vkCmdUpdateBuffer
+    #print("statd vkCmdUpdateBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdUpdateBuffer"]
+try:
+    vkCmdWaitEvents = jvulkanLib.vkCmdWaitEvents
+    #print("statd vkCmdWaitEvents")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWaitEvents"]
+try:
+    vkCmdWaitEvents2 = jvulkanLib.vkCmdWaitEvents2
+    #print("statd vkCmdWaitEvents2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWaitEvents2"]
+try:
+    vkCmdWaitEvents2KHR = jvulkanLib.vkCmdWaitEvents2KHR
+    #print("statd vkCmdWaitEvents2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWaitEvents2KHR"]
+try:
+    vkCmdWriteAccelerationStructuresPropertiesKHR = jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesKHR
+    #print("statd vkCmdWriteAccelerationStructuresPropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteAccelerationStructuresPropertiesKHR"]
+try:
+    vkCmdWriteAccelerationStructuresPropertiesNV = jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesNV
+    #print("statd vkCmdWriteAccelerationStructuresPropertiesNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteAccelerationStructuresPropertiesNV"]
+try:
+    vkCmdWriteBufferMarker2AMD = jvulkanLib.vkCmdWriteBufferMarker2AMD
+    #print("statd vkCmdWriteBufferMarker2AMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteBufferMarker2AMD"]
+try:
+    vkCmdWriteBufferMarkerAMD = jvulkanLib.vkCmdWriteBufferMarkerAMD
+    #print("statd vkCmdWriteBufferMarkerAMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteBufferMarkerAMD"]
+try:
+    vkCmdWriteTimestamp = jvulkanLib.vkCmdWriteTimestamp
+    #print("statd vkCmdWriteTimestamp")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteTimestamp"]
+try:
+    vkCmdWriteTimestamp2 = jvulkanLib.vkCmdWriteTimestamp2
+    #print("statd vkCmdWriteTimestamp2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteTimestamp2"]
+try:
+    vkCmdWriteTimestamp2KHR = jvulkanLib.vkCmdWriteTimestamp2KHR
+    #print("statd vkCmdWriteTimestamp2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCmdWriteTimestamp2KHR"]
+try:
+    vkCompileDeferredNV = jvulkanLib.vkCompileDeferredNV
+    #print("statd vkCompileDeferredNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCompileDeferredNV"]
+try:
+    vkCopyAccelerationStructureKHR = jvulkanLib.vkCopyAccelerationStructureKHR
+    #print("statd vkCopyAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCopyAccelerationStructureKHR"]
+try:
+    vkCopyAccelerationStructureToMemoryKHR = jvulkanLib.vkCopyAccelerationStructureToMemoryKHR
+    #print("statd vkCopyAccelerationStructureToMemoryKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCopyAccelerationStructureToMemoryKHR"]
+try:
+    vkCopyMemoryToAccelerationStructureKHR = jvulkanLib.vkCopyMemoryToAccelerationStructureKHR
+    #print("statd vkCopyMemoryToAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCopyMemoryToAccelerationStructureKHR"]
+try:
+    vkCreateAccelerationStructureKHR = jvulkanLib.vkCreateAccelerationStructureKHR
+    #print("statd vkCreateAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateAccelerationStructureKHR"]
+try:
+    vkCreateAccelerationStructureNV = jvulkanLib.vkCreateAccelerationStructureNV
+    #print("statd vkCreateAccelerationStructureNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateAccelerationStructureNV"]
+try:
+    vkCreateAndroidSurfaceKHR = jvulkanLib.vkCreateAndroidSurfaceKHR
+    #print("statd vkCreateAndroidSurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateAndroidSurfaceKHR"]
+try:
+    vkCreateBuffer = jvulkanLib.vkCreateBuffer
+    #print("statd vkCreateBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateBuffer"]
+try:
+    vkCreateBufferView = jvulkanLib.vkCreateBufferView
+    #print("statd vkCreateBufferView")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateBufferView"]
+try:
+    vkCreateCommandPool = jvulkanLib.vkCreateCommandPool
+    #print("statd vkCreateCommandPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateCommandPool"]
+try:
+    vkCreateComputePipelines = jvulkanLib.vkCreateComputePipelines
+    #print("statd vkCreateComputePipelines")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateComputePipelines"]
+try:
+    vkCreateCuFunctionNVX = jvulkanLib.vkCreateCuFunctionNVX
+    #print("statd vkCreateCuFunctionNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateCuFunctionNVX"]
+try:
+    vkCreateCuModuleNVX = jvulkanLib.vkCreateCuModuleNVX
+    #print("statd vkCreateCuModuleNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateCuModuleNVX"]
+try:
+    vkCreateDebugReportCallbackEXT = jvulkanLib.vkCreateDebugReportCallbackEXT
+    #print("statd vkCreateDebugReportCallbackEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDebugReportCallbackEXT"]
+try:
+    vkCreateDebugUtilsMessengerEXT = jvulkanLib.vkCreateDebugUtilsMessengerEXT
+    #print("statd vkCreateDebugUtilsMessengerEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDebugUtilsMessengerEXT"]
+try:
+    vkCreateDeferredOperationKHR = jvulkanLib.vkCreateDeferredOperationKHR
+    #print("statd vkCreateDeferredOperationKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDeferredOperationKHR"]
+try:
+    vkCreateDescriptorPool = jvulkanLib.vkCreateDescriptorPool
+    #print("statd vkCreateDescriptorPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDescriptorPool"]
+try:
+    vkCreateDescriptorSetLayout = jvulkanLib.vkCreateDescriptorSetLayout
+    #print("statd vkCreateDescriptorSetLayout")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDescriptorSetLayout"]
+try:
+    vkCreateDescriptorUpdateTemplate = jvulkanLib.vkCreateDescriptorUpdateTemplate
+    #print("statd vkCreateDescriptorUpdateTemplate")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDescriptorUpdateTemplate"]
+try:
+    vkCreateDescriptorUpdateTemplateKHR = jvulkanLib.vkCreateDescriptorUpdateTemplateKHR
+    #print("statd vkCreateDescriptorUpdateTemplateKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDescriptorUpdateTemplateKHR"]
+try:
+    vkCreateDevice = jvulkanLib.vkCreateDevice
+    #print("statd vkCreateDevice")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDevice"]
+try:
+    vkCreateDisplayModeKHR = jvulkanLib.vkCreateDisplayModeKHR
+    #print("statd vkCreateDisplayModeKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDisplayModeKHR"]
+try:
+    vkCreateDisplayPlaneSurfaceKHR = jvulkanLib.vkCreateDisplayPlaneSurfaceKHR
+    #print("statd vkCreateDisplayPlaneSurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateDisplayPlaneSurfaceKHR"]
+try:
+    vkCreateEvent = jvulkanLib.vkCreateEvent
+    #print("statd vkCreateEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateEvent"]
+try:
+    vkCreateFence = jvulkanLib.vkCreateFence
+    #print("statd vkCreateFence")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateFence"]
+try:
+    vkCreateFramebuffer = jvulkanLib.vkCreateFramebuffer
+    #print("statd vkCreateFramebuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateFramebuffer"]
+try:
+    vkCreateGraphicsPipelines = jvulkanLib.vkCreateGraphicsPipelines
+    #print("statd vkCreateGraphicsPipelines")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateGraphicsPipelines"]
+try:
+    vkCreateHeadlessSurfaceEXT = jvulkanLib.vkCreateHeadlessSurfaceEXT
+    #print("statd vkCreateHeadlessSurfaceEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateHeadlessSurfaceEXT"]
+try:
+    vkCreateImage = jvulkanLib.vkCreateImage
+    #print("statd vkCreateImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateImage"]
+try:
+    vkCreateImageView = jvulkanLib.vkCreateImageView
+    #print("statd vkCreateImageView")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateImageView"]
+try:
+    vkCreateIndirectCommandsLayoutNV = jvulkanLib.vkCreateIndirectCommandsLayoutNV
+    #print("statd vkCreateIndirectCommandsLayoutNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateIndirectCommandsLayoutNV"]
+try:
+    vkCreateInstance = jvulkanLib.vkCreateInstance
+    #print("statd vkCreateInstance")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateInstance"]
+try:
+    vkCreatePipelineCache = jvulkanLib.vkCreatePipelineCache
+    #print("statd vkCreatePipelineCache")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreatePipelineCache"]
+try:
+    vkCreatePipelineLayout = jvulkanLib.vkCreatePipelineLayout
+    #print("statd vkCreatePipelineLayout")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreatePipelineLayout"]
+try:
+    vkCreatePrivateDataSlot = jvulkanLib.vkCreatePrivateDataSlot
+    #print("statd vkCreatePrivateDataSlot")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreatePrivateDataSlot"]
+try:
+    vkCreatePrivateDataSlotEXT = jvulkanLib.vkCreatePrivateDataSlotEXT
+    #print("statd vkCreatePrivateDataSlotEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreatePrivateDataSlotEXT"]
+try:
+    vkCreateQueryPool = jvulkanLib.vkCreateQueryPool
+    #print("statd vkCreateQueryPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateQueryPool"]
+try:
+    vkCreateRayTracingPipelinesKHR = jvulkanLib.vkCreateRayTracingPipelinesKHR
+    #print("statd vkCreateRayTracingPipelinesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateRayTracingPipelinesKHR"]
+try:
+    vkCreateRayTracingPipelinesNV = jvulkanLib.vkCreateRayTracingPipelinesNV
+    #print("statd vkCreateRayTracingPipelinesNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateRayTracingPipelinesNV"]
+try:
+    vkCreateRenderPass = jvulkanLib.vkCreateRenderPass
+    #print("statd vkCreateRenderPass")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateRenderPass"]
+try:
+    vkCreateRenderPass2 = jvulkanLib.vkCreateRenderPass2
+    #print("statd vkCreateRenderPass2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateRenderPass2"]
+try:
+    vkCreateRenderPass2KHR = jvulkanLib.vkCreateRenderPass2KHR
+    #print("statd vkCreateRenderPass2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateRenderPass2KHR"]
+try:
+    vkCreateSampler = jvulkanLib.vkCreateSampler
+    #print("statd vkCreateSampler")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSampler"]
+try:
+    vkCreateSamplerYcbcrConversion = jvulkanLib.vkCreateSamplerYcbcrConversion
+    #print("statd vkCreateSamplerYcbcrConversion")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSamplerYcbcrConversion"]
+try:
+    vkCreateSamplerYcbcrConversionKHR = jvulkanLib.vkCreateSamplerYcbcrConversionKHR
+    #print("statd vkCreateSamplerYcbcrConversionKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSamplerYcbcrConversionKHR"]
+try:
+    vkCreateSemaphore = jvulkanLib.vkCreateSemaphore
+    #print("statd vkCreateSemaphore")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSemaphore"]
+try:
+    vkCreateShaderModule = jvulkanLib.vkCreateShaderModule
+    #print("statd vkCreateShaderModule")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateShaderModule"]
+try:
+    vkCreateSharedSwapchainsKHR = jvulkanLib.vkCreateSharedSwapchainsKHR
+    #print("statd vkCreateSharedSwapchainsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSharedSwapchainsKHR"]
+try:
+    vkCreateSwapchainKHR = jvulkanLib.vkCreateSwapchainKHR
+    #print("statd vkCreateSwapchainKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateSwapchainKHR"]
+try:
+    vkCreateValidationCacheEXT = jvulkanLib.vkCreateValidationCacheEXT
+    #print("statd vkCreateValidationCacheEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateValidationCacheEXT"]
+try:
+    vkCreateWaylandSurfaceKHR = jvulkanLib.vkCreateWaylandSurfaceKHR
+    #print("statd vkCreateWaylandSurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateWaylandSurfaceKHR"]
+try:
+    vkCreateXcbSurfaceKHR = jvulkanLib.vkCreateXcbSurfaceKHR
+    #print("statd vkCreateXcbSurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateXcbSurfaceKHR"]
+try:
+    vkCreateXlibSurfaceKHR = jvulkanLib.vkCreateXlibSurfaceKHR
+    #print("statd vkCreateXlibSurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkCreateXlibSurfaceKHR"]
+try:
+    vkDebugMarkerSetObjectNameEXT = jvulkanLib.vkDebugMarkerSetObjectNameEXT
+    #print("statd vkDebugMarkerSetObjectNameEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDebugMarkerSetObjectNameEXT"]
+try:
+    vkDebugMarkerSetObjectTagEXT = jvulkanLib.vkDebugMarkerSetObjectTagEXT
+    #print("statd vkDebugMarkerSetObjectTagEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDebugMarkerSetObjectTagEXT"]
+try:
+    vkDebugReportMessageEXT = jvulkanLib.vkDebugReportMessageEXT
+    #print("statd vkDebugReportMessageEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDebugReportMessageEXT"]
+try:
+    vkDeferredOperationJoinKHR = jvulkanLib.vkDeferredOperationJoinKHR
+    #print("statd vkDeferredOperationJoinKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDeferredOperationJoinKHR"]
+try:
+    vkDestroyAccelerationStructureKHR = jvulkanLib.vkDestroyAccelerationStructureKHR
+    #print("statd vkDestroyAccelerationStructureKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyAccelerationStructureKHR"]
+try:
+    vkDestroyAccelerationStructureNV = jvulkanLib.vkDestroyAccelerationStructureNV
+    #print("statd vkDestroyAccelerationStructureNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyAccelerationStructureNV"]
+try:
+    vkDestroyBuffer = jvulkanLib.vkDestroyBuffer
+    #print("statd vkDestroyBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyBuffer"]
+try:
+    vkDestroyBufferView = jvulkanLib.vkDestroyBufferView
+    #print("statd vkDestroyBufferView")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyBufferView"]
+try:
+    vkDestroyCommandPool = jvulkanLib.vkDestroyCommandPool
+    #print("statd vkDestroyCommandPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyCommandPool"]
+try:
+    vkDestroyCuFunctionNVX = jvulkanLib.vkDestroyCuFunctionNVX
+    #print("statd vkDestroyCuFunctionNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyCuFunctionNVX"]
+try:
+    vkDestroyCuModuleNVX = jvulkanLib.vkDestroyCuModuleNVX
+    #print("statd vkDestroyCuModuleNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyCuModuleNVX"]
+try:
+    vkDestroyDebugReportCallbackEXT = jvulkanLib.vkDestroyDebugReportCallbackEXT
+    #print("statd vkDestroyDebugReportCallbackEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDebugReportCallbackEXT"]
+try:
+    vkDestroyDebugUtilsMessengerEXT = jvulkanLib.vkDestroyDebugUtilsMessengerEXT
+    #print("statd vkDestroyDebugUtilsMessengerEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDebugUtilsMessengerEXT"]
+try:
+    vkDestroyDeferredOperationKHR = jvulkanLib.vkDestroyDeferredOperationKHR
+    #print("statd vkDestroyDeferredOperationKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDeferredOperationKHR"]
+try:
+    vkDestroyDescriptorPool = jvulkanLib.vkDestroyDescriptorPool
+    #print("statd vkDestroyDescriptorPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDescriptorPool"]
+try:
+    vkDestroyDescriptorSetLayout = jvulkanLib.vkDestroyDescriptorSetLayout
+    #print("statd vkDestroyDescriptorSetLayout")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDescriptorSetLayout"]
+try:
+    vkDestroyDescriptorUpdateTemplate = jvulkanLib.vkDestroyDescriptorUpdateTemplate
+    #print("statd vkDestroyDescriptorUpdateTemplate")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDescriptorUpdateTemplate"]
+try:
+    vkDestroyDescriptorUpdateTemplateKHR = jvulkanLib.vkDestroyDescriptorUpdateTemplateKHR
+    #print("statd vkDestroyDescriptorUpdateTemplateKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDescriptorUpdateTemplateKHR"]
+try:
+    vkDestroyDevice = jvulkanLib.vkDestroyDevice
+    #print("statd vkDestroyDevice")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyDevice"]
+try:
+    vkDestroyEvent = jvulkanLib.vkDestroyEvent
+    #print("statd vkDestroyEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyEvent"]
+try:
+    vkDestroyFence = jvulkanLib.vkDestroyFence
+    #print("statd vkDestroyFence")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyFence"]
+try:
+    vkDestroyFramebuffer = jvulkanLib.vkDestroyFramebuffer
+    #print("statd vkDestroyFramebuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyFramebuffer"]
+try:
+    vkDestroyImage = jvulkanLib.vkDestroyImage
+    #print("statd vkDestroyImage")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyImage"]
+try:
+    vkDestroyImageView = jvulkanLib.vkDestroyImageView
+    #print("statd vkDestroyImageView")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyImageView"]
+try:
+    vkDestroyIndirectCommandsLayoutNV = jvulkanLib.vkDestroyIndirectCommandsLayoutNV
+    #print("statd vkDestroyIndirectCommandsLayoutNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyIndirectCommandsLayoutNV"]
+try:
+    vkDestroyInstance = jvulkanLib.vkDestroyInstance
+    #print("statd vkDestroyInstance")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyInstance"]
+try:
+    vkDestroyPipeline = jvulkanLib.vkDestroyPipeline
+    #print("statd vkDestroyPipeline")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyPipeline"]
+try:
+    vkDestroyPipelineCache = jvulkanLib.vkDestroyPipelineCache
+    #print("statd vkDestroyPipelineCache")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyPipelineCache"]
+try:
+    vkDestroyPipelineLayout = jvulkanLib.vkDestroyPipelineLayout
+    #print("statd vkDestroyPipelineLayout")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyPipelineLayout"]
+try:
+    vkDestroyPrivateDataSlot = jvulkanLib.vkDestroyPrivateDataSlot
+    #print("statd vkDestroyPrivateDataSlot")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyPrivateDataSlot"]
+try:
+    vkDestroyPrivateDataSlotEXT = jvulkanLib.vkDestroyPrivateDataSlotEXT
+    #print("statd vkDestroyPrivateDataSlotEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyPrivateDataSlotEXT"]
+try:
+    vkDestroyQueryPool = jvulkanLib.vkDestroyQueryPool
+    #print("statd vkDestroyQueryPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyQueryPool"]
+try:
+    vkDestroyRenderPass = jvulkanLib.vkDestroyRenderPass
+    #print("statd vkDestroyRenderPass")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyRenderPass"]
+try:
+    vkDestroySampler = jvulkanLib.vkDestroySampler
+    #print("statd vkDestroySampler")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySampler"]
+try:
+    vkDestroySamplerYcbcrConversion = jvulkanLib.vkDestroySamplerYcbcrConversion
+    #print("statd vkDestroySamplerYcbcrConversion")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySamplerYcbcrConversion"]
+try:
+    vkDestroySamplerYcbcrConversionKHR = jvulkanLib.vkDestroySamplerYcbcrConversionKHR
+    #print("statd vkDestroySamplerYcbcrConversionKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySamplerYcbcrConversionKHR"]
+try:
+    vkDestroySemaphore = jvulkanLib.vkDestroySemaphore
+    #print("statd vkDestroySemaphore")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySemaphore"]
+try:
+    vkDestroyShaderModule = jvulkanLib.vkDestroyShaderModule
+    #print("statd vkDestroyShaderModule")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyShaderModule"]
+try:
+    vkDestroySurfaceKHR = jvulkanLib.vkDestroySurfaceKHR
+    #print("statd vkDestroySurfaceKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySurfaceKHR"]
+try:
+    vkDestroySwapchainKHR = jvulkanLib.vkDestroySwapchainKHR
+    #print("statd vkDestroySwapchainKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroySwapchainKHR"]
+try:
+    vkDestroyValidationCacheEXT = jvulkanLib.vkDestroyValidationCacheEXT
+    #print("statd vkDestroyValidationCacheEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDestroyValidationCacheEXT"]
+try:
+    vkDeviceWaitIdle = jvulkanLib.vkDeviceWaitIdle
+    #print("statd vkDeviceWaitIdle")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDeviceWaitIdle"]
+try:
+    vkDisplayPowerControlEXT = jvulkanLib.vkDisplayPowerControlEXT
+    #print("statd vkDisplayPowerControlEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkDisplayPowerControlEXT"]
+try:
+    vkEndCommandBuffer = jvulkanLib.vkEndCommandBuffer
+    #print("statd vkEndCommandBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEndCommandBuffer"]
+try:
+    vkEnumerateDeviceExtensionProperties = jvulkanLib.vkEnumerateDeviceExtensionProperties
+    #print("statd vkEnumerateDeviceExtensionProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumerateDeviceExtensionProperties"]
+try:
+    vkEnumerateDeviceLayerProperties = jvulkanLib.vkEnumerateDeviceLayerProperties
+    #print("statd vkEnumerateDeviceLayerProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumerateDeviceLayerProperties"]
+try:
+    vkEnumerateInstanceExtensionProperties = jvulkanLib.vkEnumerateInstanceExtensionProperties
+    #print("statd vkEnumerateInstanceExtensionProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumerateInstanceExtensionProperties"]
+try:
+    vkEnumerateInstanceLayerProperties = jvulkanLib.vkEnumerateInstanceLayerProperties
+    #print("statd vkEnumerateInstanceLayerProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumerateInstanceLayerProperties"]
+try:
+    vkEnumerateInstanceVersion = jvulkanLib.vkEnumerateInstanceVersion
+    #print("statd vkEnumerateInstanceVersion")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumerateInstanceVersion"]
+try:
+    vkEnumeratePhysicalDeviceGroups = jvulkanLib.vkEnumeratePhysicalDeviceGroups
+    #print("statd vkEnumeratePhysicalDeviceGroups")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumeratePhysicalDeviceGroups"]
+try:
+    vkEnumeratePhysicalDeviceGroupsKHR = jvulkanLib.vkEnumeratePhysicalDeviceGroupsKHR
+    #print("statd vkEnumeratePhysicalDeviceGroupsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumeratePhysicalDeviceGroupsKHR"]
+try:
+    vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR = jvulkanLib.vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR
+    #print("statd vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR"]
+try:
+    vkEnumeratePhysicalDevices = jvulkanLib.vkEnumeratePhysicalDevices
+    #print("statd vkEnumeratePhysicalDevices")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkEnumeratePhysicalDevices"]
+try:
+    vkFlushMappedMemoryRanges = jvulkanLib.vkFlushMappedMemoryRanges
+    #print("statd vkFlushMappedMemoryRanges")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkFlushMappedMemoryRanges"]
+try:
+    vkFreeCommandBuffers = jvulkanLib.vkFreeCommandBuffers
+    #print("statd vkFreeCommandBuffers")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkFreeCommandBuffers"]
+try:
+    vkFreeDescriptorSets = jvulkanLib.vkFreeDescriptorSets
+    #print("statd vkFreeDescriptorSets")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkFreeDescriptorSets"]
+try:
+    vkFreeMemory = jvulkanLib.vkFreeMemory
+    #print("statd vkFreeMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkFreeMemory"]
+try:
+    vkGetAccelerationStructureBuildSizesKHR = jvulkanLib.vkGetAccelerationStructureBuildSizesKHR
+    #print("statd vkGetAccelerationStructureBuildSizesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetAccelerationStructureBuildSizesKHR"]
+try:
+    vkGetAccelerationStructureDeviceAddressKHR = jvulkanLib.vkGetAccelerationStructureDeviceAddressKHR
+    #print("statd vkGetAccelerationStructureDeviceAddressKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetAccelerationStructureDeviceAddressKHR"]
+try:
+    vkGetAccelerationStructureHandleNV = jvulkanLib.vkGetAccelerationStructureHandleNV
+    #print("statd vkGetAccelerationStructureHandleNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetAccelerationStructureHandleNV"]
+try:
+    vkGetAccelerationStructureMemoryRequirementsNV = jvulkanLib.vkGetAccelerationStructureMemoryRequirementsNV
+    #print("statd vkGetAccelerationStructureMemoryRequirementsNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetAccelerationStructureMemoryRequirementsNV"]
+try:
+    vkGetAndroidHardwareBufferPropertiesANDROID = jvulkanLib.vkGetAndroidHardwareBufferPropertiesANDROID
+    #print("statd vkGetAndroidHardwareBufferPropertiesANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetAndroidHardwareBufferPropertiesANDROID"]
+try:
+    vkGetBufferDeviceAddress = jvulkanLib.vkGetBufferDeviceAddress
+    #print("statd vkGetBufferDeviceAddress")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferDeviceAddress"]
+try:
+    vkGetBufferDeviceAddressEXT = jvulkanLib.vkGetBufferDeviceAddressEXT
+    #print("statd vkGetBufferDeviceAddressEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferDeviceAddressEXT"]
+try:
+    vkGetBufferDeviceAddressKHR = jvulkanLib.vkGetBufferDeviceAddressKHR
+    #print("statd vkGetBufferDeviceAddressKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferDeviceAddressKHR"]
+try:
+    vkGetBufferMemoryRequirements = jvulkanLib.vkGetBufferMemoryRequirements
+    #print("statd vkGetBufferMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferMemoryRequirements"]
+try:
+    vkGetBufferMemoryRequirements2 = jvulkanLib.vkGetBufferMemoryRequirements2
+    #print("statd vkGetBufferMemoryRequirements2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferMemoryRequirements2"]
+try:
+    vkGetBufferMemoryRequirements2KHR = jvulkanLib.vkGetBufferMemoryRequirements2KHR
+    #print("statd vkGetBufferMemoryRequirements2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferMemoryRequirements2KHR"]
+try:
+    vkGetBufferOpaqueCaptureAddress = jvulkanLib.vkGetBufferOpaqueCaptureAddress
+    #print("statd vkGetBufferOpaqueCaptureAddress")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferOpaqueCaptureAddress"]
+try:
+    vkGetBufferOpaqueCaptureAddressKHR = jvulkanLib.vkGetBufferOpaqueCaptureAddressKHR
+    #print("statd vkGetBufferOpaqueCaptureAddressKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetBufferOpaqueCaptureAddressKHR"]
+try:
+    vkGetCalibratedTimestampsEXT = jvulkanLib.vkGetCalibratedTimestampsEXT
+    #print("statd vkGetCalibratedTimestampsEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetCalibratedTimestampsEXT"]
+try:
+    vkGetDeferredOperationMaxConcurrencyKHR = jvulkanLib.vkGetDeferredOperationMaxConcurrencyKHR
+    #print("statd vkGetDeferredOperationMaxConcurrencyKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeferredOperationMaxConcurrencyKHR"]
+try:
+    vkGetDeferredOperationResultKHR = jvulkanLib.vkGetDeferredOperationResultKHR
+    #print("statd vkGetDeferredOperationResultKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeferredOperationResultKHR"]
+try:
+    vkGetDescriptorSetHostMappingVALVE = jvulkanLib.vkGetDescriptorSetHostMappingVALVE
+    #print("statd vkGetDescriptorSetHostMappingVALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDescriptorSetHostMappingVALVE"]
+try:
+    vkGetDescriptorSetLayoutHostMappingInfoVALVE = jvulkanLib.vkGetDescriptorSetLayoutHostMappingInfoVALVE
+    #print("statd vkGetDescriptorSetLayoutHostMappingInfoVALVE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDescriptorSetLayoutHostMappingInfoVALVE"]
+try:
+    vkGetDescriptorSetLayoutSupport = jvulkanLib.vkGetDescriptorSetLayoutSupport
+    #print("statd vkGetDescriptorSetLayoutSupport")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDescriptorSetLayoutSupport"]
+try:
+    vkGetDescriptorSetLayoutSupportKHR = jvulkanLib.vkGetDescriptorSetLayoutSupportKHR
+    #print("statd vkGetDescriptorSetLayoutSupportKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDescriptorSetLayoutSupportKHR"]
+try:
+    vkGetDeviceAccelerationStructureCompatibilityKHR = jvulkanLib.vkGetDeviceAccelerationStructureCompatibilityKHR
+    #print("statd vkGetDeviceAccelerationStructureCompatibilityKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceAccelerationStructureCompatibilityKHR"]
+try:
+    vkGetDeviceBufferMemoryRequirements = jvulkanLib.vkGetDeviceBufferMemoryRequirements
+    #print("statd vkGetDeviceBufferMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceBufferMemoryRequirements"]
+try:
+    vkGetDeviceBufferMemoryRequirementsKHR = jvulkanLib.vkGetDeviceBufferMemoryRequirementsKHR
+    #print("statd vkGetDeviceBufferMemoryRequirementsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceBufferMemoryRequirementsKHR"]
+try:
+    vkGetDeviceGroupPeerMemoryFeatures = jvulkanLib.vkGetDeviceGroupPeerMemoryFeatures
+    #print("statd vkGetDeviceGroupPeerMemoryFeatures")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceGroupPeerMemoryFeatures"]
+try:
+    vkGetDeviceGroupPeerMemoryFeaturesKHR = jvulkanLib.vkGetDeviceGroupPeerMemoryFeaturesKHR
+    #print("statd vkGetDeviceGroupPeerMemoryFeaturesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceGroupPeerMemoryFeaturesKHR"]
+try:
+    vkGetDeviceGroupPresentCapabilitiesKHR = jvulkanLib.vkGetDeviceGroupPresentCapabilitiesKHR
+    #print("statd vkGetDeviceGroupPresentCapabilitiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceGroupPresentCapabilitiesKHR"]
+try:
+    vkGetDeviceGroupSurfacePresentModesKHR = jvulkanLib.vkGetDeviceGroupSurfacePresentModesKHR
+    #print("statd vkGetDeviceGroupSurfacePresentModesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceGroupSurfacePresentModesKHR"]
+try:
+    vkGetDeviceImageMemoryRequirements = jvulkanLib.vkGetDeviceImageMemoryRequirements
+    #print("statd vkGetDeviceImageMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceImageMemoryRequirements"]
+try:
+    vkGetDeviceImageMemoryRequirementsKHR = jvulkanLib.vkGetDeviceImageMemoryRequirementsKHR
+    #print("statd vkGetDeviceImageMemoryRequirementsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceImageMemoryRequirementsKHR"]
+try:
+    vkGetDeviceImageSparseMemoryRequirements = jvulkanLib.vkGetDeviceImageSparseMemoryRequirements
+    #print("statd vkGetDeviceImageSparseMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceImageSparseMemoryRequirements"]
+try:
+    vkGetDeviceImageSparseMemoryRequirementsKHR = jvulkanLib.vkGetDeviceImageSparseMemoryRequirementsKHR
+    #print("statd vkGetDeviceImageSparseMemoryRequirementsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceImageSparseMemoryRequirementsKHR"]
+try:
+    vkGetDeviceMemoryCommitment = jvulkanLib.vkGetDeviceMemoryCommitment
+    #print("statd vkGetDeviceMemoryCommitment")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceMemoryCommitment"]
+try:
+    vkGetDeviceMemoryOpaqueCaptureAddress = jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddress
+    #print("statd vkGetDeviceMemoryOpaqueCaptureAddress")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceMemoryOpaqueCaptureAddress"]
+try:
+    vkGetDeviceMemoryOpaqueCaptureAddressKHR = jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddressKHR
+    #print("statd vkGetDeviceMemoryOpaqueCaptureAddressKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceMemoryOpaqueCaptureAddressKHR"]
+try:
+    vkGetDeviceProcAddr = jvulkanLib.vkGetDeviceProcAddr
+    #print("statd vkGetDeviceProcAddr")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceProcAddr"]
+try:
+    vkGetDeviceQueue = jvulkanLib.vkGetDeviceQueue
+    #print("statd vkGetDeviceQueue")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceQueue"]
+try:
+    vkGetDeviceQueue2 = jvulkanLib.vkGetDeviceQueue2
+    #print("statd vkGetDeviceQueue2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceQueue2"]
+try:
+    vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI = jvulkanLib.vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+    #print("statd vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI"]
+try:
+    vkGetDisplayModeProperties2KHR = jvulkanLib.vkGetDisplayModeProperties2KHR
+    #print("statd vkGetDisplayModeProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDisplayModeProperties2KHR"]
+try:
+    vkGetDisplayModePropertiesKHR = jvulkanLib.vkGetDisplayModePropertiesKHR
+    #print("statd vkGetDisplayModePropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDisplayModePropertiesKHR"]
+try:
+    vkGetDisplayPlaneCapabilities2KHR = jvulkanLib.vkGetDisplayPlaneCapabilities2KHR
+    #print("statd vkGetDisplayPlaneCapabilities2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDisplayPlaneCapabilities2KHR"]
+try:
+    vkGetDisplayPlaneCapabilitiesKHR = jvulkanLib.vkGetDisplayPlaneCapabilitiesKHR
+    #print("statd vkGetDisplayPlaneCapabilitiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDisplayPlaneCapabilitiesKHR"]
+try:
+    vkGetDisplayPlaneSupportedDisplaysKHR = jvulkanLib.vkGetDisplayPlaneSupportedDisplaysKHR
+    #print("statd vkGetDisplayPlaneSupportedDisplaysKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDisplayPlaneSupportedDisplaysKHR"]
+try:
+    vkGetDrmDisplayEXT = jvulkanLib.vkGetDrmDisplayEXT
+    #print("statd vkGetDrmDisplayEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetDrmDisplayEXT"]
+try:
+    vkGetEventStatus = jvulkanLib.vkGetEventStatus
+    #print("statd vkGetEventStatus")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetEventStatus"]
+try:
+    vkGetFenceFdKHR = jvulkanLib.vkGetFenceFdKHR
+    #print("statd vkGetFenceFdKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetFenceFdKHR"]
+try:
+    vkGetFenceStatus = jvulkanLib.vkGetFenceStatus
+    #print("statd vkGetFenceStatus")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetFenceStatus"]
+try:
+    vkGetGeneratedCommandsMemoryRequirementsNV = jvulkanLib.vkGetGeneratedCommandsMemoryRequirementsNV
+    #print("statd vkGetGeneratedCommandsMemoryRequirementsNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetGeneratedCommandsMemoryRequirementsNV"]
+try:
+    vkGetImageDrmFormatModifierPropertiesEXT = jvulkanLib.vkGetImageDrmFormatModifierPropertiesEXT
+    #print("statd vkGetImageDrmFormatModifierPropertiesEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageDrmFormatModifierPropertiesEXT"]
+try:
+    vkGetImageMemoryRequirements = jvulkanLib.vkGetImageMemoryRequirements
+    #print("statd vkGetImageMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageMemoryRequirements"]
+try:
+    vkGetImageMemoryRequirements2 = jvulkanLib.vkGetImageMemoryRequirements2
+    #print("statd vkGetImageMemoryRequirements2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageMemoryRequirements2"]
+try:
+    vkGetImageMemoryRequirements2KHR = jvulkanLib.vkGetImageMemoryRequirements2KHR
+    #print("statd vkGetImageMemoryRequirements2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageMemoryRequirements2KHR"]
+try:
+    vkGetImageSparseMemoryRequirements = jvulkanLib.vkGetImageSparseMemoryRequirements
+    #print("statd vkGetImageSparseMemoryRequirements")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageSparseMemoryRequirements"]
+try:
+    vkGetImageSparseMemoryRequirements2 = jvulkanLib.vkGetImageSparseMemoryRequirements2
+    #print("statd vkGetImageSparseMemoryRequirements2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageSparseMemoryRequirements2"]
+try:
+    vkGetImageSparseMemoryRequirements2KHR = jvulkanLib.vkGetImageSparseMemoryRequirements2KHR
+    #print("statd vkGetImageSparseMemoryRequirements2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageSparseMemoryRequirements2KHR"]
+try:
+    vkGetImageSubresourceLayout = jvulkanLib.vkGetImageSubresourceLayout
+    #print("statd vkGetImageSubresourceLayout")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageSubresourceLayout"]
+try:
+    vkGetImageViewAddressNVX = jvulkanLib.vkGetImageViewAddressNVX
+    #print("statd vkGetImageViewAddressNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageViewAddressNVX"]
+try:
+    vkGetImageViewHandleNVX = jvulkanLib.vkGetImageViewHandleNVX
+    #print("statd vkGetImageViewHandleNVX")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetImageViewHandleNVX"]
+try:
+    vkGetInstanceProcAddr = jvulkanLib.vkGetInstanceProcAddr
+    #print("statd vkGetInstanceProcAddr")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetInstanceProcAddr"]
+try:
+    vkGetMemoryAndroidHardwareBufferANDROID = jvulkanLib.vkGetMemoryAndroidHardwareBufferANDROID
+    #print("statd vkGetMemoryAndroidHardwareBufferANDROID")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetMemoryAndroidHardwareBufferANDROID"]
+try:
+    vkGetMemoryFdKHR = jvulkanLib.vkGetMemoryFdKHR
+    #print("statd vkGetMemoryFdKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetMemoryFdKHR"]
+try:
+    vkGetMemoryFdPropertiesKHR = jvulkanLib.vkGetMemoryFdPropertiesKHR
+    #print("statd vkGetMemoryFdPropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetMemoryFdPropertiesKHR"]
+try:
+    vkGetMemoryHostPointerPropertiesEXT = jvulkanLib.vkGetMemoryHostPointerPropertiesEXT
+    #print("statd vkGetMemoryHostPointerPropertiesEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetMemoryHostPointerPropertiesEXT"]
+try:
+    vkGetMemoryRemoteAddressNV = jvulkanLib.vkGetMemoryRemoteAddressNV
+    #print("statd vkGetMemoryRemoteAddressNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetMemoryRemoteAddressNV"]
+try:
+    vkGetPastPresentationTimingGOOGLE = jvulkanLib.vkGetPastPresentationTimingGOOGLE
+    #print("statd vkGetPastPresentationTimingGOOGLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPastPresentationTimingGOOGLE"]
+try:
+    vkGetPerformanceParameterINTEL = jvulkanLib.vkGetPerformanceParameterINTEL
+    #print("statd vkGetPerformanceParameterINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPerformanceParameterINTEL"]
+try:
+    vkGetPhysicalDeviceCalibrateableTimeDomainsEXT = jvulkanLib.vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+    #print("statd vkGetPhysicalDeviceCalibrateableTimeDomainsEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceCalibrateableTimeDomainsEXT"]
+try:
+    vkGetPhysicalDeviceCooperativeMatrixPropertiesNV = jvulkanLib.vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+    #print("statd vkGetPhysicalDeviceCooperativeMatrixPropertiesNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceCooperativeMatrixPropertiesNV"]
+try:
+    vkGetPhysicalDeviceDisplayPlaneProperties2KHR = jvulkanLib.vkGetPhysicalDeviceDisplayPlaneProperties2KHR
+    #print("statd vkGetPhysicalDeviceDisplayPlaneProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceDisplayPlaneProperties2KHR"]
+try:
+    vkGetPhysicalDeviceDisplayPlanePropertiesKHR = jvulkanLib.vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+    #print("statd vkGetPhysicalDeviceDisplayPlanePropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceDisplayPlanePropertiesKHR"]
+try:
+    vkGetPhysicalDeviceDisplayProperties2KHR = jvulkanLib.vkGetPhysicalDeviceDisplayProperties2KHR
+    #print("statd vkGetPhysicalDeviceDisplayProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceDisplayProperties2KHR"]
+try:
+    vkGetPhysicalDeviceDisplayPropertiesKHR = jvulkanLib.vkGetPhysicalDeviceDisplayPropertiesKHR
+    #print("statd vkGetPhysicalDeviceDisplayPropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceDisplayPropertiesKHR"]
+try:
+    vkGetPhysicalDeviceExternalBufferProperties = jvulkanLib.vkGetPhysicalDeviceExternalBufferProperties
+    #print("statd vkGetPhysicalDeviceExternalBufferProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalBufferProperties"]
+try:
+    vkGetPhysicalDeviceExternalBufferPropertiesKHR = jvulkanLib.vkGetPhysicalDeviceExternalBufferPropertiesKHR
+    #print("statd vkGetPhysicalDeviceExternalBufferPropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalBufferPropertiesKHR"]
+try:
+    vkGetPhysicalDeviceExternalFenceProperties = jvulkanLib.vkGetPhysicalDeviceExternalFenceProperties
+    #print("statd vkGetPhysicalDeviceExternalFenceProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalFenceProperties"]
+try:
+    vkGetPhysicalDeviceExternalFencePropertiesKHR = jvulkanLib.vkGetPhysicalDeviceExternalFencePropertiesKHR
+    #print("statd vkGetPhysicalDeviceExternalFencePropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalFencePropertiesKHR"]
+try:
+    vkGetPhysicalDeviceExternalImageFormatPropertiesNV = jvulkanLib.vkGetPhysicalDeviceExternalImageFormatPropertiesNV
+    #print("statd vkGetPhysicalDeviceExternalImageFormatPropertiesNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalImageFormatPropertiesNV"]
+try:
+    vkGetPhysicalDeviceExternalSemaphoreProperties = jvulkanLib.vkGetPhysicalDeviceExternalSemaphoreProperties
+    #print("statd vkGetPhysicalDeviceExternalSemaphoreProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalSemaphoreProperties"]
+try:
+    vkGetPhysicalDeviceExternalSemaphorePropertiesKHR = jvulkanLib.vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+    #print("statd vkGetPhysicalDeviceExternalSemaphorePropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceExternalSemaphorePropertiesKHR"]
+try:
+    vkGetPhysicalDeviceFeatures = jvulkanLib.vkGetPhysicalDeviceFeatures
+    #print("statd vkGetPhysicalDeviceFeatures")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFeatures"]
+try:
+    vkGetPhysicalDeviceFeatures2 = jvulkanLib.vkGetPhysicalDeviceFeatures2
+    #print("statd vkGetPhysicalDeviceFeatures2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFeatures2"]
+try:
+    vkGetPhysicalDeviceFeatures2KHR = jvulkanLib.vkGetPhysicalDeviceFeatures2KHR
+    #print("statd vkGetPhysicalDeviceFeatures2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFeatures2KHR"]
+try:
+    vkGetPhysicalDeviceFormatProperties = jvulkanLib.vkGetPhysicalDeviceFormatProperties
+    #print("statd vkGetPhysicalDeviceFormatProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFormatProperties"]
+try:
+    vkGetPhysicalDeviceFormatProperties2 = jvulkanLib.vkGetPhysicalDeviceFormatProperties2
+    #print("statd vkGetPhysicalDeviceFormatProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFormatProperties2"]
+try:
+    vkGetPhysicalDeviceFormatProperties2KHR = jvulkanLib.vkGetPhysicalDeviceFormatProperties2KHR
+    #print("statd vkGetPhysicalDeviceFormatProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFormatProperties2KHR"]
+try:
+    vkGetPhysicalDeviceFragmentShadingRatesKHR = jvulkanLib.vkGetPhysicalDeviceFragmentShadingRatesKHR
+    #print("statd vkGetPhysicalDeviceFragmentShadingRatesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceFragmentShadingRatesKHR"]
+try:
+    vkGetPhysicalDeviceImageFormatProperties = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties
+    #print("statd vkGetPhysicalDeviceImageFormatProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceImageFormatProperties"]
+try:
+    vkGetPhysicalDeviceImageFormatProperties2 = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2
+    #print("statd vkGetPhysicalDeviceImageFormatProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceImageFormatProperties2"]
+try:
+    vkGetPhysicalDeviceImageFormatProperties2KHR = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2KHR
+    #print("statd vkGetPhysicalDeviceImageFormatProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceImageFormatProperties2KHR"]
+try:
+    vkGetPhysicalDeviceMemoryProperties = jvulkanLib.vkGetPhysicalDeviceMemoryProperties
+    #print("statd vkGetPhysicalDeviceMemoryProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceMemoryProperties"]
+try:
+    vkGetPhysicalDeviceMemoryProperties2 = jvulkanLib.vkGetPhysicalDeviceMemoryProperties2
+    #print("statd vkGetPhysicalDeviceMemoryProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceMemoryProperties2"]
+try:
+    vkGetPhysicalDeviceMemoryProperties2KHR = jvulkanLib.vkGetPhysicalDeviceMemoryProperties2KHR
+    #print("statd vkGetPhysicalDeviceMemoryProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceMemoryProperties2KHR"]
+try:
+    vkGetPhysicalDeviceMultisamplePropertiesEXT = jvulkanLib.vkGetPhysicalDeviceMultisamplePropertiesEXT
+    #print("statd vkGetPhysicalDeviceMultisamplePropertiesEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceMultisamplePropertiesEXT"]
+try:
+    vkGetPhysicalDevicePresentRectanglesKHR = jvulkanLib.vkGetPhysicalDevicePresentRectanglesKHR
+    #print("statd vkGetPhysicalDevicePresentRectanglesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDevicePresentRectanglesKHR"]
+try:
+    vkGetPhysicalDeviceProperties = jvulkanLib.vkGetPhysicalDeviceProperties
+    #print("statd vkGetPhysicalDeviceProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceProperties"]
+try:
+    vkGetPhysicalDeviceProperties2 = jvulkanLib.vkGetPhysicalDeviceProperties2
+    #print("statd vkGetPhysicalDeviceProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceProperties2"]
+try:
+    vkGetPhysicalDeviceProperties2KHR = jvulkanLib.vkGetPhysicalDeviceProperties2KHR
+    #print("statd vkGetPhysicalDeviceProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceProperties2KHR"]
+try:
+    vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR = jvulkanLib.vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
+    #print("statd vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR"]
+try:
+    vkGetPhysicalDeviceQueueFamilyProperties = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties
+    #print("statd vkGetPhysicalDeviceQueueFamilyProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceQueueFamilyProperties"]
+try:
+    vkGetPhysicalDeviceQueueFamilyProperties2 = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2
+    #print("statd vkGetPhysicalDeviceQueueFamilyProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceQueueFamilyProperties2"]
+try:
+    vkGetPhysicalDeviceQueueFamilyProperties2KHR = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2KHR
+    #print("statd vkGetPhysicalDeviceQueueFamilyProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceQueueFamilyProperties2KHR"]
+try:
+    vkGetPhysicalDeviceSparseImageFormatProperties = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties
+    #print("statd vkGetPhysicalDeviceSparseImageFormatProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSparseImageFormatProperties"]
+try:
+    vkGetPhysicalDeviceSparseImageFormatProperties2 = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2
+    #print("statd vkGetPhysicalDeviceSparseImageFormatProperties2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSparseImageFormatProperties2"]
+try:
+    vkGetPhysicalDeviceSparseImageFormatProperties2KHR = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+    #print("statd vkGetPhysicalDeviceSparseImageFormatProperties2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSparseImageFormatProperties2KHR"]
+try:
+    vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV = jvulkanLib.vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV
+    #print("statd vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV"]
+try:
+    vkGetPhysicalDeviceSurfaceCapabilities2EXT = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2EXT
+    #print("statd vkGetPhysicalDeviceSurfaceCapabilities2EXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceCapabilities2EXT"]
+try:
+    vkGetPhysicalDeviceSurfaceCapabilities2KHR = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2KHR
+    #print("statd vkGetPhysicalDeviceSurfaceCapabilities2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceCapabilities2KHR"]
+try:
+    vkGetPhysicalDeviceSurfaceCapabilitiesKHR = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+    #print("statd vkGetPhysicalDeviceSurfaceCapabilitiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceCapabilitiesKHR"]
+try:
+    vkGetPhysicalDeviceSurfaceFormats2KHR = jvulkanLib.vkGetPhysicalDeviceSurfaceFormats2KHR
+    #print("statd vkGetPhysicalDeviceSurfaceFormats2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceFormats2KHR"]
+try:
+    vkGetPhysicalDeviceSurfaceFormatsKHR = jvulkanLib.vkGetPhysicalDeviceSurfaceFormatsKHR
+    #print("statd vkGetPhysicalDeviceSurfaceFormatsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceFormatsKHR"]
+try:
+    vkGetPhysicalDeviceSurfacePresentModesKHR = jvulkanLib.vkGetPhysicalDeviceSurfacePresentModesKHR
+    #print("statd vkGetPhysicalDeviceSurfacePresentModesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfacePresentModesKHR"]
+try:
+    vkGetPhysicalDeviceSurfaceSupportKHR = jvulkanLib.vkGetPhysicalDeviceSurfaceSupportKHR
+    #print("statd vkGetPhysicalDeviceSurfaceSupportKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceSurfaceSupportKHR"]
+try:
+    vkGetPhysicalDeviceToolProperties = jvulkanLib.vkGetPhysicalDeviceToolProperties
+    #print("statd vkGetPhysicalDeviceToolProperties")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceToolProperties"]
+try:
+    vkGetPhysicalDeviceToolPropertiesEXT = jvulkanLib.vkGetPhysicalDeviceToolPropertiesEXT
+    #print("statd vkGetPhysicalDeviceToolPropertiesEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceToolPropertiesEXT"]
+try:
+    vkGetPhysicalDeviceWaylandPresentationSupportKHR = jvulkanLib.vkGetPhysicalDeviceWaylandPresentationSupportKHR
+    #print("statd vkGetPhysicalDeviceWaylandPresentationSupportKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceWaylandPresentationSupportKHR"]
+try:
+    vkGetPhysicalDeviceXcbPresentationSupportKHR = jvulkanLib.vkGetPhysicalDeviceXcbPresentationSupportKHR
+    #print("statd vkGetPhysicalDeviceXcbPresentationSupportKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceXcbPresentationSupportKHR"]
+try:
+    vkGetPhysicalDeviceXlibPresentationSupportKHR = jvulkanLib.vkGetPhysicalDeviceXlibPresentationSupportKHR
+    #print("statd vkGetPhysicalDeviceXlibPresentationSupportKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPhysicalDeviceXlibPresentationSupportKHR"]
+try:
+    vkGetPipelineCacheData = jvulkanLib.vkGetPipelineCacheData
+    #print("statd vkGetPipelineCacheData")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPipelineCacheData"]
+try:
+    vkGetPipelineExecutableInternalRepresentationsKHR = jvulkanLib.vkGetPipelineExecutableInternalRepresentationsKHR
+    #print("statd vkGetPipelineExecutableInternalRepresentationsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPipelineExecutableInternalRepresentationsKHR"]
+try:
+    vkGetPipelineExecutablePropertiesKHR = jvulkanLib.vkGetPipelineExecutablePropertiesKHR
+    #print("statd vkGetPipelineExecutablePropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPipelineExecutablePropertiesKHR"]
+try:
+    vkGetPipelineExecutableStatisticsKHR = jvulkanLib.vkGetPipelineExecutableStatisticsKHR
+    #print("statd vkGetPipelineExecutableStatisticsKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPipelineExecutableStatisticsKHR"]
+try:
+    vkGetPrivateData = jvulkanLib.vkGetPrivateData
+    #print("statd vkGetPrivateData")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPrivateData"]
+try:
+    vkGetPrivateDataEXT = jvulkanLib.vkGetPrivateDataEXT
+    #print("statd vkGetPrivateDataEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetPrivateDataEXT"]
+try:
+    vkGetQueryPoolResults = jvulkanLib.vkGetQueryPoolResults
+    #print("statd vkGetQueryPoolResults")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetQueryPoolResults"]
+try:
+    vkGetQueueCheckpointData2NV = jvulkanLib.vkGetQueueCheckpointData2NV
+    #print("statd vkGetQueueCheckpointData2NV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetQueueCheckpointData2NV"]
+try:
+    vkGetQueueCheckpointDataNV = jvulkanLib.vkGetQueueCheckpointDataNV
+    #print("statd vkGetQueueCheckpointDataNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetQueueCheckpointDataNV"]
+try:
+    vkGetRayTracingCaptureReplayShaderGroupHandlesKHR = jvulkanLib.vkGetRayTracingCaptureReplayShaderGroupHandlesKHR
+    #print("statd vkGetRayTracingCaptureReplayShaderGroupHandlesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRayTracingCaptureReplayShaderGroupHandlesKHR"]
+try:
+    vkGetRayTracingShaderGroupHandlesKHR = jvulkanLib.vkGetRayTracingShaderGroupHandlesKHR
+    #print("statd vkGetRayTracingShaderGroupHandlesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRayTracingShaderGroupHandlesKHR"]
+try:
+    vkGetRayTracingShaderGroupHandlesNV = jvulkanLib.vkGetRayTracingShaderGroupHandlesNV
+    #print("statd vkGetRayTracingShaderGroupHandlesNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRayTracingShaderGroupHandlesNV"]
+try:
+    vkGetRayTracingShaderGroupStackSizeKHR = jvulkanLib.vkGetRayTracingShaderGroupStackSizeKHR
+    #print("statd vkGetRayTracingShaderGroupStackSizeKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRayTracingShaderGroupStackSizeKHR"]
+try:
+    vkGetRefreshCycleDurationGOOGLE = jvulkanLib.vkGetRefreshCycleDurationGOOGLE
+    #print("statd vkGetRefreshCycleDurationGOOGLE")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRefreshCycleDurationGOOGLE"]
+try:
+    vkGetRenderAreaGranularity = jvulkanLib.vkGetRenderAreaGranularity
+    #print("statd vkGetRenderAreaGranularity")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetRenderAreaGranularity"]
+try:
+    vkGetSemaphoreCounterValue = jvulkanLib.vkGetSemaphoreCounterValue
+    #print("statd vkGetSemaphoreCounterValue")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSemaphoreCounterValue"]
+try:
+    vkGetSemaphoreCounterValueKHR = jvulkanLib.vkGetSemaphoreCounterValueKHR
+    #print("statd vkGetSemaphoreCounterValueKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSemaphoreCounterValueKHR"]
+try:
+    vkGetSemaphoreFdKHR = jvulkanLib.vkGetSemaphoreFdKHR
+    #print("statd vkGetSemaphoreFdKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSemaphoreFdKHR"]
+try:
+    vkGetShaderInfoAMD = jvulkanLib.vkGetShaderInfoAMD
+    #print("statd vkGetShaderInfoAMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetShaderInfoAMD"]
+try:
+    vkGetSwapchainCounterEXT = jvulkanLib.vkGetSwapchainCounterEXT
+    #print("statd vkGetSwapchainCounterEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSwapchainCounterEXT"]
+try:
+    vkGetSwapchainImagesKHR = jvulkanLib.vkGetSwapchainImagesKHR
+    #print("statd vkGetSwapchainImagesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSwapchainImagesKHR"]
+try:
+    vkGetSwapchainStatusKHR = jvulkanLib.vkGetSwapchainStatusKHR
+    #print("statd vkGetSwapchainStatusKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetSwapchainStatusKHR"]
+try:
+    vkGetValidationCacheDataEXT = jvulkanLib.vkGetValidationCacheDataEXT
+    #print("statd vkGetValidationCacheDataEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetValidationCacheDataEXT"]
+try:
+    vkGetWinrtDisplayNV = jvulkanLib.vkGetWinrtDisplayNV
+    #print("statd vkGetWinrtDisplayNV")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkGetWinrtDisplayNV"]
+try:
+    vkImportFenceFdKHR = jvulkanLib.vkImportFenceFdKHR
+    #print("statd vkImportFenceFdKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkImportFenceFdKHR"]
+try:
+    vkImportSemaphoreFdKHR = jvulkanLib.vkImportSemaphoreFdKHR
+    #print("statd vkImportSemaphoreFdKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkImportSemaphoreFdKHR"]
+try:
+    vkInitializePerformanceApiINTEL = jvulkanLib.vkInitializePerformanceApiINTEL
+    #print("statd vkInitializePerformanceApiINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkInitializePerformanceApiINTEL"]
+try:
+    vkInvalidateMappedMemoryRanges = jvulkanLib.vkInvalidateMappedMemoryRanges
+    #print("statd vkInvalidateMappedMemoryRanges")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkInvalidateMappedMemoryRanges"]
+try:
+    vkMapMemory = jvulkanLib.vkMapMemory
+    #print("statd vkMapMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkMapMemory"]
+try:
+    vkMergePipelineCaches = jvulkanLib.vkMergePipelineCaches
+    #print("statd vkMergePipelineCaches")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkMergePipelineCaches"]
+try:
+    vkMergeValidationCachesEXT = jvulkanLib.vkMergeValidationCachesEXT
+    #print("statd vkMergeValidationCachesEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkMergeValidationCachesEXT"]
+try:
+    vkQueueBeginDebugUtilsLabelEXT = jvulkanLib.vkQueueBeginDebugUtilsLabelEXT
+    #print("statd vkQueueBeginDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueBeginDebugUtilsLabelEXT"]
+try:
+    vkQueueBindSparse = jvulkanLib.vkQueueBindSparse
+    #print("statd vkQueueBindSparse")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueBindSparse"]
+try:
+    vkQueueEndDebugUtilsLabelEXT = jvulkanLib.vkQueueEndDebugUtilsLabelEXT
+    #print("statd vkQueueEndDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueEndDebugUtilsLabelEXT"]
+try:
+    vkQueueInsertDebugUtilsLabelEXT = jvulkanLib.vkQueueInsertDebugUtilsLabelEXT
+    #print("statd vkQueueInsertDebugUtilsLabelEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueInsertDebugUtilsLabelEXT"]
+try:
+    vkQueuePresentKHR = jvulkanLib.vkQueuePresentKHR
+    #print("statd vkQueuePresentKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueuePresentKHR"]
+try:
+    vkQueueSetPerformanceConfigurationINTEL = jvulkanLib.vkQueueSetPerformanceConfigurationINTEL
+    #print("statd vkQueueSetPerformanceConfigurationINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueSetPerformanceConfigurationINTEL"]
+try:
+    vkQueueSubmit = jvulkanLib.vkQueueSubmit
+    #print("statd vkQueueSubmit")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueSubmit"]
+try:
+    vkQueueSubmit2 = jvulkanLib.vkQueueSubmit2
+    #print("statd vkQueueSubmit2")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueSubmit2"]
+try:
+    vkQueueSubmit2KHR = jvulkanLib.vkQueueSubmit2KHR
+    #print("statd vkQueueSubmit2KHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueSubmit2KHR"]
+try:
+    vkQueueWaitIdle = jvulkanLib.vkQueueWaitIdle
+    #print("statd vkQueueWaitIdle")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkQueueWaitIdle"]
+try:
+    vkRegisterDeviceEventEXT = jvulkanLib.vkRegisterDeviceEventEXT
+    #print("statd vkRegisterDeviceEventEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkRegisterDeviceEventEXT"]
+try:
+    vkRegisterDisplayEventEXT = jvulkanLib.vkRegisterDisplayEventEXT
+    #print("statd vkRegisterDisplayEventEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkRegisterDisplayEventEXT"]
+try:
+    vkReleaseDisplayEXT = jvulkanLib.vkReleaseDisplayEXT
+    #print("statd vkReleaseDisplayEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkReleaseDisplayEXT"]
+try:
+    vkReleasePerformanceConfigurationINTEL = jvulkanLib.vkReleasePerformanceConfigurationINTEL
+    #print("statd vkReleasePerformanceConfigurationINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkReleasePerformanceConfigurationINTEL"]
+try:
+    vkReleaseProfilingLockKHR = jvulkanLib.vkReleaseProfilingLockKHR
+    #print("statd vkReleaseProfilingLockKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkReleaseProfilingLockKHR"]
+try:
+    vkResetCommandBuffer = jvulkanLib.vkResetCommandBuffer
+    #print("statd vkResetCommandBuffer")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetCommandBuffer"]
+try:
+    vkResetCommandPool = jvulkanLib.vkResetCommandPool
+    #print("statd vkResetCommandPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetCommandPool"]
+try:
+    vkResetDescriptorPool = jvulkanLib.vkResetDescriptorPool
+    #print("statd vkResetDescriptorPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetDescriptorPool"]
+try:
+    vkResetEvent = jvulkanLib.vkResetEvent
+    #print("statd vkResetEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetEvent"]
+try:
+    vkResetFences = jvulkanLib.vkResetFences
+    #print("statd vkResetFences")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetFences"]
+try:
+    vkResetQueryPool = jvulkanLib.vkResetQueryPool
+    #print("statd vkResetQueryPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetQueryPool"]
+try:
+    vkResetQueryPoolEXT = jvulkanLib.vkResetQueryPoolEXT
+    #print("statd vkResetQueryPoolEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkResetQueryPoolEXT"]
+try:
+    vkSetDebugUtilsObjectNameEXT = jvulkanLib.vkSetDebugUtilsObjectNameEXT
+    #print("statd vkSetDebugUtilsObjectNameEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetDebugUtilsObjectNameEXT"]
+try:
+    vkSetDebugUtilsObjectTagEXT = jvulkanLib.vkSetDebugUtilsObjectTagEXT
+    #print("statd vkSetDebugUtilsObjectTagEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetDebugUtilsObjectTagEXT"]
+try:
+    vkSetDeviceMemoryPriorityEXT = jvulkanLib.vkSetDeviceMemoryPriorityEXT
+    #print("statd vkSetDeviceMemoryPriorityEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetDeviceMemoryPriorityEXT"]
+try:
+    vkSetEvent = jvulkanLib.vkSetEvent
+    #print("statd vkSetEvent")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetEvent"]
+try:
+    vkSetHdrMetadataEXT = jvulkanLib.vkSetHdrMetadataEXT
+    #print("statd vkSetHdrMetadataEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetHdrMetadataEXT"]
+try:
+    vkSetLocalDimmingAMD = jvulkanLib.vkSetLocalDimmingAMD
+    #print("statd vkSetLocalDimmingAMD")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetLocalDimmingAMD"]
+try:
+    vkSetPrivateData = jvulkanLib.vkSetPrivateData
+    #print("statd vkSetPrivateData")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetPrivateData"]
+try:
+    vkSetPrivateDataEXT = jvulkanLib.vkSetPrivateDataEXT
+    #print("statd vkSetPrivateDataEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSetPrivateDataEXT"]
+try:
+    vkSignalSemaphore = jvulkanLib.vkSignalSemaphore
+    #print("statd vkSignalSemaphore")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSignalSemaphore"]
+try:
+    vkSignalSemaphoreKHR = jvulkanLib.vkSignalSemaphoreKHR
+    #print("statd vkSignalSemaphoreKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSignalSemaphoreKHR"]
+try:
+    vkSubmitDebugUtilsMessageEXT = jvulkanLib.vkSubmitDebugUtilsMessageEXT
+    #print("statd vkSubmitDebugUtilsMessageEXT")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkSubmitDebugUtilsMessageEXT"]
+try:
+    vkTrimCommandPool = jvulkanLib.vkTrimCommandPool
+    #print("statd vkTrimCommandPool")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkTrimCommandPool"]
+try:
+    vkTrimCommandPoolKHR = jvulkanLib.vkTrimCommandPoolKHR
+    #print("statd vkTrimCommandPoolKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkTrimCommandPoolKHR"]
+try:
+    vkUninitializePerformanceApiINTEL = jvulkanLib.vkUninitializePerformanceApiINTEL
+    #print("statd vkUninitializePerformanceApiINTEL")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkUninitializePerformanceApiINTEL"]
+try:
+    vkUnmapMemory = jvulkanLib.vkUnmapMemory
+    #print("statd vkUnmapMemory")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkUnmapMemory"]
+try:
+    vkUpdateDescriptorSetWithTemplate = jvulkanLib.vkUpdateDescriptorSetWithTemplate
+    #print("statd vkUpdateDescriptorSetWithTemplate")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkUpdateDescriptorSetWithTemplate"]
+try:
+    vkUpdateDescriptorSetWithTemplateKHR = jvulkanLib.vkUpdateDescriptorSetWithTemplateKHR
+    #print("statd vkUpdateDescriptorSetWithTemplateKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkUpdateDescriptorSetWithTemplateKHR"]
+try:
+    vkUpdateDescriptorSets = jvulkanLib.vkUpdateDescriptorSets
+    #print("statd vkUpdateDescriptorSets")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkUpdateDescriptorSets"]
+try:
+    vkWaitForFences = jvulkanLib.vkWaitForFences
+    #print("statd vkWaitForFences")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkWaitForFences"]
+try:
+    vkWaitForPresentKHR = jvulkanLib.vkWaitForPresentKHR
+    #print("statd vkWaitForPresentKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkWaitForPresentKHR"]
+try:
+    vkWaitSemaphores = jvulkanLib.vkWaitSemaphores
+    #print("statd vkWaitSemaphores")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkWaitSemaphores"]
+try:
+    vkWaitSemaphoresKHR = jvulkanLib.vkWaitSemaphoresKHR
+    #print("statd vkWaitSemaphoresKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkWaitSemaphoresKHR"]
+try:
+    vkWriteAccelerationStructuresPropertiesKHR = jvulkanLib.vkWriteAccelerationStructuresPropertiesKHR
+    #print("statd vkWriteAccelerationStructuresPropertiesKHR")
+except Exception as e:
+    pass
+    UNSTATABLE += ["vkWriteAccelerationStructuresPropertiesKHR"]
+
+with open("UNSTATABLE", 'w+') as f:
+	f.write(str(UNSTATABLE))
