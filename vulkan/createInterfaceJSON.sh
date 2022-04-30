@@ -1,1 +1,1 @@
-clang -Xclang -ast-dump=json vulkan_include_linux/vulkan.h > vulkanInterface.json
+clang -Xclang -ast-dump=json vulkan_include_windows/vulkan.h > vulkanInterface.json

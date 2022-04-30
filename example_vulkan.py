@@ -7,18 +7,18 @@ HERE = os.path.dirname(os.path.realpath(__file__))
 
 if "nt" in p or "win" in p:
     library = os.path.join(HERE, "vulkan", "vulkan-1.dll")
-    header  = os.path.join(HERE, "vulkan", "windows_cdef.h")
 else:
-    # PUT CPP COMMAND HERE
-    
     # (if x86)
     library = os.path.join(HERE, "vulkan", "libvulkan.so")
-    header  = os.path.join(HERE, "vulkan", "cdef.h")
 
-ast = sodll.sodllGenerate(
+# clang dict created from headers with createInterfaceJSON.sh
+with open("vulkan/vulkanInterface.json", "r") as f:
+    clangDict = json.loads(f.read())
+
+sodll.sodllGenerate(
     dynamicLibraryFilenameIn = library, 
-    formattedHeaderIn = header, 
-    libnameOut = "jvulkan")
+    clangDictIn = clangDict, 
+    libnameOut  = "jvulkan")
 
 # now we can import it (!)
 from jvulkan import *
