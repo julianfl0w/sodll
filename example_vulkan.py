@@ -23,27 +23,6 @@ sodll.sodllGenerate(
 # now we can import it (!)
 from jvulkan import *
 
-# If you want to view all the types
-#print(dir(jvulkanDynamicLibrary))
-types = jvulkanInterface.list_types()[0]
-with open("vulkan_types.txt", 'w+') as f:
-    f.write(json.dumps(types, indent=2))
-
-def printObj(obj):
-    print("Object " + str(obj))
-    for item in dir(obj):
-        if not item.startswith("__"):
-            print(str(item))
-           
-print("CFFI Interface (contains structs):")
-#print(dir(jvulkanCtypes))
-
-#print(jvulkanInterface.integer_const("VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT"))
-print("CFFI Library (contains executable code):")
-#print(dir(jvulkanLib))
-print("trying DL")
-
-
 
 def VK_MAKE_VERSION(major, minor, patch):
     return (((major) << 22) | ((minor) << 12) | (patch))
@@ -59,23 +38,14 @@ def VK_VERSION_MINOR(version):
 
 def VK_VERSION_PATCH(version):
     return version & 0xfff
-def getArguments(fn):
-    arguments = str(fn).split("(")[2].split(")")[0].split(",")
-    return arguments
+
        
 print("getting extensions: ")
 
-version = jvulkanInterface.new("uint32_t *")
-c = jvulkanLib.vkEnumerateInstanceVersion(version)
-print(version[0])
+version = c_uint()
+c = vkEnumerateInstanceVersion(byref(version))
+print(version)
 
-arguments = getArguments(vkEnumerateInstanceExtensionProperties)
-die
-pLayerName     = ffi.new("const char[]          ", "".encode('ascii'))
-pPropertyCount = ffi.new("uint32_t*             ", 0)
-#pProperties    = ffi.new("VkExtensionProperties*")  
-pProperties    = ffi.NULL
-    
 extensions = vkEnumerateInstanceExtensionProperties(pLayerName, pPropertyCount, pProperties)
 newtype = "VkExtensionProperties[" + str(pPropertyCount[0]) + "]"
 print(newtype)

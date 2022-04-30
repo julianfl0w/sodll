@@ -89,7 +89,7 @@ def cdataStr(instr):
 					convertstring += "    " + l + " = " + argtype + "(" + l + ")\n"
 			argstring = argstring[2:]
 			fnstring  = "def " + k + "(" + argstring + "):\n"
-			fnstring += convertstring
+			#fnstring += convertstring
 			fnstring += "    " + libnameOut + "Lib." + k + "(" + argstring + ")\n"
 			
 			allFunctions += fnstring
