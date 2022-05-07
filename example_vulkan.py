@@ -15,7 +15,7 @@ else:
 with open("vulkan/vulkanInterface.json", "r") as f:
     clangDict = json.loads(f.read())
 
-sodll.sodllGenerate(
+s = sodll.Sodll(
     dynamicLibraryFilenameIn = library, 
     clangDictIn = clangDict, 
     libnameOut  = "jvulkan")
@@ -42,9 +42,11 @@ def VK_VERSION_PATCH(version):
        
 print("getting extensions: ")
 
-version = c_uint()
-c = vkEnumerateInstanceVersion(byref(version))
-print(version)
+c = vkEnumerateInstanceVersion({})
+for k, v in c.items():
+    print(v.value)
+
+pLayerName = ""
 
 extensions = vkEnumerateInstanceExtensionProperties(pLayerName, pPropertyCount, pProperties)
 newtype = "VkExtensionProperties[" + str(pPropertyCount[0]) + "]"
