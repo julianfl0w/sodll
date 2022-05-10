@@ -4,7 +4,6 @@ import sys
 import subprocess
 import json
 from hierarchy import *
-from cdecl import *
 
 import logging
 logger = logging.getLogger('dtfm')
@@ -60,7 +59,7 @@ class Sodll:
 	
 	# the c field definition comes in (from header file)
 	# the proper ctype goes out
-	def getCtypeFromString(self, cstring):
+	def getCtypeFromString(self, cstring, isClassDef = True):
 		
 		logger.debug(cstring)
 		
@@ -138,6 +137,8 @@ class Sodll:
 					t = t[len(s):]
 					
 			outtype = t
+			if not isClassDef:
+				outtype += "()"
 			# IDGAFOS. VOIDS EVERYWHERE
 			if t in self.voidtypes.keys():
 				dereferentiation = max(0, d-1)
@@ -147,12 +148,16 @@ class Sodll:
 				dereferentiation = max(0, d-1)
 			
 			for i in range(dereferentiation):
-				outtype = "POINTER(" + outtype + ")"
+				if isClassDef:
+					outtype = "POINTER(" + outtype + ")"
+				else:
+					outtype = "pointer(" + outtype + ")"
 
 			if dims != []:
 				outtype += " *" + str(multiplier)
 		
-		self.conversions[instring] = outtype
+		if not isClassDef:
+			self.conversions[instring] = outtype
 		return outtype
 
 
@@ -237,10 +242,13 @@ def cdataStr(instr):
 			if v["kind"] == "FunctionDecl":
 				convertstring = ""
 				argstring = ""
+				typesList = []
 				retstring = "    return {"
 				for j, arg in enumerate(v["inner"]):
 					argname = arg["name"]
-					argtype = self.getCtypeFromString(arg["type"]["qualType"])
+					argtype = self.getCtypeFromString(arg["type"]["qualType"], isClassDef=False)
+					argtype2 = self.getCtypeFromString(arg["type"]["qualType"], isClassDef=True)
+					typesList += [argtype2]
 					if argtype in self.allStructs:
 						argtype += "()"
 					argstring += ", " + argname
@@ -258,6 +266,7 @@ def cdataStr(instr):
 				fnstring  = "def " + v["name"] + "(indict):\n"
 				fnstring += convertstring
 				fnstring += "    print(" + libnameOut + "Lib." + v["name"] + ")\n"
+				#fnstring += "    " + libnameOut + "Lib." + v["name"] + ".argtypes = [" + ", ".join(typesList) + "]\n"
 				fnstring += "    " + libnameOut + "Lib." + v["name"] + "(" + argstring + ")\n"
 
 				allFunctions += fnstring + retstring

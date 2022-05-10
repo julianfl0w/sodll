@@ -42,13 +42,17 @@ def VK_VERSION_PATCH(version):
        
 print("getting extensions: ")
 
+pApiVersion = POINTER(c_uint)
 c = vkEnumerateInstanceVersion({})
 for k, v in c.items():
-    print(v.value)
+    print(v.contents)
 
 pLayerName = ""
 
-extensions = vkEnumerateInstanceExtensionProperties(pLayerName, pPropertyCount, pProperties)
+extenstions = vkEnumerateInstanceExtensionProperties({"pLayerName" : None})
+for k, v in extenstions.items():
+    print(k + ": " + str(v))
+print(extenstions["pPropertyCount"].contents)
 newtype = "VkExtensionProperties[" + str(pPropertyCount[0]) + "]"
 print(newtype)
 pProperties = ffi.cast(newtype, pProperties)
