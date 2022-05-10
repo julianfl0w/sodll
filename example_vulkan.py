@@ -2,6 +2,7 @@ import sodll
 import os
 import platform
 import json
+import shutil
 p = platform.platform().lower()
 HERE = os.path.dirname(os.path.realpath(__file__))
 
@@ -19,6 +20,9 @@ s = sodll.Sodll(
     dynamicLibraryFilenameIn = library, 
     clangDictIn = clangDict, 
     libnameOut  = "jvulkan")
+
+shutil.copyfile("jvulkan.py", "../vulkanese/vulkanese/jvulkan.py")
+
 
 # now we can import it (!)
 from jvulkan import *

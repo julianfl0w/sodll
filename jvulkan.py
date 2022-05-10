@@ -9227,8 +9227,8 @@ def vkCreateInstance(indict):
     else: 
          pInstance = pointer(VkInstance_T())
     print(jvulkanLib.vkCreateInstance)
-    jvulkanLib.vkCreateInstance(pCreateInfo, pAllocator, pInstance)
-    return {"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pInstance" : pInstance}
+    retval = jvulkanLib.vkCreateInstance(pCreateInfo, pAllocator, pInstance)
+    return {"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pInstance" : pInstance,"retval" : retval}
 def vkDestroyInstance(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -9239,8 +9239,8 @@ def vkDestroyInstance(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyInstance)
-    jvulkanLib.vkDestroyInstance(instance, pAllocator)
-    return {"instance" : instance,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyInstance(instance, pAllocator)
+    return {"instance" : instance,"pAllocator" : pAllocator,"retval" : retval}
 def vkEnumeratePhysicalDevices(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -9255,8 +9255,8 @@ def vkEnumeratePhysicalDevices(indict):
     else: 
          pPhysicalDevices = pointer(VkPhysicalDevice_T())
     print(jvulkanLib.vkEnumeratePhysicalDevices)
-    jvulkanLib.vkEnumeratePhysicalDevices(instance, pPhysicalDeviceCount, pPhysicalDevices)
-    return {"instance" : instance,"pPhysicalDeviceCount" : pPhysicalDeviceCount,"pPhysicalDevices" : pPhysicalDevices}
+    retval = jvulkanLib.vkEnumeratePhysicalDevices(instance, pPhysicalDeviceCount, pPhysicalDevices)
+    return {"instance" : instance,"pPhysicalDeviceCount" : pPhysicalDeviceCount,"pPhysicalDevices" : pPhysicalDevices,"retval" : retval}
 def vkGetPhysicalDeviceFeatures(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9267,8 +9267,8 @@ def vkGetPhysicalDeviceFeatures(indict):
     else: 
          pFeatures = VkPhysicalDeviceFeatures()
     print(jvulkanLib.vkGetPhysicalDeviceFeatures)
-    jvulkanLib.vkGetPhysicalDeviceFeatures(physicalDevice, pFeatures)
-    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures}
+    retval = jvulkanLib.vkGetPhysicalDeviceFeatures(physicalDevice, pFeatures)
+    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures,"retval" : retval}
 def vkGetPhysicalDeviceFormatProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9283,8 +9283,8 @@ def vkGetPhysicalDeviceFormatProperties(indict):
     else: 
          pFormatProperties = VkFormatProperties()
     print(jvulkanLib.vkGetPhysicalDeviceFormatProperties)
-    jvulkanLib.vkGetPhysicalDeviceFormatProperties(physicalDevice, format, pFormatProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceFormatProperties(physicalDevice, format, pFormatProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceImageFormatProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9315,8 +9315,8 @@ def vkGetPhysicalDeviceImageFormatProperties(indict):
     else: 
          pImageFormatProperties = VkImageFormatProperties()
     print(jvulkanLib.vkGetPhysicalDeviceImageFormatProperties)
-    jvulkanLib.vkGetPhysicalDeviceImageFormatProperties(physicalDevice, format, type, tiling, usage, flags, pImageFormatProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"tiling" : tiling,"usage" : usage,"flags" : flags,"pImageFormatProperties" : pImageFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties(physicalDevice, format, type, tiling, usage, flags, pImageFormatProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"tiling" : tiling,"usage" : usage,"flags" : flags,"pImageFormatProperties" : pImageFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9327,8 +9327,8 @@ def vkGetPhysicalDeviceProperties(indict):
     else: 
          pProperties = VkPhysicalDeviceProperties()
     print(jvulkanLib.vkGetPhysicalDeviceProperties)
-    jvulkanLib.vkGetPhysicalDeviceProperties(physicalDevice, pProperties)
-    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceProperties(physicalDevice, pProperties)
+    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceQueueFamilyProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9343,8 +9343,8 @@ def vkGetPhysicalDeviceQueueFamilyProperties(indict):
     else: 
          pQueueFamilyProperties = VkQueueFamilyProperties()
     print(jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties)
-    jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
-    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
+    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties,"retval" : retval}
 def vkGetPhysicalDeviceMemoryProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9355,8 +9355,8 @@ def vkGetPhysicalDeviceMemoryProperties(indict):
     else: 
          pMemoryProperties = VkPhysicalDeviceMemoryProperties()
     print(jvulkanLib.vkGetPhysicalDeviceMemoryProperties)
-    jvulkanLib.vkGetPhysicalDeviceMemoryProperties(physicalDevice, pMemoryProperties)
-    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceMemoryProperties(physicalDevice, pMemoryProperties)
+    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties,"retval" : retval}
 def vkGetInstanceProcAddr(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -9367,8 +9367,8 @@ def vkGetInstanceProcAddr(indict):
     else: 
          pName = c_char_p()
     print(jvulkanLib.vkGetInstanceProcAddr)
-    jvulkanLib.vkGetInstanceProcAddr(instance, pName)
-    return {"instance" : instance,"pName" : pName}
+    retval = jvulkanLib.vkGetInstanceProcAddr(instance, pName)
+    return {"instance" : instance,"pName" : pName,"retval" : retval}
 def vkGetDeviceProcAddr(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9379,8 +9379,8 @@ def vkGetDeviceProcAddr(indict):
     else: 
          pName = c_char_p()
     print(jvulkanLib.vkGetDeviceProcAddr)
-    jvulkanLib.vkGetDeviceProcAddr(device, pName)
-    return {"device" : device,"pName" : pName}
+    retval = jvulkanLib.vkGetDeviceProcAddr(device, pName)
+    return {"device" : device,"pName" : pName,"retval" : retval}
 def vkCreateDevice(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9399,8 +9399,8 @@ def vkCreateDevice(indict):
     else: 
          pDevice = pointer(VkDevice_T())
     print(jvulkanLib.vkCreateDevice)
-    jvulkanLib.vkCreateDevice(physicalDevice, pCreateInfo, pAllocator, pDevice)
-    return {"physicalDevice" : physicalDevice,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDevice" : pDevice}
+    retval = jvulkanLib.vkCreateDevice(physicalDevice, pCreateInfo, pAllocator, pDevice)
+    return {"physicalDevice" : physicalDevice,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDevice" : pDevice,"retval" : retval}
 def vkDestroyDevice(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9411,8 +9411,8 @@ def vkDestroyDevice(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDevice)
-    jvulkanLib.vkDestroyDevice(device, pAllocator)
-    return {"device" : device,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDevice(device, pAllocator)
+    return {"device" : device,"pAllocator" : pAllocator,"retval" : retval}
 def vkEnumerateInstanceExtensionProperties(indict):
     if "pLayerName" in indict.keys():
          pLayerName = indict["pLayerName"]
@@ -9427,8 +9427,8 @@ def vkEnumerateInstanceExtensionProperties(indict):
     else: 
          pProperties = VkExtensionProperties()
     print(jvulkanLib.vkEnumerateInstanceExtensionProperties)
-    jvulkanLib.vkEnumerateInstanceExtensionProperties(pLayerName, pPropertyCount, pProperties)
-    return {"pLayerName" : pLayerName,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkEnumerateInstanceExtensionProperties(pLayerName, pPropertyCount, pProperties)
+    return {"pLayerName" : pLayerName,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkEnumerateDeviceExtensionProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9447,8 +9447,8 @@ def vkEnumerateDeviceExtensionProperties(indict):
     else: 
          pProperties = VkExtensionProperties()
     print(jvulkanLib.vkEnumerateDeviceExtensionProperties)
-    jvulkanLib.vkEnumerateDeviceExtensionProperties(physicalDevice, pLayerName, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pLayerName" : pLayerName,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkEnumerateDeviceExtensionProperties(physicalDevice, pLayerName, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pLayerName" : pLayerName,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkEnumerateInstanceLayerProperties(indict):
     if "pPropertyCount" in indict.keys():
          pPropertyCount = indict["pPropertyCount"]
@@ -9459,8 +9459,8 @@ def vkEnumerateInstanceLayerProperties(indict):
     else: 
          pProperties = VkLayerProperties()
     print(jvulkanLib.vkEnumerateInstanceLayerProperties)
-    jvulkanLib.vkEnumerateInstanceLayerProperties(pPropertyCount, pProperties)
-    return {"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkEnumerateInstanceLayerProperties(pPropertyCount, pProperties)
+    return {"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkEnumerateDeviceLayerProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9475,8 +9475,8 @@ def vkEnumerateDeviceLayerProperties(indict):
     else: 
          pProperties = VkLayerProperties()
     print(jvulkanLib.vkEnumerateDeviceLayerProperties)
-    jvulkanLib.vkEnumerateDeviceLayerProperties(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkEnumerateDeviceLayerProperties(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetDeviceQueue(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9495,8 +9495,8 @@ def vkGetDeviceQueue(indict):
     else: 
          pQueue = pointer(VkQueue_T())
     print(jvulkanLib.vkGetDeviceQueue)
-    jvulkanLib.vkGetDeviceQueue(device, queueFamilyIndex, queueIndex, pQueue)
-    return {"device" : device,"queueFamilyIndex" : queueFamilyIndex,"queueIndex" : queueIndex,"pQueue" : pQueue}
+    retval = jvulkanLib.vkGetDeviceQueue(device, queueFamilyIndex, queueIndex, pQueue)
+    return {"device" : device,"queueFamilyIndex" : queueFamilyIndex,"queueIndex" : queueIndex,"pQueue" : pQueue,"retval" : retval}
 def vkQueueSubmit(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -9515,24 +9515,24 @@ def vkQueueSubmit(indict):
     else: 
          fence = VkFence_T()
     print(jvulkanLib.vkQueueSubmit)
-    jvulkanLib.vkQueueSubmit(queue, submitCount, pSubmits, fence)
-    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence}
+    retval = jvulkanLib.vkQueueSubmit(queue, submitCount, pSubmits, fence)
+    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence,"retval" : retval}
 def vkQueueWaitIdle(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
     else: 
          queue = VkQueue_T()
     print(jvulkanLib.vkQueueWaitIdle)
-    jvulkanLib.vkQueueWaitIdle(queue)
-    return {"queue" : queue}
+    retval = jvulkanLib.vkQueueWaitIdle(queue)
+    return {"queue" : queue,"retval" : retval}
 def vkDeviceWaitIdle(indict):
     if "device" in indict.keys():
          device = indict["device"]
     else: 
          device = VkDevice_T()
     print(jvulkanLib.vkDeviceWaitIdle)
-    jvulkanLib.vkDeviceWaitIdle(device)
-    return {"device" : device}
+    retval = jvulkanLib.vkDeviceWaitIdle(device)
+    return {"device" : device,"retval" : retval}
 def vkAllocateMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9551,8 +9551,8 @@ def vkAllocateMemory(indict):
     else: 
          pMemory = pointer(VkDeviceMemory_T())
     print(jvulkanLib.vkAllocateMemory)
-    jvulkanLib.vkAllocateMemory(device, pAllocateInfo, pAllocator, pMemory)
-    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pAllocator" : pAllocator,"pMemory" : pMemory}
+    retval = jvulkanLib.vkAllocateMemory(device, pAllocateInfo, pAllocator, pMemory)
+    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pAllocator" : pAllocator,"pMemory" : pMemory,"retval" : retval}
 def vkFreeMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9567,8 +9567,8 @@ def vkFreeMemory(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkFreeMemory)
-    jvulkanLib.vkFreeMemory(device, memory, pAllocator)
-    return {"device" : device,"memory" : memory,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkFreeMemory(device, memory, pAllocator)
+    return {"device" : device,"memory" : memory,"pAllocator" : pAllocator,"retval" : retval}
 def vkMapMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9595,8 +9595,8 @@ def vkMapMemory(indict):
     else: 
          ppData = POINTER(c_void_p)()
     print(jvulkanLib.vkMapMemory)
-    jvulkanLib.vkMapMemory(device, memory, offset, size, flags, ppData)
-    return {"device" : device,"memory" : memory,"offset" : offset,"size" : size,"flags" : flags,"ppData" : ppData}
+    retval = jvulkanLib.vkMapMemory(device, memory, offset, size, flags, ppData)
+    return {"device" : device,"memory" : memory,"offset" : offset,"size" : size,"flags" : flags,"ppData" : ppData,"retval" : retval}
 def vkUnmapMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9607,8 +9607,8 @@ def vkUnmapMemory(indict):
     else: 
          memory = VkDeviceMemory_T()
     print(jvulkanLib.vkUnmapMemory)
-    jvulkanLib.vkUnmapMemory(device, memory)
-    return {"device" : device,"memory" : memory}
+    retval = jvulkanLib.vkUnmapMemory(device, memory)
+    return {"device" : device,"memory" : memory,"retval" : retval}
 def vkFlushMappedMemoryRanges(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9623,8 +9623,8 @@ def vkFlushMappedMemoryRanges(indict):
     else: 
          pMemoryRanges = VkMappedMemoryRange()
     print(jvulkanLib.vkFlushMappedMemoryRanges)
-    jvulkanLib.vkFlushMappedMemoryRanges(device, memoryRangeCount, pMemoryRanges)
-    return {"device" : device,"memoryRangeCount" : memoryRangeCount,"pMemoryRanges" : pMemoryRanges}
+    retval = jvulkanLib.vkFlushMappedMemoryRanges(device, memoryRangeCount, pMemoryRanges)
+    return {"device" : device,"memoryRangeCount" : memoryRangeCount,"pMemoryRanges" : pMemoryRanges,"retval" : retval}
 def vkInvalidateMappedMemoryRanges(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9639,8 +9639,8 @@ def vkInvalidateMappedMemoryRanges(indict):
     else: 
          pMemoryRanges = VkMappedMemoryRange()
     print(jvulkanLib.vkInvalidateMappedMemoryRanges)
-    jvulkanLib.vkInvalidateMappedMemoryRanges(device, memoryRangeCount, pMemoryRanges)
-    return {"device" : device,"memoryRangeCount" : memoryRangeCount,"pMemoryRanges" : pMemoryRanges}
+    retval = jvulkanLib.vkInvalidateMappedMemoryRanges(device, memoryRangeCount, pMemoryRanges)
+    return {"device" : device,"memoryRangeCount" : memoryRangeCount,"pMemoryRanges" : pMemoryRanges,"retval" : retval}
 def vkGetDeviceMemoryCommitment(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9655,8 +9655,8 @@ def vkGetDeviceMemoryCommitment(indict):
     else: 
          pCommittedMemoryInBytes = pointer(c_ulong())
     print(jvulkanLib.vkGetDeviceMemoryCommitment)
-    jvulkanLib.vkGetDeviceMemoryCommitment(device, memory, pCommittedMemoryInBytes)
-    return {"device" : device,"memory" : memory,"pCommittedMemoryInBytes" : pCommittedMemoryInBytes}
+    retval = jvulkanLib.vkGetDeviceMemoryCommitment(device, memory, pCommittedMemoryInBytes)
+    return {"device" : device,"memory" : memory,"pCommittedMemoryInBytes" : pCommittedMemoryInBytes,"retval" : retval}
 def vkBindBufferMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9675,8 +9675,8 @@ def vkBindBufferMemory(indict):
     else: 
          memoryOffset = c_ulong()
     print(jvulkanLib.vkBindBufferMemory)
-    jvulkanLib.vkBindBufferMemory(device, buffer, memory, memoryOffset)
-    return {"device" : device,"buffer" : buffer,"memory" : memory,"memoryOffset" : memoryOffset}
+    retval = jvulkanLib.vkBindBufferMemory(device, buffer, memory, memoryOffset)
+    return {"device" : device,"buffer" : buffer,"memory" : memory,"memoryOffset" : memoryOffset,"retval" : retval}
 def vkBindImageMemory(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9695,8 +9695,8 @@ def vkBindImageMemory(indict):
     else: 
          memoryOffset = c_ulong()
     print(jvulkanLib.vkBindImageMemory)
-    jvulkanLib.vkBindImageMemory(device, image, memory, memoryOffset)
-    return {"device" : device,"image" : image,"memory" : memory,"memoryOffset" : memoryOffset}
+    retval = jvulkanLib.vkBindImageMemory(device, image, memory, memoryOffset)
+    return {"device" : device,"image" : image,"memory" : memory,"memoryOffset" : memoryOffset,"retval" : retval}
 def vkGetBufferMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9711,8 +9711,8 @@ def vkGetBufferMemoryRequirements(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements()
     print(jvulkanLib.vkGetBufferMemoryRequirements)
-    jvulkanLib.vkGetBufferMemoryRequirements(device, buffer, pMemoryRequirements)
-    return {"device" : device,"buffer" : buffer,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetBufferMemoryRequirements(device, buffer, pMemoryRequirements)
+    return {"device" : device,"buffer" : buffer,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetImageMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9727,8 +9727,8 @@ def vkGetImageMemoryRequirements(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements()
     print(jvulkanLib.vkGetImageMemoryRequirements)
-    jvulkanLib.vkGetImageMemoryRequirements(device, image, pMemoryRequirements)
-    return {"device" : device,"image" : image,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetImageMemoryRequirements(device, image, pMemoryRequirements)
+    return {"device" : device,"image" : image,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetImageSparseMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9747,8 +9747,8 @@ def vkGetImageSparseMemoryRequirements(indict):
     else: 
          pSparseMemoryRequirements = VkSparseImageMemoryRequirements()
     print(jvulkanLib.vkGetImageSparseMemoryRequirements)
-    jvulkanLib.vkGetImageSparseMemoryRequirements(device, image, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
-    return {"device" : device,"image" : image,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements}
+    retval = jvulkanLib.vkGetImageSparseMemoryRequirements(device, image, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
+    return {"device" : device,"image" : image,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements,"retval" : retval}
 def vkGetPhysicalDeviceSparseImageFormatProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -9783,8 +9783,8 @@ def vkGetPhysicalDeviceSparseImageFormatProperties(indict):
     else: 
          pProperties = VkSparseImageFormatProperties()
     print(jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties)
-    jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties(physicalDevice, format, type, samples, usage, tiling, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"samples" : samples,"usage" : usage,"tiling" : tiling,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties(physicalDevice, format, type, samples, usage, tiling, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"samples" : samples,"usage" : usage,"tiling" : tiling,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkQueueBindSparse(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -9803,8 +9803,8 @@ def vkQueueBindSparse(indict):
     else: 
          fence = VkFence_T()
     print(jvulkanLib.vkQueueBindSparse)
-    jvulkanLib.vkQueueBindSparse(queue, bindInfoCount, pBindInfo, fence)
-    return {"queue" : queue,"bindInfoCount" : bindInfoCount,"pBindInfo" : pBindInfo,"fence" : fence}
+    retval = jvulkanLib.vkQueueBindSparse(queue, bindInfoCount, pBindInfo, fence)
+    return {"queue" : queue,"bindInfoCount" : bindInfoCount,"pBindInfo" : pBindInfo,"fence" : fence,"retval" : retval}
 def vkCreateFence(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9823,8 +9823,8 @@ def vkCreateFence(indict):
     else: 
          pFence = pointer(VkFence_T())
     print(jvulkanLib.vkCreateFence)
-    jvulkanLib.vkCreateFence(device, pCreateInfo, pAllocator, pFence)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFence" : pFence}
+    retval = jvulkanLib.vkCreateFence(device, pCreateInfo, pAllocator, pFence)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFence" : pFence,"retval" : retval}
 def vkDestroyFence(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9839,8 +9839,8 @@ def vkDestroyFence(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyFence)
-    jvulkanLib.vkDestroyFence(device, fence, pAllocator)
-    return {"device" : device,"fence" : fence,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyFence(device, fence, pAllocator)
+    return {"device" : device,"fence" : fence,"pAllocator" : pAllocator,"retval" : retval}
 def vkResetFences(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9855,8 +9855,8 @@ def vkResetFences(indict):
     else: 
          pFences = pointer(VkFence_T())
     print(jvulkanLib.vkResetFences)
-    jvulkanLib.vkResetFences(device, fenceCount, pFences)
-    return {"device" : device,"fenceCount" : fenceCount,"pFences" : pFences}
+    retval = jvulkanLib.vkResetFences(device, fenceCount, pFences)
+    return {"device" : device,"fenceCount" : fenceCount,"pFences" : pFences,"retval" : retval}
 def vkGetFenceStatus(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9867,8 +9867,8 @@ def vkGetFenceStatus(indict):
     else: 
          fence = VkFence_T()
     print(jvulkanLib.vkGetFenceStatus)
-    jvulkanLib.vkGetFenceStatus(device, fence)
-    return {"device" : device,"fence" : fence}
+    retval = jvulkanLib.vkGetFenceStatus(device, fence)
+    return {"device" : device,"fence" : fence,"retval" : retval}
 def vkWaitForFences(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9891,8 +9891,8 @@ def vkWaitForFences(indict):
     else: 
          timeout = c_ulong()
     print(jvulkanLib.vkWaitForFences)
-    jvulkanLib.vkWaitForFences(device, fenceCount, pFences, waitAll, timeout)
-    return {"device" : device,"fenceCount" : fenceCount,"pFences" : pFences,"waitAll" : waitAll,"timeout" : timeout}
+    retval = jvulkanLib.vkWaitForFences(device, fenceCount, pFences, waitAll, timeout)
+    return {"device" : device,"fenceCount" : fenceCount,"pFences" : pFences,"waitAll" : waitAll,"timeout" : timeout,"retval" : retval}
 def vkCreateSemaphore(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9911,8 +9911,8 @@ def vkCreateSemaphore(indict):
     else: 
          pSemaphore = pointer(VkSemaphore_T())
     print(jvulkanLib.vkCreateSemaphore)
-    jvulkanLib.vkCreateSemaphore(device, pCreateInfo, pAllocator, pSemaphore)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSemaphore" : pSemaphore}
+    retval = jvulkanLib.vkCreateSemaphore(device, pCreateInfo, pAllocator, pSemaphore)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSemaphore" : pSemaphore,"retval" : retval}
 def vkDestroySemaphore(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9927,8 +9927,8 @@ def vkDestroySemaphore(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySemaphore)
-    jvulkanLib.vkDestroySemaphore(device, semaphore, pAllocator)
-    return {"device" : device,"semaphore" : semaphore,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySemaphore(device, semaphore, pAllocator)
+    return {"device" : device,"semaphore" : semaphore,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateEvent(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9947,8 +9947,8 @@ def vkCreateEvent(indict):
     else: 
          pEvent = pointer(VkEvent_T())
     print(jvulkanLib.vkCreateEvent)
-    jvulkanLib.vkCreateEvent(device, pCreateInfo, pAllocator, pEvent)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pEvent" : pEvent}
+    retval = jvulkanLib.vkCreateEvent(device, pCreateInfo, pAllocator, pEvent)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pEvent" : pEvent,"retval" : retval}
 def vkDestroyEvent(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9963,8 +9963,8 @@ def vkDestroyEvent(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyEvent)
-    jvulkanLib.vkDestroyEvent(device, event, pAllocator)
-    return {"device" : device,"event" : event,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyEvent(device, event, pAllocator)
+    return {"device" : device,"event" : event,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetEventStatus(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9975,8 +9975,8 @@ def vkGetEventStatus(indict):
     else: 
          event = VkEvent_T()
     print(jvulkanLib.vkGetEventStatus)
-    jvulkanLib.vkGetEventStatus(device, event)
-    return {"device" : device,"event" : event}
+    retval = jvulkanLib.vkGetEventStatus(device, event)
+    return {"device" : device,"event" : event,"retval" : retval}
 def vkSetEvent(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9987,8 +9987,8 @@ def vkSetEvent(indict):
     else: 
          event = VkEvent_T()
     print(jvulkanLib.vkSetEvent)
-    jvulkanLib.vkSetEvent(device, event)
-    return {"device" : device,"event" : event}
+    retval = jvulkanLib.vkSetEvent(device, event)
+    return {"device" : device,"event" : event,"retval" : retval}
 def vkResetEvent(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -9999,8 +9999,8 @@ def vkResetEvent(indict):
     else: 
          event = VkEvent_T()
     print(jvulkanLib.vkResetEvent)
-    jvulkanLib.vkResetEvent(device, event)
-    return {"device" : device,"event" : event}
+    retval = jvulkanLib.vkResetEvent(device, event)
+    return {"device" : device,"event" : event,"retval" : retval}
 def vkCreateQueryPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10019,8 +10019,8 @@ def vkCreateQueryPool(indict):
     else: 
          pQueryPool = pointer(VkQueryPool_T())
     print(jvulkanLib.vkCreateQueryPool)
-    jvulkanLib.vkCreateQueryPool(device, pCreateInfo, pAllocator, pQueryPool)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pQueryPool" : pQueryPool}
+    retval = jvulkanLib.vkCreateQueryPool(device, pCreateInfo, pAllocator, pQueryPool)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pQueryPool" : pQueryPool,"retval" : retval}
 def vkDestroyQueryPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10035,8 +10035,8 @@ def vkDestroyQueryPool(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyQueryPool)
-    jvulkanLib.vkDestroyQueryPool(device, queryPool, pAllocator)
-    return {"device" : device,"queryPool" : queryPool,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyQueryPool(device, queryPool, pAllocator)
+    return {"device" : device,"queryPool" : queryPool,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetQueryPoolResults(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10071,8 +10071,8 @@ def vkGetQueryPoolResults(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkGetQueryPoolResults)
-    jvulkanLib.vkGetQueryPoolResults(device, queryPool, firstQuery, queryCount, dataSize, pData, stride, flags)
-    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"dataSize" : dataSize,"pData" : pData,"stride" : stride,"flags" : flags}
+    retval = jvulkanLib.vkGetQueryPoolResults(device, queryPool, firstQuery, queryCount, dataSize, pData, stride, flags)
+    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"dataSize" : dataSize,"pData" : pData,"stride" : stride,"flags" : flags,"retval" : retval}
 def vkCreateBuffer(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10091,8 +10091,8 @@ def vkCreateBuffer(indict):
     else: 
          pBuffer = pointer(VkBuffer_T())
     print(jvulkanLib.vkCreateBuffer)
-    jvulkanLib.vkCreateBuffer(device, pCreateInfo, pAllocator, pBuffer)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pBuffer" : pBuffer}
+    retval = jvulkanLib.vkCreateBuffer(device, pCreateInfo, pAllocator, pBuffer)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pBuffer" : pBuffer,"retval" : retval}
 def vkDestroyBuffer(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10107,8 +10107,8 @@ def vkDestroyBuffer(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyBuffer)
-    jvulkanLib.vkDestroyBuffer(device, buffer, pAllocator)
-    return {"device" : device,"buffer" : buffer,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyBuffer(device, buffer, pAllocator)
+    return {"device" : device,"buffer" : buffer,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateBufferView(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10127,8 +10127,8 @@ def vkCreateBufferView(indict):
     else: 
          pView = pointer(VkBufferView_T())
     print(jvulkanLib.vkCreateBufferView)
-    jvulkanLib.vkCreateBufferView(device, pCreateInfo, pAllocator, pView)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pView" : pView}
+    retval = jvulkanLib.vkCreateBufferView(device, pCreateInfo, pAllocator, pView)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pView" : pView,"retval" : retval}
 def vkDestroyBufferView(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10143,8 +10143,8 @@ def vkDestroyBufferView(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyBufferView)
-    jvulkanLib.vkDestroyBufferView(device, bufferView, pAllocator)
-    return {"device" : device,"bufferView" : bufferView,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyBufferView(device, bufferView, pAllocator)
+    return {"device" : device,"bufferView" : bufferView,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateImage(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10163,8 +10163,8 @@ def vkCreateImage(indict):
     else: 
          pImage = pointer(VkImage_T())
     print(jvulkanLib.vkCreateImage)
-    jvulkanLib.vkCreateImage(device, pCreateInfo, pAllocator, pImage)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pImage" : pImage}
+    retval = jvulkanLib.vkCreateImage(device, pCreateInfo, pAllocator, pImage)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pImage" : pImage,"retval" : retval}
 def vkDestroyImage(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10179,8 +10179,8 @@ def vkDestroyImage(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyImage)
-    jvulkanLib.vkDestroyImage(device, image, pAllocator)
-    return {"device" : device,"image" : image,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyImage(device, image, pAllocator)
+    return {"device" : device,"image" : image,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetImageSubresourceLayout(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10199,8 +10199,8 @@ def vkGetImageSubresourceLayout(indict):
     else: 
          pLayout = VkSubresourceLayout()
     print(jvulkanLib.vkGetImageSubresourceLayout)
-    jvulkanLib.vkGetImageSubresourceLayout(device, image, pSubresource, pLayout)
-    return {"device" : device,"image" : image,"pSubresource" : pSubresource,"pLayout" : pLayout}
+    retval = jvulkanLib.vkGetImageSubresourceLayout(device, image, pSubresource, pLayout)
+    return {"device" : device,"image" : image,"pSubresource" : pSubresource,"pLayout" : pLayout,"retval" : retval}
 def vkCreateImageView(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10219,8 +10219,8 @@ def vkCreateImageView(indict):
     else: 
          pView = pointer(VkImageView_T())
     print(jvulkanLib.vkCreateImageView)
-    jvulkanLib.vkCreateImageView(device, pCreateInfo, pAllocator, pView)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pView" : pView}
+    retval = jvulkanLib.vkCreateImageView(device, pCreateInfo, pAllocator, pView)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pView" : pView,"retval" : retval}
 def vkDestroyImageView(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10235,8 +10235,8 @@ def vkDestroyImageView(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyImageView)
-    jvulkanLib.vkDestroyImageView(device, imageView, pAllocator)
-    return {"device" : device,"imageView" : imageView,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyImageView(device, imageView, pAllocator)
+    return {"device" : device,"imageView" : imageView,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateShaderModule(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10255,8 +10255,8 @@ def vkCreateShaderModule(indict):
     else: 
          pShaderModule = pointer(VkShaderModule_T())
     print(jvulkanLib.vkCreateShaderModule)
-    jvulkanLib.vkCreateShaderModule(device, pCreateInfo, pAllocator, pShaderModule)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pShaderModule" : pShaderModule}
+    retval = jvulkanLib.vkCreateShaderModule(device, pCreateInfo, pAllocator, pShaderModule)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pShaderModule" : pShaderModule,"retval" : retval}
 def vkDestroyShaderModule(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10271,8 +10271,8 @@ def vkDestroyShaderModule(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyShaderModule)
-    jvulkanLib.vkDestroyShaderModule(device, shaderModule, pAllocator)
-    return {"device" : device,"shaderModule" : shaderModule,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyShaderModule(device, shaderModule, pAllocator)
+    return {"device" : device,"shaderModule" : shaderModule,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreatePipelineCache(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10291,8 +10291,8 @@ def vkCreatePipelineCache(indict):
     else: 
          pPipelineCache = pointer(VkPipelineCache_T())
     print(jvulkanLib.vkCreatePipelineCache)
-    jvulkanLib.vkCreatePipelineCache(device, pCreateInfo, pAllocator, pPipelineCache)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPipelineCache" : pPipelineCache}
+    retval = jvulkanLib.vkCreatePipelineCache(device, pCreateInfo, pAllocator, pPipelineCache)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPipelineCache" : pPipelineCache,"retval" : retval}
 def vkDestroyPipelineCache(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10307,8 +10307,8 @@ def vkDestroyPipelineCache(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyPipelineCache)
-    jvulkanLib.vkDestroyPipelineCache(device, pipelineCache, pAllocator)
-    return {"device" : device,"pipelineCache" : pipelineCache,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyPipelineCache(device, pipelineCache, pAllocator)
+    return {"device" : device,"pipelineCache" : pipelineCache,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetPipelineCacheData(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10327,8 +10327,8 @@ def vkGetPipelineCacheData(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetPipelineCacheData)
-    jvulkanLib.vkGetPipelineCacheData(device, pipelineCache, pDataSize, pData)
-    return {"device" : device,"pipelineCache" : pipelineCache,"pDataSize" : pDataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetPipelineCacheData(device, pipelineCache, pDataSize, pData)
+    return {"device" : device,"pipelineCache" : pipelineCache,"pDataSize" : pDataSize,"pData" : pData,"retval" : retval}
 def vkMergePipelineCaches(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10347,8 +10347,8 @@ def vkMergePipelineCaches(indict):
     else: 
          pSrcCaches = pointer(VkPipelineCache_T())
     print(jvulkanLib.vkMergePipelineCaches)
-    jvulkanLib.vkMergePipelineCaches(device, dstCache, srcCacheCount, pSrcCaches)
-    return {"device" : device,"dstCache" : dstCache,"srcCacheCount" : srcCacheCount,"pSrcCaches" : pSrcCaches}
+    retval = jvulkanLib.vkMergePipelineCaches(device, dstCache, srcCacheCount, pSrcCaches)
+    return {"device" : device,"dstCache" : dstCache,"srcCacheCount" : srcCacheCount,"pSrcCaches" : pSrcCaches,"retval" : retval}
 def vkCreateGraphicsPipelines(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10375,8 +10375,8 @@ def vkCreateGraphicsPipelines(indict):
     else: 
          pPipelines = pointer(VkPipeline_T())
     print(jvulkanLib.vkCreateGraphicsPipelines)
-    jvulkanLib.vkCreateGraphicsPipelines(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
-    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines}
+    retval = jvulkanLib.vkCreateGraphicsPipelines(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
+    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines,"retval" : retval}
 def vkCreateComputePipelines(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10403,8 +10403,8 @@ def vkCreateComputePipelines(indict):
     else: 
          pPipelines = pointer(VkPipeline_T())
     print(jvulkanLib.vkCreateComputePipelines)
-    jvulkanLib.vkCreateComputePipelines(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
-    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines}
+    retval = jvulkanLib.vkCreateComputePipelines(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
+    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines,"retval" : retval}
 def vkDestroyPipeline(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10419,8 +10419,8 @@ def vkDestroyPipeline(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyPipeline)
-    jvulkanLib.vkDestroyPipeline(device, pipeline, pAllocator)
-    return {"device" : device,"pipeline" : pipeline,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyPipeline(device, pipeline, pAllocator)
+    return {"device" : device,"pipeline" : pipeline,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreatePipelineLayout(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10439,8 +10439,8 @@ def vkCreatePipelineLayout(indict):
     else: 
          pPipelineLayout = pointer(VkPipelineLayout_T())
     print(jvulkanLib.vkCreatePipelineLayout)
-    jvulkanLib.vkCreatePipelineLayout(device, pCreateInfo, pAllocator, pPipelineLayout)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPipelineLayout" : pPipelineLayout}
+    retval = jvulkanLib.vkCreatePipelineLayout(device, pCreateInfo, pAllocator, pPipelineLayout)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPipelineLayout" : pPipelineLayout,"retval" : retval}
 def vkDestroyPipelineLayout(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10455,8 +10455,8 @@ def vkDestroyPipelineLayout(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyPipelineLayout)
-    jvulkanLib.vkDestroyPipelineLayout(device, pipelineLayout, pAllocator)
-    return {"device" : device,"pipelineLayout" : pipelineLayout,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyPipelineLayout(device, pipelineLayout, pAllocator)
+    return {"device" : device,"pipelineLayout" : pipelineLayout,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateSampler(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10475,8 +10475,8 @@ def vkCreateSampler(indict):
     else: 
          pSampler = pointer(VkSampler_T())
     print(jvulkanLib.vkCreateSampler)
-    jvulkanLib.vkCreateSampler(device, pCreateInfo, pAllocator, pSampler)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSampler" : pSampler}
+    retval = jvulkanLib.vkCreateSampler(device, pCreateInfo, pAllocator, pSampler)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSampler" : pSampler,"retval" : retval}
 def vkDestroySampler(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10491,8 +10491,8 @@ def vkDestroySampler(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySampler)
-    jvulkanLib.vkDestroySampler(device, sampler, pAllocator)
-    return {"device" : device,"sampler" : sampler,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySampler(device, sampler, pAllocator)
+    return {"device" : device,"sampler" : sampler,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateDescriptorSetLayout(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10511,8 +10511,8 @@ def vkCreateDescriptorSetLayout(indict):
     else: 
          pSetLayout = pointer(VkDescriptorSetLayout_T())
     print(jvulkanLib.vkCreateDescriptorSetLayout)
-    jvulkanLib.vkCreateDescriptorSetLayout(device, pCreateInfo, pAllocator, pSetLayout)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSetLayout" : pSetLayout}
+    retval = jvulkanLib.vkCreateDescriptorSetLayout(device, pCreateInfo, pAllocator, pSetLayout)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSetLayout" : pSetLayout,"retval" : retval}
 def vkDestroyDescriptorSetLayout(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10527,8 +10527,8 @@ def vkDestroyDescriptorSetLayout(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDescriptorSetLayout)
-    jvulkanLib.vkDestroyDescriptorSetLayout(device, descriptorSetLayout, pAllocator)
-    return {"device" : device,"descriptorSetLayout" : descriptorSetLayout,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDescriptorSetLayout(device, descriptorSetLayout, pAllocator)
+    return {"device" : device,"descriptorSetLayout" : descriptorSetLayout,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateDescriptorPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10547,8 +10547,8 @@ def vkCreateDescriptorPool(indict):
     else: 
          pDescriptorPool = pointer(VkDescriptorPool_T())
     print(jvulkanLib.vkCreateDescriptorPool)
-    jvulkanLib.vkCreateDescriptorPool(device, pCreateInfo, pAllocator, pDescriptorPool)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorPool" : pDescriptorPool}
+    retval = jvulkanLib.vkCreateDescriptorPool(device, pCreateInfo, pAllocator, pDescriptorPool)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorPool" : pDescriptorPool,"retval" : retval}
 def vkDestroyDescriptorPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10563,8 +10563,8 @@ def vkDestroyDescriptorPool(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDescriptorPool)
-    jvulkanLib.vkDestroyDescriptorPool(device, descriptorPool, pAllocator)
-    return {"device" : device,"descriptorPool" : descriptorPool,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDescriptorPool(device, descriptorPool, pAllocator)
+    return {"device" : device,"descriptorPool" : descriptorPool,"pAllocator" : pAllocator,"retval" : retval}
 def vkResetDescriptorPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10579,8 +10579,8 @@ def vkResetDescriptorPool(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkResetDescriptorPool)
-    jvulkanLib.vkResetDescriptorPool(device, descriptorPool, flags)
-    return {"device" : device,"descriptorPool" : descriptorPool,"flags" : flags}
+    retval = jvulkanLib.vkResetDescriptorPool(device, descriptorPool, flags)
+    return {"device" : device,"descriptorPool" : descriptorPool,"flags" : flags,"retval" : retval}
 def vkAllocateDescriptorSets(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10595,8 +10595,8 @@ def vkAllocateDescriptorSets(indict):
     else: 
          pDescriptorSets = pointer(VkDescriptorSet_T())
     print(jvulkanLib.vkAllocateDescriptorSets)
-    jvulkanLib.vkAllocateDescriptorSets(device, pAllocateInfo, pDescriptorSets)
-    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pDescriptorSets" : pDescriptorSets}
+    retval = jvulkanLib.vkAllocateDescriptorSets(device, pAllocateInfo, pDescriptorSets)
+    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pDescriptorSets" : pDescriptorSets,"retval" : retval}
 def vkFreeDescriptorSets(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10615,8 +10615,8 @@ def vkFreeDescriptorSets(indict):
     else: 
          pDescriptorSets = pointer(VkDescriptorSet_T())
     print(jvulkanLib.vkFreeDescriptorSets)
-    jvulkanLib.vkFreeDescriptorSets(device, descriptorPool, descriptorSetCount, pDescriptorSets)
-    return {"device" : device,"descriptorPool" : descriptorPool,"descriptorSetCount" : descriptorSetCount,"pDescriptorSets" : pDescriptorSets}
+    retval = jvulkanLib.vkFreeDescriptorSets(device, descriptorPool, descriptorSetCount, pDescriptorSets)
+    return {"device" : device,"descriptorPool" : descriptorPool,"descriptorSetCount" : descriptorSetCount,"pDescriptorSets" : pDescriptorSets,"retval" : retval}
 def vkUpdateDescriptorSets(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10639,8 +10639,8 @@ def vkUpdateDescriptorSets(indict):
     else: 
          pDescriptorCopies = VkCopyDescriptorSet()
     print(jvulkanLib.vkUpdateDescriptorSets)
-    jvulkanLib.vkUpdateDescriptorSets(device, descriptorWriteCount, pDescriptorWrites, descriptorCopyCount, pDescriptorCopies)
-    return {"device" : device,"descriptorWriteCount" : descriptorWriteCount,"pDescriptorWrites" : pDescriptorWrites,"descriptorCopyCount" : descriptorCopyCount,"pDescriptorCopies" : pDescriptorCopies}
+    retval = jvulkanLib.vkUpdateDescriptorSets(device, descriptorWriteCount, pDescriptorWrites, descriptorCopyCount, pDescriptorCopies)
+    return {"device" : device,"descriptorWriteCount" : descriptorWriteCount,"pDescriptorWrites" : pDescriptorWrites,"descriptorCopyCount" : descriptorCopyCount,"pDescriptorCopies" : pDescriptorCopies,"retval" : retval}
 def vkCreateFramebuffer(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10659,8 +10659,8 @@ def vkCreateFramebuffer(indict):
     else: 
          pFramebuffer = pointer(VkFramebuffer_T())
     print(jvulkanLib.vkCreateFramebuffer)
-    jvulkanLib.vkCreateFramebuffer(device, pCreateInfo, pAllocator, pFramebuffer)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFramebuffer" : pFramebuffer}
+    retval = jvulkanLib.vkCreateFramebuffer(device, pCreateInfo, pAllocator, pFramebuffer)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFramebuffer" : pFramebuffer,"retval" : retval}
 def vkDestroyFramebuffer(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10675,8 +10675,8 @@ def vkDestroyFramebuffer(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyFramebuffer)
-    jvulkanLib.vkDestroyFramebuffer(device, framebuffer, pAllocator)
-    return {"device" : device,"framebuffer" : framebuffer,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyFramebuffer(device, framebuffer, pAllocator)
+    return {"device" : device,"framebuffer" : framebuffer,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateRenderPass(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10695,8 +10695,8 @@ def vkCreateRenderPass(indict):
     else: 
          pRenderPass = pointer(VkRenderPass_T())
     print(jvulkanLib.vkCreateRenderPass)
-    jvulkanLib.vkCreateRenderPass(device, pCreateInfo, pAllocator, pRenderPass)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass}
+    retval = jvulkanLib.vkCreateRenderPass(device, pCreateInfo, pAllocator, pRenderPass)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass,"retval" : retval}
 def vkDestroyRenderPass(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10711,8 +10711,8 @@ def vkDestroyRenderPass(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyRenderPass)
-    jvulkanLib.vkDestroyRenderPass(device, renderPass, pAllocator)
-    return {"device" : device,"renderPass" : renderPass,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyRenderPass(device, renderPass, pAllocator)
+    return {"device" : device,"renderPass" : renderPass,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetRenderAreaGranularity(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10727,8 +10727,8 @@ def vkGetRenderAreaGranularity(indict):
     else: 
          pGranularity = VkExtent2D()
     print(jvulkanLib.vkGetRenderAreaGranularity)
-    jvulkanLib.vkGetRenderAreaGranularity(device, renderPass, pGranularity)
-    return {"device" : device,"renderPass" : renderPass,"pGranularity" : pGranularity}
+    retval = jvulkanLib.vkGetRenderAreaGranularity(device, renderPass, pGranularity)
+    return {"device" : device,"renderPass" : renderPass,"pGranularity" : pGranularity,"retval" : retval}
 def vkCreateCommandPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10747,8 +10747,8 @@ def vkCreateCommandPool(indict):
     else: 
          pCommandPool = pointer(VkCommandPool_T())
     print(jvulkanLib.vkCreateCommandPool)
-    jvulkanLib.vkCreateCommandPool(device, pCreateInfo, pAllocator, pCommandPool)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pCommandPool" : pCommandPool}
+    retval = jvulkanLib.vkCreateCommandPool(device, pCreateInfo, pAllocator, pCommandPool)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pCommandPool" : pCommandPool,"retval" : retval}
 def vkDestroyCommandPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10763,8 +10763,8 @@ def vkDestroyCommandPool(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyCommandPool)
-    jvulkanLib.vkDestroyCommandPool(device, commandPool, pAllocator)
-    return {"device" : device,"commandPool" : commandPool,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyCommandPool(device, commandPool, pAllocator)
+    return {"device" : device,"commandPool" : commandPool,"pAllocator" : pAllocator,"retval" : retval}
 def vkResetCommandPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10779,8 +10779,8 @@ def vkResetCommandPool(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkResetCommandPool)
-    jvulkanLib.vkResetCommandPool(device, commandPool, flags)
-    return {"device" : device,"commandPool" : commandPool,"flags" : flags}
+    retval = jvulkanLib.vkResetCommandPool(device, commandPool, flags)
+    return {"device" : device,"commandPool" : commandPool,"flags" : flags,"retval" : retval}
 def vkAllocateCommandBuffers(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10795,8 +10795,8 @@ def vkAllocateCommandBuffers(indict):
     else: 
          pCommandBuffers = pointer(VkCommandBuffer_T())
     print(jvulkanLib.vkAllocateCommandBuffers)
-    jvulkanLib.vkAllocateCommandBuffers(device, pAllocateInfo, pCommandBuffers)
-    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pCommandBuffers" : pCommandBuffers}
+    retval = jvulkanLib.vkAllocateCommandBuffers(device, pAllocateInfo, pCommandBuffers)
+    return {"device" : device,"pAllocateInfo" : pAllocateInfo,"pCommandBuffers" : pCommandBuffers,"retval" : retval}
 def vkFreeCommandBuffers(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -10815,8 +10815,8 @@ def vkFreeCommandBuffers(indict):
     else: 
          pCommandBuffers = pointer(VkCommandBuffer_T())
     print(jvulkanLib.vkFreeCommandBuffers)
-    jvulkanLib.vkFreeCommandBuffers(device, commandPool, commandBufferCount, pCommandBuffers)
-    return {"device" : device,"commandPool" : commandPool,"commandBufferCount" : commandBufferCount,"pCommandBuffers" : pCommandBuffers}
+    retval = jvulkanLib.vkFreeCommandBuffers(device, commandPool, commandBufferCount, pCommandBuffers)
+    return {"device" : device,"commandPool" : commandPool,"commandBufferCount" : commandBufferCount,"pCommandBuffers" : pCommandBuffers,"retval" : retval}
 def vkBeginCommandBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10827,16 +10827,16 @@ def vkBeginCommandBuffer(indict):
     else: 
          pBeginInfo = VkCommandBufferBeginInfo()
     print(jvulkanLib.vkBeginCommandBuffer)
-    jvulkanLib.vkBeginCommandBuffer(commandBuffer, pBeginInfo)
-    return {"commandBuffer" : commandBuffer,"pBeginInfo" : pBeginInfo}
+    retval = jvulkanLib.vkBeginCommandBuffer(commandBuffer, pBeginInfo)
+    return {"commandBuffer" : commandBuffer,"pBeginInfo" : pBeginInfo,"retval" : retval}
 def vkEndCommandBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkEndCommandBuffer)
-    jvulkanLib.vkEndCommandBuffer(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkEndCommandBuffer(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkResetCommandBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10847,8 +10847,8 @@ def vkResetCommandBuffer(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkResetCommandBuffer)
-    jvulkanLib.vkResetCommandBuffer(commandBuffer, flags)
-    return {"commandBuffer" : commandBuffer,"flags" : flags}
+    retval = jvulkanLib.vkResetCommandBuffer(commandBuffer, flags)
+    return {"commandBuffer" : commandBuffer,"flags" : flags,"retval" : retval}
 def vkCmdBindPipeline(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10863,8 +10863,8 @@ def vkCmdBindPipeline(indict):
     else: 
          pipeline = VkPipeline_T()
     print(jvulkanLib.vkCmdBindPipeline)
-    jvulkanLib.vkCmdBindPipeline(commandBuffer, pipelineBindPoint, pipeline)
-    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"pipeline" : pipeline}
+    retval = jvulkanLib.vkCmdBindPipeline(commandBuffer, pipelineBindPoint, pipeline)
+    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"pipeline" : pipeline,"retval" : retval}
 def vkCmdSetViewport(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10883,8 +10883,8 @@ def vkCmdSetViewport(indict):
     else: 
          pViewports = VkViewport()
     print(jvulkanLib.vkCmdSetViewport)
-    jvulkanLib.vkCmdSetViewport(commandBuffer, firstViewport, viewportCount, pViewports)
-    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pViewports" : pViewports}
+    retval = jvulkanLib.vkCmdSetViewport(commandBuffer, firstViewport, viewportCount, pViewports)
+    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pViewports" : pViewports,"retval" : retval}
 def vkCmdSetScissor(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10903,8 +10903,8 @@ def vkCmdSetScissor(indict):
     else: 
          pScissors = VkRect2D()
     print(jvulkanLib.vkCmdSetScissor)
-    jvulkanLib.vkCmdSetScissor(commandBuffer, firstScissor, scissorCount, pScissors)
-    return {"commandBuffer" : commandBuffer,"firstScissor" : firstScissor,"scissorCount" : scissorCount,"pScissors" : pScissors}
+    retval = jvulkanLib.vkCmdSetScissor(commandBuffer, firstScissor, scissorCount, pScissors)
+    return {"commandBuffer" : commandBuffer,"firstScissor" : firstScissor,"scissorCount" : scissorCount,"pScissors" : pScissors,"retval" : retval}
 def vkCmdSetLineWidth(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10915,8 +10915,8 @@ def vkCmdSetLineWidth(indict):
     else: 
          lineWidth = c_float()
     print(jvulkanLib.vkCmdSetLineWidth)
-    jvulkanLib.vkCmdSetLineWidth(commandBuffer, lineWidth)
-    return {"commandBuffer" : commandBuffer,"lineWidth" : lineWidth}
+    retval = jvulkanLib.vkCmdSetLineWidth(commandBuffer, lineWidth)
+    return {"commandBuffer" : commandBuffer,"lineWidth" : lineWidth,"retval" : retval}
 def vkCmdSetDepthBias(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10935,8 +10935,8 @@ def vkCmdSetDepthBias(indict):
     else: 
          depthBiasSlopeFactor = c_float()
     print(jvulkanLib.vkCmdSetDepthBias)
-    jvulkanLib.vkCmdSetDepthBias(commandBuffer, depthBiasConstantFactor, depthBiasClamp, depthBiasSlopeFactor)
-    return {"commandBuffer" : commandBuffer,"depthBiasConstantFactor" : depthBiasConstantFactor,"depthBiasClamp" : depthBiasClamp,"depthBiasSlopeFactor" : depthBiasSlopeFactor}
+    retval = jvulkanLib.vkCmdSetDepthBias(commandBuffer, depthBiasConstantFactor, depthBiasClamp, depthBiasSlopeFactor)
+    return {"commandBuffer" : commandBuffer,"depthBiasConstantFactor" : depthBiasConstantFactor,"depthBiasClamp" : depthBiasClamp,"depthBiasSlopeFactor" : depthBiasSlopeFactor,"retval" : retval}
 def vkCmdSetBlendConstants(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10947,8 +10947,8 @@ def vkCmdSetBlendConstants(indict):
     else: 
          blendConstants = pointer(c_float())
     print(jvulkanLib.vkCmdSetBlendConstants)
-    jvulkanLib.vkCmdSetBlendConstants(commandBuffer, blendConstants)
-    return {"commandBuffer" : commandBuffer,"blendConstants" : blendConstants}
+    retval = jvulkanLib.vkCmdSetBlendConstants(commandBuffer, blendConstants)
+    return {"commandBuffer" : commandBuffer,"blendConstants" : blendConstants,"retval" : retval}
 def vkCmdSetDepthBounds(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10963,8 +10963,8 @@ def vkCmdSetDepthBounds(indict):
     else: 
          maxDepthBounds = c_float()
     print(jvulkanLib.vkCmdSetDepthBounds)
-    jvulkanLib.vkCmdSetDepthBounds(commandBuffer, minDepthBounds, maxDepthBounds)
-    return {"commandBuffer" : commandBuffer,"minDepthBounds" : minDepthBounds,"maxDepthBounds" : maxDepthBounds}
+    retval = jvulkanLib.vkCmdSetDepthBounds(commandBuffer, minDepthBounds, maxDepthBounds)
+    return {"commandBuffer" : commandBuffer,"minDepthBounds" : minDepthBounds,"maxDepthBounds" : maxDepthBounds,"retval" : retval}
 def vkCmdSetStencilCompareMask(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10979,8 +10979,8 @@ def vkCmdSetStencilCompareMask(indict):
     else: 
          compareMask = c_uint()
     print(jvulkanLib.vkCmdSetStencilCompareMask)
-    jvulkanLib.vkCmdSetStencilCompareMask(commandBuffer, faceMask, compareMask)
-    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"compareMask" : compareMask}
+    retval = jvulkanLib.vkCmdSetStencilCompareMask(commandBuffer, faceMask, compareMask)
+    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"compareMask" : compareMask,"retval" : retval}
 def vkCmdSetStencilWriteMask(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -10995,8 +10995,8 @@ def vkCmdSetStencilWriteMask(indict):
     else: 
          writeMask = c_uint()
     print(jvulkanLib.vkCmdSetStencilWriteMask)
-    jvulkanLib.vkCmdSetStencilWriteMask(commandBuffer, faceMask, writeMask)
-    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"writeMask" : writeMask}
+    retval = jvulkanLib.vkCmdSetStencilWriteMask(commandBuffer, faceMask, writeMask)
+    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"writeMask" : writeMask,"retval" : retval}
 def vkCmdSetStencilReference(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11011,8 +11011,8 @@ def vkCmdSetStencilReference(indict):
     else: 
          reference = c_uint()
     print(jvulkanLib.vkCmdSetStencilReference)
-    jvulkanLib.vkCmdSetStencilReference(commandBuffer, faceMask, reference)
-    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"reference" : reference}
+    retval = jvulkanLib.vkCmdSetStencilReference(commandBuffer, faceMask, reference)
+    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"reference" : reference,"retval" : retval}
 def vkCmdBindDescriptorSets(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11047,8 +11047,8 @@ def vkCmdBindDescriptorSets(indict):
     else: 
          pDynamicOffsets = pointer(c_uint())
     print(jvulkanLib.vkCmdBindDescriptorSets)
-    jvulkanLib.vkCmdBindDescriptorSets(commandBuffer, pipelineBindPoint, layout, firstSet, descriptorSetCount, pDescriptorSets, dynamicOffsetCount, pDynamicOffsets)
-    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"layout" : layout,"firstSet" : firstSet,"descriptorSetCount" : descriptorSetCount,"pDescriptorSets" : pDescriptorSets,"dynamicOffsetCount" : dynamicOffsetCount,"pDynamicOffsets" : pDynamicOffsets}
+    retval = jvulkanLib.vkCmdBindDescriptorSets(commandBuffer, pipelineBindPoint, layout, firstSet, descriptorSetCount, pDescriptorSets, dynamicOffsetCount, pDynamicOffsets)
+    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"layout" : layout,"firstSet" : firstSet,"descriptorSetCount" : descriptorSetCount,"pDescriptorSets" : pDescriptorSets,"dynamicOffsetCount" : dynamicOffsetCount,"pDynamicOffsets" : pDynamicOffsets,"retval" : retval}
 def vkCmdBindIndexBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11067,8 +11067,8 @@ def vkCmdBindIndexBuffer(indict):
     else: 
          indexType = c_int()
     print(jvulkanLib.vkCmdBindIndexBuffer)
-    jvulkanLib.vkCmdBindIndexBuffer(commandBuffer, buffer, offset, indexType)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"indexType" : indexType}
+    retval = jvulkanLib.vkCmdBindIndexBuffer(commandBuffer, buffer, offset, indexType)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"indexType" : indexType,"retval" : retval}
 def vkCmdBindVertexBuffers(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11091,8 +11091,8 @@ def vkCmdBindVertexBuffers(indict):
     else: 
          pOffsets = pointer(c_ulong())
     print(jvulkanLib.vkCmdBindVertexBuffers)
-    jvulkanLib.vkCmdBindVertexBuffers(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets)
-    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets}
+    retval = jvulkanLib.vkCmdBindVertexBuffers(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets)
+    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"retval" : retval}
 def vkCmdDraw(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11115,8 +11115,8 @@ def vkCmdDraw(indict):
     else: 
          firstInstance = c_uint()
     print(jvulkanLib.vkCmdDraw)
-    jvulkanLib.vkCmdDraw(commandBuffer, vertexCount, instanceCount, firstVertex, firstInstance)
-    return {"commandBuffer" : commandBuffer,"vertexCount" : vertexCount,"instanceCount" : instanceCount,"firstVertex" : firstVertex,"firstInstance" : firstInstance}
+    retval = jvulkanLib.vkCmdDraw(commandBuffer, vertexCount, instanceCount, firstVertex, firstInstance)
+    return {"commandBuffer" : commandBuffer,"vertexCount" : vertexCount,"instanceCount" : instanceCount,"firstVertex" : firstVertex,"firstInstance" : firstInstance,"retval" : retval}
 def vkCmdDrawIndexed(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11143,8 +11143,8 @@ def vkCmdDrawIndexed(indict):
     else: 
          firstInstance = c_uint()
     print(jvulkanLib.vkCmdDrawIndexed)
-    jvulkanLib.vkCmdDrawIndexed(commandBuffer, indexCount, instanceCount, firstIndex, vertexOffset, firstInstance)
-    return {"commandBuffer" : commandBuffer,"indexCount" : indexCount,"instanceCount" : instanceCount,"firstIndex" : firstIndex,"vertexOffset" : vertexOffset,"firstInstance" : firstInstance}
+    retval = jvulkanLib.vkCmdDrawIndexed(commandBuffer, indexCount, instanceCount, firstIndex, vertexOffset, firstInstance)
+    return {"commandBuffer" : commandBuffer,"indexCount" : indexCount,"instanceCount" : instanceCount,"firstIndex" : firstIndex,"vertexOffset" : vertexOffset,"firstInstance" : firstInstance,"retval" : retval}
 def vkCmdDrawIndirect(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11167,8 +11167,8 @@ def vkCmdDrawIndirect(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndirect)
-    jvulkanLib.vkCmdDrawIndirect(commandBuffer, buffer, offset, drawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndirect(commandBuffer, buffer, offset, drawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride,"retval" : retval}
 def vkCmdDrawIndexedIndirect(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11191,8 +11191,8 @@ def vkCmdDrawIndexedIndirect(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndexedIndirect)
-    jvulkanLib.vkCmdDrawIndexedIndirect(commandBuffer, buffer, offset, drawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndexedIndirect(commandBuffer, buffer, offset, drawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride,"retval" : retval}
 def vkCmdDispatch(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11211,8 +11211,8 @@ def vkCmdDispatch(indict):
     else: 
          groupCountZ = c_uint()
     print(jvulkanLib.vkCmdDispatch)
-    jvulkanLib.vkCmdDispatch(commandBuffer, groupCountX, groupCountY, groupCountZ)
-    return {"commandBuffer" : commandBuffer,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ}
+    retval = jvulkanLib.vkCmdDispatch(commandBuffer, groupCountX, groupCountY, groupCountZ)
+    return {"commandBuffer" : commandBuffer,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ,"retval" : retval}
 def vkCmdDispatchIndirect(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11227,8 +11227,8 @@ def vkCmdDispatchIndirect(indict):
     else: 
          offset = c_ulong()
     print(jvulkanLib.vkCmdDispatchIndirect)
-    jvulkanLib.vkCmdDispatchIndirect(commandBuffer, buffer, offset)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset}
+    retval = jvulkanLib.vkCmdDispatchIndirect(commandBuffer, buffer, offset)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"retval" : retval}
 def vkCmdCopyBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11251,8 +11251,8 @@ def vkCmdCopyBuffer(indict):
     else: 
          pRegions = VkBufferCopy()
     print(jvulkanLib.vkCmdCopyBuffer)
-    jvulkanLib.vkCmdCopyBuffer(commandBuffer, srcBuffer, dstBuffer, regionCount, pRegions)
-    return {"commandBuffer" : commandBuffer,"srcBuffer" : srcBuffer,"dstBuffer" : dstBuffer,"regionCount" : regionCount,"pRegions" : pRegions}
+    retval = jvulkanLib.vkCmdCopyBuffer(commandBuffer, srcBuffer, dstBuffer, regionCount, pRegions)
+    return {"commandBuffer" : commandBuffer,"srcBuffer" : srcBuffer,"dstBuffer" : dstBuffer,"regionCount" : regionCount,"pRegions" : pRegions,"retval" : retval}
 def vkCmdCopyImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11283,8 +11283,8 @@ def vkCmdCopyImage(indict):
     else: 
          pRegions = VkImageCopy()
     print(jvulkanLib.vkCmdCopyImage)
-    jvulkanLib.vkCmdCopyImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions)
-    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions}
+    retval = jvulkanLib.vkCmdCopyImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions)
+    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions,"retval" : retval}
 def vkCmdBlitImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11319,8 +11319,8 @@ def vkCmdBlitImage(indict):
     else: 
          filter = c_int()
     print(jvulkanLib.vkCmdBlitImage)
-    jvulkanLib.vkCmdBlitImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions, filter)
-    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions,"filter" : filter}
+    retval = jvulkanLib.vkCmdBlitImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions, filter)
+    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions,"filter" : filter,"retval" : retval}
 def vkCmdCopyBufferToImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11347,8 +11347,8 @@ def vkCmdCopyBufferToImage(indict):
     else: 
          pRegions = VkBufferImageCopy()
     print(jvulkanLib.vkCmdCopyBufferToImage)
-    jvulkanLib.vkCmdCopyBufferToImage(commandBuffer, srcBuffer, dstImage, dstImageLayout, regionCount, pRegions)
-    return {"commandBuffer" : commandBuffer,"srcBuffer" : srcBuffer,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions}
+    retval = jvulkanLib.vkCmdCopyBufferToImage(commandBuffer, srcBuffer, dstImage, dstImageLayout, regionCount, pRegions)
+    return {"commandBuffer" : commandBuffer,"srcBuffer" : srcBuffer,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions,"retval" : retval}
 def vkCmdCopyImageToBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11375,8 +11375,8 @@ def vkCmdCopyImageToBuffer(indict):
     else: 
          pRegions = VkBufferImageCopy()
     print(jvulkanLib.vkCmdCopyImageToBuffer)
-    jvulkanLib.vkCmdCopyImageToBuffer(commandBuffer, srcImage, srcImageLayout, dstBuffer, regionCount, pRegions)
-    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstBuffer" : dstBuffer,"regionCount" : regionCount,"pRegions" : pRegions}
+    retval = jvulkanLib.vkCmdCopyImageToBuffer(commandBuffer, srcImage, srcImageLayout, dstBuffer, regionCount, pRegions)
+    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstBuffer" : dstBuffer,"regionCount" : regionCount,"pRegions" : pRegions,"retval" : retval}
 def vkCmdUpdateBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11399,8 +11399,8 @@ def vkCmdUpdateBuffer(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkCmdUpdateBuffer)
-    jvulkanLib.vkCmdUpdateBuffer(commandBuffer, dstBuffer, dstOffset, dataSize, pData)
-    return {"commandBuffer" : commandBuffer,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"dataSize" : dataSize,"pData" : pData}
+    retval = jvulkanLib.vkCmdUpdateBuffer(commandBuffer, dstBuffer, dstOffset, dataSize, pData)
+    return {"commandBuffer" : commandBuffer,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"dataSize" : dataSize,"pData" : pData,"retval" : retval}
 def vkCmdFillBuffer(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11423,8 +11423,8 @@ def vkCmdFillBuffer(indict):
     else: 
          data = c_uint()
     print(jvulkanLib.vkCmdFillBuffer)
-    jvulkanLib.vkCmdFillBuffer(commandBuffer, dstBuffer, dstOffset, size, data)
-    return {"commandBuffer" : commandBuffer,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"size" : size,"data" : data}
+    retval = jvulkanLib.vkCmdFillBuffer(commandBuffer, dstBuffer, dstOffset, size, data)
+    return {"commandBuffer" : commandBuffer,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"size" : size,"data" : data,"retval" : retval}
 def vkCmdClearColorImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11451,8 +11451,8 @@ def vkCmdClearColorImage(indict):
     else: 
          pRanges = VkImageSubresourceRange()
     print(jvulkanLib.vkCmdClearColorImage)
-    jvulkanLib.vkCmdClearColorImage(commandBuffer, image, imageLayout, pColor, rangeCount, pRanges)
-    return {"commandBuffer" : commandBuffer,"image" : image,"imageLayout" : imageLayout,"pColor" : pColor,"rangeCount" : rangeCount,"pRanges" : pRanges}
+    retval = jvulkanLib.vkCmdClearColorImage(commandBuffer, image, imageLayout, pColor, rangeCount, pRanges)
+    return {"commandBuffer" : commandBuffer,"image" : image,"imageLayout" : imageLayout,"pColor" : pColor,"rangeCount" : rangeCount,"pRanges" : pRanges,"retval" : retval}
 def vkCmdClearDepthStencilImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11479,8 +11479,8 @@ def vkCmdClearDepthStencilImage(indict):
     else: 
          pRanges = VkImageSubresourceRange()
     print(jvulkanLib.vkCmdClearDepthStencilImage)
-    jvulkanLib.vkCmdClearDepthStencilImage(commandBuffer, image, imageLayout, pDepthStencil, rangeCount, pRanges)
-    return {"commandBuffer" : commandBuffer,"image" : image,"imageLayout" : imageLayout,"pDepthStencil" : pDepthStencil,"rangeCount" : rangeCount,"pRanges" : pRanges}
+    retval = jvulkanLib.vkCmdClearDepthStencilImage(commandBuffer, image, imageLayout, pDepthStencil, rangeCount, pRanges)
+    return {"commandBuffer" : commandBuffer,"image" : image,"imageLayout" : imageLayout,"pDepthStencil" : pDepthStencil,"rangeCount" : rangeCount,"pRanges" : pRanges,"retval" : retval}
 def vkCmdClearAttachments(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11503,8 +11503,8 @@ def vkCmdClearAttachments(indict):
     else: 
          pRects = VkClearRect()
     print(jvulkanLib.vkCmdClearAttachments)
-    jvulkanLib.vkCmdClearAttachments(commandBuffer, attachmentCount, pAttachments, rectCount, pRects)
-    return {"commandBuffer" : commandBuffer,"attachmentCount" : attachmentCount,"pAttachments" : pAttachments,"rectCount" : rectCount,"pRects" : pRects}
+    retval = jvulkanLib.vkCmdClearAttachments(commandBuffer, attachmentCount, pAttachments, rectCount, pRects)
+    return {"commandBuffer" : commandBuffer,"attachmentCount" : attachmentCount,"pAttachments" : pAttachments,"rectCount" : rectCount,"pRects" : pRects,"retval" : retval}
 def vkCmdResolveImage(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11535,8 +11535,8 @@ def vkCmdResolveImage(indict):
     else: 
          pRegions = VkImageResolve()
     print(jvulkanLib.vkCmdResolveImage)
-    jvulkanLib.vkCmdResolveImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions)
-    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions}
+    retval = jvulkanLib.vkCmdResolveImage(commandBuffer, srcImage, srcImageLayout, dstImage, dstImageLayout, regionCount, pRegions)
+    return {"commandBuffer" : commandBuffer,"srcImage" : srcImage,"srcImageLayout" : srcImageLayout,"dstImage" : dstImage,"dstImageLayout" : dstImageLayout,"regionCount" : regionCount,"pRegions" : pRegions,"retval" : retval}
 def vkCmdSetEvent(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11551,8 +11551,8 @@ def vkCmdSetEvent(indict):
     else: 
          stageMask = c_uint()
     print(jvulkanLib.vkCmdSetEvent)
-    jvulkanLib.vkCmdSetEvent(commandBuffer, event, stageMask)
-    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask}
+    retval = jvulkanLib.vkCmdSetEvent(commandBuffer, event, stageMask)
+    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask,"retval" : retval}
 def vkCmdResetEvent(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11567,8 +11567,8 @@ def vkCmdResetEvent(indict):
     else: 
          stageMask = c_uint()
     print(jvulkanLib.vkCmdResetEvent)
-    jvulkanLib.vkCmdResetEvent(commandBuffer, event, stageMask)
-    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask}
+    retval = jvulkanLib.vkCmdResetEvent(commandBuffer, event, stageMask)
+    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask,"retval" : retval}
 def vkCmdWaitEvents(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11615,8 +11615,8 @@ def vkCmdWaitEvents(indict):
     else: 
          pImageMemoryBarriers = VkImageMemoryBarrier()
     print(jvulkanLib.vkCmdWaitEvents)
-    jvulkanLib.vkCmdWaitEvents(commandBuffer, eventCount, pEvents, srcStageMask, dstStageMask, memoryBarrierCount, pMemoryBarriers, bufferMemoryBarrierCount, pBufferMemoryBarriers, imageMemoryBarrierCount, pImageMemoryBarriers)
-    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"srcStageMask" : srcStageMask,"dstStageMask" : dstStageMask,"memoryBarrierCount" : memoryBarrierCount,"pMemoryBarriers" : pMemoryBarriers,"bufferMemoryBarrierCount" : bufferMemoryBarrierCount,"pBufferMemoryBarriers" : pBufferMemoryBarriers,"imageMemoryBarrierCount" : imageMemoryBarrierCount,"pImageMemoryBarriers" : pImageMemoryBarriers}
+    retval = jvulkanLib.vkCmdWaitEvents(commandBuffer, eventCount, pEvents, srcStageMask, dstStageMask, memoryBarrierCount, pMemoryBarriers, bufferMemoryBarrierCount, pBufferMemoryBarriers, imageMemoryBarrierCount, pImageMemoryBarriers)
+    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"srcStageMask" : srcStageMask,"dstStageMask" : dstStageMask,"memoryBarrierCount" : memoryBarrierCount,"pMemoryBarriers" : pMemoryBarriers,"bufferMemoryBarrierCount" : bufferMemoryBarrierCount,"pBufferMemoryBarriers" : pBufferMemoryBarriers,"imageMemoryBarrierCount" : imageMemoryBarrierCount,"pImageMemoryBarriers" : pImageMemoryBarriers,"retval" : retval}
 def vkCmdPipelineBarrier(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11659,8 +11659,8 @@ def vkCmdPipelineBarrier(indict):
     else: 
          pImageMemoryBarriers = VkImageMemoryBarrier()
     print(jvulkanLib.vkCmdPipelineBarrier)
-    jvulkanLib.vkCmdPipelineBarrier(commandBuffer, srcStageMask, dstStageMask, dependencyFlags, memoryBarrierCount, pMemoryBarriers, bufferMemoryBarrierCount, pBufferMemoryBarriers, imageMemoryBarrierCount, pImageMemoryBarriers)
-    return {"commandBuffer" : commandBuffer,"srcStageMask" : srcStageMask,"dstStageMask" : dstStageMask,"dependencyFlags" : dependencyFlags,"memoryBarrierCount" : memoryBarrierCount,"pMemoryBarriers" : pMemoryBarriers,"bufferMemoryBarrierCount" : bufferMemoryBarrierCount,"pBufferMemoryBarriers" : pBufferMemoryBarriers,"imageMemoryBarrierCount" : imageMemoryBarrierCount,"pImageMemoryBarriers" : pImageMemoryBarriers}
+    retval = jvulkanLib.vkCmdPipelineBarrier(commandBuffer, srcStageMask, dstStageMask, dependencyFlags, memoryBarrierCount, pMemoryBarriers, bufferMemoryBarrierCount, pBufferMemoryBarriers, imageMemoryBarrierCount, pImageMemoryBarriers)
+    return {"commandBuffer" : commandBuffer,"srcStageMask" : srcStageMask,"dstStageMask" : dstStageMask,"dependencyFlags" : dependencyFlags,"memoryBarrierCount" : memoryBarrierCount,"pMemoryBarriers" : pMemoryBarriers,"bufferMemoryBarrierCount" : bufferMemoryBarrierCount,"pBufferMemoryBarriers" : pBufferMemoryBarriers,"imageMemoryBarrierCount" : imageMemoryBarrierCount,"pImageMemoryBarriers" : pImageMemoryBarriers,"retval" : retval}
 def vkCmdBeginQuery(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11679,8 +11679,8 @@ def vkCmdBeginQuery(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkCmdBeginQuery)
-    jvulkanLib.vkCmdBeginQuery(commandBuffer, queryPool, query, flags)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"flags" : flags}
+    retval = jvulkanLib.vkCmdBeginQuery(commandBuffer, queryPool, query, flags)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"flags" : flags,"retval" : retval}
 def vkCmdEndQuery(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11695,8 +11695,8 @@ def vkCmdEndQuery(indict):
     else: 
          query = c_uint()
     print(jvulkanLib.vkCmdEndQuery)
-    jvulkanLib.vkCmdEndQuery(commandBuffer, queryPool, query)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query}
+    retval = jvulkanLib.vkCmdEndQuery(commandBuffer, queryPool, query)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"retval" : retval}
 def vkCmdResetQueryPool(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11715,8 +11715,8 @@ def vkCmdResetQueryPool(indict):
     else: 
          queryCount = c_uint()
     print(jvulkanLib.vkCmdResetQueryPool)
-    jvulkanLib.vkCmdResetQueryPool(commandBuffer, queryPool, firstQuery, queryCount)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount}
+    retval = jvulkanLib.vkCmdResetQueryPool(commandBuffer, queryPool, firstQuery, queryCount)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"retval" : retval}
 def vkCmdWriteTimestamp(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11735,8 +11735,8 @@ def vkCmdWriteTimestamp(indict):
     else: 
          query = c_uint()
     print(jvulkanLib.vkCmdWriteTimestamp)
-    jvulkanLib.vkCmdWriteTimestamp(commandBuffer, pipelineStage, queryPool, query)
-    return {"commandBuffer" : commandBuffer,"pipelineStage" : pipelineStage,"queryPool" : queryPool,"query" : query}
+    retval = jvulkanLib.vkCmdWriteTimestamp(commandBuffer, pipelineStage, queryPool, query)
+    return {"commandBuffer" : commandBuffer,"pipelineStage" : pipelineStage,"queryPool" : queryPool,"query" : query,"retval" : retval}
 def vkCmdCopyQueryPoolResults(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11771,8 +11771,8 @@ def vkCmdCopyQueryPoolResults(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkCmdCopyQueryPoolResults)
-    jvulkanLib.vkCmdCopyQueryPoolResults(commandBuffer, queryPool, firstQuery, queryCount, dstBuffer, dstOffset, stride, flags)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"stride" : stride,"flags" : flags}
+    retval = jvulkanLib.vkCmdCopyQueryPoolResults(commandBuffer, queryPool, firstQuery, queryCount, dstBuffer, dstOffset, stride, flags)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"stride" : stride,"flags" : flags,"retval" : retval}
 def vkCmdPushConstants(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11799,8 +11799,8 @@ def vkCmdPushConstants(indict):
     else: 
          pValues = c_void_p()
     print(jvulkanLib.vkCmdPushConstants)
-    jvulkanLib.vkCmdPushConstants(commandBuffer, layout, stageFlags, offset, size, pValues)
-    return {"commandBuffer" : commandBuffer,"layout" : layout,"stageFlags" : stageFlags,"offset" : offset,"size" : size,"pValues" : pValues}
+    retval = jvulkanLib.vkCmdPushConstants(commandBuffer, layout, stageFlags, offset, size, pValues)
+    return {"commandBuffer" : commandBuffer,"layout" : layout,"stageFlags" : stageFlags,"offset" : offset,"size" : size,"pValues" : pValues,"retval" : retval}
 def vkCmdBeginRenderPass(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11815,8 +11815,8 @@ def vkCmdBeginRenderPass(indict):
     else: 
          contents = c_int()
     print(jvulkanLib.vkCmdBeginRenderPass)
-    jvulkanLib.vkCmdBeginRenderPass(commandBuffer, pRenderPassBegin, contents)
-    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"contents" : contents}
+    retval = jvulkanLib.vkCmdBeginRenderPass(commandBuffer, pRenderPassBegin, contents)
+    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"contents" : contents,"retval" : retval}
 def vkCmdNextSubpass(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11827,16 +11827,16 @@ def vkCmdNextSubpass(indict):
     else: 
          contents = c_int()
     print(jvulkanLib.vkCmdNextSubpass)
-    jvulkanLib.vkCmdNextSubpass(commandBuffer, contents)
-    return {"commandBuffer" : commandBuffer,"contents" : contents}
+    retval = jvulkanLib.vkCmdNextSubpass(commandBuffer, contents)
+    return {"commandBuffer" : commandBuffer,"contents" : contents,"retval" : retval}
 def vkCmdEndRenderPass(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdEndRenderPass)
-    jvulkanLib.vkCmdEndRenderPass(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdEndRenderPass(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdExecuteCommands(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11851,16 +11851,16 @@ def vkCmdExecuteCommands(indict):
     else: 
          pCommandBuffers = pointer(VkCommandBuffer_T())
     print(jvulkanLib.vkCmdExecuteCommands)
-    jvulkanLib.vkCmdExecuteCommands(commandBuffer, commandBufferCount, pCommandBuffers)
-    return {"commandBuffer" : commandBuffer,"commandBufferCount" : commandBufferCount,"pCommandBuffers" : pCommandBuffers}
+    retval = jvulkanLib.vkCmdExecuteCommands(commandBuffer, commandBufferCount, pCommandBuffers)
+    return {"commandBuffer" : commandBuffer,"commandBufferCount" : commandBufferCount,"pCommandBuffers" : pCommandBuffers,"retval" : retval}
 def vkEnumerateInstanceVersion(indict):
     if "pApiVersion" in indict.keys():
          pApiVersion = indict["pApiVersion"]
     else: 
          pApiVersion = pointer(c_uint())
     print(jvulkanLib.vkEnumerateInstanceVersion)
-    jvulkanLib.vkEnumerateInstanceVersion(pApiVersion)
-    return {"pApiVersion" : pApiVersion}
+    retval = jvulkanLib.vkEnumerateInstanceVersion(pApiVersion)
+    return {"pApiVersion" : pApiVersion,"retval" : retval}
 def vkBindBufferMemory2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -11875,8 +11875,8 @@ def vkBindBufferMemory2(indict):
     else: 
          pBindInfos = VkBindBufferMemoryInfo()
     print(jvulkanLib.vkBindBufferMemory2)
-    jvulkanLib.vkBindBufferMemory2(device, bindInfoCount, pBindInfos)
-    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos}
+    retval = jvulkanLib.vkBindBufferMemory2(device, bindInfoCount, pBindInfos)
+    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos,"retval" : retval}
 def vkBindImageMemory2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -11891,8 +11891,8 @@ def vkBindImageMemory2(indict):
     else: 
          pBindInfos = VkBindImageMemoryInfo()
     print(jvulkanLib.vkBindImageMemory2)
-    jvulkanLib.vkBindImageMemory2(device, bindInfoCount, pBindInfos)
-    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos}
+    retval = jvulkanLib.vkBindImageMemory2(device, bindInfoCount, pBindInfos)
+    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos,"retval" : retval}
 def vkGetDeviceGroupPeerMemoryFeatures(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -11915,8 +11915,8 @@ def vkGetDeviceGroupPeerMemoryFeatures(indict):
     else: 
          pPeerMemoryFeatures = pointer(c_uint())
     print(jvulkanLib.vkGetDeviceGroupPeerMemoryFeatures)
-    jvulkanLib.vkGetDeviceGroupPeerMemoryFeatures(device, heapIndex, localDeviceIndex, remoteDeviceIndex, pPeerMemoryFeatures)
-    return {"device" : device,"heapIndex" : heapIndex,"localDeviceIndex" : localDeviceIndex,"remoteDeviceIndex" : remoteDeviceIndex,"pPeerMemoryFeatures" : pPeerMemoryFeatures}
+    retval = jvulkanLib.vkGetDeviceGroupPeerMemoryFeatures(device, heapIndex, localDeviceIndex, remoteDeviceIndex, pPeerMemoryFeatures)
+    return {"device" : device,"heapIndex" : heapIndex,"localDeviceIndex" : localDeviceIndex,"remoteDeviceIndex" : remoteDeviceIndex,"pPeerMemoryFeatures" : pPeerMemoryFeatures,"retval" : retval}
 def vkCmdSetDeviceMask(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11927,8 +11927,8 @@ def vkCmdSetDeviceMask(indict):
     else: 
          deviceMask = c_uint()
     print(jvulkanLib.vkCmdSetDeviceMask)
-    jvulkanLib.vkCmdSetDeviceMask(commandBuffer, deviceMask)
-    return {"commandBuffer" : commandBuffer,"deviceMask" : deviceMask}
+    retval = jvulkanLib.vkCmdSetDeviceMask(commandBuffer, deviceMask)
+    return {"commandBuffer" : commandBuffer,"deviceMask" : deviceMask,"retval" : retval}
 def vkCmdDispatchBase(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -11959,8 +11959,8 @@ def vkCmdDispatchBase(indict):
     else: 
          groupCountZ = c_uint()
     print(jvulkanLib.vkCmdDispatchBase)
-    jvulkanLib.vkCmdDispatchBase(commandBuffer, baseGroupX, baseGroupY, baseGroupZ, groupCountX, groupCountY, groupCountZ)
-    return {"commandBuffer" : commandBuffer,"baseGroupX" : baseGroupX,"baseGroupY" : baseGroupY,"baseGroupZ" : baseGroupZ,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ}
+    retval = jvulkanLib.vkCmdDispatchBase(commandBuffer, baseGroupX, baseGroupY, baseGroupZ, groupCountX, groupCountY, groupCountZ)
+    return {"commandBuffer" : commandBuffer,"baseGroupX" : baseGroupX,"baseGroupY" : baseGroupY,"baseGroupZ" : baseGroupZ,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ,"retval" : retval}
 def vkEnumeratePhysicalDeviceGroups(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -11975,8 +11975,8 @@ def vkEnumeratePhysicalDeviceGroups(indict):
     else: 
          pPhysicalDeviceGroupProperties = VkPhysicalDeviceGroupProperties()
     print(jvulkanLib.vkEnumeratePhysicalDeviceGroups)
-    jvulkanLib.vkEnumeratePhysicalDeviceGroups(instance, pPhysicalDeviceGroupCount, pPhysicalDeviceGroupProperties)
-    return {"instance" : instance,"pPhysicalDeviceGroupCount" : pPhysicalDeviceGroupCount,"pPhysicalDeviceGroupProperties" : pPhysicalDeviceGroupProperties}
+    retval = jvulkanLib.vkEnumeratePhysicalDeviceGroups(instance, pPhysicalDeviceGroupCount, pPhysicalDeviceGroupProperties)
+    return {"instance" : instance,"pPhysicalDeviceGroupCount" : pPhysicalDeviceGroupCount,"pPhysicalDeviceGroupProperties" : pPhysicalDeviceGroupProperties,"retval" : retval}
 def vkGetImageMemoryRequirements2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -11991,8 +11991,8 @@ def vkGetImageMemoryRequirements2(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetImageMemoryRequirements2)
-    jvulkanLib.vkGetImageMemoryRequirements2(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetImageMemoryRequirements2(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetBufferMemoryRequirements2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12007,8 +12007,8 @@ def vkGetBufferMemoryRequirements2(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetBufferMemoryRequirements2)
-    jvulkanLib.vkGetBufferMemoryRequirements2(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetBufferMemoryRequirements2(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetImageSparseMemoryRequirements2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12027,8 +12027,8 @@ def vkGetImageSparseMemoryRequirements2(indict):
     else: 
          pSparseMemoryRequirements = VkSparseImageMemoryRequirements2()
     print(jvulkanLib.vkGetImageSparseMemoryRequirements2)
-    jvulkanLib.vkGetImageSparseMemoryRequirements2(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements}
+    retval = jvulkanLib.vkGetImageSparseMemoryRequirements2(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements,"retval" : retval}
 def vkGetPhysicalDeviceFeatures2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12039,8 +12039,8 @@ def vkGetPhysicalDeviceFeatures2(indict):
     else: 
          pFeatures = VkPhysicalDeviceFeatures2()
     print(jvulkanLib.vkGetPhysicalDeviceFeatures2)
-    jvulkanLib.vkGetPhysicalDeviceFeatures2(physicalDevice, pFeatures)
-    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures}
+    retval = jvulkanLib.vkGetPhysicalDeviceFeatures2(physicalDevice, pFeatures)
+    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures,"retval" : retval}
 def vkGetPhysicalDeviceProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12051,8 +12051,8 @@ def vkGetPhysicalDeviceProperties2(indict):
     else: 
          pProperties = VkPhysicalDeviceProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceProperties2)
-    jvulkanLib.vkGetPhysicalDeviceProperties2(physicalDevice, pProperties)
-    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceProperties2(physicalDevice, pProperties)
+    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceFormatProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12067,8 +12067,8 @@ def vkGetPhysicalDeviceFormatProperties2(indict):
     else: 
          pFormatProperties = VkFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceFormatProperties2)
-    jvulkanLib.vkGetPhysicalDeviceFormatProperties2(physicalDevice, format, pFormatProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceFormatProperties2(physicalDevice, format, pFormatProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceImageFormatProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12083,8 +12083,8 @@ def vkGetPhysicalDeviceImageFormatProperties2(indict):
     else: 
          pImageFormatProperties = VkImageFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2)
-    jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2(physicalDevice, pImageFormatInfo, pImageFormatProperties)
-    return {"physicalDevice" : physicalDevice,"pImageFormatInfo" : pImageFormatInfo,"pImageFormatProperties" : pImageFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2(physicalDevice, pImageFormatInfo, pImageFormatProperties)
+    return {"physicalDevice" : physicalDevice,"pImageFormatInfo" : pImageFormatInfo,"pImageFormatProperties" : pImageFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceQueueFamilyProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12099,8 +12099,8 @@ def vkGetPhysicalDeviceQueueFamilyProperties2(indict):
     else: 
          pQueueFamilyProperties = VkQueueFamilyProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2)
-    jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
-    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
+    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties,"retval" : retval}
 def vkGetPhysicalDeviceMemoryProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12111,8 +12111,8 @@ def vkGetPhysicalDeviceMemoryProperties2(indict):
     else: 
          pMemoryProperties = VkPhysicalDeviceMemoryProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceMemoryProperties2)
-    jvulkanLib.vkGetPhysicalDeviceMemoryProperties2(physicalDevice, pMemoryProperties)
-    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceMemoryProperties2(physicalDevice, pMemoryProperties)
+    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties,"retval" : retval}
 def vkGetPhysicalDeviceSparseImageFormatProperties2(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12131,8 +12131,8 @@ def vkGetPhysicalDeviceSparseImageFormatProperties2(indict):
     else: 
          pProperties = VkSparseImageFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2)
-    jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2(physicalDevice, pFormatInfo, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pFormatInfo" : pFormatInfo,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2(physicalDevice, pFormatInfo, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pFormatInfo" : pFormatInfo,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkTrimCommandPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12147,8 +12147,8 @@ def vkTrimCommandPool(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkTrimCommandPool)
-    jvulkanLib.vkTrimCommandPool(device, commandPool, flags)
-    return {"device" : device,"commandPool" : commandPool,"flags" : flags}
+    retval = jvulkanLib.vkTrimCommandPool(device, commandPool, flags)
+    return {"device" : device,"commandPool" : commandPool,"flags" : flags,"retval" : retval}
 def vkGetDeviceQueue2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12163,8 +12163,8 @@ def vkGetDeviceQueue2(indict):
     else: 
          pQueue = pointer(VkQueue_T())
     print(jvulkanLib.vkGetDeviceQueue2)
-    jvulkanLib.vkGetDeviceQueue2(device, pQueueInfo, pQueue)
-    return {"device" : device,"pQueueInfo" : pQueueInfo,"pQueue" : pQueue}
+    retval = jvulkanLib.vkGetDeviceQueue2(device, pQueueInfo, pQueue)
+    return {"device" : device,"pQueueInfo" : pQueueInfo,"pQueue" : pQueue,"retval" : retval}
 def vkCreateSamplerYcbcrConversion(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12183,8 +12183,8 @@ def vkCreateSamplerYcbcrConversion(indict):
     else: 
          pYcbcrConversion = pointer(VkSamplerYcbcrConversion_T())
     print(jvulkanLib.vkCreateSamplerYcbcrConversion)
-    jvulkanLib.vkCreateSamplerYcbcrConversion(device, pCreateInfo, pAllocator, pYcbcrConversion)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pYcbcrConversion" : pYcbcrConversion}
+    retval = jvulkanLib.vkCreateSamplerYcbcrConversion(device, pCreateInfo, pAllocator, pYcbcrConversion)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pYcbcrConversion" : pYcbcrConversion,"retval" : retval}
 def vkDestroySamplerYcbcrConversion(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12199,8 +12199,8 @@ def vkDestroySamplerYcbcrConversion(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySamplerYcbcrConversion)
-    jvulkanLib.vkDestroySamplerYcbcrConversion(device, ycbcrConversion, pAllocator)
-    return {"device" : device,"ycbcrConversion" : ycbcrConversion,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySamplerYcbcrConversion(device, ycbcrConversion, pAllocator)
+    return {"device" : device,"ycbcrConversion" : ycbcrConversion,"pAllocator" : pAllocator,"retval" : retval}
 def vkCreateDescriptorUpdateTemplate(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12219,8 +12219,8 @@ def vkCreateDescriptorUpdateTemplate(indict):
     else: 
          pDescriptorUpdateTemplate = pointer(VkDescriptorUpdateTemplate_T())
     print(jvulkanLib.vkCreateDescriptorUpdateTemplate)
-    jvulkanLib.vkCreateDescriptorUpdateTemplate(device, pCreateInfo, pAllocator, pDescriptorUpdateTemplate)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorUpdateTemplate" : pDescriptorUpdateTemplate}
+    retval = jvulkanLib.vkCreateDescriptorUpdateTemplate(device, pCreateInfo, pAllocator, pDescriptorUpdateTemplate)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorUpdateTemplate" : pDescriptorUpdateTemplate,"retval" : retval}
 def vkDestroyDescriptorUpdateTemplate(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12235,8 +12235,8 @@ def vkDestroyDescriptorUpdateTemplate(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDescriptorUpdateTemplate)
-    jvulkanLib.vkDestroyDescriptorUpdateTemplate(device, descriptorUpdateTemplate, pAllocator)
-    return {"device" : device,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDescriptorUpdateTemplate(device, descriptorUpdateTemplate, pAllocator)
+    return {"device" : device,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pAllocator" : pAllocator,"retval" : retval}
 def vkUpdateDescriptorSetWithTemplate(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12255,8 +12255,8 @@ def vkUpdateDescriptorSetWithTemplate(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkUpdateDescriptorSetWithTemplate)
-    jvulkanLib.vkUpdateDescriptorSetWithTemplate(device, descriptorSet, descriptorUpdateTemplate, pData)
-    return {"device" : device,"descriptorSet" : descriptorSet,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pData" : pData}
+    retval = jvulkanLib.vkUpdateDescriptorSetWithTemplate(device, descriptorSet, descriptorUpdateTemplate, pData)
+    return {"device" : device,"descriptorSet" : descriptorSet,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pData" : pData,"retval" : retval}
 def vkGetPhysicalDeviceExternalBufferProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12271,8 +12271,8 @@ def vkGetPhysicalDeviceExternalBufferProperties(indict):
     else: 
          pExternalBufferProperties = VkExternalBufferProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalBufferProperties)
-    jvulkanLib.vkGetPhysicalDeviceExternalBufferProperties(physicalDevice, pExternalBufferInfo, pExternalBufferProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalBufferInfo" : pExternalBufferInfo,"pExternalBufferProperties" : pExternalBufferProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalBufferProperties(physicalDevice, pExternalBufferInfo, pExternalBufferProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalBufferInfo" : pExternalBufferInfo,"pExternalBufferProperties" : pExternalBufferProperties,"retval" : retval}
 def vkGetPhysicalDeviceExternalFenceProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12287,8 +12287,8 @@ def vkGetPhysicalDeviceExternalFenceProperties(indict):
     else: 
          pExternalFenceProperties = VkExternalFenceProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalFenceProperties)
-    jvulkanLib.vkGetPhysicalDeviceExternalFenceProperties(physicalDevice, pExternalFenceInfo, pExternalFenceProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalFenceInfo" : pExternalFenceInfo,"pExternalFenceProperties" : pExternalFenceProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalFenceProperties(physicalDevice, pExternalFenceInfo, pExternalFenceProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalFenceInfo" : pExternalFenceInfo,"pExternalFenceProperties" : pExternalFenceProperties,"retval" : retval}
 def vkGetPhysicalDeviceExternalSemaphoreProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12303,8 +12303,8 @@ def vkGetPhysicalDeviceExternalSemaphoreProperties(indict):
     else: 
          pExternalSemaphoreProperties = VkExternalSemaphoreProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalSemaphoreProperties)
-    jvulkanLib.vkGetPhysicalDeviceExternalSemaphoreProperties(physicalDevice, pExternalSemaphoreInfo, pExternalSemaphoreProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalSemaphoreInfo" : pExternalSemaphoreInfo,"pExternalSemaphoreProperties" : pExternalSemaphoreProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalSemaphoreProperties(physicalDevice, pExternalSemaphoreInfo, pExternalSemaphoreProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalSemaphoreInfo" : pExternalSemaphoreInfo,"pExternalSemaphoreProperties" : pExternalSemaphoreProperties,"retval" : retval}
 def vkGetDescriptorSetLayoutSupport(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12319,8 +12319,8 @@ def vkGetDescriptorSetLayoutSupport(indict):
     else: 
          pSupport = VkDescriptorSetLayoutSupport()
     print(jvulkanLib.vkGetDescriptorSetLayoutSupport)
-    jvulkanLib.vkGetDescriptorSetLayoutSupport(device, pCreateInfo, pSupport)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pSupport" : pSupport}
+    retval = jvulkanLib.vkGetDescriptorSetLayoutSupport(device, pCreateInfo, pSupport)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pSupport" : pSupport,"retval" : retval}
 def vkCmdDrawIndirectCount(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12351,8 +12351,8 @@ def vkCmdDrawIndirectCount(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndirectCount)
-    jvulkanLib.vkCmdDrawIndirectCount(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndirectCount(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkCmdDrawIndexedIndirectCount(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12383,8 +12383,8 @@ def vkCmdDrawIndexedIndirectCount(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndexedIndirectCount)
-    jvulkanLib.vkCmdDrawIndexedIndirectCount(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndexedIndirectCount(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkCreateRenderPass2(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12403,8 +12403,8 @@ def vkCreateRenderPass2(indict):
     else: 
          pRenderPass = pointer(VkRenderPass_T())
     print(jvulkanLib.vkCreateRenderPass2)
-    jvulkanLib.vkCreateRenderPass2(device, pCreateInfo, pAllocator, pRenderPass)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass}
+    retval = jvulkanLib.vkCreateRenderPass2(device, pCreateInfo, pAllocator, pRenderPass)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass,"retval" : retval}
 def vkCmdBeginRenderPass2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12419,8 +12419,8 @@ def vkCmdBeginRenderPass2(indict):
     else: 
          pSubpassBeginInfo = VkSubpassBeginInfo()
     print(jvulkanLib.vkCmdBeginRenderPass2)
-    jvulkanLib.vkCmdBeginRenderPass2(commandBuffer, pRenderPassBegin, pSubpassBeginInfo)
-    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"pSubpassBeginInfo" : pSubpassBeginInfo}
+    retval = jvulkanLib.vkCmdBeginRenderPass2(commandBuffer, pRenderPassBegin, pSubpassBeginInfo)
+    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"pSubpassBeginInfo" : pSubpassBeginInfo,"retval" : retval}
 def vkCmdNextSubpass2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12435,8 +12435,8 @@ def vkCmdNextSubpass2(indict):
     else: 
          pSubpassEndInfo = VkSubpassEndInfo()
     print(jvulkanLib.vkCmdNextSubpass2)
-    jvulkanLib.vkCmdNextSubpass2(commandBuffer, pSubpassBeginInfo, pSubpassEndInfo)
-    return {"commandBuffer" : commandBuffer,"pSubpassBeginInfo" : pSubpassBeginInfo,"pSubpassEndInfo" : pSubpassEndInfo}
+    retval = jvulkanLib.vkCmdNextSubpass2(commandBuffer, pSubpassBeginInfo, pSubpassEndInfo)
+    return {"commandBuffer" : commandBuffer,"pSubpassBeginInfo" : pSubpassBeginInfo,"pSubpassEndInfo" : pSubpassEndInfo,"retval" : retval}
 def vkCmdEndRenderPass2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12447,8 +12447,8 @@ def vkCmdEndRenderPass2(indict):
     else: 
          pSubpassEndInfo = VkSubpassEndInfo()
     print(jvulkanLib.vkCmdEndRenderPass2)
-    jvulkanLib.vkCmdEndRenderPass2(commandBuffer, pSubpassEndInfo)
-    return {"commandBuffer" : commandBuffer,"pSubpassEndInfo" : pSubpassEndInfo}
+    retval = jvulkanLib.vkCmdEndRenderPass2(commandBuffer, pSubpassEndInfo)
+    return {"commandBuffer" : commandBuffer,"pSubpassEndInfo" : pSubpassEndInfo,"retval" : retval}
 def vkResetQueryPool(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12467,8 +12467,8 @@ def vkResetQueryPool(indict):
     else: 
          queryCount = c_uint()
     print(jvulkanLib.vkResetQueryPool)
-    jvulkanLib.vkResetQueryPool(device, queryPool, firstQuery, queryCount)
-    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount}
+    retval = jvulkanLib.vkResetQueryPool(device, queryPool, firstQuery, queryCount)
+    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"retval" : retval}
 def vkGetSemaphoreCounterValue(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12483,8 +12483,8 @@ def vkGetSemaphoreCounterValue(indict):
     else: 
          pValue = pointer(c_ulong())
     print(jvulkanLib.vkGetSemaphoreCounterValue)
-    jvulkanLib.vkGetSemaphoreCounterValue(device, semaphore, pValue)
-    return {"device" : device,"semaphore" : semaphore,"pValue" : pValue}
+    retval = jvulkanLib.vkGetSemaphoreCounterValue(device, semaphore, pValue)
+    return {"device" : device,"semaphore" : semaphore,"pValue" : pValue,"retval" : retval}
 def vkWaitSemaphores(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12499,8 +12499,8 @@ def vkWaitSemaphores(indict):
     else: 
          timeout = c_ulong()
     print(jvulkanLib.vkWaitSemaphores)
-    jvulkanLib.vkWaitSemaphores(device, pWaitInfo, timeout)
-    return {"device" : device,"pWaitInfo" : pWaitInfo,"timeout" : timeout}
+    retval = jvulkanLib.vkWaitSemaphores(device, pWaitInfo, timeout)
+    return {"device" : device,"pWaitInfo" : pWaitInfo,"timeout" : timeout,"retval" : retval}
 def vkSignalSemaphore(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12511,8 +12511,8 @@ def vkSignalSemaphore(indict):
     else: 
          pSignalInfo = VkSemaphoreSignalInfo()
     print(jvulkanLib.vkSignalSemaphore)
-    jvulkanLib.vkSignalSemaphore(device, pSignalInfo)
-    return {"device" : device,"pSignalInfo" : pSignalInfo}
+    retval = jvulkanLib.vkSignalSemaphore(device, pSignalInfo)
+    return {"device" : device,"pSignalInfo" : pSignalInfo,"retval" : retval}
 def vkGetBufferDeviceAddress(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12523,8 +12523,8 @@ def vkGetBufferDeviceAddress(indict):
     else: 
          pInfo = VkBufferDeviceAddressInfo()
     print(jvulkanLib.vkGetBufferDeviceAddress)
-    jvulkanLib.vkGetBufferDeviceAddress(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetBufferDeviceAddress(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetBufferOpaqueCaptureAddress(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12535,8 +12535,8 @@ def vkGetBufferOpaqueCaptureAddress(indict):
     else: 
          pInfo = VkBufferDeviceAddressInfo()
     print(jvulkanLib.vkGetBufferOpaqueCaptureAddress)
-    jvulkanLib.vkGetBufferOpaqueCaptureAddress(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetBufferOpaqueCaptureAddress(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetDeviceMemoryOpaqueCaptureAddress(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12547,8 +12547,8 @@ def vkGetDeviceMemoryOpaqueCaptureAddress(indict):
     else: 
          pInfo = VkDeviceMemoryOpaqueCaptureAddressInfo()
     print(jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddress)
-    jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddress(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddress(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetPhysicalDeviceToolProperties(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -12563,8 +12563,8 @@ def vkGetPhysicalDeviceToolProperties(indict):
     else: 
          pToolProperties = VkPhysicalDeviceToolProperties()
     print(jvulkanLib.vkGetPhysicalDeviceToolProperties)
-    jvulkanLib.vkGetPhysicalDeviceToolProperties(physicalDevice, pToolCount, pToolProperties)
-    return {"physicalDevice" : physicalDevice,"pToolCount" : pToolCount,"pToolProperties" : pToolProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceToolProperties(physicalDevice, pToolCount, pToolProperties)
+    return {"physicalDevice" : physicalDevice,"pToolCount" : pToolCount,"pToolProperties" : pToolProperties,"retval" : retval}
 def vkCreatePrivateDataSlot(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12583,8 +12583,8 @@ def vkCreatePrivateDataSlot(indict):
     else: 
          pPrivateDataSlot = pointer(VkPrivateDataSlot_T())
     print(jvulkanLib.vkCreatePrivateDataSlot)
-    jvulkanLib.vkCreatePrivateDataSlot(device, pCreateInfo, pAllocator, pPrivateDataSlot)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPrivateDataSlot" : pPrivateDataSlot}
+    retval = jvulkanLib.vkCreatePrivateDataSlot(device, pCreateInfo, pAllocator, pPrivateDataSlot)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPrivateDataSlot" : pPrivateDataSlot,"retval" : retval}
 def vkDestroyPrivateDataSlot(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12599,8 +12599,8 @@ def vkDestroyPrivateDataSlot(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyPrivateDataSlot)
-    jvulkanLib.vkDestroyPrivateDataSlot(device, privateDataSlot, pAllocator)
-    return {"device" : device,"privateDataSlot" : privateDataSlot,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyPrivateDataSlot(device, privateDataSlot, pAllocator)
+    return {"device" : device,"privateDataSlot" : privateDataSlot,"pAllocator" : pAllocator,"retval" : retval}
 def vkSetPrivateData(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12623,8 +12623,8 @@ def vkSetPrivateData(indict):
     else: 
          data = c_ulong()
     print(jvulkanLib.vkSetPrivateData)
-    jvulkanLib.vkSetPrivateData(device, objectType, objectHandle, privateDataSlot, data)
-    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"data" : data}
+    retval = jvulkanLib.vkSetPrivateData(device, objectType, objectHandle, privateDataSlot, data)
+    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"data" : data,"retval" : retval}
 def vkGetPrivateData(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -12647,8 +12647,8 @@ def vkGetPrivateData(indict):
     else: 
          pData = pointer(c_ulong())
     print(jvulkanLib.vkGetPrivateData)
-    jvulkanLib.vkGetPrivateData(device, objectType, objectHandle, privateDataSlot, pData)
-    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"pData" : pData}
+    retval = jvulkanLib.vkGetPrivateData(device, objectType, objectHandle, privateDataSlot, pData)
+    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"pData" : pData,"retval" : retval}
 def vkCmdSetEvent2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12663,8 +12663,8 @@ def vkCmdSetEvent2(indict):
     else: 
          pDependencyInfo = VkDependencyInfo()
     print(jvulkanLib.vkCmdSetEvent2)
-    jvulkanLib.vkCmdSetEvent2(commandBuffer, event, pDependencyInfo)
-    return {"commandBuffer" : commandBuffer,"event" : event,"pDependencyInfo" : pDependencyInfo}
+    retval = jvulkanLib.vkCmdSetEvent2(commandBuffer, event, pDependencyInfo)
+    return {"commandBuffer" : commandBuffer,"event" : event,"pDependencyInfo" : pDependencyInfo,"retval" : retval}
 def vkCmdResetEvent2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12679,8 +12679,8 @@ def vkCmdResetEvent2(indict):
     else: 
          stageMask = c_ulong()
     print(jvulkanLib.vkCmdResetEvent2)
-    jvulkanLib.vkCmdResetEvent2(commandBuffer, event, stageMask)
-    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask}
+    retval = jvulkanLib.vkCmdResetEvent2(commandBuffer, event, stageMask)
+    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask,"retval" : retval}
 def vkCmdWaitEvents2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12699,8 +12699,8 @@ def vkCmdWaitEvents2(indict):
     else: 
          pDependencyInfos = VkDependencyInfo()
     print(jvulkanLib.vkCmdWaitEvents2)
-    jvulkanLib.vkCmdWaitEvents2(commandBuffer, eventCount, pEvents, pDependencyInfos)
-    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"pDependencyInfos" : pDependencyInfos}
+    retval = jvulkanLib.vkCmdWaitEvents2(commandBuffer, eventCount, pEvents, pDependencyInfos)
+    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"pDependencyInfos" : pDependencyInfos,"retval" : retval}
 def vkCmdPipelineBarrier2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12711,8 +12711,8 @@ def vkCmdPipelineBarrier2(indict):
     else: 
          pDependencyInfo = VkDependencyInfo()
     print(jvulkanLib.vkCmdPipelineBarrier2)
-    jvulkanLib.vkCmdPipelineBarrier2(commandBuffer, pDependencyInfo)
-    return {"commandBuffer" : commandBuffer,"pDependencyInfo" : pDependencyInfo}
+    retval = jvulkanLib.vkCmdPipelineBarrier2(commandBuffer, pDependencyInfo)
+    return {"commandBuffer" : commandBuffer,"pDependencyInfo" : pDependencyInfo,"retval" : retval}
 def vkCmdWriteTimestamp2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12731,8 +12731,8 @@ def vkCmdWriteTimestamp2(indict):
     else: 
          query = c_uint()
     print(jvulkanLib.vkCmdWriteTimestamp2)
-    jvulkanLib.vkCmdWriteTimestamp2(commandBuffer, stage, queryPool, query)
-    return {"commandBuffer" : commandBuffer,"stage" : stage,"queryPool" : queryPool,"query" : query}
+    retval = jvulkanLib.vkCmdWriteTimestamp2(commandBuffer, stage, queryPool, query)
+    return {"commandBuffer" : commandBuffer,"stage" : stage,"queryPool" : queryPool,"query" : query,"retval" : retval}
 def vkQueueSubmit2(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -12751,8 +12751,8 @@ def vkQueueSubmit2(indict):
     else: 
          fence = VkFence_T()
     print(jvulkanLib.vkQueueSubmit2)
-    jvulkanLib.vkQueueSubmit2(queue, submitCount, pSubmits, fence)
-    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence}
+    retval = jvulkanLib.vkQueueSubmit2(queue, submitCount, pSubmits, fence)
+    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence,"retval" : retval}
 def vkCmdCopyBuffer2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12763,8 +12763,8 @@ def vkCmdCopyBuffer2(indict):
     else: 
          pCopyBufferInfo = VkCopyBufferInfo2()
     print(jvulkanLib.vkCmdCopyBuffer2)
-    jvulkanLib.vkCmdCopyBuffer2(commandBuffer, pCopyBufferInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyBufferInfo" : pCopyBufferInfo}
+    retval = jvulkanLib.vkCmdCopyBuffer2(commandBuffer, pCopyBufferInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyBufferInfo" : pCopyBufferInfo,"retval" : retval}
 def vkCmdCopyImage2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12775,8 +12775,8 @@ def vkCmdCopyImage2(indict):
     else: 
          pCopyImageInfo = VkCopyImageInfo2()
     print(jvulkanLib.vkCmdCopyImage2)
-    jvulkanLib.vkCmdCopyImage2(commandBuffer, pCopyImageInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyImageInfo" : pCopyImageInfo}
+    retval = jvulkanLib.vkCmdCopyImage2(commandBuffer, pCopyImageInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyImageInfo" : pCopyImageInfo,"retval" : retval}
 def vkCmdCopyBufferToImage2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12787,8 +12787,8 @@ def vkCmdCopyBufferToImage2(indict):
     else: 
          pCopyBufferToImageInfo = VkCopyBufferToImageInfo2()
     print(jvulkanLib.vkCmdCopyBufferToImage2)
-    jvulkanLib.vkCmdCopyBufferToImage2(commandBuffer, pCopyBufferToImageInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyBufferToImageInfo" : pCopyBufferToImageInfo}
+    retval = jvulkanLib.vkCmdCopyBufferToImage2(commandBuffer, pCopyBufferToImageInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyBufferToImageInfo" : pCopyBufferToImageInfo,"retval" : retval}
 def vkCmdCopyImageToBuffer2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12799,8 +12799,8 @@ def vkCmdCopyImageToBuffer2(indict):
     else: 
          pCopyImageToBufferInfo = VkCopyImageToBufferInfo2()
     print(jvulkanLib.vkCmdCopyImageToBuffer2)
-    jvulkanLib.vkCmdCopyImageToBuffer2(commandBuffer, pCopyImageToBufferInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyImageToBufferInfo" : pCopyImageToBufferInfo}
+    retval = jvulkanLib.vkCmdCopyImageToBuffer2(commandBuffer, pCopyImageToBufferInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyImageToBufferInfo" : pCopyImageToBufferInfo,"retval" : retval}
 def vkCmdBlitImage2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12811,8 +12811,8 @@ def vkCmdBlitImage2(indict):
     else: 
          pBlitImageInfo = VkBlitImageInfo2()
     print(jvulkanLib.vkCmdBlitImage2)
-    jvulkanLib.vkCmdBlitImage2(commandBuffer, pBlitImageInfo)
-    return {"commandBuffer" : commandBuffer,"pBlitImageInfo" : pBlitImageInfo}
+    retval = jvulkanLib.vkCmdBlitImage2(commandBuffer, pBlitImageInfo)
+    return {"commandBuffer" : commandBuffer,"pBlitImageInfo" : pBlitImageInfo,"retval" : retval}
 def vkCmdResolveImage2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12823,8 +12823,8 @@ def vkCmdResolveImage2(indict):
     else: 
          pResolveImageInfo = VkResolveImageInfo2()
     print(jvulkanLib.vkCmdResolveImage2)
-    jvulkanLib.vkCmdResolveImage2(commandBuffer, pResolveImageInfo)
-    return {"commandBuffer" : commandBuffer,"pResolveImageInfo" : pResolveImageInfo}
+    retval = jvulkanLib.vkCmdResolveImage2(commandBuffer, pResolveImageInfo)
+    return {"commandBuffer" : commandBuffer,"pResolveImageInfo" : pResolveImageInfo,"retval" : retval}
 def vkCmdBeginRendering(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12835,16 +12835,16 @@ def vkCmdBeginRendering(indict):
     else: 
          pRenderingInfo = VkRenderingInfo()
     print(jvulkanLib.vkCmdBeginRendering)
-    jvulkanLib.vkCmdBeginRendering(commandBuffer, pRenderingInfo)
-    return {"commandBuffer" : commandBuffer,"pRenderingInfo" : pRenderingInfo}
+    retval = jvulkanLib.vkCmdBeginRendering(commandBuffer, pRenderingInfo)
+    return {"commandBuffer" : commandBuffer,"pRenderingInfo" : pRenderingInfo,"retval" : retval}
 def vkCmdEndRendering(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdEndRendering)
-    jvulkanLib.vkCmdEndRendering(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdEndRendering(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdSetCullMode(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12855,8 +12855,8 @@ def vkCmdSetCullMode(indict):
     else: 
          cullMode = c_uint()
     print(jvulkanLib.vkCmdSetCullMode)
-    jvulkanLib.vkCmdSetCullMode(commandBuffer, cullMode)
-    return {"commandBuffer" : commandBuffer,"cullMode" : cullMode}
+    retval = jvulkanLib.vkCmdSetCullMode(commandBuffer, cullMode)
+    return {"commandBuffer" : commandBuffer,"cullMode" : cullMode,"retval" : retval}
 def vkCmdSetFrontFace(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12867,8 +12867,8 @@ def vkCmdSetFrontFace(indict):
     else: 
          frontFace = c_int()
     print(jvulkanLib.vkCmdSetFrontFace)
-    jvulkanLib.vkCmdSetFrontFace(commandBuffer, frontFace)
-    return {"commandBuffer" : commandBuffer,"frontFace" : frontFace}
+    retval = jvulkanLib.vkCmdSetFrontFace(commandBuffer, frontFace)
+    return {"commandBuffer" : commandBuffer,"frontFace" : frontFace,"retval" : retval}
 def vkCmdSetPrimitiveTopology(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12879,8 +12879,8 @@ def vkCmdSetPrimitiveTopology(indict):
     else: 
          primitiveTopology = c_int()
     print(jvulkanLib.vkCmdSetPrimitiveTopology)
-    jvulkanLib.vkCmdSetPrimitiveTopology(commandBuffer, primitiveTopology)
-    return {"commandBuffer" : commandBuffer,"primitiveTopology" : primitiveTopology}
+    retval = jvulkanLib.vkCmdSetPrimitiveTopology(commandBuffer, primitiveTopology)
+    return {"commandBuffer" : commandBuffer,"primitiveTopology" : primitiveTopology,"retval" : retval}
 def vkCmdSetViewportWithCount(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12895,8 +12895,8 @@ def vkCmdSetViewportWithCount(indict):
     else: 
          pViewports = VkViewport()
     print(jvulkanLib.vkCmdSetViewportWithCount)
-    jvulkanLib.vkCmdSetViewportWithCount(commandBuffer, viewportCount, pViewports)
-    return {"commandBuffer" : commandBuffer,"viewportCount" : viewportCount,"pViewports" : pViewports}
+    retval = jvulkanLib.vkCmdSetViewportWithCount(commandBuffer, viewportCount, pViewports)
+    return {"commandBuffer" : commandBuffer,"viewportCount" : viewportCount,"pViewports" : pViewports,"retval" : retval}
 def vkCmdSetScissorWithCount(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12911,8 +12911,8 @@ def vkCmdSetScissorWithCount(indict):
     else: 
          pScissors = VkRect2D()
     print(jvulkanLib.vkCmdSetScissorWithCount)
-    jvulkanLib.vkCmdSetScissorWithCount(commandBuffer, scissorCount, pScissors)
-    return {"commandBuffer" : commandBuffer,"scissorCount" : scissorCount,"pScissors" : pScissors}
+    retval = jvulkanLib.vkCmdSetScissorWithCount(commandBuffer, scissorCount, pScissors)
+    return {"commandBuffer" : commandBuffer,"scissorCount" : scissorCount,"pScissors" : pScissors,"retval" : retval}
 def vkCmdBindVertexBuffers2(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12943,8 +12943,8 @@ def vkCmdBindVertexBuffers2(indict):
     else: 
          pStrides = pointer(c_ulong())
     print(jvulkanLib.vkCmdBindVertexBuffers2)
-    jvulkanLib.vkCmdBindVertexBuffers2(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes, pStrides)
-    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes,"pStrides" : pStrides}
+    retval = jvulkanLib.vkCmdBindVertexBuffers2(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes, pStrides)
+    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes,"pStrides" : pStrides,"retval" : retval}
 def vkCmdSetDepthTestEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12955,8 +12955,8 @@ def vkCmdSetDepthTestEnable(indict):
     else: 
          depthTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthTestEnable)
-    jvulkanLib.vkCmdSetDepthTestEnable(commandBuffer, depthTestEnable)
-    return {"commandBuffer" : commandBuffer,"depthTestEnable" : depthTestEnable}
+    retval = jvulkanLib.vkCmdSetDepthTestEnable(commandBuffer, depthTestEnable)
+    return {"commandBuffer" : commandBuffer,"depthTestEnable" : depthTestEnable,"retval" : retval}
 def vkCmdSetDepthWriteEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12967,8 +12967,8 @@ def vkCmdSetDepthWriteEnable(indict):
     else: 
          depthWriteEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthWriteEnable)
-    jvulkanLib.vkCmdSetDepthWriteEnable(commandBuffer, depthWriteEnable)
-    return {"commandBuffer" : commandBuffer,"depthWriteEnable" : depthWriteEnable}
+    retval = jvulkanLib.vkCmdSetDepthWriteEnable(commandBuffer, depthWriteEnable)
+    return {"commandBuffer" : commandBuffer,"depthWriteEnable" : depthWriteEnable,"retval" : retval}
 def vkCmdSetDepthCompareOp(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12979,8 +12979,8 @@ def vkCmdSetDepthCompareOp(indict):
     else: 
          depthCompareOp = c_int()
     print(jvulkanLib.vkCmdSetDepthCompareOp)
-    jvulkanLib.vkCmdSetDepthCompareOp(commandBuffer, depthCompareOp)
-    return {"commandBuffer" : commandBuffer,"depthCompareOp" : depthCompareOp}
+    retval = jvulkanLib.vkCmdSetDepthCompareOp(commandBuffer, depthCompareOp)
+    return {"commandBuffer" : commandBuffer,"depthCompareOp" : depthCompareOp,"retval" : retval}
 def vkCmdSetDepthBoundsTestEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -12991,8 +12991,8 @@ def vkCmdSetDepthBoundsTestEnable(indict):
     else: 
          depthBoundsTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthBoundsTestEnable)
-    jvulkanLib.vkCmdSetDepthBoundsTestEnable(commandBuffer, depthBoundsTestEnable)
-    return {"commandBuffer" : commandBuffer,"depthBoundsTestEnable" : depthBoundsTestEnable}
+    retval = jvulkanLib.vkCmdSetDepthBoundsTestEnable(commandBuffer, depthBoundsTestEnable)
+    return {"commandBuffer" : commandBuffer,"depthBoundsTestEnable" : depthBoundsTestEnable,"retval" : retval}
 def vkCmdSetStencilTestEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13003,8 +13003,8 @@ def vkCmdSetStencilTestEnable(indict):
     else: 
          stencilTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetStencilTestEnable)
-    jvulkanLib.vkCmdSetStencilTestEnable(commandBuffer, stencilTestEnable)
-    return {"commandBuffer" : commandBuffer,"stencilTestEnable" : stencilTestEnable}
+    retval = jvulkanLib.vkCmdSetStencilTestEnable(commandBuffer, stencilTestEnable)
+    return {"commandBuffer" : commandBuffer,"stencilTestEnable" : stencilTestEnable,"retval" : retval}
 def vkCmdSetStencilOp(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13031,8 +13031,8 @@ def vkCmdSetStencilOp(indict):
     else: 
          compareOp = c_int()
     print(jvulkanLib.vkCmdSetStencilOp)
-    jvulkanLib.vkCmdSetStencilOp(commandBuffer, faceMask, failOp, passOp, depthFailOp, compareOp)
-    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"failOp" : failOp,"passOp" : passOp,"depthFailOp" : depthFailOp,"compareOp" : compareOp}
+    retval = jvulkanLib.vkCmdSetStencilOp(commandBuffer, faceMask, failOp, passOp, depthFailOp, compareOp)
+    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"failOp" : failOp,"passOp" : passOp,"depthFailOp" : depthFailOp,"compareOp" : compareOp,"retval" : retval}
 def vkCmdSetRasterizerDiscardEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13043,8 +13043,8 @@ def vkCmdSetRasterizerDiscardEnable(indict):
     else: 
          rasterizerDiscardEnable = c_uint()
     print(jvulkanLib.vkCmdSetRasterizerDiscardEnable)
-    jvulkanLib.vkCmdSetRasterizerDiscardEnable(commandBuffer, rasterizerDiscardEnable)
-    return {"commandBuffer" : commandBuffer,"rasterizerDiscardEnable" : rasterizerDiscardEnable}
+    retval = jvulkanLib.vkCmdSetRasterizerDiscardEnable(commandBuffer, rasterizerDiscardEnable)
+    return {"commandBuffer" : commandBuffer,"rasterizerDiscardEnable" : rasterizerDiscardEnable,"retval" : retval}
 def vkCmdSetDepthBiasEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13055,8 +13055,8 @@ def vkCmdSetDepthBiasEnable(indict):
     else: 
          depthBiasEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthBiasEnable)
-    jvulkanLib.vkCmdSetDepthBiasEnable(commandBuffer, depthBiasEnable)
-    return {"commandBuffer" : commandBuffer,"depthBiasEnable" : depthBiasEnable}
+    retval = jvulkanLib.vkCmdSetDepthBiasEnable(commandBuffer, depthBiasEnable)
+    return {"commandBuffer" : commandBuffer,"depthBiasEnable" : depthBiasEnable,"retval" : retval}
 def vkCmdSetPrimitiveRestartEnable(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13067,8 +13067,8 @@ def vkCmdSetPrimitiveRestartEnable(indict):
     else: 
          primitiveRestartEnable = c_uint()
     print(jvulkanLib.vkCmdSetPrimitiveRestartEnable)
-    jvulkanLib.vkCmdSetPrimitiveRestartEnable(commandBuffer, primitiveRestartEnable)
-    return {"commandBuffer" : commandBuffer,"primitiveRestartEnable" : primitiveRestartEnable}
+    retval = jvulkanLib.vkCmdSetPrimitiveRestartEnable(commandBuffer, primitiveRestartEnable)
+    return {"commandBuffer" : commandBuffer,"primitiveRestartEnable" : primitiveRestartEnable,"retval" : retval}
 def vkGetDeviceBufferMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13083,8 +13083,8 @@ def vkGetDeviceBufferMemoryRequirements(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceBufferMemoryRequirements)
-    jvulkanLib.vkGetDeviceBufferMemoryRequirements(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceBufferMemoryRequirements(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetDeviceImageMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13099,8 +13099,8 @@ def vkGetDeviceImageMemoryRequirements(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceImageMemoryRequirements)
-    jvulkanLib.vkGetDeviceImageMemoryRequirements(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceImageMemoryRequirements(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetDeviceImageSparseMemoryRequirements(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13119,8 +13119,8 @@ def vkGetDeviceImageSparseMemoryRequirements(indict):
     else: 
          pSparseMemoryRequirements = VkSparseImageMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceImageSparseMemoryRequirements)
-    jvulkanLib.vkGetDeviceImageSparseMemoryRequirements(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceImageSparseMemoryRequirements(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements,"retval" : retval}
 def vkDestroySurfaceKHR(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -13135,8 +13135,8 @@ def vkDestroySurfaceKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySurfaceKHR)
-    jvulkanLib.vkDestroySurfaceKHR(instance, surface, pAllocator)
-    return {"instance" : instance,"surface" : surface,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySurfaceKHR(instance, surface, pAllocator)
+    return {"instance" : instance,"surface" : surface,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceSupportKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13155,8 +13155,8 @@ def vkGetPhysicalDeviceSurfaceSupportKHR(indict):
     else: 
          pSupported = pointer(c_uint())
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceSupportKHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceSupportKHR(physicalDevice, queueFamilyIndex, surface, pSupported)
-    return {"physicalDevice" : physicalDevice,"queueFamilyIndex" : queueFamilyIndex,"surface" : surface,"pSupported" : pSupported}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceSupportKHR(physicalDevice, queueFamilyIndex, surface, pSupported)
+    return {"physicalDevice" : physicalDevice,"queueFamilyIndex" : queueFamilyIndex,"surface" : surface,"pSupported" : pSupported,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceCapabilitiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13171,8 +13171,8 @@ def vkGetPhysicalDeviceSurfaceCapabilitiesKHR(indict):
     else: 
          pSurfaceCapabilities = VkSurfaceCapabilitiesKHR()
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilitiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilitiesKHR(physicalDevice, surface, pSurfaceCapabilities)
-    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceCapabilities" : pSurfaceCapabilities}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilitiesKHR(physicalDevice, surface, pSurfaceCapabilities)
+    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceCapabilities" : pSurfaceCapabilities,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceFormatsKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13191,8 +13191,8 @@ def vkGetPhysicalDeviceSurfaceFormatsKHR(indict):
     else: 
          pSurfaceFormats = VkSurfaceFormatKHR()
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceFormatsKHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceFormatsKHR(physicalDevice, surface, pSurfaceFormatCount, pSurfaceFormats)
-    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceFormatCount" : pSurfaceFormatCount,"pSurfaceFormats" : pSurfaceFormats}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceFormatsKHR(physicalDevice, surface, pSurfaceFormatCount, pSurfaceFormats)
+    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceFormatCount" : pSurfaceFormatCount,"pSurfaceFormats" : pSurfaceFormats,"retval" : retval}
 def vkGetPhysicalDeviceSurfacePresentModesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13211,8 +13211,8 @@ def vkGetPhysicalDeviceSurfacePresentModesKHR(indict):
     else: 
          pPresentModes = pointer(c_int())
     print(jvulkanLib.vkGetPhysicalDeviceSurfacePresentModesKHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfacePresentModesKHR(physicalDevice, surface, pPresentModeCount, pPresentModes)
-    return {"physicalDevice" : physicalDevice,"surface" : surface,"pPresentModeCount" : pPresentModeCount,"pPresentModes" : pPresentModes}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfacePresentModesKHR(physicalDevice, surface, pPresentModeCount, pPresentModes)
+    return {"physicalDevice" : physicalDevice,"surface" : surface,"pPresentModeCount" : pPresentModeCount,"pPresentModes" : pPresentModes,"retval" : retval}
 def vkCreateSwapchainKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13231,8 +13231,8 @@ def vkCreateSwapchainKHR(indict):
     else: 
          pSwapchain = pointer(VkSwapchainKHR_T())
     print(jvulkanLib.vkCreateSwapchainKHR)
-    jvulkanLib.vkCreateSwapchainKHR(device, pCreateInfo, pAllocator, pSwapchain)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSwapchain" : pSwapchain}
+    retval = jvulkanLib.vkCreateSwapchainKHR(device, pCreateInfo, pAllocator, pSwapchain)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSwapchain" : pSwapchain,"retval" : retval}
 def vkDestroySwapchainKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13247,8 +13247,8 @@ def vkDestroySwapchainKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySwapchainKHR)
-    jvulkanLib.vkDestroySwapchainKHR(device, swapchain, pAllocator)
-    return {"device" : device,"swapchain" : swapchain,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySwapchainKHR(device, swapchain, pAllocator)
+    return {"device" : device,"swapchain" : swapchain,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetSwapchainImagesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13267,8 +13267,8 @@ def vkGetSwapchainImagesKHR(indict):
     else: 
          pSwapchainImages = pointer(VkImage_T())
     print(jvulkanLib.vkGetSwapchainImagesKHR)
-    jvulkanLib.vkGetSwapchainImagesKHR(device, swapchain, pSwapchainImageCount, pSwapchainImages)
-    return {"device" : device,"swapchain" : swapchain,"pSwapchainImageCount" : pSwapchainImageCount,"pSwapchainImages" : pSwapchainImages}
+    retval = jvulkanLib.vkGetSwapchainImagesKHR(device, swapchain, pSwapchainImageCount, pSwapchainImages)
+    return {"device" : device,"swapchain" : swapchain,"pSwapchainImageCount" : pSwapchainImageCount,"pSwapchainImages" : pSwapchainImages,"retval" : retval}
 def vkAcquireNextImageKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13295,8 +13295,8 @@ def vkAcquireNextImageKHR(indict):
     else: 
          pImageIndex = pointer(c_uint())
     print(jvulkanLib.vkAcquireNextImageKHR)
-    jvulkanLib.vkAcquireNextImageKHR(device, swapchain, timeout, semaphore, fence, pImageIndex)
-    return {"device" : device,"swapchain" : swapchain,"timeout" : timeout,"semaphore" : semaphore,"fence" : fence,"pImageIndex" : pImageIndex}
+    retval = jvulkanLib.vkAcquireNextImageKHR(device, swapchain, timeout, semaphore, fence, pImageIndex)
+    return {"device" : device,"swapchain" : swapchain,"timeout" : timeout,"semaphore" : semaphore,"fence" : fence,"pImageIndex" : pImageIndex,"retval" : retval}
 def vkQueuePresentKHR(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -13307,8 +13307,8 @@ def vkQueuePresentKHR(indict):
     else: 
          pPresentInfo = VkPresentInfoKHR()
     print(jvulkanLib.vkQueuePresentKHR)
-    jvulkanLib.vkQueuePresentKHR(queue, pPresentInfo)
-    return {"queue" : queue,"pPresentInfo" : pPresentInfo}
+    retval = jvulkanLib.vkQueuePresentKHR(queue, pPresentInfo)
+    return {"queue" : queue,"pPresentInfo" : pPresentInfo,"retval" : retval}
 def vkGetDeviceGroupPresentCapabilitiesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13319,8 +13319,8 @@ def vkGetDeviceGroupPresentCapabilitiesKHR(indict):
     else: 
          pDeviceGroupPresentCapabilities = VkDeviceGroupPresentCapabilitiesKHR()
     print(jvulkanLib.vkGetDeviceGroupPresentCapabilitiesKHR)
-    jvulkanLib.vkGetDeviceGroupPresentCapabilitiesKHR(device, pDeviceGroupPresentCapabilities)
-    return {"device" : device,"pDeviceGroupPresentCapabilities" : pDeviceGroupPresentCapabilities}
+    retval = jvulkanLib.vkGetDeviceGroupPresentCapabilitiesKHR(device, pDeviceGroupPresentCapabilities)
+    return {"device" : device,"pDeviceGroupPresentCapabilities" : pDeviceGroupPresentCapabilities,"retval" : retval}
 def vkGetDeviceGroupSurfacePresentModesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13335,8 +13335,8 @@ def vkGetDeviceGroupSurfacePresentModesKHR(indict):
     else: 
          pModes = pointer(c_uint())
     print(jvulkanLib.vkGetDeviceGroupSurfacePresentModesKHR)
-    jvulkanLib.vkGetDeviceGroupSurfacePresentModesKHR(device, surface, pModes)
-    return {"device" : device,"surface" : surface,"pModes" : pModes}
+    retval = jvulkanLib.vkGetDeviceGroupSurfacePresentModesKHR(device, surface, pModes)
+    return {"device" : device,"surface" : surface,"pModes" : pModes,"retval" : retval}
 def vkGetPhysicalDevicePresentRectanglesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13355,8 +13355,8 @@ def vkGetPhysicalDevicePresentRectanglesKHR(indict):
     else: 
          pRects = VkRect2D()
     print(jvulkanLib.vkGetPhysicalDevicePresentRectanglesKHR)
-    jvulkanLib.vkGetPhysicalDevicePresentRectanglesKHR(physicalDevice, surface, pRectCount, pRects)
-    return {"physicalDevice" : physicalDevice,"surface" : surface,"pRectCount" : pRectCount,"pRects" : pRects}
+    retval = jvulkanLib.vkGetPhysicalDevicePresentRectanglesKHR(physicalDevice, surface, pRectCount, pRects)
+    return {"physicalDevice" : physicalDevice,"surface" : surface,"pRectCount" : pRectCount,"pRects" : pRects,"retval" : retval}
 def vkAcquireNextImage2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13371,8 +13371,8 @@ def vkAcquireNextImage2KHR(indict):
     else: 
          pImageIndex = pointer(c_uint())
     print(jvulkanLib.vkAcquireNextImage2KHR)
-    jvulkanLib.vkAcquireNextImage2KHR(device, pAcquireInfo, pImageIndex)
-    return {"device" : device,"pAcquireInfo" : pAcquireInfo,"pImageIndex" : pImageIndex}
+    retval = jvulkanLib.vkAcquireNextImage2KHR(device, pAcquireInfo, pImageIndex)
+    return {"device" : device,"pAcquireInfo" : pAcquireInfo,"pImageIndex" : pImageIndex,"retval" : retval}
 def vkGetPhysicalDeviceDisplayPropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13387,8 +13387,8 @@ def vkGetPhysicalDeviceDisplayPropertiesKHR(indict):
     else: 
          pProperties = VkDisplayPropertiesKHR()
     print(jvulkanLib.vkGetPhysicalDeviceDisplayPropertiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceDisplayPropertiesKHR(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceDisplayPropertiesKHR(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceDisplayPlanePropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13403,8 +13403,8 @@ def vkGetPhysicalDeviceDisplayPlanePropertiesKHR(indict):
     else: 
          pProperties = VkDisplayPlanePropertiesKHR()
     print(jvulkanLib.vkGetPhysicalDeviceDisplayPlanePropertiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceDisplayPlanePropertiesKHR(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceDisplayPlanePropertiesKHR(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetDisplayPlaneSupportedDisplaysKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13423,8 +13423,8 @@ def vkGetDisplayPlaneSupportedDisplaysKHR(indict):
     else: 
          pDisplays = pointer(VkDisplayKHR_T())
     print(jvulkanLib.vkGetDisplayPlaneSupportedDisplaysKHR)
-    jvulkanLib.vkGetDisplayPlaneSupportedDisplaysKHR(physicalDevice, planeIndex, pDisplayCount, pDisplays)
-    return {"physicalDevice" : physicalDevice,"planeIndex" : planeIndex,"pDisplayCount" : pDisplayCount,"pDisplays" : pDisplays}
+    retval = jvulkanLib.vkGetDisplayPlaneSupportedDisplaysKHR(physicalDevice, planeIndex, pDisplayCount, pDisplays)
+    return {"physicalDevice" : physicalDevice,"planeIndex" : planeIndex,"pDisplayCount" : pDisplayCount,"pDisplays" : pDisplays,"retval" : retval}
 def vkGetDisplayModePropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13443,8 +13443,8 @@ def vkGetDisplayModePropertiesKHR(indict):
     else: 
          pProperties = VkDisplayModePropertiesKHR()
     print(jvulkanLib.vkGetDisplayModePropertiesKHR)
-    jvulkanLib.vkGetDisplayModePropertiesKHR(physicalDevice, display, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"display" : display,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetDisplayModePropertiesKHR(physicalDevice, display, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"display" : display,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkCreateDisplayModeKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13467,8 +13467,8 @@ def vkCreateDisplayModeKHR(indict):
     else: 
          pMode = pointer(VkDisplayModeKHR_T())
     print(jvulkanLib.vkCreateDisplayModeKHR)
-    jvulkanLib.vkCreateDisplayModeKHR(physicalDevice, display, pCreateInfo, pAllocator, pMode)
-    return {"physicalDevice" : physicalDevice,"display" : display,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pMode" : pMode}
+    retval = jvulkanLib.vkCreateDisplayModeKHR(physicalDevice, display, pCreateInfo, pAllocator, pMode)
+    return {"physicalDevice" : physicalDevice,"display" : display,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pMode" : pMode,"retval" : retval}
 def vkGetDisplayPlaneCapabilitiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13487,8 +13487,8 @@ def vkGetDisplayPlaneCapabilitiesKHR(indict):
     else: 
          pCapabilities = VkDisplayPlaneCapabilitiesKHR()
     print(jvulkanLib.vkGetDisplayPlaneCapabilitiesKHR)
-    jvulkanLib.vkGetDisplayPlaneCapabilitiesKHR(physicalDevice, mode, planeIndex, pCapabilities)
-    return {"physicalDevice" : physicalDevice,"mode" : mode,"planeIndex" : planeIndex,"pCapabilities" : pCapabilities}
+    retval = jvulkanLib.vkGetDisplayPlaneCapabilitiesKHR(physicalDevice, mode, planeIndex, pCapabilities)
+    return {"physicalDevice" : physicalDevice,"mode" : mode,"planeIndex" : planeIndex,"pCapabilities" : pCapabilities,"retval" : retval}
 def vkCreateDisplayPlaneSurfaceKHR(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -13507,8 +13507,8 @@ def vkCreateDisplayPlaneSurfaceKHR(indict):
     else: 
          pSurface = pointer(VkSurfaceKHR_T())
     print(jvulkanLib.vkCreateDisplayPlaneSurfaceKHR)
-    jvulkanLib.vkCreateDisplayPlaneSurfaceKHR(instance, pCreateInfo, pAllocator, pSurface)
-    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSurface" : pSurface}
+    retval = jvulkanLib.vkCreateDisplayPlaneSurfaceKHR(instance, pCreateInfo, pAllocator, pSurface)
+    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSurface" : pSurface,"retval" : retval}
 def vkCreateSharedSwapchainsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13531,8 +13531,8 @@ def vkCreateSharedSwapchainsKHR(indict):
     else: 
          pSwapchains = pointer(VkSwapchainKHR_T())
     print(jvulkanLib.vkCreateSharedSwapchainsKHR)
-    jvulkanLib.vkCreateSharedSwapchainsKHR(device, swapchainCount, pCreateInfos, pAllocator, pSwapchains)
-    return {"device" : device,"swapchainCount" : swapchainCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pSwapchains" : pSwapchains}
+    retval = jvulkanLib.vkCreateSharedSwapchainsKHR(device, swapchainCount, pCreateInfos, pAllocator, pSwapchains)
+    return {"device" : device,"swapchainCount" : swapchainCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pSwapchains" : pSwapchains,"retval" : retval}
 def vkCmdBeginRenderingKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13543,16 +13543,16 @@ def vkCmdBeginRenderingKHR(indict):
     else: 
          pRenderingInfo = VkRenderingInfo()
     print(jvulkanLib.vkCmdBeginRenderingKHR)
-    jvulkanLib.vkCmdBeginRenderingKHR(commandBuffer, pRenderingInfo)
-    return {"commandBuffer" : commandBuffer,"pRenderingInfo" : pRenderingInfo}
+    retval = jvulkanLib.vkCmdBeginRenderingKHR(commandBuffer, pRenderingInfo)
+    return {"commandBuffer" : commandBuffer,"pRenderingInfo" : pRenderingInfo,"retval" : retval}
 def vkCmdEndRenderingKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdEndRenderingKHR)
-    jvulkanLib.vkCmdEndRenderingKHR(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdEndRenderingKHR(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkGetPhysicalDeviceFeatures2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13563,8 +13563,8 @@ def vkGetPhysicalDeviceFeatures2KHR(indict):
     else: 
          pFeatures = VkPhysicalDeviceFeatures2()
     print(jvulkanLib.vkGetPhysicalDeviceFeatures2KHR)
-    jvulkanLib.vkGetPhysicalDeviceFeatures2KHR(physicalDevice, pFeatures)
-    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures}
+    retval = jvulkanLib.vkGetPhysicalDeviceFeatures2KHR(physicalDevice, pFeatures)
+    return {"physicalDevice" : physicalDevice,"pFeatures" : pFeatures,"retval" : retval}
 def vkGetPhysicalDeviceProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13575,8 +13575,8 @@ def vkGetPhysicalDeviceProperties2KHR(indict):
     else: 
          pProperties = VkPhysicalDeviceProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceProperties2KHR(physicalDevice, pProperties)
-    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceProperties2KHR(physicalDevice, pProperties)
+    return {"physicalDevice" : physicalDevice,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceFormatProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13591,8 +13591,8 @@ def vkGetPhysicalDeviceFormatProperties2KHR(indict):
     else: 
          pFormatProperties = VkFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceFormatProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceFormatProperties2KHR(physicalDevice, format, pFormatProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceFormatProperties2KHR(physicalDevice, format, pFormatProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"pFormatProperties" : pFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceImageFormatProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13607,8 +13607,8 @@ def vkGetPhysicalDeviceImageFormatProperties2KHR(indict):
     else: 
          pImageFormatProperties = VkImageFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2KHR(physicalDevice, pImageFormatInfo, pImageFormatProperties)
-    return {"physicalDevice" : physicalDevice,"pImageFormatInfo" : pImageFormatInfo,"pImageFormatProperties" : pImageFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceImageFormatProperties2KHR(physicalDevice, pImageFormatInfo, pImageFormatProperties)
+    return {"physicalDevice" : physicalDevice,"pImageFormatInfo" : pImageFormatInfo,"pImageFormatProperties" : pImageFormatProperties,"retval" : retval}
 def vkGetPhysicalDeviceQueueFamilyProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13623,8 +13623,8 @@ def vkGetPhysicalDeviceQueueFamilyProperties2KHR(indict):
     else: 
          pQueueFamilyProperties = VkQueueFamilyProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2KHR(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
-    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceQueueFamilyProperties2KHR(physicalDevice, pQueueFamilyPropertyCount, pQueueFamilyProperties)
+    return {"physicalDevice" : physicalDevice,"pQueueFamilyPropertyCount" : pQueueFamilyPropertyCount,"pQueueFamilyProperties" : pQueueFamilyProperties,"retval" : retval}
 def vkGetPhysicalDeviceMemoryProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13635,8 +13635,8 @@ def vkGetPhysicalDeviceMemoryProperties2KHR(indict):
     else: 
          pMemoryProperties = VkPhysicalDeviceMemoryProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceMemoryProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceMemoryProperties2KHR(physicalDevice, pMemoryProperties)
-    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceMemoryProperties2KHR(physicalDevice, pMemoryProperties)
+    return {"physicalDevice" : physicalDevice,"pMemoryProperties" : pMemoryProperties,"retval" : retval}
 def vkGetPhysicalDeviceSparseImageFormatProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13655,8 +13655,8 @@ def vkGetPhysicalDeviceSparseImageFormatProperties2KHR(indict):
     else: 
          pProperties = VkSparseImageFormatProperties2()
     print(jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2KHR(physicalDevice, pFormatInfo, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pFormatInfo" : pFormatInfo,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceSparseImageFormatProperties2KHR(physicalDevice, pFormatInfo, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pFormatInfo" : pFormatInfo,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetDeviceGroupPeerMemoryFeaturesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13679,8 +13679,8 @@ def vkGetDeviceGroupPeerMemoryFeaturesKHR(indict):
     else: 
          pPeerMemoryFeatures = pointer(c_uint())
     print(jvulkanLib.vkGetDeviceGroupPeerMemoryFeaturesKHR)
-    jvulkanLib.vkGetDeviceGroupPeerMemoryFeaturesKHR(device, heapIndex, localDeviceIndex, remoteDeviceIndex, pPeerMemoryFeatures)
-    return {"device" : device,"heapIndex" : heapIndex,"localDeviceIndex" : localDeviceIndex,"remoteDeviceIndex" : remoteDeviceIndex,"pPeerMemoryFeatures" : pPeerMemoryFeatures}
+    retval = jvulkanLib.vkGetDeviceGroupPeerMemoryFeaturesKHR(device, heapIndex, localDeviceIndex, remoteDeviceIndex, pPeerMemoryFeatures)
+    return {"device" : device,"heapIndex" : heapIndex,"localDeviceIndex" : localDeviceIndex,"remoteDeviceIndex" : remoteDeviceIndex,"pPeerMemoryFeatures" : pPeerMemoryFeatures,"retval" : retval}
 def vkCmdSetDeviceMaskKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13691,8 +13691,8 @@ def vkCmdSetDeviceMaskKHR(indict):
     else: 
          deviceMask = c_uint()
     print(jvulkanLib.vkCmdSetDeviceMaskKHR)
-    jvulkanLib.vkCmdSetDeviceMaskKHR(commandBuffer, deviceMask)
-    return {"commandBuffer" : commandBuffer,"deviceMask" : deviceMask}
+    retval = jvulkanLib.vkCmdSetDeviceMaskKHR(commandBuffer, deviceMask)
+    return {"commandBuffer" : commandBuffer,"deviceMask" : deviceMask,"retval" : retval}
 def vkCmdDispatchBaseKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13723,8 +13723,8 @@ def vkCmdDispatchBaseKHR(indict):
     else: 
          groupCountZ = c_uint()
     print(jvulkanLib.vkCmdDispatchBaseKHR)
-    jvulkanLib.vkCmdDispatchBaseKHR(commandBuffer, baseGroupX, baseGroupY, baseGroupZ, groupCountX, groupCountY, groupCountZ)
-    return {"commandBuffer" : commandBuffer,"baseGroupX" : baseGroupX,"baseGroupY" : baseGroupY,"baseGroupZ" : baseGroupZ,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ}
+    retval = jvulkanLib.vkCmdDispatchBaseKHR(commandBuffer, baseGroupX, baseGroupY, baseGroupZ, groupCountX, groupCountY, groupCountZ)
+    return {"commandBuffer" : commandBuffer,"baseGroupX" : baseGroupX,"baseGroupY" : baseGroupY,"baseGroupZ" : baseGroupZ,"groupCountX" : groupCountX,"groupCountY" : groupCountY,"groupCountZ" : groupCountZ,"retval" : retval}
 def vkTrimCommandPoolKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13739,8 +13739,8 @@ def vkTrimCommandPoolKHR(indict):
     else: 
          flags = c_uint()
     print(jvulkanLib.vkTrimCommandPoolKHR)
-    jvulkanLib.vkTrimCommandPoolKHR(device, commandPool, flags)
-    return {"device" : device,"commandPool" : commandPool,"flags" : flags}
+    retval = jvulkanLib.vkTrimCommandPoolKHR(device, commandPool, flags)
+    return {"device" : device,"commandPool" : commandPool,"flags" : flags,"retval" : retval}
 def vkEnumeratePhysicalDeviceGroupsKHR(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -13755,8 +13755,8 @@ def vkEnumeratePhysicalDeviceGroupsKHR(indict):
     else: 
          pPhysicalDeviceGroupProperties = VkPhysicalDeviceGroupProperties()
     print(jvulkanLib.vkEnumeratePhysicalDeviceGroupsKHR)
-    jvulkanLib.vkEnumeratePhysicalDeviceGroupsKHR(instance, pPhysicalDeviceGroupCount, pPhysicalDeviceGroupProperties)
-    return {"instance" : instance,"pPhysicalDeviceGroupCount" : pPhysicalDeviceGroupCount,"pPhysicalDeviceGroupProperties" : pPhysicalDeviceGroupProperties}
+    retval = jvulkanLib.vkEnumeratePhysicalDeviceGroupsKHR(instance, pPhysicalDeviceGroupCount, pPhysicalDeviceGroupProperties)
+    return {"instance" : instance,"pPhysicalDeviceGroupCount" : pPhysicalDeviceGroupCount,"pPhysicalDeviceGroupProperties" : pPhysicalDeviceGroupProperties,"retval" : retval}
 def vkGetPhysicalDeviceExternalBufferPropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13771,8 +13771,8 @@ def vkGetPhysicalDeviceExternalBufferPropertiesKHR(indict):
     else: 
          pExternalBufferProperties = VkExternalBufferProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalBufferPropertiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceExternalBufferPropertiesKHR(physicalDevice, pExternalBufferInfo, pExternalBufferProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalBufferInfo" : pExternalBufferInfo,"pExternalBufferProperties" : pExternalBufferProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalBufferPropertiesKHR(physicalDevice, pExternalBufferInfo, pExternalBufferProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalBufferInfo" : pExternalBufferInfo,"pExternalBufferProperties" : pExternalBufferProperties,"retval" : retval}
 def vkGetMemoryFdKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13787,8 +13787,8 @@ def vkGetMemoryFdKHR(indict):
     else: 
          pFd = pointer(c_int())
     print(jvulkanLib.vkGetMemoryFdKHR)
-    jvulkanLib.vkGetMemoryFdKHR(device, pGetFdInfo, pFd)
-    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd}
+    retval = jvulkanLib.vkGetMemoryFdKHR(device, pGetFdInfo, pFd)
+    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd,"retval" : retval}
 def vkGetMemoryFdPropertiesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13807,8 +13807,8 @@ def vkGetMemoryFdPropertiesKHR(indict):
     else: 
          pMemoryFdProperties = VkMemoryFdPropertiesKHR()
     print(jvulkanLib.vkGetMemoryFdPropertiesKHR)
-    jvulkanLib.vkGetMemoryFdPropertiesKHR(device, handleType, fd, pMemoryFdProperties)
-    return {"device" : device,"handleType" : handleType,"fd" : fd,"pMemoryFdProperties" : pMemoryFdProperties}
+    retval = jvulkanLib.vkGetMemoryFdPropertiesKHR(device, handleType, fd, pMemoryFdProperties)
+    return {"device" : device,"handleType" : handleType,"fd" : fd,"pMemoryFdProperties" : pMemoryFdProperties,"retval" : retval}
 def vkGetPhysicalDeviceExternalSemaphorePropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -13823,8 +13823,8 @@ def vkGetPhysicalDeviceExternalSemaphorePropertiesKHR(indict):
     else: 
          pExternalSemaphoreProperties = VkExternalSemaphoreProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalSemaphorePropertiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceExternalSemaphorePropertiesKHR(physicalDevice, pExternalSemaphoreInfo, pExternalSemaphoreProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalSemaphoreInfo" : pExternalSemaphoreInfo,"pExternalSemaphoreProperties" : pExternalSemaphoreProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalSemaphorePropertiesKHR(physicalDevice, pExternalSemaphoreInfo, pExternalSemaphoreProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalSemaphoreInfo" : pExternalSemaphoreInfo,"pExternalSemaphoreProperties" : pExternalSemaphoreProperties,"retval" : retval}
 def vkImportSemaphoreFdKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13835,8 +13835,8 @@ def vkImportSemaphoreFdKHR(indict):
     else: 
          pImportSemaphoreFdInfo = VkImportSemaphoreFdInfoKHR()
     print(jvulkanLib.vkImportSemaphoreFdKHR)
-    jvulkanLib.vkImportSemaphoreFdKHR(device, pImportSemaphoreFdInfo)
-    return {"device" : device,"pImportSemaphoreFdInfo" : pImportSemaphoreFdInfo}
+    retval = jvulkanLib.vkImportSemaphoreFdKHR(device, pImportSemaphoreFdInfo)
+    return {"device" : device,"pImportSemaphoreFdInfo" : pImportSemaphoreFdInfo,"retval" : retval}
 def vkGetSemaphoreFdKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13851,8 +13851,8 @@ def vkGetSemaphoreFdKHR(indict):
     else: 
          pFd = pointer(c_int())
     print(jvulkanLib.vkGetSemaphoreFdKHR)
-    jvulkanLib.vkGetSemaphoreFdKHR(device, pGetFdInfo, pFd)
-    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd}
+    retval = jvulkanLib.vkGetSemaphoreFdKHR(device, pGetFdInfo, pFd)
+    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd,"retval" : retval}
 def vkCmdPushDescriptorSetKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13879,8 +13879,8 @@ def vkCmdPushDescriptorSetKHR(indict):
     else: 
          pDescriptorWrites = VkWriteDescriptorSet()
     print(jvulkanLib.vkCmdPushDescriptorSetKHR)
-    jvulkanLib.vkCmdPushDescriptorSetKHR(commandBuffer, pipelineBindPoint, layout, set, descriptorWriteCount, pDescriptorWrites)
-    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"layout" : layout,"set" : set,"descriptorWriteCount" : descriptorWriteCount,"pDescriptorWrites" : pDescriptorWrites}
+    retval = jvulkanLib.vkCmdPushDescriptorSetKHR(commandBuffer, pipelineBindPoint, layout, set, descriptorWriteCount, pDescriptorWrites)
+    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"layout" : layout,"set" : set,"descriptorWriteCount" : descriptorWriteCount,"pDescriptorWrites" : pDescriptorWrites,"retval" : retval}
 def vkCmdPushDescriptorSetWithTemplateKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13903,8 +13903,8 @@ def vkCmdPushDescriptorSetWithTemplateKHR(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkCmdPushDescriptorSetWithTemplateKHR)
-    jvulkanLib.vkCmdPushDescriptorSetWithTemplateKHR(commandBuffer, descriptorUpdateTemplate, layout, set, pData)
-    return {"commandBuffer" : commandBuffer,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"layout" : layout,"set" : set,"pData" : pData}
+    retval = jvulkanLib.vkCmdPushDescriptorSetWithTemplateKHR(commandBuffer, descriptorUpdateTemplate, layout, set, pData)
+    return {"commandBuffer" : commandBuffer,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"layout" : layout,"set" : set,"pData" : pData,"retval" : retval}
 def vkCreateDescriptorUpdateTemplateKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13923,8 +13923,8 @@ def vkCreateDescriptorUpdateTemplateKHR(indict):
     else: 
          pDescriptorUpdateTemplate = pointer(VkDescriptorUpdateTemplate_T())
     print(jvulkanLib.vkCreateDescriptorUpdateTemplateKHR)
-    jvulkanLib.vkCreateDescriptorUpdateTemplateKHR(device, pCreateInfo, pAllocator, pDescriptorUpdateTemplate)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorUpdateTemplate" : pDescriptorUpdateTemplate}
+    retval = jvulkanLib.vkCreateDescriptorUpdateTemplateKHR(device, pCreateInfo, pAllocator, pDescriptorUpdateTemplate)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pDescriptorUpdateTemplate" : pDescriptorUpdateTemplate,"retval" : retval}
 def vkDestroyDescriptorUpdateTemplateKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13939,8 +13939,8 @@ def vkDestroyDescriptorUpdateTemplateKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDescriptorUpdateTemplateKHR)
-    jvulkanLib.vkDestroyDescriptorUpdateTemplateKHR(device, descriptorUpdateTemplate, pAllocator)
-    return {"device" : device,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDescriptorUpdateTemplateKHR(device, descriptorUpdateTemplate, pAllocator)
+    return {"device" : device,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pAllocator" : pAllocator,"retval" : retval}
 def vkUpdateDescriptorSetWithTemplateKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13959,8 +13959,8 @@ def vkUpdateDescriptorSetWithTemplateKHR(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkUpdateDescriptorSetWithTemplateKHR)
-    jvulkanLib.vkUpdateDescriptorSetWithTemplateKHR(device, descriptorSet, descriptorUpdateTemplate, pData)
-    return {"device" : device,"descriptorSet" : descriptorSet,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pData" : pData}
+    retval = jvulkanLib.vkUpdateDescriptorSetWithTemplateKHR(device, descriptorSet, descriptorUpdateTemplate, pData)
+    return {"device" : device,"descriptorSet" : descriptorSet,"descriptorUpdateTemplate" : descriptorUpdateTemplate,"pData" : pData,"retval" : retval}
 def vkCreateRenderPass2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -13979,8 +13979,8 @@ def vkCreateRenderPass2KHR(indict):
     else: 
          pRenderPass = pointer(VkRenderPass_T())
     print(jvulkanLib.vkCreateRenderPass2KHR)
-    jvulkanLib.vkCreateRenderPass2KHR(device, pCreateInfo, pAllocator, pRenderPass)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass}
+    retval = jvulkanLib.vkCreateRenderPass2KHR(device, pCreateInfo, pAllocator, pRenderPass)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pRenderPass" : pRenderPass,"retval" : retval}
 def vkCmdBeginRenderPass2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -13995,8 +13995,8 @@ def vkCmdBeginRenderPass2KHR(indict):
     else: 
          pSubpassBeginInfo = VkSubpassBeginInfo()
     print(jvulkanLib.vkCmdBeginRenderPass2KHR)
-    jvulkanLib.vkCmdBeginRenderPass2KHR(commandBuffer, pRenderPassBegin, pSubpassBeginInfo)
-    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"pSubpassBeginInfo" : pSubpassBeginInfo}
+    retval = jvulkanLib.vkCmdBeginRenderPass2KHR(commandBuffer, pRenderPassBegin, pSubpassBeginInfo)
+    return {"commandBuffer" : commandBuffer,"pRenderPassBegin" : pRenderPassBegin,"pSubpassBeginInfo" : pSubpassBeginInfo,"retval" : retval}
 def vkCmdNextSubpass2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14011,8 +14011,8 @@ def vkCmdNextSubpass2KHR(indict):
     else: 
          pSubpassEndInfo = VkSubpassEndInfo()
     print(jvulkanLib.vkCmdNextSubpass2KHR)
-    jvulkanLib.vkCmdNextSubpass2KHR(commandBuffer, pSubpassBeginInfo, pSubpassEndInfo)
-    return {"commandBuffer" : commandBuffer,"pSubpassBeginInfo" : pSubpassBeginInfo,"pSubpassEndInfo" : pSubpassEndInfo}
+    retval = jvulkanLib.vkCmdNextSubpass2KHR(commandBuffer, pSubpassBeginInfo, pSubpassEndInfo)
+    return {"commandBuffer" : commandBuffer,"pSubpassBeginInfo" : pSubpassBeginInfo,"pSubpassEndInfo" : pSubpassEndInfo,"retval" : retval}
 def vkCmdEndRenderPass2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14023,8 +14023,8 @@ def vkCmdEndRenderPass2KHR(indict):
     else: 
          pSubpassEndInfo = VkSubpassEndInfo()
     print(jvulkanLib.vkCmdEndRenderPass2KHR)
-    jvulkanLib.vkCmdEndRenderPass2KHR(commandBuffer, pSubpassEndInfo)
-    return {"commandBuffer" : commandBuffer,"pSubpassEndInfo" : pSubpassEndInfo}
+    retval = jvulkanLib.vkCmdEndRenderPass2KHR(commandBuffer, pSubpassEndInfo)
+    return {"commandBuffer" : commandBuffer,"pSubpassEndInfo" : pSubpassEndInfo,"retval" : retval}
 def vkGetSwapchainStatusKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14035,8 +14035,8 @@ def vkGetSwapchainStatusKHR(indict):
     else: 
          swapchain = VkSwapchainKHR_T()
     print(jvulkanLib.vkGetSwapchainStatusKHR)
-    jvulkanLib.vkGetSwapchainStatusKHR(device, swapchain)
-    return {"device" : device,"swapchain" : swapchain}
+    retval = jvulkanLib.vkGetSwapchainStatusKHR(device, swapchain)
+    return {"device" : device,"swapchain" : swapchain,"retval" : retval}
 def vkGetPhysicalDeviceExternalFencePropertiesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14051,8 +14051,8 @@ def vkGetPhysicalDeviceExternalFencePropertiesKHR(indict):
     else: 
          pExternalFenceProperties = VkExternalFenceProperties()
     print(jvulkanLib.vkGetPhysicalDeviceExternalFencePropertiesKHR)
-    jvulkanLib.vkGetPhysicalDeviceExternalFencePropertiesKHR(physicalDevice, pExternalFenceInfo, pExternalFenceProperties)
-    return {"physicalDevice" : physicalDevice,"pExternalFenceInfo" : pExternalFenceInfo,"pExternalFenceProperties" : pExternalFenceProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalFencePropertiesKHR(physicalDevice, pExternalFenceInfo, pExternalFenceProperties)
+    return {"physicalDevice" : physicalDevice,"pExternalFenceInfo" : pExternalFenceInfo,"pExternalFenceProperties" : pExternalFenceProperties,"retval" : retval}
 def vkImportFenceFdKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14063,8 +14063,8 @@ def vkImportFenceFdKHR(indict):
     else: 
          pImportFenceFdInfo = VkImportFenceFdInfoKHR()
     print(jvulkanLib.vkImportFenceFdKHR)
-    jvulkanLib.vkImportFenceFdKHR(device, pImportFenceFdInfo)
-    return {"device" : device,"pImportFenceFdInfo" : pImportFenceFdInfo}
+    retval = jvulkanLib.vkImportFenceFdKHR(device, pImportFenceFdInfo)
+    return {"device" : device,"pImportFenceFdInfo" : pImportFenceFdInfo,"retval" : retval}
 def vkGetFenceFdKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14079,8 +14079,8 @@ def vkGetFenceFdKHR(indict):
     else: 
          pFd = pointer(c_int())
     print(jvulkanLib.vkGetFenceFdKHR)
-    jvulkanLib.vkGetFenceFdKHR(device, pGetFdInfo, pFd)
-    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd}
+    retval = jvulkanLib.vkGetFenceFdKHR(device, pGetFdInfo, pFd)
+    return {"device" : device,"pGetFdInfo" : pGetFdInfo,"pFd" : pFd,"retval" : retval}
 def vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14103,8 +14103,8 @@ def vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR(indict):
     else: 
          pCounterDescriptions = VkPerformanceCounterDescriptionKHR()
     print(jvulkanLib.vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR)
-    jvulkanLib.vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR(physicalDevice, queueFamilyIndex, pCounterCount, pCounters, pCounterDescriptions)
-    return {"physicalDevice" : physicalDevice,"queueFamilyIndex" : queueFamilyIndex,"pCounterCount" : pCounterCount,"pCounters" : pCounters,"pCounterDescriptions" : pCounterDescriptions}
+    retval = jvulkanLib.vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR(physicalDevice, queueFamilyIndex, pCounterCount, pCounters, pCounterDescriptions)
+    return {"physicalDevice" : physicalDevice,"queueFamilyIndex" : queueFamilyIndex,"pCounterCount" : pCounterCount,"pCounters" : pCounters,"pCounterDescriptions" : pCounterDescriptions,"retval" : retval}
 def vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14119,8 +14119,8 @@ def vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR(indict):
     else: 
          pNumPasses = pointer(c_uint())
     print(jvulkanLib.vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR)
-    jvulkanLib.vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR(physicalDevice, pPerformanceQueryCreateInfo, pNumPasses)
-    return {"physicalDevice" : physicalDevice,"pPerformanceQueryCreateInfo" : pPerformanceQueryCreateInfo,"pNumPasses" : pNumPasses}
+    retval = jvulkanLib.vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR(physicalDevice, pPerformanceQueryCreateInfo, pNumPasses)
+    return {"physicalDevice" : physicalDevice,"pPerformanceQueryCreateInfo" : pPerformanceQueryCreateInfo,"pNumPasses" : pNumPasses,"retval" : retval}
 def vkAcquireProfilingLockKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14131,16 +14131,16 @@ def vkAcquireProfilingLockKHR(indict):
     else: 
          pInfo = VkAcquireProfilingLockInfoKHR()
     print(jvulkanLib.vkAcquireProfilingLockKHR)
-    jvulkanLib.vkAcquireProfilingLockKHR(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkAcquireProfilingLockKHR(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkReleaseProfilingLockKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
     else: 
          device = VkDevice_T()
     print(jvulkanLib.vkReleaseProfilingLockKHR)
-    jvulkanLib.vkReleaseProfilingLockKHR(device)
-    return {"device" : device}
+    retval = jvulkanLib.vkReleaseProfilingLockKHR(device)
+    return {"device" : device,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceCapabilities2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14155,8 +14155,8 @@ def vkGetPhysicalDeviceSurfaceCapabilities2KHR(indict):
     else: 
          pSurfaceCapabilities = VkSurfaceCapabilities2KHR()
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2KHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2KHR(physicalDevice, pSurfaceInfo, pSurfaceCapabilities)
-    return {"physicalDevice" : physicalDevice,"pSurfaceInfo" : pSurfaceInfo,"pSurfaceCapabilities" : pSurfaceCapabilities}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2KHR(physicalDevice, pSurfaceInfo, pSurfaceCapabilities)
+    return {"physicalDevice" : physicalDevice,"pSurfaceInfo" : pSurfaceInfo,"pSurfaceCapabilities" : pSurfaceCapabilities,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceFormats2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14175,8 +14175,8 @@ def vkGetPhysicalDeviceSurfaceFormats2KHR(indict):
     else: 
          pSurfaceFormats = VkSurfaceFormat2KHR()
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceFormats2KHR)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceFormats2KHR(physicalDevice, pSurfaceInfo, pSurfaceFormatCount, pSurfaceFormats)
-    return {"physicalDevice" : physicalDevice,"pSurfaceInfo" : pSurfaceInfo,"pSurfaceFormatCount" : pSurfaceFormatCount,"pSurfaceFormats" : pSurfaceFormats}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceFormats2KHR(physicalDevice, pSurfaceInfo, pSurfaceFormatCount, pSurfaceFormats)
+    return {"physicalDevice" : physicalDevice,"pSurfaceInfo" : pSurfaceInfo,"pSurfaceFormatCount" : pSurfaceFormatCount,"pSurfaceFormats" : pSurfaceFormats,"retval" : retval}
 def vkGetPhysicalDeviceDisplayProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14191,8 +14191,8 @@ def vkGetPhysicalDeviceDisplayProperties2KHR(indict):
     else: 
          pProperties = VkDisplayProperties2KHR()
     print(jvulkanLib.vkGetPhysicalDeviceDisplayProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceDisplayProperties2KHR(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceDisplayProperties2KHR(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceDisplayPlaneProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14207,8 +14207,8 @@ def vkGetPhysicalDeviceDisplayPlaneProperties2KHR(indict):
     else: 
          pProperties = VkDisplayPlaneProperties2KHR()
     print(jvulkanLib.vkGetPhysicalDeviceDisplayPlaneProperties2KHR)
-    jvulkanLib.vkGetPhysicalDeviceDisplayPlaneProperties2KHR(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceDisplayPlaneProperties2KHR(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetDisplayModeProperties2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14227,8 +14227,8 @@ def vkGetDisplayModeProperties2KHR(indict):
     else: 
          pProperties = VkDisplayModeProperties2KHR()
     print(jvulkanLib.vkGetDisplayModeProperties2KHR)
-    jvulkanLib.vkGetDisplayModeProperties2KHR(physicalDevice, display, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"display" : display,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetDisplayModeProperties2KHR(physicalDevice, display, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"display" : display,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetDisplayPlaneCapabilities2KHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14243,8 +14243,8 @@ def vkGetDisplayPlaneCapabilities2KHR(indict):
     else: 
          pCapabilities = VkDisplayPlaneCapabilities2KHR()
     print(jvulkanLib.vkGetDisplayPlaneCapabilities2KHR)
-    jvulkanLib.vkGetDisplayPlaneCapabilities2KHR(physicalDevice, pDisplayPlaneInfo, pCapabilities)
-    return {"physicalDevice" : physicalDevice,"pDisplayPlaneInfo" : pDisplayPlaneInfo,"pCapabilities" : pCapabilities}
+    retval = jvulkanLib.vkGetDisplayPlaneCapabilities2KHR(physicalDevice, pDisplayPlaneInfo, pCapabilities)
+    return {"physicalDevice" : physicalDevice,"pDisplayPlaneInfo" : pDisplayPlaneInfo,"pCapabilities" : pCapabilities,"retval" : retval}
 def vkGetImageMemoryRequirements2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14259,8 +14259,8 @@ def vkGetImageMemoryRequirements2KHR(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetImageMemoryRequirements2KHR)
-    jvulkanLib.vkGetImageMemoryRequirements2KHR(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetImageMemoryRequirements2KHR(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetBufferMemoryRequirements2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14275,8 +14275,8 @@ def vkGetBufferMemoryRequirements2KHR(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetBufferMemoryRequirements2KHR)
-    jvulkanLib.vkGetBufferMemoryRequirements2KHR(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetBufferMemoryRequirements2KHR(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetImageSparseMemoryRequirements2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14295,8 +14295,8 @@ def vkGetImageSparseMemoryRequirements2KHR(indict):
     else: 
          pSparseMemoryRequirements = VkSparseImageMemoryRequirements2()
     print(jvulkanLib.vkGetImageSparseMemoryRequirements2KHR)
-    jvulkanLib.vkGetImageSparseMemoryRequirements2KHR(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements}
+    retval = jvulkanLib.vkGetImageSparseMemoryRequirements2KHR(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements,"retval" : retval}
 def vkCreateSamplerYcbcrConversionKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14315,8 +14315,8 @@ def vkCreateSamplerYcbcrConversionKHR(indict):
     else: 
          pYcbcrConversion = pointer(VkSamplerYcbcrConversion_T())
     print(jvulkanLib.vkCreateSamplerYcbcrConversionKHR)
-    jvulkanLib.vkCreateSamplerYcbcrConversionKHR(device, pCreateInfo, pAllocator, pYcbcrConversion)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pYcbcrConversion" : pYcbcrConversion}
+    retval = jvulkanLib.vkCreateSamplerYcbcrConversionKHR(device, pCreateInfo, pAllocator, pYcbcrConversion)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pYcbcrConversion" : pYcbcrConversion,"retval" : retval}
 def vkDestroySamplerYcbcrConversionKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14331,8 +14331,8 @@ def vkDestroySamplerYcbcrConversionKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroySamplerYcbcrConversionKHR)
-    jvulkanLib.vkDestroySamplerYcbcrConversionKHR(device, ycbcrConversion, pAllocator)
-    return {"device" : device,"ycbcrConversion" : ycbcrConversion,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroySamplerYcbcrConversionKHR(device, ycbcrConversion, pAllocator)
+    return {"device" : device,"ycbcrConversion" : ycbcrConversion,"pAllocator" : pAllocator,"retval" : retval}
 def vkBindBufferMemory2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14347,8 +14347,8 @@ def vkBindBufferMemory2KHR(indict):
     else: 
          pBindInfos = VkBindBufferMemoryInfo()
     print(jvulkanLib.vkBindBufferMemory2KHR)
-    jvulkanLib.vkBindBufferMemory2KHR(device, bindInfoCount, pBindInfos)
-    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos}
+    retval = jvulkanLib.vkBindBufferMemory2KHR(device, bindInfoCount, pBindInfos)
+    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos,"retval" : retval}
 def vkBindImageMemory2KHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14363,8 +14363,8 @@ def vkBindImageMemory2KHR(indict):
     else: 
          pBindInfos = VkBindImageMemoryInfo()
     print(jvulkanLib.vkBindImageMemory2KHR)
-    jvulkanLib.vkBindImageMemory2KHR(device, bindInfoCount, pBindInfos)
-    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos}
+    retval = jvulkanLib.vkBindImageMemory2KHR(device, bindInfoCount, pBindInfos)
+    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos,"retval" : retval}
 def vkGetDescriptorSetLayoutSupportKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14379,8 +14379,8 @@ def vkGetDescriptorSetLayoutSupportKHR(indict):
     else: 
          pSupport = VkDescriptorSetLayoutSupport()
     print(jvulkanLib.vkGetDescriptorSetLayoutSupportKHR)
-    jvulkanLib.vkGetDescriptorSetLayoutSupportKHR(device, pCreateInfo, pSupport)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pSupport" : pSupport}
+    retval = jvulkanLib.vkGetDescriptorSetLayoutSupportKHR(device, pCreateInfo, pSupport)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pSupport" : pSupport,"retval" : retval}
 def vkCmdDrawIndirectCountKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14411,8 +14411,8 @@ def vkCmdDrawIndirectCountKHR(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndirectCountKHR)
-    jvulkanLib.vkCmdDrawIndirectCountKHR(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndirectCountKHR(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkCmdDrawIndexedIndirectCountKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14443,8 +14443,8 @@ def vkCmdDrawIndexedIndirectCountKHR(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndexedIndirectCountKHR)
-    jvulkanLib.vkCmdDrawIndexedIndirectCountKHR(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndexedIndirectCountKHR(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkGetSemaphoreCounterValueKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14459,8 +14459,8 @@ def vkGetSemaphoreCounterValueKHR(indict):
     else: 
          pValue = pointer(c_ulong())
     print(jvulkanLib.vkGetSemaphoreCounterValueKHR)
-    jvulkanLib.vkGetSemaphoreCounterValueKHR(device, semaphore, pValue)
-    return {"device" : device,"semaphore" : semaphore,"pValue" : pValue}
+    retval = jvulkanLib.vkGetSemaphoreCounterValueKHR(device, semaphore, pValue)
+    return {"device" : device,"semaphore" : semaphore,"pValue" : pValue,"retval" : retval}
 def vkWaitSemaphoresKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14475,8 +14475,8 @@ def vkWaitSemaphoresKHR(indict):
     else: 
          timeout = c_ulong()
     print(jvulkanLib.vkWaitSemaphoresKHR)
-    jvulkanLib.vkWaitSemaphoresKHR(device, pWaitInfo, timeout)
-    return {"device" : device,"pWaitInfo" : pWaitInfo,"timeout" : timeout}
+    retval = jvulkanLib.vkWaitSemaphoresKHR(device, pWaitInfo, timeout)
+    return {"device" : device,"pWaitInfo" : pWaitInfo,"timeout" : timeout,"retval" : retval}
 def vkSignalSemaphoreKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14487,8 +14487,8 @@ def vkSignalSemaphoreKHR(indict):
     else: 
          pSignalInfo = VkSemaphoreSignalInfo()
     print(jvulkanLib.vkSignalSemaphoreKHR)
-    jvulkanLib.vkSignalSemaphoreKHR(device, pSignalInfo)
-    return {"device" : device,"pSignalInfo" : pSignalInfo}
+    retval = jvulkanLib.vkSignalSemaphoreKHR(device, pSignalInfo)
+    return {"device" : device,"pSignalInfo" : pSignalInfo,"retval" : retval}
 def vkGetPhysicalDeviceFragmentShadingRatesKHR(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -14503,8 +14503,8 @@ def vkGetPhysicalDeviceFragmentShadingRatesKHR(indict):
     else: 
          pFragmentShadingRates = VkPhysicalDeviceFragmentShadingRateKHR()
     print(jvulkanLib.vkGetPhysicalDeviceFragmentShadingRatesKHR)
-    jvulkanLib.vkGetPhysicalDeviceFragmentShadingRatesKHR(physicalDevice, pFragmentShadingRateCount, pFragmentShadingRates)
-    return {"physicalDevice" : physicalDevice,"pFragmentShadingRateCount" : pFragmentShadingRateCount,"pFragmentShadingRates" : pFragmentShadingRates}
+    retval = jvulkanLib.vkGetPhysicalDeviceFragmentShadingRatesKHR(physicalDevice, pFragmentShadingRateCount, pFragmentShadingRates)
+    return {"physicalDevice" : physicalDevice,"pFragmentShadingRateCount" : pFragmentShadingRateCount,"pFragmentShadingRates" : pFragmentShadingRates,"retval" : retval}
 def vkCmdSetFragmentShadingRateKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14519,8 +14519,8 @@ def vkCmdSetFragmentShadingRateKHR(indict):
     else: 
          combinerOps = pointer(c_int())
     print(jvulkanLib.vkCmdSetFragmentShadingRateKHR)
-    jvulkanLib.vkCmdSetFragmentShadingRateKHR(commandBuffer, pFragmentSize, combinerOps)
-    return {"commandBuffer" : commandBuffer,"pFragmentSize" : pFragmentSize,"combinerOps" : combinerOps}
+    retval = jvulkanLib.vkCmdSetFragmentShadingRateKHR(commandBuffer, pFragmentSize, combinerOps)
+    return {"commandBuffer" : commandBuffer,"pFragmentSize" : pFragmentSize,"combinerOps" : combinerOps,"retval" : retval}
 def vkWaitForPresentKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14539,8 +14539,8 @@ def vkWaitForPresentKHR(indict):
     else: 
          timeout = c_ulong()
     print(jvulkanLib.vkWaitForPresentKHR)
-    jvulkanLib.vkWaitForPresentKHR(device, swapchain, presentId, timeout)
-    return {"device" : device,"swapchain" : swapchain,"presentId" : presentId,"timeout" : timeout}
+    retval = jvulkanLib.vkWaitForPresentKHR(device, swapchain, presentId, timeout)
+    return {"device" : device,"swapchain" : swapchain,"presentId" : presentId,"timeout" : timeout,"retval" : retval}
 def vkGetBufferDeviceAddressKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14551,8 +14551,8 @@ def vkGetBufferDeviceAddressKHR(indict):
     else: 
          pInfo = VkBufferDeviceAddressInfo()
     print(jvulkanLib.vkGetBufferDeviceAddressKHR)
-    jvulkanLib.vkGetBufferDeviceAddressKHR(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetBufferDeviceAddressKHR(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetBufferOpaqueCaptureAddressKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14563,8 +14563,8 @@ def vkGetBufferOpaqueCaptureAddressKHR(indict):
     else: 
          pInfo = VkBufferDeviceAddressInfo()
     print(jvulkanLib.vkGetBufferOpaqueCaptureAddressKHR)
-    jvulkanLib.vkGetBufferOpaqueCaptureAddressKHR(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetBufferOpaqueCaptureAddressKHR(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetDeviceMemoryOpaqueCaptureAddressKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14575,8 +14575,8 @@ def vkGetDeviceMemoryOpaqueCaptureAddressKHR(indict):
     else: 
          pInfo = VkDeviceMemoryOpaqueCaptureAddressInfo()
     print(jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddressKHR)
-    jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddressKHR(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetDeviceMemoryOpaqueCaptureAddressKHR(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkCreateDeferredOperationKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14591,8 +14591,8 @@ def vkCreateDeferredOperationKHR(indict):
     else: 
          pDeferredOperation = pointer(VkDeferredOperationKHR_T())
     print(jvulkanLib.vkCreateDeferredOperationKHR)
-    jvulkanLib.vkCreateDeferredOperationKHR(device, pAllocator, pDeferredOperation)
-    return {"device" : device,"pAllocator" : pAllocator,"pDeferredOperation" : pDeferredOperation}
+    retval = jvulkanLib.vkCreateDeferredOperationKHR(device, pAllocator, pDeferredOperation)
+    return {"device" : device,"pAllocator" : pAllocator,"pDeferredOperation" : pDeferredOperation,"retval" : retval}
 def vkDestroyDeferredOperationKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14607,8 +14607,8 @@ def vkDestroyDeferredOperationKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDeferredOperationKHR)
-    jvulkanLib.vkDestroyDeferredOperationKHR(device, operation, pAllocator)
-    return {"device" : device,"operation" : operation,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDeferredOperationKHR(device, operation, pAllocator)
+    return {"device" : device,"operation" : operation,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetDeferredOperationMaxConcurrencyKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14619,8 +14619,8 @@ def vkGetDeferredOperationMaxConcurrencyKHR(indict):
     else: 
          operation = VkDeferredOperationKHR_T()
     print(jvulkanLib.vkGetDeferredOperationMaxConcurrencyKHR)
-    jvulkanLib.vkGetDeferredOperationMaxConcurrencyKHR(device, operation)
-    return {"device" : device,"operation" : operation}
+    retval = jvulkanLib.vkGetDeferredOperationMaxConcurrencyKHR(device, operation)
+    return {"device" : device,"operation" : operation,"retval" : retval}
 def vkGetDeferredOperationResultKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14631,8 +14631,8 @@ def vkGetDeferredOperationResultKHR(indict):
     else: 
          operation = VkDeferredOperationKHR_T()
     print(jvulkanLib.vkGetDeferredOperationResultKHR)
-    jvulkanLib.vkGetDeferredOperationResultKHR(device, operation)
-    return {"device" : device,"operation" : operation}
+    retval = jvulkanLib.vkGetDeferredOperationResultKHR(device, operation)
+    return {"device" : device,"operation" : operation,"retval" : retval}
 def vkDeferredOperationJoinKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14643,8 +14643,8 @@ def vkDeferredOperationJoinKHR(indict):
     else: 
          operation = VkDeferredOperationKHR_T()
     print(jvulkanLib.vkDeferredOperationJoinKHR)
-    jvulkanLib.vkDeferredOperationJoinKHR(device, operation)
-    return {"device" : device,"operation" : operation}
+    retval = jvulkanLib.vkDeferredOperationJoinKHR(device, operation)
+    return {"device" : device,"operation" : operation,"retval" : retval}
 def vkGetPipelineExecutablePropertiesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14663,8 +14663,8 @@ def vkGetPipelineExecutablePropertiesKHR(indict):
     else: 
          pProperties = VkPipelineExecutablePropertiesKHR()
     print(jvulkanLib.vkGetPipelineExecutablePropertiesKHR)
-    jvulkanLib.vkGetPipelineExecutablePropertiesKHR(device, pPipelineInfo, pExecutableCount, pProperties)
-    return {"device" : device,"pPipelineInfo" : pPipelineInfo,"pExecutableCount" : pExecutableCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPipelineExecutablePropertiesKHR(device, pPipelineInfo, pExecutableCount, pProperties)
+    return {"device" : device,"pPipelineInfo" : pPipelineInfo,"pExecutableCount" : pExecutableCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetPipelineExecutableStatisticsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14683,8 +14683,8 @@ def vkGetPipelineExecutableStatisticsKHR(indict):
     else: 
          pStatistics = VkPipelineExecutableStatisticKHR()
     print(jvulkanLib.vkGetPipelineExecutableStatisticsKHR)
-    jvulkanLib.vkGetPipelineExecutableStatisticsKHR(device, pExecutableInfo, pStatisticCount, pStatistics)
-    return {"device" : device,"pExecutableInfo" : pExecutableInfo,"pStatisticCount" : pStatisticCount,"pStatistics" : pStatistics}
+    retval = jvulkanLib.vkGetPipelineExecutableStatisticsKHR(device, pExecutableInfo, pStatisticCount, pStatistics)
+    return {"device" : device,"pExecutableInfo" : pExecutableInfo,"pStatisticCount" : pStatisticCount,"pStatistics" : pStatistics,"retval" : retval}
 def vkGetPipelineExecutableInternalRepresentationsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14703,8 +14703,8 @@ def vkGetPipelineExecutableInternalRepresentationsKHR(indict):
     else: 
          pInternalRepresentations = VkPipelineExecutableInternalRepresentationKHR()
     print(jvulkanLib.vkGetPipelineExecutableInternalRepresentationsKHR)
-    jvulkanLib.vkGetPipelineExecutableInternalRepresentationsKHR(device, pExecutableInfo, pInternalRepresentationCount, pInternalRepresentations)
-    return {"device" : device,"pExecutableInfo" : pExecutableInfo,"pInternalRepresentationCount" : pInternalRepresentationCount,"pInternalRepresentations" : pInternalRepresentations}
+    retval = jvulkanLib.vkGetPipelineExecutableInternalRepresentationsKHR(device, pExecutableInfo, pInternalRepresentationCount, pInternalRepresentations)
+    return {"device" : device,"pExecutableInfo" : pExecutableInfo,"pInternalRepresentationCount" : pInternalRepresentationCount,"pInternalRepresentations" : pInternalRepresentations,"retval" : retval}
 def vkCmdSetEvent2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14719,8 +14719,8 @@ def vkCmdSetEvent2KHR(indict):
     else: 
          pDependencyInfo = VkDependencyInfo()
     print(jvulkanLib.vkCmdSetEvent2KHR)
-    jvulkanLib.vkCmdSetEvent2KHR(commandBuffer, event, pDependencyInfo)
-    return {"commandBuffer" : commandBuffer,"event" : event,"pDependencyInfo" : pDependencyInfo}
+    retval = jvulkanLib.vkCmdSetEvent2KHR(commandBuffer, event, pDependencyInfo)
+    return {"commandBuffer" : commandBuffer,"event" : event,"pDependencyInfo" : pDependencyInfo,"retval" : retval}
 def vkCmdResetEvent2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14735,8 +14735,8 @@ def vkCmdResetEvent2KHR(indict):
     else: 
          stageMask = c_ulong()
     print(jvulkanLib.vkCmdResetEvent2KHR)
-    jvulkanLib.vkCmdResetEvent2KHR(commandBuffer, event, stageMask)
-    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask}
+    retval = jvulkanLib.vkCmdResetEvent2KHR(commandBuffer, event, stageMask)
+    return {"commandBuffer" : commandBuffer,"event" : event,"stageMask" : stageMask,"retval" : retval}
 def vkCmdWaitEvents2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14755,8 +14755,8 @@ def vkCmdWaitEvents2KHR(indict):
     else: 
          pDependencyInfos = VkDependencyInfo()
     print(jvulkanLib.vkCmdWaitEvents2KHR)
-    jvulkanLib.vkCmdWaitEvents2KHR(commandBuffer, eventCount, pEvents, pDependencyInfos)
-    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"pDependencyInfos" : pDependencyInfos}
+    retval = jvulkanLib.vkCmdWaitEvents2KHR(commandBuffer, eventCount, pEvents, pDependencyInfos)
+    return {"commandBuffer" : commandBuffer,"eventCount" : eventCount,"pEvents" : pEvents,"pDependencyInfos" : pDependencyInfos,"retval" : retval}
 def vkCmdPipelineBarrier2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14767,8 +14767,8 @@ def vkCmdPipelineBarrier2KHR(indict):
     else: 
          pDependencyInfo = VkDependencyInfo()
     print(jvulkanLib.vkCmdPipelineBarrier2KHR)
-    jvulkanLib.vkCmdPipelineBarrier2KHR(commandBuffer, pDependencyInfo)
-    return {"commandBuffer" : commandBuffer,"pDependencyInfo" : pDependencyInfo}
+    retval = jvulkanLib.vkCmdPipelineBarrier2KHR(commandBuffer, pDependencyInfo)
+    return {"commandBuffer" : commandBuffer,"pDependencyInfo" : pDependencyInfo,"retval" : retval}
 def vkCmdWriteTimestamp2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14787,8 +14787,8 @@ def vkCmdWriteTimestamp2KHR(indict):
     else: 
          query = c_uint()
     print(jvulkanLib.vkCmdWriteTimestamp2KHR)
-    jvulkanLib.vkCmdWriteTimestamp2KHR(commandBuffer, stage, queryPool, query)
-    return {"commandBuffer" : commandBuffer,"stage" : stage,"queryPool" : queryPool,"query" : query}
+    retval = jvulkanLib.vkCmdWriteTimestamp2KHR(commandBuffer, stage, queryPool, query)
+    return {"commandBuffer" : commandBuffer,"stage" : stage,"queryPool" : queryPool,"query" : query,"retval" : retval}
 def vkQueueSubmit2KHR(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -14807,8 +14807,8 @@ def vkQueueSubmit2KHR(indict):
     else: 
          fence = VkFence_T()
     print(jvulkanLib.vkQueueSubmit2KHR)
-    jvulkanLib.vkQueueSubmit2KHR(queue, submitCount, pSubmits, fence)
-    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence}
+    retval = jvulkanLib.vkQueueSubmit2KHR(queue, submitCount, pSubmits, fence)
+    return {"queue" : queue,"submitCount" : submitCount,"pSubmits" : pSubmits,"fence" : fence,"retval" : retval}
 def vkCmdWriteBufferMarker2AMD(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14831,8 +14831,8 @@ def vkCmdWriteBufferMarker2AMD(indict):
     else: 
          marker = c_uint()
     print(jvulkanLib.vkCmdWriteBufferMarker2AMD)
-    jvulkanLib.vkCmdWriteBufferMarker2AMD(commandBuffer, stage, dstBuffer, dstOffset, marker)
-    return {"commandBuffer" : commandBuffer,"stage" : stage,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"marker" : marker}
+    retval = jvulkanLib.vkCmdWriteBufferMarker2AMD(commandBuffer, stage, dstBuffer, dstOffset, marker)
+    return {"commandBuffer" : commandBuffer,"stage" : stage,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"marker" : marker,"retval" : retval}
 def vkGetQueueCheckpointData2NV(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -14847,8 +14847,8 @@ def vkGetQueueCheckpointData2NV(indict):
     else: 
          pCheckpointData = VkCheckpointData2NV()
     print(jvulkanLib.vkGetQueueCheckpointData2NV)
-    jvulkanLib.vkGetQueueCheckpointData2NV(queue, pCheckpointDataCount, pCheckpointData)
-    return {"queue" : queue,"pCheckpointDataCount" : pCheckpointDataCount,"pCheckpointData" : pCheckpointData}
+    retval = jvulkanLib.vkGetQueueCheckpointData2NV(queue, pCheckpointDataCount, pCheckpointData)
+    return {"queue" : queue,"pCheckpointDataCount" : pCheckpointDataCount,"pCheckpointData" : pCheckpointData,"retval" : retval}
 def vkCmdCopyBuffer2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14859,8 +14859,8 @@ def vkCmdCopyBuffer2KHR(indict):
     else: 
          pCopyBufferInfo = VkCopyBufferInfo2()
     print(jvulkanLib.vkCmdCopyBuffer2KHR)
-    jvulkanLib.vkCmdCopyBuffer2KHR(commandBuffer, pCopyBufferInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyBufferInfo" : pCopyBufferInfo}
+    retval = jvulkanLib.vkCmdCopyBuffer2KHR(commandBuffer, pCopyBufferInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyBufferInfo" : pCopyBufferInfo,"retval" : retval}
 def vkCmdCopyImage2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14871,8 +14871,8 @@ def vkCmdCopyImage2KHR(indict):
     else: 
          pCopyImageInfo = VkCopyImageInfo2()
     print(jvulkanLib.vkCmdCopyImage2KHR)
-    jvulkanLib.vkCmdCopyImage2KHR(commandBuffer, pCopyImageInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyImageInfo" : pCopyImageInfo}
+    retval = jvulkanLib.vkCmdCopyImage2KHR(commandBuffer, pCopyImageInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyImageInfo" : pCopyImageInfo,"retval" : retval}
 def vkCmdCopyBufferToImage2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14883,8 +14883,8 @@ def vkCmdCopyBufferToImage2KHR(indict):
     else: 
          pCopyBufferToImageInfo = VkCopyBufferToImageInfo2()
     print(jvulkanLib.vkCmdCopyBufferToImage2KHR)
-    jvulkanLib.vkCmdCopyBufferToImage2KHR(commandBuffer, pCopyBufferToImageInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyBufferToImageInfo" : pCopyBufferToImageInfo}
+    retval = jvulkanLib.vkCmdCopyBufferToImage2KHR(commandBuffer, pCopyBufferToImageInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyBufferToImageInfo" : pCopyBufferToImageInfo,"retval" : retval}
 def vkCmdCopyImageToBuffer2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14895,8 +14895,8 @@ def vkCmdCopyImageToBuffer2KHR(indict):
     else: 
          pCopyImageToBufferInfo = VkCopyImageToBufferInfo2()
     print(jvulkanLib.vkCmdCopyImageToBuffer2KHR)
-    jvulkanLib.vkCmdCopyImageToBuffer2KHR(commandBuffer, pCopyImageToBufferInfo)
-    return {"commandBuffer" : commandBuffer,"pCopyImageToBufferInfo" : pCopyImageToBufferInfo}
+    retval = jvulkanLib.vkCmdCopyImageToBuffer2KHR(commandBuffer, pCopyImageToBufferInfo)
+    return {"commandBuffer" : commandBuffer,"pCopyImageToBufferInfo" : pCopyImageToBufferInfo,"retval" : retval}
 def vkCmdBlitImage2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14907,8 +14907,8 @@ def vkCmdBlitImage2KHR(indict):
     else: 
          pBlitImageInfo = VkBlitImageInfo2()
     print(jvulkanLib.vkCmdBlitImage2KHR)
-    jvulkanLib.vkCmdBlitImage2KHR(commandBuffer, pBlitImageInfo)
-    return {"commandBuffer" : commandBuffer,"pBlitImageInfo" : pBlitImageInfo}
+    retval = jvulkanLib.vkCmdBlitImage2KHR(commandBuffer, pBlitImageInfo)
+    return {"commandBuffer" : commandBuffer,"pBlitImageInfo" : pBlitImageInfo,"retval" : retval}
 def vkCmdResolveImage2KHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -14919,8 +14919,8 @@ def vkCmdResolveImage2KHR(indict):
     else: 
          pResolveImageInfo = VkResolveImageInfo2()
     print(jvulkanLib.vkCmdResolveImage2KHR)
-    jvulkanLib.vkCmdResolveImage2KHR(commandBuffer, pResolveImageInfo)
-    return {"commandBuffer" : commandBuffer,"pResolveImageInfo" : pResolveImageInfo}
+    retval = jvulkanLib.vkCmdResolveImage2KHR(commandBuffer, pResolveImageInfo)
+    return {"commandBuffer" : commandBuffer,"pResolveImageInfo" : pResolveImageInfo,"retval" : retval}
 def vkGetDeviceBufferMemoryRequirementsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14935,8 +14935,8 @@ def vkGetDeviceBufferMemoryRequirementsKHR(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceBufferMemoryRequirementsKHR)
-    jvulkanLib.vkGetDeviceBufferMemoryRequirementsKHR(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceBufferMemoryRequirementsKHR(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetDeviceImageMemoryRequirementsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14951,8 +14951,8 @@ def vkGetDeviceImageMemoryRequirementsKHR(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceImageMemoryRequirementsKHR)
-    jvulkanLib.vkGetDeviceImageMemoryRequirementsKHR(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceImageMemoryRequirementsKHR(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkGetDeviceImageSparseMemoryRequirementsKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -14971,8 +14971,8 @@ def vkGetDeviceImageSparseMemoryRequirementsKHR(indict):
     else: 
          pSparseMemoryRequirements = VkSparseImageMemoryRequirements2()
     print(jvulkanLib.vkGetDeviceImageSparseMemoryRequirementsKHR)
-    jvulkanLib.vkGetDeviceImageSparseMemoryRequirementsKHR(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements}
+    retval = jvulkanLib.vkGetDeviceImageSparseMemoryRequirementsKHR(device, pInfo, pSparseMemoryRequirementCount, pSparseMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pSparseMemoryRequirementCount" : pSparseMemoryRequirementCount,"pSparseMemoryRequirements" : pSparseMemoryRequirements,"retval" : retval}
 def vkCreateDebugReportCallbackEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -14991,8 +14991,8 @@ def vkCreateDebugReportCallbackEXT(indict):
     else: 
          pCallback = pointer(VkDebugReportCallbackEXT_T())
     print(jvulkanLib.vkCreateDebugReportCallbackEXT)
-    jvulkanLib.vkCreateDebugReportCallbackEXT(instance, pCreateInfo, pAllocator, pCallback)
-    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pCallback" : pCallback}
+    retval = jvulkanLib.vkCreateDebugReportCallbackEXT(instance, pCreateInfo, pAllocator, pCallback)
+    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pCallback" : pCallback,"retval" : retval}
 def vkDestroyDebugReportCallbackEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -15007,8 +15007,8 @@ def vkDestroyDebugReportCallbackEXT(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDebugReportCallbackEXT)
-    jvulkanLib.vkDestroyDebugReportCallbackEXT(instance, callback, pAllocator)
-    return {"instance" : instance,"callback" : callback,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDebugReportCallbackEXT(instance, callback, pAllocator)
+    return {"instance" : instance,"callback" : callback,"pAllocator" : pAllocator,"retval" : retval}
 def vkDebugReportMessageEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -15043,8 +15043,8 @@ def vkDebugReportMessageEXT(indict):
     else: 
          pMessage = c_char_p()
     print(jvulkanLib.vkDebugReportMessageEXT)
-    jvulkanLib.vkDebugReportMessageEXT(instance, flags, objectType, object, location, messageCode, pLayerPrefix, pMessage)
-    return {"instance" : instance,"flags" : flags,"objectType" : objectType,"object" : object,"location" : location,"messageCode" : messageCode,"pLayerPrefix" : pLayerPrefix,"pMessage" : pMessage}
+    retval = jvulkanLib.vkDebugReportMessageEXT(instance, flags, objectType, object, location, messageCode, pLayerPrefix, pMessage)
+    return {"instance" : instance,"flags" : flags,"objectType" : objectType,"object" : object,"location" : location,"messageCode" : messageCode,"pLayerPrefix" : pLayerPrefix,"pMessage" : pMessage,"retval" : retval}
 def vkDebugMarkerSetObjectTagEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15055,8 +15055,8 @@ def vkDebugMarkerSetObjectTagEXT(indict):
     else: 
          pTagInfo = VkDebugMarkerObjectTagInfoEXT()
     print(jvulkanLib.vkDebugMarkerSetObjectTagEXT)
-    jvulkanLib.vkDebugMarkerSetObjectTagEXT(device, pTagInfo)
-    return {"device" : device,"pTagInfo" : pTagInfo}
+    retval = jvulkanLib.vkDebugMarkerSetObjectTagEXT(device, pTagInfo)
+    return {"device" : device,"pTagInfo" : pTagInfo,"retval" : retval}
 def vkDebugMarkerSetObjectNameEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15067,8 +15067,8 @@ def vkDebugMarkerSetObjectNameEXT(indict):
     else: 
          pNameInfo = VkDebugMarkerObjectNameInfoEXT()
     print(jvulkanLib.vkDebugMarkerSetObjectNameEXT)
-    jvulkanLib.vkDebugMarkerSetObjectNameEXT(device, pNameInfo)
-    return {"device" : device,"pNameInfo" : pNameInfo}
+    retval = jvulkanLib.vkDebugMarkerSetObjectNameEXT(device, pNameInfo)
+    return {"device" : device,"pNameInfo" : pNameInfo,"retval" : retval}
 def vkCmdDebugMarkerBeginEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15079,16 +15079,16 @@ def vkCmdDebugMarkerBeginEXT(indict):
     else: 
          pMarkerInfo = VkDebugMarkerMarkerInfoEXT()
     print(jvulkanLib.vkCmdDebugMarkerBeginEXT)
-    jvulkanLib.vkCmdDebugMarkerBeginEXT(commandBuffer, pMarkerInfo)
-    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo}
+    retval = jvulkanLib.vkCmdDebugMarkerBeginEXT(commandBuffer, pMarkerInfo)
+    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo,"retval" : retval}
 def vkCmdDebugMarkerEndEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdDebugMarkerEndEXT)
-    jvulkanLib.vkCmdDebugMarkerEndEXT(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdDebugMarkerEndEXT(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdDebugMarkerInsertEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15099,8 +15099,8 @@ def vkCmdDebugMarkerInsertEXT(indict):
     else: 
          pMarkerInfo = VkDebugMarkerMarkerInfoEXT()
     print(jvulkanLib.vkCmdDebugMarkerInsertEXT)
-    jvulkanLib.vkCmdDebugMarkerInsertEXT(commandBuffer, pMarkerInfo)
-    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo}
+    retval = jvulkanLib.vkCmdDebugMarkerInsertEXT(commandBuffer, pMarkerInfo)
+    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo,"retval" : retval}
 def vkCmdBindTransformFeedbackBuffersEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15127,8 +15127,8 @@ def vkCmdBindTransformFeedbackBuffersEXT(indict):
     else: 
          pSizes = pointer(c_ulong())
     print(jvulkanLib.vkCmdBindTransformFeedbackBuffersEXT)
-    jvulkanLib.vkCmdBindTransformFeedbackBuffersEXT(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes)
-    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes}
+    retval = jvulkanLib.vkCmdBindTransformFeedbackBuffersEXT(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes)
+    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes,"retval" : retval}
 def vkCmdBeginTransformFeedbackEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15151,8 +15151,8 @@ def vkCmdBeginTransformFeedbackEXT(indict):
     else: 
          pCounterBufferOffsets = pointer(c_ulong())
     print(jvulkanLib.vkCmdBeginTransformFeedbackEXT)
-    jvulkanLib.vkCmdBeginTransformFeedbackEXT(commandBuffer, firstCounterBuffer, counterBufferCount, pCounterBuffers, pCounterBufferOffsets)
-    return {"commandBuffer" : commandBuffer,"firstCounterBuffer" : firstCounterBuffer,"counterBufferCount" : counterBufferCount,"pCounterBuffers" : pCounterBuffers,"pCounterBufferOffsets" : pCounterBufferOffsets}
+    retval = jvulkanLib.vkCmdBeginTransformFeedbackEXT(commandBuffer, firstCounterBuffer, counterBufferCount, pCounterBuffers, pCounterBufferOffsets)
+    return {"commandBuffer" : commandBuffer,"firstCounterBuffer" : firstCounterBuffer,"counterBufferCount" : counterBufferCount,"pCounterBuffers" : pCounterBuffers,"pCounterBufferOffsets" : pCounterBufferOffsets,"retval" : retval}
 def vkCmdEndTransformFeedbackEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15175,8 +15175,8 @@ def vkCmdEndTransformFeedbackEXT(indict):
     else: 
          pCounterBufferOffsets = pointer(c_ulong())
     print(jvulkanLib.vkCmdEndTransformFeedbackEXT)
-    jvulkanLib.vkCmdEndTransformFeedbackEXT(commandBuffer, firstCounterBuffer, counterBufferCount, pCounterBuffers, pCounterBufferOffsets)
-    return {"commandBuffer" : commandBuffer,"firstCounterBuffer" : firstCounterBuffer,"counterBufferCount" : counterBufferCount,"pCounterBuffers" : pCounterBuffers,"pCounterBufferOffsets" : pCounterBufferOffsets}
+    retval = jvulkanLib.vkCmdEndTransformFeedbackEXT(commandBuffer, firstCounterBuffer, counterBufferCount, pCounterBuffers, pCounterBufferOffsets)
+    return {"commandBuffer" : commandBuffer,"firstCounterBuffer" : firstCounterBuffer,"counterBufferCount" : counterBufferCount,"pCounterBuffers" : pCounterBuffers,"pCounterBufferOffsets" : pCounterBufferOffsets,"retval" : retval}
 def vkCmdBeginQueryIndexedEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15199,8 +15199,8 @@ def vkCmdBeginQueryIndexedEXT(indict):
     else: 
          index = c_uint()
     print(jvulkanLib.vkCmdBeginQueryIndexedEXT)
-    jvulkanLib.vkCmdBeginQueryIndexedEXT(commandBuffer, queryPool, query, flags, index)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"flags" : flags,"index" : index}
+    retval = jvulkanLib.vkCmdBeginQueryIndexedEXT(commandBuffer, queryPool, query, flags, index)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"flags" : flags,"index" : index,"retval" : retval}
 def vkCmdEndQueryIndexedEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15219,8 +15219,8 @@ def vkCmdEndQueryIndexedEXT(indict):
     else: 
          index = c_uint()
     print(jvulkanLib.vkCmdEndQueryIndexedEXT)
-    jvulkanLib.vkCmdEndQueryIndexedEXT(commandBuffer, queryPool, query, index)
-    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"index" : index}
+    retval = jvulkanLib.vkCmdEndQueryIndexedEXT(commandBuffer, queryPool, query, index)
+    return {"commandBuffer" : commandBuffer,"queryPool" : queryPool,"query" : query,"index" : index,"retval" : retval}
 def vkCmdDrawIndirectByteCountEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15251,8 +15251,8 @@ def vkCmdDrawIndirectByteCountEXT(indict):
     else: 
          vertexStride = c_uint()
     print(jvulkanLib.vkCmdDrawIndirectByteCountEXT)
-    jvulkanLib.vkCmdDrawIndirectByteCountEXT(commandBuffer, instanceCount, firstInstance, counterBuffer, counterBufferOffset, counterOffset, vertexStride)
-    return {"commandBuffer" : commandBuffer,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"counterBuffer" : counterBuffer,"counterBufferOffset" : counterBufferOffset,"counterOffset" : counterOffset,"vertexStride" : vertexStride}
+    retval = jvulkanLib.vkCmdDrawIndirectByteCountEXT(commandBuffer, instanceCount, firstInstance, counterBuffer, counterBufferOffset, counterOffset, vertexStride)
+    return {"commandBuffer" : commandBuffer,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"counterBuffer" : counterBuffer,"counterBufferOffset" : counterBufferOffset,"counterOffset" : counterOffset,"vertexStride" : vertexStride,"retval" : retval}
 def vkCreateCuModuleNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15271,8 +15271,8 @@ def vkCreateCuModuleNVX(indict):
     else: 
          pModule = pointer(VkCuModuleNVX_T())
     print(jvulkanLib.vkCreateCuModuleNVX)
-    jvulkanLib.vkCreateCuModuleNVX(device, pCreateInfo, pAllocator, pModule)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pModule" : pModule}
+    retval = jvulkanLib.vkCreateCuModuleNVX(device, pCreateInfo, pAllocator, pModule)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pModule" : pModule,"retval" : retval}
 def vkCreateCuFunctionNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15291,8 +15291,8 @@ def vkCreateCuFunctionNVX(indict):
     else: 
          pFunction = pointer(VkCuFunctionNVX_T())
     print(jvulkanLib.vkCreateCuFunctionNVX)
-    jvulkanLib.vkCreateCuFunctionNVX(device, pCreateInfo, pAllocator, pFunction)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFunction" : pFunction}
+    retval = jvulkanLib.vkCreateCuFunctionNVX(device, pCreateInfo, pAllocator, pFunction)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pFunction" : pFunction,"retval" : retval}
 def vkDestroyCuModuleNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15307,8 +15307,8 @@ def vkDestroyCuModuleNVX(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyCuModuleNVX)
-    jvulkanLib.vkDestroyCuModuleNVX(device, module, pAllocator)
-    return {"device" : device,"module" : module,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyCuModuleNVX(device, module, pAllocator)
+    return {"device" : device,"module" : module,"pAllocator" : pAllocator,"retval" : retval}
 def vkDestroyCuFunctionNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15323,8 +15323,8 @@ def vkDestroyCuFunctionNVX(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyCuFunctionNVX)
-    jvulkanLib.vkDestroyCuFunctionNVX(device, function, pAllocator)
-    return {"device" : device,"function" : function,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyCuFunctionNVX(device, function, pAllocator)
+    return {"device" : device,"function" : function,"pAllocator" : pAllocator,"retval" : retval}
 def vkCmdCuLaunchKernelNVX(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15335,8 +15335,8 @@ def vkCmdCuLaunchKernelNVX(indict):
     else: 
          pLaunchInfo = VkCuLaunchInfoNVX()
     print(jvulkanLib.vkCmdCuLaunchKernelNVX)
-    jvulkanLib.vkCmdCuLaunchKernelNVX(commandBuffer, pLaunchInfo)
-    return {"commandBuffer" : commandBuffer,"pLaunchInfo" : pLaunchInfo}
+    retval = jvulkanLib.vkCmdCuLaunchKernelNVX(commandBuffer, pLaunchInfo)
+    return {"commandBuffer" : commandBuffer,"pLaunchInfo" : pLaunchInfo,"retval" : retval}
 def vkGetImageViewHandleNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15347,8 +15347,8 @@ def vkGetImageViewHandleNVX(indict):
     else: 
          pInfo = VkImageViewHandleInfoNVX()
     print(jvulkanLib.vkGetImageViewHandleNVX)
-    jvulkanLib.vkGetImageViewHandleNVX(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetImageViewHandleNVX(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetImageViewAddressNVX(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15363,8 +15363,8 @@ def vkGetImageViewAddressNVX(indict):
     else: 
          pProperties = VkImageViewAddressPropertiesNVX()
     print(jvulkanLib.vkGetImageViewAddressNVX)
-    jvulkanLib.vkGetImageViewAddressNVX(device, imageView, pProperties)
-    return {"device" : device,"imageView" : imageView,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetImageViewAddressNVX(device, imageView, pProperties)
+    return {"device" : device,"imageView" : imageView,"pProperties" : pProperties,"retval" : retval}
 def vkCmdDrawIndirectCountAMD(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15395,8 +15395,8 @@ def vkCmdDrawIndirectCountAMD(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndirectCountAMD)
-    jvulkanLib.vkCmdDrawIndirectCountAMD(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndirectCountAMD(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkCmdDrawIndexedIndirectCountAMD(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15427,8 +15427,8 @@ def vkCmdDrawIndexedIndirectCountAMD(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawIndexedIndirectCountAMD)
-    jvulkanLib.vkCmdDrawIndexedIndirectCountAMD(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawIndexedIndirectCountAMD(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkGetShaderInfoAMD(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15455,8 +15455,8 @@ def vkGetShaderInfoAMD(indict):
     else: 
          pInfo = c_void_p()
     print(jvulkanLib.vkGetShaderInfoAMD)
-    jvulkanLib.vkGetShaderInfoAMD(device, pipeline, shaderStage, infoType, pInfoSize, pInfo)
-    return {"device" : device,"pipeline" : pipeline,"shaderStage" : shaderStage,"infoType" : infoType,"pInfoSize" : pInfoSize,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetShaderInfoAMD(device, pipeline, shaderStage, infoType, pInfoSize, pInfo)
+    return {"device" : device,"pipeline" : pipeline,"shaderStage" : shaderStage,"infoType" : infoType,"pInfoSize" : pInfoSize,"pInfo" : pInfo,"retval" : retval}
 def vkGetPhysicalDeviceExternalImageFormatPropertiesNV(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -15491,8 +15491,8 @@ def vkGetPhysicalDeviceExternalImageFormatPropertiesNV(indict):
     else: 
          pExternalImageFormatProperties = VkExternalImageFormatPropertiesNV()
     print(jvulkanLib.vkGetPhysicalDeviceExternalImageFormatPropertiesNV)
-    jvulkanLib.vkGetPhysicalDeviceExternalImageFormatPropertiesNV(physicalDevice, format, type, tiling, usage, flags, externalHandleType, pExternalImageFormatProperties)
-    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"tiling" : tiling,"usage" : usage,"flags" : flags,"externalHandleType" : externalHandleType,"pExternalImageFormatProperties" : pExternalImageFormatProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceExternalImageFormatPropertiesNV(physicalDevice, format, type, tiling, usage, flags, externalHandleType, pExternalImageFormatProperties)
+    return {"physicalDevice" : physicalDevice,"format" : format,"type" : type,"tiling" : tiling,"usage" : usage,"flags" : flags,"externalHandleType" : externalHandleType,"pExternalImageFormatProperties" : pExternalImageFormatProperties,"retval" : retval}
 def vkCmdBeginConditionalRenderingEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15503,16 +15503,16 @@ def vkCmdBeginConditionalRenderingEXT(indict):
     else: 
          pConditionalRenderingBegin = VkConditionalRenderingBeginInfoEXT()
     print(jvulkanLib.vkCmdBeginConditionalRenderingEXT)
-    jvulkanLib.vkCmdBeginConditionalRenderingEXT(commandBuffer, pConditionalRenderingBegin)
-    return {"commandBuffer" : commandBuffer,"pConditionalRenderingBegin" : pConditionalRenderingBegin}
+    retval = jvulkanLib.vkCmdBeginConditionalRenderingEXT(commandBuffer, pConditionalRenderingBegin)
+    return {"commandBuffer" : commandBuffer,"pConditionalRenderingBegin" : pConditionalRenderingBegin,"retval" : retval}
 def vkCmdEndConditionalRenderingEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdEndConditionalRenderingEXT)
-    jvulkanLib.vkCmdEndConditionalRenderingEXT(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdEndConditionalRenderingEXT(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdSetViewportWScalingNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15531,8 +15531,8 @@ def vkCmdSetViewportWScalingNV(indict):
     else: 
          pViewportWScalings = VkViewportWScalingNV()
     print(jvulkanLib.vkCmdSetViewportWScalingNV)
-    jvulkanLib.vkCmdSetViewportWScalingNV(commandBuffer, firstViewport, viewportCount, pViewportWScalings)
-    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pViewportWScalings" : pViewportWScalings}
+    retval = jvulkanLib.vkCmdSetViewportWScalingNV(commandBuffer, firstViewport, viewportCount, pViewportWScalings)
+    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pViewportWScalings" : pViewportWScalings,"retval" : retval}
 def vkReleaseDisplayEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -15543,8 +15543,8 @@ def vkReleaseDisplayEXT(indict):
     else: 
          display = VkDisplayKHR_T()
     print(jvulkanLib.vkReleaseDisplayEXT)
-    jvulkanLib.vkReleaseDisplayEXT(physicalDevice, display)
-    return {"physicalDevice" : physicalDevice,"display" : display}
+    retval = jvulkanLib.vkReleaseDisplayEXT(physicalDevice, display)
+    return {"physicalDevice" : physicalDevice,"display" : display,"retval" : retval}
 def vkGetPhysicalDeviceSurfaceCapabilities2EXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -15559,8 +15559,8 @@ def vkGetPhysicalDeviceSurfaceCapabilities2EXT(indict):
     else: 
          pSurfaceCapabilities = VkSurfaceCapabilities2EXT()
     print(jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2EXT)
-    jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2EXT(physicalDevice, surface, pSurfaceCapabilities)
-    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceCapabilities" : pSurfaceCapabilities}
+    retval = jvulkanLib.vkGetPhysicalDeviceSurfaceCapabilities2EXT(physicalDevice, surface, pSurfaceCapabilities)
+    return {"physicalDevice" : physicalDevice,"surface" : surface,"pSurfaceCapabilities" : pSurfaceCapabilities,"retval" : retval}
 def vkDisplayPowerControlEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15575,8 +15575,8 @@ def vkDisplayPowerControlEXT(indict):
     else: 
          pDisplayPowerInfo = VkDisplayPowerInfoEXT()
     print(jvulkanLib.vkDisplayPowerControlEXT)
-    jvulkanLib.vkDisplayPowerControlEXT(device, display, pDisplayPowerInfo)
-    return {"device" : device,"display" : display,"pDisplayPowerInfo" : pDisplayPowerInfo}
+    retval = jvulkanLib.vkDisplayPowerControlEXT(device, display, pDisplayPowerInfo)
+    return {"device" : device,"display" : display,"pDisplayPowerInfo" : pDisplayPowerInfo,"retval" : retval}
 def vkRegisterDeviceEventEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15595,8 +15595,8 @@ def vkRegisterDeviceEventEXT(indict):
     else: 
          pFence = pointer(VkFence_T())
     print(jvulkanLib.vkRegisterDeviceEventEXT)
-    jvulkanLib.vkRegisterDeviceEventEXT(device, pDeviceEventInfo, pAllocator, pFence)
-    return {"device" : device,"pDeviceEventInfo" : pDeviceEventInfo,"pAllocator" : pAllocator,"pFence" : pFence}
+    retval = jvulkanLib.vkRegisterDeviceEventEXT(device, pDeviceEventInfo, pAllocator, pFence)
+    return {"device" : device,"pDeviceEventInfo" : pDeviceEventInfo,"pAllocator" : pAllocator,"pFence" : pFence,"retval" : retval}
 def vkRegisterDisplayEventEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15619,8 +15619,8 @@ def vkRegisterDisplayEventEXT(indict):
     else: 
          pFence = pointer(VkFence_T())
     print(jvulkanLib.vkRegisterDisplayEventEXT)
-    jvulkanLib.vkRegisterDisplayEventEXT(device, display, pDisplayEventInfo, pAllocator, pFence)
-    return {"device" : device,"display" : display,"pDisplayEventInfo" : pDisplayEventInfo,"pAllocator" : pAllocator,"pFence" : pFence}
+    retval = jvulkanLib.vkRegisterDisplayEventEXT(device, display, pDisplayEventInfo, pAllocator, pFence)
+    return {"device" : device,"display" : display,"pDisplayEventInfo" : pDisplayEventInfo,"pAllocator" : pAllocator,"pFence" : pFence,"retval" : retval}
 def vkGetSwapchainCounterEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15639,8 +15639,8 @@ def vkGetSwapchainCounterEXT(indict):
     else: 
          pCounterValue = pointer(c_ulong())
     print(jvulkanLib.vkGetSwapchainCounterEXT)
-    jvulkanLib.vkGetSwapchainCounterEXT(device, swapchain, counter, pCounterValue)
-    return {"device" : device,"swapchain" : swapchain,"counter" : counter,"pCounterValue" : pCounterValue}
+    retval = jvulkanLib.vkGetSwapchainCounterEXT(device, swapchain, counter, pCounterValue)
+    return {"device" : device,"swapchain" : swapchain,"counter" : counter,"pCounterValue" : pCounterValue,"retval" : retval}
 def vkGetRefreshCycleDurationGOOGLE(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15655,8 +15655,8 @@ def vkGetRefreshCycleDurationGOOGLE(indict):
     else: 
          pDisplayTimingProperties = VkRefreshCycleDurationGOOGLE()
     print(jvulkanLib.vkGetRefreshCycleDurationGOOGLE)
-    jvulkanLib.vkGetRefreshCycleDurationGOOGLE(device, swapchain, pDisplayTimingProperties)
-    return {"device" : device,"swapchain" : swapchain,"pDisplayTimingProperties" : pDisplayTimingProperties}
+    retval = jvulkanLib.vkGetRefreshCycleDurationGOOGLE(device, swapchain, pDisplayTimingProperties)
+    return {"device" : device,"swapchain" : swapchain,"pDisplayTimingProperties" : pDisplayTimingProperties,"retval" : retval}
 def vkGetPastPresentationTimingGOOGLE(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15675,8 +15675,8 @@ def vkGetPastPresentationTimingGOOGLE(indict):
     else: 
          pPresentationTimings = VkPastPresentationTimingGOOGLE()
     print(jvulkanLib.vkGetPastPresentationTimingGOOGLE)
-    jvulkanLib.vkGetPastPresentationTimingGOOGLE(device, swapchain, pPresentationTimingCount, pPresentationTimings)
-    return {"device" : device,"swapchain" : swapchain,"pPresentationTimingCount" : pPresentationTimingCount,"pPresentationTimings" : pPresentationTimings}
+    retval = jvulkanLib.vkGetPastPresentationTimingGOOGLE(device, swapchain, pPresentationTimingCount, pPresentationTimings)
+    return {"device" : device,"swapchain" : swapchain,"pPresentationTimingCount" : pPresentationTimingCount,"pPresentationTimings" : pPresentationTimings,"retval" : retval}
 def vkCmdSetDiscardRectangleEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15695,8 +15695,8 @@ def vkCmdSetDiscardRectangleEXT(indict):
     else: 
          pDiscardRectangles = VkRect2D()
     print(jvulkanLib.vkCmdSetDiscardRectangleEXT)
-    jvulkanLib.vkCmdSetDiscardRectangleEXT(commandBuffer, firstDiscardRectangle, discardRectangleCount, pDiscardRectangles)
-    return {"commandBuffer" : commandBuffer,"firstDiscardRectangle" : firstDiscardRectangle,"discardRectangleCount" : discardRectangleCount,"pDiscardRectangles" : pDiscardRectangles}
+    retval = jvulkanLib.vkCmdSetDiscardRectangleEXT(commandBuffer, firstDiscardRectangle, discardRectangleCount, pDiscardRectangles)
+    return {"commandBuffer" : commandBuffer,"firstDiscardRectangle" : firstDiscardRectangle,"discardRectangleCount" : discardRectangleCount,"pDiscardRectangles" : pDiscardRectangles,"retval" : retval}
 def vkSetHdrMetadataEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15715,8 +15715,8 @@ def vkSetHdrMetadataEXT(indict):
     else: 
          pMetadata = VkHdrMetadataEXT()
     print(jvulkanLib.vkSetHdrMetadataEXT)
-    jvulkanLib.vkSetHdrMetadataEXT(device, swapchainCount, pSwapchains, pMetadata)
-    return {"device" : device,"swapchainCount" : swapchainCount,"pSwapchains" : pSwapchains,"pMetadata" : pMetadata}
+    retval = jvulkanLib.vkSetHdrMetadataEXT(device, swapchainCount, pSwapchains, pMetadata)
+    return {"device" : device,"swapchainCount" : swapchainCount,"pSwapchains" : pSwapchains,"pMetadata" : pMetadata,"retval" : retval}
 def vkSetDebugUtilsObjectNameEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15727,8 +15727,8 @@ def vkSetDebugUtilsObjectNameEXT(indict):
     else: 
          pNameInfo = VkDebugUtilsObjectNameInfoEXT()
     print(jvulkanLib.vkSetDebugUtilsObjectNameEXT)
-    jvulkanLib.vkSetDebugUtilsObjectNameEXT(device, pNameInfo)
-    return {"device" : device,"pNameInfo" : pNameInfo}
+    retval = jvulkanLib.vkSetDebugUtilsObjectNameEXT(device, pNameInfo)
+    return {"device" : device,"pNameInfo" : pNameInfo,"retval" : retval}
 def vkSetDebugUtilsObjectTagEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15739,8 +15739,8 @@ def vkSetDebugUtilsObjectTagEXT(indict):
     else: 
          pTagInfo = VkDebugUtilsObjectTagInfoEXT()
     print(jvulkanLib.vkSetDebugUtilsObjectTagEXT)
-    jvulkanLib.vkSetDebugUtilsObjectTagEXT(device, pTagInfo)
-    return {"device" : device,"pTagInfo" : pTagInfo}
+    retval = jvulkanLib.vkSetDebugUtilsObjectTagEXT(device, pTagInfo)
+    return {"device" : device,"pTagInfo" : pTagInfo,"retval" : retval}
 def vkQueueBeginDebugUtilsLabelEXT(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -15751,16 +15751,16 @@ def vkQueueBeginDebugUtilsLabelEXT(indict):
     else: 
          pLabelInfo = VkDebugUtilsLabelEXT()
     print(jvulkanLib.vkQueueBeginDebugUtilsLabelEXT)
-    jvulkanLib.vkQueueBeginDebugUtilsLabelEXT(queue, pLabelInfo)
-    return {"queue" : queue,"pLabelInfo" : pLabelInfo}
+    retval = jvulkanLib.vkQueueBeginDebugUtilsLabelEXT(queue, pLabelInfo)
+    return {"queue" : queue,"pLabelInfo" : pLabelInfo,"retval" : retval}
 def vkQueueEndDebugUtilsLabelEXT(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
     else: 
          queue = VkQueue_T()
     print(jvulkanLib.vkQueueEndDebugUtilsLabelEXT)
-    jvulkanLib.vkQueueEndDebugUtilsLabelEXT(queue)
-    return {"queue" : queue}
+    retval = jvulkanLib.vkQueueEndDebugUtilsLabelEXT(queue)
+    return {"queue" : queue,"retval" : retval}
 def vkQueueInsertDebugUtilsLabelEXT(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -15771,8 +15771,8 @@ def vkQueueInsertDebugUtilsLabelEXT(indict):
     else: 
          pLabelInfo = VkDebugUtilsLabelEXT()
     print(jvulkanLib.vkQueueInsertDebugUtilsLabelEXT)
-    jvulkanLib.vkQueueInsertDebugUtilsLabelEXT(queue, pLabelInfo)
-    return {"queue" : queue,"pLabelInfo" : pLabelInfo}
+    retval = jvulkanLib.vkQueueInsertDebugUtilsLabelEXT(queue, pLabelInfo)
+    return {"queue" : queue,"pLabelInfo" : pLabelInfo,"retval" : retval}
 def vkCmdBeginDebugUtilsLabelEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15783,16 +15783,16 @@ def vkCmdBeginDebugUtilsLabelEXT(indict):
     else: 
          pLabelInfo = VkDebugUtilsLabelEXT()
     print(jvulkanLib.vkCmdBeginDebugUtilsLabelEXT)
-    jvulkanLib.vkCmdBeginDebugUtilsLabelEXT(commandBuffer, pLabelInfo)
-    return {"commandBuffer" : commandBuffer,"pLabelInfo" : pLabelInfo}
+    retval = jvulkanLib.vkCmdBeginDebugUtilsLabelEXT(commandBuffer, pLabelInfo)
+    return {"commandBuffer" : commandBuffer,"pLabelInfo" : pLabelInfo,"retval" : retval}
 def vkCmdEndDebugUtilsLabelEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdEndDebugUtilsLabelEXT)
-    jvulkanLib.vkCmdEndDebugUtilsLabelEXT(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdEndDebugUtilsLabelEXT(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdInsertDebugUtilsLabelEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15803,8 +15803,8 @@ def vkCmdInsertDebugUtilsLabelEXT(indict):
     else: 
          pLabelInfo = VkDebugUtilsLabelEXT()
     print(jvulkanLib.vkCmdInsertDebugUtilsLabelEXT)
-    jvulkanLib.vkCmdInsertDebugUtilsLabelEXT(commandBuffer, pLabelInfo)
-    return {"commandBuffer" : commandBuffer,"pLabelInfo" : pLabelInfo}
+    retval = jvulkanLib.vkCmdInsertDebugUtilsLabelEXT(commandBuffer, pLabelInfo)
+    return {"commandBuffer" : commandBuffer,"pLabelInfo" : pLabelInfo,"retval" : retval}
 def vkCreateDebugUtilsMessengerEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -15823,8 +15823,8 @@ def vkCreateDebugUtilsMessengerEXT(indict):
     else: 
          pMessenger = pointer(VkDebugUtilsMessengerEXT_T())
     print(jvulkanLib.vkCreateDebugUtilsMessengerEXT)
-    jvulkanLib.vkCreateDebugUtilsMessengerEXT(instance, pCreateInfo, pAllocator, pMessenger)
-    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pMessenger" : pMessenger}
+    retval = jvulkanLib.vkCreateDebugUtilsMessengerEXT(instance, pCreateInfo, pAllocator, pMessenger)
+    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pMessenger" : pMessenger,"retval" : retval}
 def vkDestroyDebugUtilsMessengerEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -15839,8 +15839,8 @@ def vkDestroyDebugUtilsMessengerEXT(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyDebugUtilsMessengerEXT)
-    jvulkanLib.vkDestroyDebugUtilsMessengerEXT(instance, messenger, pAllocator)
-    return {"instance" : instance,"messenger" : messenger,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyDebugUtilsMessengerEXT(instance, messenger, pAllocator)
+    return {"instance" : instance,"messenger" : messenger,"pAllocator" : pAllocator,"retval" : retval}
 def vkSubmitDebugUtilsMessageEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -15859,8 +15859,8 @@ def vkSubmitDebugUtilsMessageEXT(indict):
     else: 
          pCallbackData = VkDebugUtilsMessengerCallbackDataEXT()
     print(jvulkanLib.vkSubmitDebugUtilsMessageEXT)
-    jvulkanLib.vkSubmitDebugUtilsMessageEXT(instance, messageSeverity, messageTypes, pCallbackData)
-    return {"instance" : instance,"messageSeverity" : messageSeverity,"messageTypes" : messageTypes,"pCallbackData" : pCallbackData}
+    retval = jvulkanLib.vkSubmitDebugUtilsMessageEXT(instance, messageSeverity, messageTypes, pCallbackData)
+    return {"instance" : instance,"messageSeverity" : messageSeverity,"messageTypes" : messageTypes,"pCallbackData" : pCallbackData,"retval" : retval}
 def vkCmdSetSampleLocationsEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15871,8 +15871,8 @@ def vkCmdSetSampleLocationsEXT(indict):
     else: 
          pSampleLocationsInfo = VkSampleLocationsInfoEXT()
     print(jvulkanLib.vkCmdSetSampleLocationsEXT)
-    jvulkanLib.vkCmdSetSampleLocationsEXT(commandBuffer, pSampleLocationsInfo)
-    return {"commandBuffer" : commandBuffer,"pSampleLocationsInfo" : pSampleLocationsInfo}
+    retval = jvulkanLib.vkCmdSetSampleLocationsEXT(commandBuffer, pSampleLocationsInfo)
+    return {"commandBuffer" : commandBuffer,"pSampleLocationsInfo" : pSampleLocationsInfo,"retval" : retval}
 def vkGetPhysicalDeviceMultisamplePropertiesEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -15887,8 +15887,8 @@ def vkGetPhysicalDeviceMultisamplePropertiesEXT(indict):
     else: 
          pMultisampleProperties = VkMultisamplePropertiesEXT()
     print(jvulkanLib.vkGetPhysicalDeviceMultisamplePropertiesEXT)
-    jvulkanLib.vkGetPhysicalDeviceMultisamplePropertiesEXT(physicalDevice, samples, pMultisampleProperties)
-    return {"physicalDevice" : physicalDevice,"samples" : samples,"pMultisampleProperties" : pMultisampleProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceMultisamplePropertiesEXT(physicalDevice, samples, pMultisampleProperties)
+    return {"physicalDevice" : physicalDevice,"samples" : samples,"pMultisampleProperties" : pMultisampleProperties,"retval" : retval}
 def vkGetImageDrmFormatModifierPropertiesEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15903,8 +15903,8 @@ def vkGetImageDrmFormatModifierPropertiesEXT(indict):
     else: 
          pProperties = VkImageDrmFormatModifierPropertiesEXT()
     print(jvulkanLib.vkGetImageDrmFormatModifierPropertiesEXT)
-    jvulkanLib.vkGetImageDrmFormatModifierPropertiesEXT(device, image, pProperties)
-    return {"device" : device,"image" : image,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetImageDrmFormatModifierPropertiesEXT(device, image, pProperties)
+    return {"device" : device,"image" : image,"pProperties" : pProperties,"retval" : retval}
 def vkCreateValidationCacheEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15923,8 +15923,8 @@ def vkCreateValidationCacheEXT(indict):
     else: 
          pValidationCache = pointer(VkValidationCacheEXT_T())
     print(jvulkanLib.vkCreateValidationCacheEXT)
-    jvulkanLib.vkCreateValidationCacheEXT(device, pCreateInfo, pAllocator, pValidationCache)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pValidationCache" : pValidationCache}
+    retval = jvulkanLib.vkCreateValidationCacheEXT(device, pCreateInfo, pAllocator, pValidationCache)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pValidationCache" : pValidationCache,"retval" : retval}
 def vkDestroyValidationCacheEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15939,8 +15939,8 @@ def vkDestroyValidationCacheEXT(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyValidationCacheEXT)
-    jvulkanLib.vkDestroyValidationCacheEXT(device, validationCache, pAllocator)
-    return {"device" : device,"validationCache" : validationCache,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyValidationCacheEXT(device, validationCache, pAllocator)
+    return {"device" : device,"validationCache" : validationCache,"pAllocator" : pAllocator,"retval" : retval}
 def vkMergeValidationCachesEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15959,8 +15959,8 @@ def vkMergeValidationCachesEXT(indict):
     else: 
          pSrcCaches = pointer(VkValidationCacheEXT_T())
     print(jvulkanLib.vkMergeValidationCachesEXT)
-    jvulkanLib.vkMergeValidationCachesEXT(device, dstCache, srcCacheCount, pSrcCaches)
-    return {"device" : device,"dstCache" : dstCache,"srcCacheCount" : srcCacheCount,"pSrcCaches" : pSrcCaches}
+    retval = jvulkanLib.vkMergeValidationCachesEXT(device, dstCache, srcCacheCount, pSrcCaches)
+    return {"device" : device,"dstCache" : dstCache,"srcCacheCount" : srcCacheCount,"pSrcCaches" : pSrcCaches,"retval" : retval}
 def vkGetValidationCacheDataEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -15979,8 +15979,8 @@ def vkGetValidationCacheDataEXT(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetValidationCacheDataEXT)
-    jvulkanLib.vkGetValidationCacheDataEXT(device, validationCache, pDataSize, pData)
-    return {"device" : device,"validationCache" : validationCache,"pDataSize" : pDataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetValidationCacheDataEXT(device, validationCache, pDataSize, pData)
+    return {"device" : device,"validationCache" : validationCache,"pDataSize" : pDataSize,"pData" : pData,"retval" : retval}
 def vkCmdBindShadingRateImageNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -15995,8 +15995,8 @@ def vkCmdBindShadingRateImageNV(indict):
     else: 
          imageLayout = c_int()
     print(jvulkanLib.vkCmdBindShadingRateImageNV)
-    jvulkanLib.vkCmdBindShadingRateImageNV(commandBuffer, imageView, imageLayout)
-    return {"commandBuffer" : commandBuffer,"imageView" : imageView,"imageLayout" : imageLayout}
+    retval = jvulkanLib.vkCmdBindShadingRateImageNV(commandBuffer, imageView, imageLayout)
+    return {"commandBuffer" : commandBuffer,"imageView" : imageView,"imageLayout" : imageLayout,"retval" : retval}
 def vkCmdSetViewportShadingRatePaletteNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16015,8 +16015,8 @@ def vkCmdSetViewportShadingRatePaletteNV(indict):
     else: 
          pShadingRatePalettes = VkShadingRatePaletteNV()
     print(jvulkanLib.vkCmdSetViewportShadingRatePaletteNV)
-    jvulkanLib.vkCmdSetViewportShadingRatePaletteNV(commandBuffer, firstViewport, viewportCount, pShadingRatePalettes)
-    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pShadingRatePalettes" : pShadingRatePalettes}
+    retval = jvulkanLib.vkCmdSetViewportShadingRatePaletteNV(commandBuffer, firstViewport, viewportCount, pShadingRatePalettes)
+    return {"commandBuffer" : commandBuffer,"firstViewport" : firstViewport,"viewportCount" : viewportCount,"pShadingRatePalettes" : pShadingRatePalettes,"retval" : retval}
 def vkCmdSetCoarseSampleOrderNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16035,8 +16035,8 @@ def vkCmdSetCoarseSampleOrderNV(indict):
     else: 
          pCustomSampleOrders = VkCoarseSampleOrderCustomNV()
     print(jvulkanLib.vkCmdSetCoarseSampleOrderNV)
-    jvulkanLib.vkCmdSetCoarseSampleOrderNV(commandBuffer, sampleOrderType, customSampleOrderCount, pCustomSampleOrders)
-    return {"commandBuffer" : commandBuffer,"sampleOrderType" : sampleOrderType,"customSampleOrderCount" : customSampleOrderCount,"pCustomSampleOrders" : pCustomSampleOrders}
+    retval = jvulkanLib.vkCmdSetCoarseSampleOrderNV(commandBuffer, sampleOrderType, customSampleOrderCount, pCustomSampleOrders)
+    return {"commandBuffer" : commandBuffer,"sampleOrderType" : sampleOrderType,"customSampleOrderCount" : customSampleOrderCount,"pCustomSampleOrders" : pCustomSampleOrders,"retval" : retval}
 def vkCreateAccelerationStructureNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16055,8 +16055,8 @@ def vkCreateAccelerationStructureNV(indict):
     else: 
          pAccelerationStructure = pointer(VkAccelerationStructureNV_T())
     print(jvulkanLib.vkCreateAccelerationStructureNV)
-    jvulkanLib.vkCreateAccelerationStructureNV(device, pCreateInfo, pAllocator, pAccelerationStructure)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pAccelerationStructure" : pAccelerationStructure}
+    retval = jvulkanLib.vkCreateAccelerationStructureNV(device, pCreateInfo, pAllocator, pAccelerationStructure)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pAccelerationStructure" : pAccelerationStructure,"retval" : retval}
 def vkDestroyAccelerationStructureNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16071,8 +16071,8 @@ def vkDestroyAccelerationStructureNV(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyAccelerationStructureNV)
-    jvulkanLib.vkDestroyAccelerationStructureNV(device, accelerationStructure, pAllocator)
-    return {"device" : device,"accelerationStructure" : accelerationStructure,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyAccelerationStructureNV(device, accelerationStructure, pAllocator)
+    return {"device" : device,"accelerationStructure" : accelerationStructure,"pAllocator" : pAllocator,"retval" : retval}
 def vkGetAccelerationStructureMemoryRequirementsNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16087,8 +16087,8 @@ def vkGetAccelerationStructureMemoryRequirementsNV(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetAccelerationStructureMemoryRequirementsNV)
-    jvulkanLib.vkGetAccelerationStructureMemoryRequirementsNV(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetAccelerationStructureMemoryRequirementsNV(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkBindAccelerationStructureMemoryNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16103,8 +16103,8 @@ def vkBindAccelerationStructureMemoryNV(indict):
     else: 
          pBindInfos = VkBindAccelerationStructureMemoryInfoNV()
     print(jvulkanLib.vkBindAccelerationStructureMemoryNV)
-    jvulkanLib.vkBindAccelerationStructureMemoryNV(device, bindInfoCount, pBindInfos)
-    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos}
+    retval = jvulkanLib.vkBindAccelerationStructureMemoryNV(device, bindInfoCount, pBindInfos)
+    return {"device" : device,"bindInfoCount" : bindInfoCount,"pBindInfos" : pBindInfos,"retval" : retval}
 def vkCmdBuildAccelerationStructureNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16143,8 +16143,8 @@ def vkCmdBuildAccelerationStructureNV(indict):
     else: 
          scratchOffset = c_ulong()
     print(jvulkanLib.vkCmdBuildAccelerationStructureNV)
-    jvulkanLib.vkCmdBuildAccelerationStructureNV(commandBuffer, pInfo, instanceData, instanceOffset, update, dst, src, scratch, scratchOffset)
-    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo,"instanceData" : instanceData,"instanceOffset" : instanceOffset,"update" : update,"dst" : dst,"src" : src,"scratch" : scratch,"scratchOffset" : scratchOffset}
+    retval = jvulkanLib.vkCmdBuildAccelerationStructureNV(commandBuffer, pInfo, instanceData, instanceOffset, update, dst, src, scratch, scratchOffset)
+    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo,"instanceData" : instanceData,"instanceOffset" : instanceOffset,"update" : update,"dst" : dst,"src" : src,"scratch" : scratch,"scratchOffset" : scratchOffset,"retval" : retval}
 def vkCmdCopyAccelerationStructureNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16163,8 +16163,8 @@ def vkCmdCopyAccelerationStructureNV(indict):
     else: 
          mode = c_int()
     print(jvulkanLib.vkCmdCopyAccelerationStructureNV)
-    jvulkanLib.vkCmdCopyAccelerationStructureNV(commandBuffer, dst, src, mode)
-    return {"commandBuffer" : commandBuffer,"dst" : dst,"src" : src,"mode" : mode}
+    retval = jvulkanLib.vkCmdCopyAccelerationStructureNV(commandBuffer, dst, src, mode)
+    return {"commandBuffer" : commandBuffer,"dst" : dst,"src" : src,"mode" : mode,"retval" : retval}
 def vkCmdTraceRaysNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16227,8 +16227,8 @@ def vkCmdTraceRaysNV(indict):
     else: 
          depth = c_uint()
     print(jvulkanLib.vkCmdTraceRaysNV)
-    jvulkanLib.vkCmdTraceRaysNV(commandBuffer, raygenShaderBindingTableBuffer, raygenShaderBindingOffset, missShaderBindingTableBuffer, missShaderBindingOffset, missShaderBindingStride, hitShaderBindingTableBuffer, hitShaderBindingOffset, hitShaderBindingStride, callableShaderBindingTableBuffer, callableShaderBindingOffset, callableShaderBindingStride, width, height, depth)
-    return {"commandBuffer" : commandBuffer,"raygenShaderBindingTableBuffer" : raygenShaderBindingTableBuffer,"raygenShaderBindingOffset" : raygenShaderBindingOffset,"missShaderBindingTableBuffer" : missShaderBindingTableBuffer,"missShaderBindingOffset" : missShaderBindingOffset,"missShaderBindingStride" : missShaderBindingStride,"hitShaderBindingTableBuffer" : hitShaderBindingTableBuffer,"hitShaderBindingOffset" : hitShaderBindingOffset,"hitShaderBindingStride" : hitShaderBindingStride,"callableShaderBindingTableBuffer" : callableShaderBindingTableBuffer,"callableShaderBindingOffset" : callableShaderBindingOffset,"callableShaderBindingStride" : callableShaderBindingStride,"width" : width,"height" : height,"depth" : depth}
+    retval = jvulkanLib.vkCmdTraceRaysNV(commandBuffer, raygenShaderBindingTableBuffer, raygenShaderBindingOffset, missShaderBindingTableBuffer, missShaderBindingOffset, missShaderBindingStride, hitShaderBindingTableBuffer, hitShaderBindingOffset, hitShaderBindingStride, callableShaderBindingTableBuffer, callableShaderBindingOffset, callableShaderBindingStride, width, height, depth)
+    return {"commandBuffer" : commandBuffer,"raygenShaderBindingTableBuffer" : raygenShaderBindingTableBuffer,"raygenShaderBindingOffset" : raygenShaderBindingOffset,"missShaderBindingTableBuffer" : missShaderBindingTableBuffer,"missShaderBindingOffset" : missShaderBindingOffset,"missShaderBindingStride" : missShaderBindingStride,"hitShaderBindingTableBuffer" : hitShaderBindingTableBuffer,"hitShaderBindingOffset" : hitShaderBindingOffset,"hitShaderBindingStride" : hitShaderBindingStride,"callableShaderBindingTableBuffer" : callableShaderBindingTableBuffer,"callableShaderBindingOffset" : callableShaderBindingOffset,"callableShaderBindingStride" : callableShaderBindingStride,"width" : width,"height" : height,"depth" : depth,"retval" : retval}
 def vkCreateRayTracingPipelinesNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16255,8 +16255,8 @@ def vkCreateRayTracingPipelinesNV(indict):
     else: 
          pPipelines = pointer(VkPipeline_T())
     print(jvulkanLib.vkCreateRayTracingPipelinesNV)
-    jvulkanLib.vkCreateRayTracingPipelinesNV(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
-    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines}
+    retval = jvulkanLib.vkCreateRayTracingPipelinesNV(device, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
+    return {"device" : device,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines,"retval" : retval}
 def vkGetRayTracingShaderGroupHandlesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16283,8 +16283,8 @@ def vkGetRayTracingShaderGroupHandlesKHR(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetRayTracingShaderGroupHandlesKHR)
-    jvulkanLib.vkGetRayTracingShaderGroupHandlesKHR(device, pipeline, firstGroup, groupCount, dataSize, pData)
-    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetRayTracingShaderGroupHandlesKHR(device, pipeline, firstGroup, groupCount, dataSize, pData)
+    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData,"retval" : retval}
 def vkGetRayTracingShaderGroupHandlesNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16311,8 +16311,8 @@ def vkGetRayTracingShaderGroupHandlesNV(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetRayTracingShaderGroupHandlesNV)
-    jvulkanLib.vkGetRayTracingShaderGroupHandlesNV(device, pipeline, firstGroup, groupCount, dataSize, pData)
-    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetRayTracingShaderGroupHandlesNV(device, pipeline, firstGroup, groupCount, dataSize, pData)
+    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData,"retval" : retval}
 def vkGetAccelerationStructureHandleNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16331,8 +16331,8 @@ def vkGetAccelerationStructureHandleNV(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetAccelerationStructureHandleNV)
-    jvulkanLib.vkGetAccelerationStructureHandleNV(device, accelerationStructure, dataSize, pData)
-    return {"device" : device,"accelerationStructure" : accelerationStructure,"dataSize" : dataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetAccelerationStructureHandleNV(device, accelerationStructure, dataSize, pData)
+    return {"device" : device,"accelerationStructure" : accelerationStructure,"dataSize" : dataSize,"pData" : pData,"retval" : retval}
 def vkCmdWriteAccelerationStructuresPropertiesNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16359,8 +16359,8 @@ def vkCmdWriteAccelerationStructuresPropertiesNV(indict):
     else: 
          firstQuery = c_uint()
     print(jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesNV)
-    jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesNV(commandBuffer, accelerationStructureCount, pAccelerationStructures, queryType, queryPool, firstQuery)
-    return {"commandBuffer" : commandBuffer,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"queryPool" : queryPool,"firstQuery" : firstQuery}
+    retval = jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesNV(commandBuffer, accelerationStructureCount, pAccelerationStructures, queryType, queryPool, firstQuery)
+    return {"commandBuffer" : commandBuffer,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"queryPool" : queryPool,"firstQuery" : firstQuery,"retval" : retval}
 def vkCompileDeferredNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16375,8 +16375,8 @@ def vkCompileDeferredNV(indict):
     else: 
          shader = c_uint()
     print(jvulkanLib.vkCompileDeferredNV)
-    jvulkanLib.vkCompileDeferredNV(device, pipeline, shader)
-    return {"device" : device,"pipeline" : pipeline,"shader" : shader}
+    retval = jvulkanLib.vkCompileDeferredNV(device, pipeline, shader)
+    return {"device" : device,"pipeline" : pipeline,"shader" : shader,"retval" : retval}
 def vkGetMemoryHostPointerPropertiesEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16395,8 +16395,8 @@ def vkGetMemoryHostPointerPropertiesEXT(indict):
     else: 
          pMemoryHostPointerProperties = VkMemoryHostPointerPropertiesEXT()
     print(jvulkanLib.vkGetMemoryHostPointerPropertiesEXT)
-    jvulkanLib.vkGetMemoryHostPointerPropertiesEXT(device, handleType, pHostPointer, pMemoryHostPointerProperties)
-    return {"device" : device,"handleType" : handleType,"pHostPointer" : pHostPointer,"pMemoryHostPointerProperties" : pMemoryHostPointerProperties}
+    retval = jvulkanLib.vkGetMemoryHostPointerPropertiesEXT(device, handleType, pHostPointer, pMemoryHostPointerProperties)
+    return {"device" : device,"handleType" : handleType,"pHostPointer" : pHostPointer,"pMemoryHostPointerProperties" : pMemoryHostPointerProperties,"retval" : retval}
 def vkCmdWriteBufferMarkerAMD(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16419,8 +16419,8 @@ def vkCmdWriteBufferMarkerAMD(indict):
     else: 
          marker = c_uint()
     print(jvulkanLib.vkCmdWriteBufferMarkerAMD)
-    jvulkanLib.vkCmdWriteBufferMarkerAMD(commandBuffer, pipelineStage, dstBuffer, dstOffset, marker)
-    return {"commandBuffer" : commandBuffer,"pipelineStage" : pipelineStage,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"marker" : marker}
+    retval = jvulkanLib.vkCmdWriteBufferMarkerAMD(commandBuffer, pipelineStage, dstBuffer, dstOffset, marker)
+    return {"commandBuffer" : commandBuffer,"pipelineStage" : pipelineStage,"dstBuffer" : dstBuffer,"dstOffset" : dstOffset,"marker" : marker,"retval" : retval}
 def vkGetPhysicalDeviceCalibrateableTimeDomainsEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -16435,8 +16435,8 @@ def vkGetPhysicalDeviceCalibrateableTimeDomainsEXT(indict):
     else: 
          pTimeDomains = pointer(c_int())
     print(jvulkanLib.vkGetPhysicalDeviceCalibrateableTimeDomainsEXT)
-    jvulkanLib.vkGetPhysicalDeviceCalibrateableTimeDomainsEXT(physicalDevice, pTimeDomainCount, pTimeDomains)
-    return {"physicalDevice" : physicalDevice,"pTimeDomainCount" : pTimeDomainCount,"pTimeDomains" : pTimeDomains}
+    retval = jvulkanLib.vkGetPhysicalDeviceCalibrateableTimeDomainsEXT(physicalDevice, pTimeDomainCount, pTimeDomains)
+    return {"physicalDevice" : physicalDevice,"pTimeDomainCount" : pTimeDomainCount,"pTimeDomains" : pTimeDomains,"retval" : retval}
 def vkGetCalibratedTimestampsEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16459,8 +16459,8 @@ def vkGetCalibratedTimestampsEXT(indict):
     else: 
          pMaxDeviation = pointer(c_ulong())
     print(jvulkanLib.vkGetCalibratedTimestampsEXT)
-    jvulkanLib.vkGetCalibratedTimestampsEXT(device, timestampCount, pTimestampInfos, pTimestamps, pMaxDeviation)
-    return {"device" : device,"timestampCount" : timestampCount,"pTimestampInfos" : pTimestampInfos,"pTimestamps" : pTimestamps,"pMaxDeviation" : pMaxDeviation}
+    retval = jvulkanLib.vkGetCalibratedTimestampsEXT(device, timestampCount, pTimestampInfos, pTimestamps, pMaxDeviation)
+    return {"device" : device,"timestampCount" : timestampCount,"pTimestampInfos" : pTimestampInfos,"pTimestamps" : pTimestamps,"pMaxDeviation" : pMaxDeviation,"retval" : retval}
 def vkCmdDrawMeshTasksNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16475,8 +16475,8 @@ def vkCmdDrawMeshTasksNV(indict):
     else: 
          firstTask = c_uint()
     print(jvulkanLib.vkCmdDrawMeshTasksNV)
-    jvulkanLib.vkCmdDrawMeshTasksNV(commandBuffer, taskCount, firstTask)
-    return {"commandBuffer" : commandBuffer,"taskCount" : taskCount,"firstTask" : firstTask}
+    retval = jvulkanLib.vkCmdDrawMeshTasksNV(commandBuffer, taskCount, firstTask)
+    return {"commandBuffer" : commandBuffer,"taskCount" : taskCount,"firstTask" : firstTask,"retval" : retval}
 def vkCmdDrawMeshTasksIndirectNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16499,8 +16499,8 @@ def vkCmdDrawMeshTasksIndirectNV(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawMeshTasksIndirectNV)
-    jvulkanLib.vkCmdDrawMeshTasksIndirectNV(commandBuffer, buffer, offset, drawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawMeshTasksIndirectNV(commandBuffer, buffer, offset, drawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"drawCount" : drawCount,"stride" : stride,"retval" : retval}
 def vkCmdDrawMeshTasksIndirectCountNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16531,8 +16531,8 @@ def vkCmdDrawMeshTasksIndirectCountNV(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawMeshTasksIndirectCountNV)
-    jvulkanLib.vkCmdDrawMeshTasksIndirectCountNV(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
-    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawMeshTasksIndirectCountNV(commandBuffer, buffer, offset, countBuffer, countBufferOffset, maxDrawCount, stride)
+    return {"commandBuffer" : commandBuffer,"buffer" : buffer,"offset" : offset,"countBuffer" : countBuffer,"countBufferOffset" : countBufferOffset,"maxDrawCount" : maxDrawCount,"stride" : stride,"retval" : retval}
 def vkCmdSetExclusiveScissorNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16551,8 +16551,8 @@ def vkCmdSetExclusiveScissorNV(indict):
     else: 
          pExclusiveScissors = VkRect2D()
     print(jvulkanLib.vkCmdSetExclusiveScissorNV)
-    jvulkanLib.vkCmdSetExclusiveScissorNV(commandBuffer, firstExclusiveScissor, exclusiveScissorCount, pExclusiveScissors)
-    return {"commandBuffer" : commandBuffer,"firstExclusiveScissor" : firstExclusiveScissor,"exclusiveScissorCount" : exclusiveScissorCount,"pExclusiveScissors" : pExclusiveScissors}
+    retval = jvulkanLib.vkCmdSetExclusiveScissorNV(commandBuffer, firstExclusiveScissor, exclusiveScissorCount, pExclusiveScissors)
+    return {"commandBuffer" : commandBuffer,"firstExclusiveScissor" : firstExclusiveScissor,"exclusiveScissorCount" : exclusiveScissorCount,"pExclusiveScissors" : pExclusiveScissors,"retval" : retval}
 def vkCmdSetCheckpointNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16563,8 +16563,8 @@ def vkCmdSetCheckpointNV(indict):
     else: 
          pCheckpointMarker = c_void_p()
     print(jvulkanLib.vkCmdSetCheckpointNV)
-    jvulkanLib.vkCmdSetCheckpointNV(commandBuffer, pCheckpointMarker)
-    return {"commandBuffer" : commandBuffer,"pCheckpointMarker" : pCheckpointMarker}
+    retval = jvulkanLib.vkCmdSetCheckpointNV(commandBuffer, pCheckpointMarker)
+    return {"commandBuffer" : commandBuffer,"pCheckpointMarker" : pCheckpointMarker,"retval" : retval}
 def vkGetQueueCheckpointDataNV(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -16579,8 +16579,8 @@ def vkGetQueueCheckpointDataNV(indict):
     else: 
          pCheckpointData = VkCheckpointDataNV()
     print(jvulkanLib.vkGetQueueCheckpointDataNV)
-    jvulkanLib.vkGetQueueCheckpointDataNV(queue, pCheckpointDataCount, pCheckpointData)
-    return {"queue" : queue,"pCheckpointDataCount" : pCheckpointDataCount,"pCheckpointData" : pCheckpointData}
+    retval = jvulkanLib.vkGetQueueCheckpointDataNV(queue, pCheckpointDataCount, pCheckpointData)
+    return {"queue" : queue,"pCheckpointDataCount" : pCheckpointDataCount,"pCheckpointData" : pCheckpointData,"retval" : retval}
 def vkInitializePerformanceApiINTEL(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16591,16 +16591,16 @@ def vkInitializePerformanceApiINTEL(indict):
     else: 
          pInitializeInfo = VkInitializePerformanceApiInfoINTEL()
     print(jvulkanLib.vkInitializePerformanceApiINTEL)
-    jvulkanLib.vkInitializePerformanceApiINTEL(device, pInitializeInfo)
-    return {"device" : device,"pInitializeInfo" : pInitializeInfo}
+    retval = jvulkanLib.vkInitializePerformanceApiINTEL(device, pInitializeInfo)
+    return {"device" : device,"pInitializeInfo" : pInitializeInfo,"retval" : retval}
 def vkUninitializePerformanceApiINTEL(indict):
     if "device" in indict.keys():
          device = indict["device"]
     else: 
          device = VkDevice_T()
     print(jvulkanLib.vkUninitializePerformanceApiINTEL)
-    jvulkanLib.vkUninitializePerformanceApiINTEL(device)
-    return {"device" : device}
+    retval = jvulkanLib.vkUninitializePerformanceApiINTEL(device)
+    return {"device" : device,"retval" : retval}
 def vkCmdSetPerformanceMarkerINTEL(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16611,8 +16611,8 @@ def vkCmdSetPerformanceMarkerINTEL(indict):
     else: 
          pMarkerInfo = VkPerformanceMarkerInfoINTEL()
     print(jvulkanLib.vkCmdSetPerformanceMarkerINTEL)
-    jvulkanLib.vkCmdSetPerformanceMarkerINTEL(commandBuffer, pMarkerInfo)
-    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo}
+    retval = jvulkanLib.vkCmdSetPerformanceMarkerINTEL(commandBuffer, pMarkerInfo)
+    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo,"retval" : retval}
 def vkCmdSetPerformanceStreamMarkerINTEL(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16623,8 +16623,8 @@ def vkCmdSetPerformanceStreamMarkerINTEL(indict):
     else: 
          pMarkerInfo = VkPerformanceStreamMarkerInfoINTEL()
     print(jvulkanLib.vkCmdSetPerformanceStreamMarkerINTEL)
-    jvulkanLib.vkCmdSetPerformanceStreamMarkerINTEL(commandBuffer, pMarkerInfo)
-    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo}
+    retval = jvulkanLib.vkCmdSetPerformanceStreamMarkerINTEL(commandBuffer, pMarkerInfo)
+    return {"commandBuffer" : commandBuffer,"pMarkerInfo" : pMarkerInfo,"retval" : retval}
 def vkCmdSetPerformanceOverrideINTEL(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16635,8 +16635,8 @@ def vkCmdSetPerformanceOverrideINTEL(indict):
     else: 
          pOverrideInfo = VkPerformanceOverrideInfoINTEL()
     print(jvulkanLib.vkCmdSetPerformanceOverrideINTEL)
-    jvulkanLib.vkCmdSetPerformanceOverrideINTEL(commandBuffer, pOverrideInfo)
-    return {"commandBuffer" : commandBuffer,"pOverrideInfo" : pOverrideInfo}
+    retval = jvulkanLib.vkCmdSetPerformanceOverrideINTEL(commandBuffer, pOverrideInfo)
+    return {"commandBuffer" : commandBuffer,"pOverrideInfo" : pOverrideInfo,"retval" : retval}
 def vkAcquirePerformanceConfigurationINTEL(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16651,8 +16651,8 @@ def vkAcquirePerformanceConfigurationINTEL(indict):
     else: 
          pConfiguration = pointer(VkPerformanceConfigurationINTEL_T())
     print(jvulkanLib.vkAcquirePerformanceConfigurationINTEL)
-    jvulkanLib.vkAcquirePerformanceConfigurationINTEL(device, pAcquireInfo, pConfiguration)
-    return {"device" : device,"pAcquireInfo" : pAcquireInfo,"pConfiguration" : pConfiguration}
+    retval = jvulkanLib.vkAcquirePerformanceConfigurationINTEL(device, pAcquireInfo, pConfiguration)
+    return {"device" : device,"pAcquireInfo" : pAcquireInfo,"pConfiguration" : pConfiguration,"retval" : retval}
 def vkReleasePerformanceConfigurationINTEL(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16663,8 +16663,8 @@ def vkReleasePerformanceConfigurationINTEL(indict):
     else: 
          configuration = VkPerformanceConfigurationINTEL_T()
     print(jvulkanLib.vkReleasePerformanceConfigurationINTEL)
-    jvulkanLib.vkReleasePerformanceConfigurationINTEL(device, configuration)
-    return {"device" : device,"configuration" : configuration}
+    retval = jvulkanLib.vkReleasePerformanceConfigurationINTEL(device, configuration)
+    return {"device" : device,"configuration" : configuration,"retval" : retval}
 def vkQueueSetPerformanceConfigurationINTEL(indict):
     if "queue" in indict.keys():
          queue = indict["queue"]
@@ -16675,8 +16675,8 @@ def vkQueueSetPerformanceConfigurationINTEL(indict):
     else: 
          configuration = VkPerformanceConfigurationINTEL_T()
     print(jvulkanLib.vkQueueSetPerformanceConfigurationINTEL)
-    jvulkanLib.vkQueueSetPerformanceConfigurationINTEL(queue, configuration)
-    return {"queue" : queue,"configuration" : configuration}
+    retval = jvulkanLib.vkQueueSetPerformanceConfigurationINTEL(queue, configuration)
+    return {"queue" : queue,"configuration" : configuration,"retval" : retval}
 def vkGetPerformanceParameterINTEL(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16691,8 +16691,8 @@ def vkGetPerformanceParameterINTEL(indict):
     else: 
          pValue = VkPerformanceValueINTEL()
     print(jvulkanLib.vkGetPerformanceParameterINTEL)
-    jvulkanLib.vkGetPerformanceParameterINTEL(device, parameter, pValue)
-    return {"device" : device,"parameter" : parameter,"pValue" : pValue}
+    retval = jvulkanLib.vkGetPerformanceParameterINTEL(device, parameter, pValue)
+    return {"device" : device,"parameter" : parameter,"pValue" : pValue,"retval" : retval}
 def vkSetLocalDimmingAMD(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16707,8 +16707,8 @@ def vkSetLocalDimmingAMD(indict):
     else: 
          localDimmingEnable = c_uint()
     print(jvulkanLib.vkSetLocalDimmingAMD)
-    jvulkanLib.vkSetLocalDimmingAMD(device, swapChain, localDimmingEnable)
-    return {"device" : device,"swapChain" : swapChain,"localDimmingEnable" : localDimmingEnable}
+    retval = jvulkanLib.vkSetLocalDimmingAMD(device, swapChain, localDimmingEnable)
+    return {"device" : device,"swapChain" : swapChain,"localDimmingEnable" : localDimmingEnable,"retval" : retval}
 def vkGetBufferDeviceAddressEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16719,8 +16719,8 @@ def vkGetBufferDeviceAddressEXT(indict):
     else: 
          pInfo = VkBufferDeviceAddressInfo()
     print(jvulkanLib.vkGetBufferDeviceAddressEXT)
-    jvulkanLib.vkGetBufferDeviceAddressEXT(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetBufferDeviceAddressEXT(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkGetPhysicalDeviceToolPropertiesEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -16735,8 +16735,8 @@ def vkGetPhysicalDeviceToolPropertiesEXT(indict):
     else: 
          pToolProperties = VkPhysicalDeviceToolProperties()
     print(jvulkanLib.vkGetPhysicalDeviceToolPropertiesEXT)
-    jvulkanLib.vkGetPhysicalDeviceToolPropertiesEXT(physicalDevice, pToolCount, pToolProperties)
-    return {"physicalDevice" : physicalDevice,"pToolCount" : pToolCount,"pToolProperties" : pToolProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceToolPropertiesEXT(physicalDevice, pToolCount, pToolProperties)
+    return {"physicalDevice" : physicalDevice,"pToolCount" : pToolCount,"pToolProperties" : pToolProperties,"retval" : retval}
 def vkGetPhysicalDeviceCooperativeMatrixPropertiesNV(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -16751,8 +16751,8 @@ def vkGetPhysicalDeviceCooperativeMatrixPropertiesNV(indict):
     else: 
          pProperties = VkCooperativeMatrixPropertiesNV()
     print(jvulkanLib.vkGetPhysicalDeviceCooperativeMatrixPropertiesNV)
-    jvulkanLib.vkGetPhysicalDeviceCooperativeMatrixPropertiesNV(physicalDevice, pPropertyCount, pProperties)
-    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties}
+    retval = jvulkanLib.vkGetPhysicalDeviceCooperativeMatrixPropertiesNV(physicalDevice, pPropertyCount, pProperties)
+    return {"physicalDevice" : physicalDevice,"pPropertyCount" : pPropertyCount,"pProperties" : pProperties,"retval" : retval}
 def vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -16767,8 +16767,8 @@ def vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV(indict):
     else: 
          pCombinations = VkFramebufferMixedSamplesCombinationNV()
     print(jvulkanLib.vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV)
-    jvulkanLib.vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV(physicalDevice, pCombinationCount, pCombinations)
-    return {"physicalDevice" : physicalDevice,"pCombinationCount" : pCombinationCount,"pCombinations" : pCombinations}
+    retval = jvulkanLib.vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV(physicalDevice, pCombinationCount, pCombinations)
+    return {"physicalDevice" : physicalDevice,"pCombinationCount" : pCombinationCount,"pCombinations" : pCombinations,"retval" : retval}
 def vkCreateHeadlessSurfaceEXT(indict):
     if "instance" in indict.keys():
          instance = indict["instance"]
@@ -16787,8 +16787,8 @@ def vkCreateHeadlessSurfaceEXT(indict):
     else: 
          pSurface = pointer(VkSurfaceKHR_T())
     print(jvulkanLib.vkCreateHeadlessSurfaceEXT)
-    jvulkanLib.vkCreateHeadlessSurfaceEXT(instance, pCreateInfo, pAllocator, pSurface)
-    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSurface" : pSurface}
+    retval = jvulkanLib.vkCreateHeadlessSurfaceEXT(instance, pCreateInfo, pAllocator, pSurface)
+    return {"instance" : instance,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pSurface" : pSurface,"retval" : retval}
 def vkCmdSetLineStippleEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16803,8 +16803,8 @@ def vkCmdSetLineStippleEXT(indict):
     else: 
          lineStipplePattern = c_ushort()
     print(jvulkanLib.vkCmdSetLineStippleEXT)
-    jvulkanLib.vkCmdSetLineStippleEXT(commandBuffer, lineStippleFactor, lineStipplePattern)
-    return {"commandBuffer" : commandBuffer,"lineStippleFactor" : lineStippleFactor,"lineStipplePattern" : lineStipplePattern}
+    retval = jvulkanLib.vkCmdSetLineStippleEXT(commandBuffer, lineStippleFactor, lineStipplePattern)
+    return {"commandBuffer" : commandBuffer,"lineStippleFactor" : lineStippleFactor,"lineStipplePattern" : lineStipplePattern,"retval" : retval}
 def vkResetQueryPoolEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -16823,8 +16823,8 @@ def vkResetQueryPoolEXT(indict):
     else: 
          queryCount = c_uint()
     print(jvulkanLib.vkResetQueryPoolEXT)
-    jvulkanLib.vkResetQueryPoolEXT(device, queryPool, firstQuery, queryCount)
-    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount}
+    retval = jvulkanLib.vkResetQueryPoolEXT(device, queryPool, firstQuery, queryCount)
+    return {"device" : device,"queryPool" : queryPool,"firstQuery" : firstQuery,"queryCount" : queryCount,"retval" : retval}
 def vkCmdSetCullModeEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16835,8 +16835,8 @@ def vkCmdSetCullModeEXT(indict):
     else: 
          cullMode = c_uint()
     print(jvulkanLib.vkCmdSetCullModeEXT)
-    jvulkanLib.vkCmdSetCullModeEXT(commandBuffer, cullMode)
-    return {"commandBuffer" : commandBuffer,"cullMode" : cullMode}
+    retval = jvulkanLib.vkCmdSetCullModeEXT(commandBuffer, cullMode)
+    return {"commandBuffer" : commandBuffer,"cullMode" : cullMode,"retval" : retval}
 def vkCmdSetFrontFaceEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16847,8 +16847,8 @@ def vkCmdSetFrontFaceEXT(indict):
     else: 
          frontFace = c_int()
     print(jvulkanLib.vkCmdSetFrontFaceEXT)
-    jvulkanLib.vkCmdSetFrontFaceEXT(commandBuffer, frontFace)
-    return {"commandBuffer" : commandBuffer,"frontFace" : frontFace}
+    retval = jvulkanLib.vkCmdSetFrontFaceEXT(commandBuffer, frontFace)
+    return {"commandBuffer" : commandBuffer,"frontFace" : frontFace,"retval" : retval}
 def vkCmdSetPrimitiveTopologyEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16859,8 +16859,8 @@ def vkCmdSetPrimitiveTopologyEXT(indict):
     else: 
          primitiveTopology = c_int()
     print(jvulkanLib.vkCmdSetPrimitiveTopologyEXT)
-    jvulkanLib.vkCmdSetPrimitiveTopologyEXT(commandBuffer, primitiveTopology)
-    return {"commandBuffer" : commandBuffer,"primitiveTopology" : primitiveTopology}
+    retval = jvulkanLib.vkCmdSetPrimitiveTopologyEXT(commandBuffer, primitiveTopology)
+    return {"commandBuffer" : commandBuffer,"primitiveTopology" : primitiveTopology,"retval" : retval}
 def vkCmdSetViewportWithCountEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16875,8 +16875,8 @@ def vkCmdSetViewportWithCountEXT(indict):
     else: 
          pViewports = VkViewport()
     print(jvulkanLib.vkCmdSetViewportWithCountEXT)
-    jvulkanLib.vkCmdSetViewportWithCountEXT(commandBuffer, viewportCount, pViewports)
-    return {"commandBuffer" : commandBuffer,"viewportCount" : viewportCount,"pViewports" : pViewports}
+    retval = jvulkanLib.vkCmdSetViewportWithCountEXT(commandBuffer, viewportCount, pViewports)
+    return {"commandBuffer" : commandBuffer,"viewportCount" : viewportCount,"pViewports" : pViewports,"retval" : retval}
 def vkCmdSetScissorWithCountEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16891,8 +16891,8 @@ def vkCmdSetScissorWithCountEXT(indict):
     else: 
          pScissors = VkRect2D()
     print(jvulkanLib.vkCmdSetScissorWithCountEXT)
-    jvulkanLib.vkCmdSetScissorWithCountEXT(commandBuffer, scissorCount, pScissors)
-    return {"commandBuffer" : commandBuffer,"scissorCount" : scissorCount,"pScissors" : pScissors}
+    retval = jvulkanLib.vkCmdSetScissorWithCountEXT(commandBuffer, scissorCount, pScissors)
+    return {"commandBuffer" : commandBuffer,"scissorCount" : scissorCount,"pScissors" : pScissors,"retval" : retval}
 def vkCmdBindVertexBuffers2EXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16923,8 +16923,8 @@ def vkCmdBindVertexBuffers2EXT(indict):
     else: 
          pStrides = pointer(c_ulong())
     print(jvulkanLib.vkCmdBindVertexBuffers2EXT)
-    jvulkanLib.vkCmdBindVertexBuffers2EXT(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes, pStrides)
-    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes,"pStrides" : pStrides}
+    retval = jvulkanLib.vkCmdBindVertexBuffers2EXT(commandBuffer, firstBinding, bindingCount, pBuffers, pOffsets, pSizes, pStrides)
+    return {"commandBuffer" : commandBuffer,"firstBinding" : firstBinding,"bindingCount" : bindingCount,"pBuffers" : pBuffers,"pOffsets" : pOffsets,"pSizes" : pSizes,"pStrides" : pStrides,"retval" : retval}
 def vkCmdSetDepthTestEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16935,8 +16935,8 @@ def vkCmdSetDepthTestEnableEXT(indict):
     else: 
          depthTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthTestEnableEXT)
-    jvulkanLib.vkCmdSetDepthTestEnableEXT(commandBuffer, depthTestEnable)
-    return {"commandBuffer" : commandBuffer,"depthTestEnable" : depthTestEnable}
+    retval = jvulkanLib.vkCmdSetDepthTestEnableEXT(commandBuffer, depthTestEnable)
+    return {"commandBuffer" : commandBuffer,"depthTestEnable" : depthTestEnable,"retval" : retval}
 def vkCmdSetDepthWriteEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16947,8 +16947,8 @@ def vkCmdSetDepthWriteEnableEXT(indict):
     else: 
          depthWriteEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthWriteEnableEXT)
-    jvulkanLib.vkCmdSetDepthWriteEnableEXT(commandBuffer, depthWriteEnable)
-    return {"commandBuffer" : commandBuffer,"depthWriteEnable" : depthWriteEnable}
+    retval = jvulkanLib.vkCmdSetDepthWriteEnableEXT(commandBuffer, depthWriteEnable)
+    return {"commandBuffer" : commandBuffer,"depthWriteEnable" : depthWriteEnable,"retval" : retval}
 def vkCmdSetDepthCompareOpEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16959,8 +16959,8 @@ def vkCmdSetDepthCompareOpEXT(indict):
     else: 
          depthCompareOp = c_int()
     print(jvulkanLib.vkCmdSetDepthCompareOpEXT)
-    jvulkanLib.vkCmdSetDepthCompareOpEXT(commandBuffer, depthCompareOp)
-    return {"commandBuffer" : commandBuffer,"depthCompareOp" : depthCompareOp}
+    retval = jvulkanLib.vkCmdSetDepthCompareOpEXT(commandBuffer, depthCompareOp)
+    return {"commandBuffer" : commandBuffer,"depthCompareOp" : depthCompareOp,"retval" : retval}
 def vkCmdSetDepthBoundsTestEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16971,8 +16971,8 @@ def vkCmdSetDepthBoundsTestEnableEXT(indict):
     else: 
          depthBoundsTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthBoundsTestEnableEXT)
-    jvulkanLib.vkCmdSetDepthBoundsTestEnableEXT(commandBuffer, depthBoundsTestEnable)
-    return {"commandBuffer" : commandBuffer,"depthBoundsTestEnable" : depthBoundsTestEnable}
+    retval = jvulkanLib.vkCmdSetDepthBoundsTestEnableEXT(commandBuffer, depthBoundsTestEnable)
+    return {"commandBuffer" : commandBuffer,"depthBoundsTestEnable" : depthBoundsTestEnable,"retval" : retval}
 def vkCmdSetStencilTestEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -16983,8 +16983,8 @@ def vkCmdSetStencilTestEnableEXT(indict):
     else: 
          stencilTestEnable = c_uint()
     print(jvulkanLib.vkCmdSetStencilTestEnableEXT)
-    jvulkanLib.vkCmdSetStencilTestEnableEXT(commandBuffer, stencilTestEnable)
-    return {"commandBuffer" : commandBuffer,"stencilTestEnable" : stencilTestEnable}
+    retval = jvulkanLib.vkCmdSetStencilTestEnableEXT(commandBuffer, stencilTestEnable)
+    return {"commandBuffer" : commandBuffer,"stencilTestEnable" : stencilTestEnable,"retval" : retval}
 def vkCmdSetStencilOpEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17011,8 +17011,8 @@ def vkCmdSetStencilOpEXT(indict):
     else: 
          compareOp = c_int()
     print(jvulkanLib.vkCmdSetStencilOpEXT)
-    jvulkanLib.vkCmdSetStencilOpEXT(commandBuffer, faceMask, failOp, passOp, depthFailOp, compareOp)
-    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"failOp" : failOp,"passOp" : passOp,"depthFailOp" : depthFailOp,"compareOp" : compareOp}
+    retval = jvulkanLib.vkCmdSetStencilOpEXT(commandBuffer, faceMask, failOp, passOp, depthFailOp, compareOp)
+    return {"commandBuffer" : commandBuffer,"faceMask" : faceMask,"failOp" : failOp,"passOp" : passOp,"depthFailOp" : depthFailOp,"compareOp" : compareOp,"retval" : retval}
 def vkGetGeneratedCommandsMemoryRequirementsNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17027,8 +17027,8 @@ def vkGetGeneratedCommandsMemoryRequirementsNV(indict):
     else: 
          pMemoryRequirements = VkMemoryRequirements2()
     print(jvulkanLib.vkGetGeneratedCommandsMemoryRequirementsNV)
-    jvulkanLib.vkGetGeneratedCommandsMemoryRequirementsNV(device, pInfo, pMemoryRequirements)
-    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements}
+    retval = jvulkanLib.vkGetGeneratedCommandsMemoryRequirementsNV(device, pInfo, pMemoryRequirements)
+    return {"device" : device,"pInfo" : pInfo,"pMemoryRequirements" : pMemoryRequirements,"retval" : retval}
 def vkCmdPreprocessGeneratedCommandsNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17039,8 +17039,8 @@ def vkCmdPreprocessGeneratedCommandsNV(indict):
     else: 
          pGeneratedCommandsInfo = VkGeneratedCommandsInfoNV()
     print(jvulkanLib.vkCmdPreprocessGeneratedCommandsNV)
-    jvulkanLib.vkCmdPreprocessGeneratedCommandsNV(commandBuffer, pGeneratedCommandsInfo)
-    return {"commandBuffer" : commandBuffer,"pGeneratedCommandsInfo" : pGeneratedCommandsInfo}
+    retval = jvulkanLib.vkCmdPreprocessGeneratedCommandsNV(commandBuffer, pGeneratedCommandsInfo)
+    return {"commandBuffer" : commandBuffer,"pGeneratedCommandsInfo" : pGeneratedCommandsInfo,"retval" : retval}
 def vkCmdExecuteGeneratedCommandsNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17055,8 +17055,8 @@ def vkCmdExecuteGeneratedCommandsNV(indict):
     else: 
          pGeneratedCommandsInfo = VkGeneratedCommandsInfoNV()
     print(jvulkanLib.vkCmdExecuteGeneratedCommandsNV)
-    jvulkanLib.vkCmdExecuteGeneratedCommandsNV(commandBuffer, isPreprocessed, pGeneratedCommandsInfo)
-    return {"commandBuffer" : commandBuffer,"isPreprocessed" : isPreprocessed,"pGeneratedCommandsInfo" : pGeneratedCommandsInfo}
+    retval = jvulkanLib.vkCmdExecuteGeneratedCommandsNV(commandBuffer, isPreprocessed, pGeneratedCommandsInfo)
+    return {"commandBuffer" : commandBuffer,"isPreprocessed" : isPreprocessed,"pGeneratedCommandsInfo" : pGeneratedCommandsInfo,"retval" : retval}
 def vkCmdBindPipelineShaderGroupNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17075,8 +17075,8 @@ def vkCmdBindPipelineShaderGroupNV(indict):
     else: 
          groupIndex = c_uint()
     print(jvulkanLib.vkCmdBindPipelineShaderGroupNV)
-    jvulkanLib.vkCmdBindPipelineShaderGroupNV(commandBuffer, pipelineBindPoint, pipeline, groupIndex)
-    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"pipeline" : pipeline,"groupIndex" : groupIndex}
+    retval = jvulkanLib.vkCmdBindPipelineShaderGroupNV(commandBuffer, pipelineBindPoint, pipeline, groupIndex)
+    return {"commandBuffer" : commandBuffer,"pipelineBindPoint" : pipelineBindPoint,"pipeline" : pipeline,"groupIndex" : groupIndex,"retval" : retval}
 def vkCreateIndirectCommandsLayoutNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17095,8 +17095,8 @@ def vkCreateIndirectCommandsLayoutNV(indict):
     else: 
          pIndirectCommandsLayout = pointer(VkIndirectCommandsLayoutNV_T())
     print(jvulkanLib.vkCreateIndirectCommandsLayoutNV)
-    jvulkanLib.vkCreateIndirectCommandsLayoutNV(device, pCreateInfo, pAllocator, pIndirectCommandsLayout)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pIndirectCommandsLayout" : pIndirectCommandsLayout}
+    retval = jvulkanLib.vkCreateIndirectCommandsLayoutNV(device, pCreateInfo, pAllocator, pIndirectCommandsLayout)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pIndirectCommandsLayout" : pIndirectCommandsLayout,"retval" : retval}
 def vkDestroyIndirectCommandsLayoutNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17111,8 +17111,8 @@ def vkDestroyIndirectCommandsLayoutNV(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyIndirectCommandsLayoutNV)
-    jvulkanLib.vkDestroyIndirectCommandsLayoutNV(device, indirectCommandsLayout, pAllocator)
-    return {"device" : device,"indirectCommandsLayout" : indirectCommandsLayout,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyIndirectCommandsLayoutNV(device, indirectCommandsLayout, pAllocator)
+    return {"device" : device,"indirectCommandsLayout" : indirectCommandsLayout,"pAllocator" : pAllocator,"retval" : retval}
 def vkAcquireDrmDisplayEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -17127,8 +17127,8 @@ def vkAcquireDrmDisplayEXT(indict):
     else: 
          display = VkDisplayKHR_T()
     print(jvulkanLib.vkAcquireDrmDisplayEXT)
-    jvulkanLib.vkAcquireDrmDisplayEXT(physicalDevice, drmFd, display)
-    return {"physicalDevice" : physicalDevice,"drmFd" : drmFd,"display" : display}
+    retval = jvulkanLib.vkAcquireDrmDisplayEXT(physicalDevice, drmFd, display)
+    return {"physicalDevice" : physicalDevice,"drmFd" : drmFd,"display" : display,"retval" : retval}
 def vkGetDrmDisplayEXT(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -17147,8 +17147,8 @@ def vkGetDrmDisplayEXT(indict):
     else: 
          display = pointer(VkDisplayKHR_T())
     print(jvulkanLib.vkGetDrmDisplayEXT)
-    jvulkanLib.vkGetDrmDisplayEXT(physicalDevice, drmFd, connectorId, display)
-    return {"physicalDevice" : physicalDevice,"drmFd" : drmFd,"connectorId" : connectorId,"display" : display}
+    retval = jvulkanLib.vkGetDrmDisplayEXT(physicalDevice, drmFd, connectorId, display)
+    return {"physicalDevice" : physicalDevice,"drmFd" : drmFd,"connectorId" : connectorId,"display" : display,"retval" : retval}
 def vkCreatePrivateDataSlotEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17167,8 +17167,8 @@ def vkCreatePrivateDataSlotEXT(indict):
     else: 
          pPrivateDataSlot = pointer(VkPrivateDataSlot_T())
     print(jvulkanLib.vkCreatePrivateDataSlotEXT)
-    jvulkanLib.vkCreatePrivateDataSlotEXT(device, pCreateInfo, pAllocator, pPrivateDataSlot)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPrivateDataSlot" : pPrivateDataSlot}
+    retval = jvulkanLib.vkCreatePrivateDataSlotEXT(device, pCreateInfo, pAllocator, pPrivateDataSlot)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pPrivateDataSlot" : pPrivateDataSlot,"retval" : retval}
 def vkDestroyPrivateDataSlotEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17183,8 +17183,8 @@ def vkDestroyPrivateDataSlotEXT(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyPrivateDataSlotEXT)
-    jvulkanLib.vkDestroyPrivateDataSlotEXT(device, privateDataSlot, pAllocator)
-    return {"device" : device,"privateDataSlot" : privateDataSlot,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyPrivateDataSlotEXT(device, privateDataSlot, pAllocator)
+    return {"device" : device,"privateDataSlot" : privateDataSlot,"pAllocator" : pAllocator,"retval" : retval}
 def vkSetPrivateDataEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17207,8 +17207,8 @@ def vkSetPrivateDataEXT(indict):
     else: 
          data = c_ulong()
     print(jvulkanLib.vkSetPrivateDataEXT)
-    jvulkanLib.vkSetPrivateDataEXT(device, objectType, objectHandle, privateDataSlot, data)
-    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"data" : data}
+    retval = jvulkanLib.vkSetPrivateDataEXT(device, objectType, objectHandle, privateDataSlot, data)
+    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"data" : data,"retval" : retval}
 def vkGetPrivateDataEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17231,8 +17231,8 @@ def vkGetPrivateDataEXT(indict):
     else: 
          pData = pointer(c_ulong())
     print(jvulkanLib.vkGetPrivateDataEXT)
-    jvulkanLib.vkGetPrivateDataEXT(device, objectType, objectHandle, privateDataSlot, pData)
-    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"pData" : pData}
+    retval = jvulkanLib.vkGetPrivateDataEXT(device, objectType, objectHandle, privateDataSlot, pData)
+    return {"device" : device,"objectType" : objectType,"objectHandle" : objectHandle,"privateDataSlot" : privateDataSlot,"pData" : pData,"retval" : retval}
 def vkCmdSetFragmentShadingRateEnumNV(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17247,8 +17247,8 @@ def vkCmdSetFragmentShadingRateEnumNV(indict):
     else: 
          combinerOps = pointer(c_int())
     print(jvulkanLib.vkCmdSetFragmentShadingRateEnumNV)
-    jvulkanLib.vkCmdSetFragmentShadingRateEnumNV(commandBuffer, shadingRate, combinerOps)
-    return {"commandBuffer" : commandBuffer,"shadingRate" : shadingRate,"combinerOps" : combinerOps}
+    retval = jvulkanLib.vkCmdSetFragmentShadingRateEnumNV(commandBuffer, shadingRate, combinerOps)
+    return {"commandBuffer" : commandBuffer,"shadingRate" : shadingRate,"combinerOps" : combinerOps,"retval" : retval}
 def vkAcquireWinrtDisplayNV(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -17259,8 +17259,8 @@ def vkAcquireWinrtDisplayNV(indict):
     else: 
          display = VkDisplayKHR_T()
     print(jvulkanLib.vkAcquireWinrtDisplayNV)
-    jvulkanLib.vkAcquireWinrtDisplayNV(physicalDevice, display)
-    return {"physicalDevice" : physicalDevice,"display" : display}
+    retval = jvulkanLib.vkAcquireWinrtDisplayNV(physicalDevice, display)
+    return {"physicalDevice" : physicalDevice,"display" : display,"retval" : retval}
 def vkGetWinrtDisplayNV(indict):
     if "physicalDevice" in indict.keys():
          physicalDevice = indict["physicalDevice"]
@@ -17275,8 +17275,8 @@ def vkGetWinrtDisplayNV(indict):
     else: 
          pDisplay = pointer(VkDisplayKHR_T())
     print(jvulkanLib.vkGetWinrtDisplayNV)
-    jvulkanLib.vkGetWinrtDisplayNV(physicalDevice, deviceRelativeId, pDisplay)
-    return {"physicalDevice" : physicalDevice,"deviceRelativeId" : deviceRelativeId,"pDisplay" : pDisplay}
+    retval = jvulkanLib.vkGetWinrtDisplayNV(physicalDevice, deviceRelativeId, pDisplay)
+    return {"physicalDevice" : physicalDevice,"deviceRelativeId" : deviceRelativeId,"pDisplay" : pDisplay,"retval" : retval}
 def vkCmdSetVertexInputEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17299,8 +17299,8 @@ def vkCmdSetVertexInputEXT(indict):
     else: 
          pVertexAttributeDescriptions = VkVertexInputAttributeDescription2EXT()
     print(jvulkanLib.vkCmdSetVertexInputEXT)
-    jvulkanLib.vkCmdSetVertexInputEXT(commandBuffer, vertexBindingDescriptionCount, pVertexBindingDescriptions, vertexAttributeDescriptionCount, pVertexAttributeDescriptions)
-    return {"commandBuffer" : commandBuffer,"vertexBindingDescriptionCount" : vertexBindingDescriptionCount,"pVertexBindingDescriptions" : pVertexBindingDescriptions,"vertexAttributeDescriptionCount" : vertexAttributeDescriptionCount,"pVertexAttributeDescriptions" : pVertexAttributeDescriptions}
+    retval = jvulkanLib.vkCmdSetVertexInputEXT(commandBuffer, vertexBindingDescriptionCount, pVertexBindingDescriptions, vertexAttributeDescriptionCount, pVertexAttributeDescriptions)
+    return {"commandBuffer" : commandBuffer,"vertexBindingDescriptionCount" : vertexBindingDescriptionCount,"pVertexBindingDescriptions" : pVertexBindingDescriptions,"vertexAttributeDescriptionCount" : vertexAttributeDescriptionCount,"pVertexAttributeDescriptions" : pVertexAttributeDescriptions,"retval" : retval}
 def vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17315,16 +17315,16 @@ def vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI(indict):
     else: 
          pMaxWorkgroupSize = VkExtent2D()
     print(jvulkanLib.vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI)
-    jvulkanLib.vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI(device, renderpass, pMaxWorkgroupSize)
-    return {"device" : device,"renderpass" : renderpass,"pMaxWorkgroupSize" : pMaxWorkgroupSize}
+    retval = jvulkanLib.vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI(device, renderpass, pMaxWorkgroupSize)
+    return {"device" : device,"renderpass" : renderpass,"pMaxWorkgroupSize" : pMaxWorkgroupSize,"retval" : retval}
 def vkCmdSubpassShadingHUAWEI(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
     else: 
          commandBuffer = VkCommandBuffer_T()
     print(jvulkanLib.vkCmdSubpassShadingHUAWEI)
-    jvulkanLib.vkCmdSubpassShadingHUAWEI(commandBuffer)
-    return {"commandBuffer" : commandBuffer}
+    retval = jvulkanLib.vkCmdSubpassShadingHUAWEI(commandBuffer)
+    return {"commandBuffer" : commandBuffer,"retval" : retval}
 def vkCmdBindInvocationMaskHUAWEI(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17339,8 +17339,8 @@ def vkCmdBindInvocationMaskHUAWEI(indict):
     else: 
          imageLayout = c_int()
     print(jvulkanLib.vkCmdBindInvocationMaskHUAWEI)
-    jvulkanLib.vkCmdBindInvocationMaskHUAWEI(commandBuffer, imageView, imageLayout)
-    return {"commandBuffer" : commandBuffer,"imageView" : imageView,"imageLayout" : imageLayout}
+    retval = jvulkanLib.vkCmdBindInvocationMaskHUAWEI(commandBuffer, imageView, imageLayout)
+    return {"commandBuffer" : commandBuffer,"imageView" : imageView,"imageLayout" : imageLayout,"retval" : retval}
 def vkGetMemoryRemoteAddressNV(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17355,8 +17355,8 @@ def vkGetMemoryRemoteAddressNV(indict):
     else: 
          pAddress = pointer(c_void_p())
     print(jvulkanLib.vkGetMemoryRemoteAddressNV)
-    jvulkanLib.vkGetMemoryRemoteAddressNV(device, pMemoryGetRemoteAddressInfo, pAddress)
-    return {"device" : device,"pMemoryGetRemoteAddressInfo" : pMemoryGetRemoteAddressInfo,"pAddress" : pAddress}
+    retval = jvulkanLib.vkGetMemoryRemoteAddressNV(device, pMemoryGetRemoteAddressInfo, pAddress)
+    return {"device" : device,"pMemoryGetRemoteAddressInfo" : pMemoryGetRemoteAddressInfo,"pAddress" : pAddress,"retval" : retval}
 def vkCmdSetPatchControlPointsEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17367,8 +17367,8 @@ def vkCmdSetPatchControlPointsEXT(indict):
     else: 
          patchControlPoints = c_uint()
     print(jvulkanLib.vkCmdSetPatchControlPointsEXT)
-    jvulkanLib.vkCmdSetPatchControlPointsEXT(commandBuffer, patchControlPoints)
-    return {"commandBuffer" : commandBuffer,"patchControlPoints" : patchControlPoints}
+    retval = jvulkanLib.vkCmdSetPatchControlPointsEXT(commandBuffer, patchControlPoints)
+    return {"commandBuffer" : commandBuffer,"patchControlPoints" : patchControlPoints,"retval" : retval}
 def vkCmdSetRasterizerDiscardEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17379,8 +17379,8 @@ def vkCmdSetRasterizerDiscardEnableEXT(indict):
     else: 
          rasterizerDiscardEnable = c_uint()
     print(jvulkanLib.vkCmdSetRasterizerDiscardEnableEXT)
-    jvulkanLib.vkCmdSetRasterizerDiscardEnableEXT(commandBuffer, rasterizerDiscardEnable)
-    return {"commandBuffer" : commandBuffer,"rasterizerDiscardEnable" : rasterizerDiscardEnable}
+    retval = jvulkanLib.vkCmdSetRasterizerDiscardEnableEXT(commandBuffer, rasterizerDiscardEnable)
+    return {"commandBuffer" : commandBuffer,"rasterizerDiscardEnable" : rasterizerDiscardEnable,"retval" : retval}
 def vkCmdSetDepthBiasEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17391,8 +17391,8 @@ def vkCmdSetDepthBiasEnableEXT(indict):
     else: 
          depthBiasEnable = c_uint()
     print(jvulkanLib.vkCmdSetDepthBiasEnableEXT)
-    jvulkanLib.vkCmdSetDepthBiasEnableEXT(commandBuffer, depthBiasEnable)
-    return {"commandBuffer" : commandBuffer,"depthBiasEnable" : depthBiasEnable}
+    retval = jvulkanLib.vkCmdSetDepthBiasEnableEXT(commandBuffer, depthBiasEnable)
+    return {"commandBuffer" : commandBuffer,"depthBiasEnable" : depthBiasEnable,"retval" : retval}
 def vkCmdSetLogicOpEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17403,8 +17403,8 @@ def vkCmdSetLogicOpEXT(indict):
     else: 
          logicOp = c_int()
     print(jvulkanLib.vkCmdSetLogicOpEXT)
-    jvulkanLib.vkCmdSetLogicOpEXT(commandBuffer, logicOp)
-    return {"commandBuffer" : commandBuffer,"logicOp" : logicOp}
+    retval = jvulkanLib.vkCmdSetLogicOpEXT(commandBuffer, logicOp)
+    return {"commandBuffer" : commandBuffer,"logicOp" : logicOp,"retval" : retval}
 def vkCmdSetPrimitiveRestartEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17415,8 +17415,8 @@ def vkCmdSetPrimitiveRestartEnableEXT(indict):
     else: 
          primitiveRestartEnable = c_uint()
     print(jvulkanLib.vkCmdSetPrimitiveRestartEnableEXT)
-    jvulkanLib.vkCmdSetPrimitiveRestartEnableEXT(commandBuffer, primitiveRestartEnable)
-    return {"commandBuffer" : commandBuffer,"primitiveRestartEnable" : primitiveRestartEnable}
+    retval = jvulkanLib.vkCmdSetPrimitiveRestartEnableEXT(commandBuffer, primitiveRestartEnable)
+    return {"commandBuffer" : commandBuffer,"primitiveRestartEnable" : primitiveRestartEnable,"retval" : retval}
 def vkCmdSetColorWriteEnableEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17431,8 +17431,8 @@ def vkCmdSetColorWriteEnableEXT(indict):
     else: 
          pColorWriteEnables = pointer(c_uint())
     print(jvulkanLib.vkCmdSetColorWriteEnableEXT)
-    jvulkanLib.vkCmdSetColorWriteEnableEXT(commandBuffer, attachmentCount, pColorWriteEnables)
-    return {"commandBuffer" : commandBuffer,"attachmentCount" : attachmentCount,"pColorWriteEnables" : pColorWriteEnables}
+    retval = jvulkanLib.vkCmdSetColorWriteEnableEXT(commandBuffer, attachmentCount, pColorWriteEnables)
+    return {"commandBuffer" : commandBuffer,"attachmentCount" : attachmentCount,"pColorWriteEnables" : pColorWriteEnables,"retval" : retval}
 def vkCmdDrawMultiEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17459,8 +17459,8 @@ def vkCmdDrawMultiEXT(indict):
     else: 
          stride = c_uint()
     print(jvulkanLib.vkCmdDrawMultiEXT)
-    jvulkanLib.vkCmdDrawMultiEXT(commandBuffer, drawCount, pVertexInfo, instanceCount, firstInstance, stride)
-    return {"commandBuffer" : commandBuffer,"drawCount" : drawCount,"pVertexInfo" : pVertexInfo,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"stride" : stride}
+    retval = jvulkanLib.vkCmdDrawMultiEXT(commandBuffer, drawCount, pVertexInfo, instanceCount, firstInstance, stride)
+    return {"commandBuffer" : commandBuffer,"drawCount" : drawCount,"pVertexInfo" : pVertexInfo,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"stride" : stride,"retval" : retval}
 def vkCmdDrawMultiIndexedEXT(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17491,8 +17491,8 @@ def vkCmdDrawMultiIndexedEXT(indict):
     else: 
          pVertexOffset = pointer(c_int())
     print(jvulkanLib.vkCmdDrawMultiIndexedEXT)
-    jvulkanLib.vkCmdDrawMultiIndexedEXT(commandBuffer, drawCount, pIndexInfo, instanceCount, firstInstance, stride, pVertexOffset)
-    return {"commandBuffer" : commandBuffer,"drawCount" : drawCount,"pIndexInfo" : pIndexInfo,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"stride" : stride,"pVertexOffset" : pVertexOffset}
+    retval = jvulkanLib.vkCmdDrawMultiIndexedEXT(commandBuffer, drawCount, pIndexInfo, instanceCount, firstInstance, stride, pVertexOffset)
+    return {"commandBuffer" : commandBuffer,"drawCount" : drawCount,"pIndexInfo" : pIndexInfo,"instanceCount" : instanceCount,"firstInstance" : firstInstance,"stride" : stride,"pVertexOffset" : pVertexOffset,"retval" : retval}
 def vkSetDeviceMemoryPriorityEXT(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17507,8 +17507,8 @@ def vkSetDeviceMemoryPriorityEXT(indict):
     else: 
          priority = c_float()
     print(jvulkanLib.vkSetDeviceMemoryPriorityEXT)
-    jvulkanLib.vkSetDeviceMemoryPriorityEXT(device, memory, priority)
-    return {"device" : device,"memory" : memory,"priority" : priority}
+    retval = jvulkanLib.vkSetDeviceMemoryPriorityEXT(device, memory, priority)
+    return {"device" : device,"memory" : memory,"priority" : priority,"retval" : retval}
 def vkGetDescriptorSetLayoutHostMappingInfoVALVE(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17523,8 +17523,8 @@ def vkGetDescriptorSetLayoutHostMappingInfoVALVE(indict):
     else: 
          pHostMapping = VkDescriptorSetLayoutHostMappingInfoVALVE()
     print(jvulkanLib.vkGetDescriptorSetLayoutHostMappingInfoVALVE)
-    jvulkanLib.vkGetDescriptorSetLayoutHostMappingInfoVALVE(device, pBindingReference, pHostMapping)
-    return {"device" : device,"pBindingReference" : pBindingReference,"pHostMapping" : pHostMapping}
+    retval = jvulkanLib.vkGetDescriptorSetLayoutHostMappingInfoVALVE(device, pBindingReference, pHostMapping)
+    return {"device" : device,"pBindingReference" : pBindingReference,"pHostMapping" : pHostMapping,"retval" : retval}
 def vkGetDescriptorSetHostMappingVALVE(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17539,8 +17539,8 @@ def vkGetDescriptorSetHostMappingVALVE(indict):
     else: 
          ppData = POINTER(c_void_p)()
     print(jvulkanLib.vkGetDescriptorSetHostMappingVALVE)
-    jvulkanLib.vkGetDescriptorSetHostMappingVALVE(device, descriptorSet, ppData)
-    return {"device" : device,"descriptorSet" : descriptorSet,"ppData" : ppData}
+    retval = jvulkanLib.vkGetDescriptorSetHostMappingVALVE(device, descriptorSet, ppData)
+    return {"device" : device,"descriptorSet" : descriptorSet,"ppData" : ppData,"retval" : retval}
 def vkCreateAccelerationStructureKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17559,8 +17559,8 @@ def vkCreateAccelerationStructureKHR(indict):
     else: 
          pAccelerationStructure = pointer(VkAccelerationStructureKHR_T())
     print(jvulkanLib.vkCreateAccelerationStructureKHR)
-    jvulkanLib.vkCreateAccelerationStructureKHR(device, pCreateInfo, pAllocator, pAccelerationStructure)
-    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pAccelerationStructure" : pAccelerationStructure}
+    retval = jvulkanLib.vkCreateAccelerationStructureKHR(device, pCreateInfo, pAllocator, pAccelerationStructure)
+    return {"device" : device,"pCreateInfo" : pCreateInfo,"pAllocator" : pAllocator,"pAccelerationStructure" : pAccelerationStructure,"retval" : retval}
 def vkDestroyAccelerationStructureKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17575,8 +17575,8 @@ def vkDestroyAccelerationStructureKHR(indict):
     else: 
          pAllocator = VkAllocationCallbacks()
     print(jvulkanLib.vkDestroyAccelerationStructureKHR)
-    jvulkanLib.vkDestroyAccelerationStructureKHR(device, accelerationStructure, pAllocator)
-    return {"device" : device,"accelerationStructure" : accelerationStructure,"pAllocator" : pAllocator}
+    retval = jvulkanLib.vkDestroyAccelerationStructureKHR(device, accelerationStructure, pAllocator)
+    return {"device" : device,"accelerationStructure" : accelerationStructure,"pAllocator" : pAllocator,"retval" : retval}
 def vkCmdBuildAccelerationStructuresKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17595,8 +17595,8 @@ def vkCmdBuildAccelerationStructuresKHR(indict):
     else: 
          ppBuildRangeInfos = VkAccelerationStructureBuildRangeInfoKHR()
     print(jvulkanLib.vkCmdBuildAccelerationStructuresKHR)
-    jvulkanLib.vkCmdBuildAccelerationStructuresKHR(commandBuffer, infoCount, pInfos, ppBuildRangeInfos)
-    return {"commandBuffer" : commandBuffer,"infoCount" : infoCount,"pInfos" : pInfos,"ppBuildRangeInfos" : ppBuildRangeInfos}
+    retval = jvulkanLib.vkCmdBuildAccelerationStructuresKHR(commandBuffer, infoCount, pInfos, ppBuildRangeInfos)
+    return {"commandBuffer" : commandBuffer,"infoCount" : infoCount,"pInfos" : pInfos,"ppBuildRangeInfos" : ppBuildRangeInfos,"retval" : retval}
 def vkCmdBuildAccelerationStructuresIndirectKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17623,8 +17623,8 @@ def vkCmdBuildAccelerationStructuresIndirectKHR(indict):
     else: 
          ppMaxPrimitiveCounts = pointer(c_uint())
     print(jvulkanLib.vkCmdBuildAccelerationStructuresIndirectKHR)
-    jvulkanLib.vkCmdBuildAccelerationStructuresIndirectKHR(commandBuffer, infoCount, pInfos, pIndirectDeviceAddresses, pIndirectStrides, ppMaxPrimitiveCounts)
-    return {"commandBuffer" : commandBuffer,"infoCount" : infoCount,"pInfos" : pInfos,"pIndirectDeviceAddresses" : pIndirectDeviceAddresses,"pIndirectStrides" : pIndirectStrides,"ppMaxPrimitiveCounts" : ppMaxPrimitiveCounts}
+    retval = jvulkanLib.vkCmdBuildAccelerationStructuresIndirectKHR(commandBuffer, infoCount, pInfos, pIndirectDeviceAddresses, pIndirectStrides, ppMaxPrimitiveCounts)
+    return {"commandBuffer" : commandBuffer,"infoCount" : infoCount,"pInfos" : pInfos,"pIndirectDeviceAddresses" : pIndirectDeviceAddresses,"pIndirectStrides" : pIndirectStrides,"ppMaxPrimitiveCounts" : ppMaxPrimitiveCounts,"retval" : retval}
 def vkBuildAccelerationStructuresKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17647,8 +17647,8 @@ def vkBuildAccelerationStructuresKHR(indict):
     else: 
          ppBuildRangeInfos = VkAccelerationStructureBuildRangeInfoKHR()
     print(jvulkanLib.vkBuildAccelerationStructuresKHR)
-    jvulkanLib.vkBuildAccelerationStructuresKHR(device, deferredOperation, infoCount, pInfos, ppBuildRangeInfos)
-    return {"device" : device,"deferredOperation" : deferredOperation,"infoCount" : infoCount,"pInfos" : pInfos,"ppBuildRangeInfos" : ppBuildRangeInfos}
+    retval = jvulkanLib.vkBuildAccelerationStructuresKHR(device, deferredOperation, infoCount, pInfos, ppBuildRangeInfos)
+    return {"device" : device,"deferredOperation" : deferredOperation,"infoCount" : infoCount,"pInfos" : pInfos,"ppBuildRangeInfos" : ppBuildRangeInfos,"retval" : retval}
 def vkCopyAccelerationStructureKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17663,8 +17663,8 @@ def vkCopyAccelerationStructureKHR(indict):
     else: 
          pInfo = VkCopyAccelerationStructureInfoKHR()
     print(jvulkanLib.vkCopyAccelerationStructureKHR)
-    jvulkanLib.vkCopyAccelerationStructureKHR(device, deferredOperation, pInfo)
-    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCopyAccelerationStructureKHR(device, deferredOperation, pInfo)
+    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo,"retval" : retval}
 def vkCopyAccelerationStructureToMemoryKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17679,8 +17679,8 @@ def vkCopyAccelerationStructureToMemoryKHR(indict):
     else: 
          pInfo = VkCopyAccelerationStructureToMemoryInfoKHR()
     print(jvulkanLib.vkCopyAccelerationStructureToMemoryKHR)
-    jvulkanLib.vkCopyAccelerationStructureToMemoryKHR(device, deferredOperation, pInfo)
-    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCopyAccelerationStructureToMemoryKHR(device, deferredOperation, pInfo)
+    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo,"retval" : retval}
 def vkCopyMemoryToAccelerationStructureKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17695,8 +17695,8 @@ def vkCopyMemoryToAccelerationStructureKHR(indict):
     else: 
          pInfo = VkCopyMemoryToAccelerationStructureInfoKHR()
     print(jvulkanLib.vkCopyMemoryToAccelerationStructureKHR)
-    jvulkanLib.vkCopyMemoryToAccelerationStructureKHR(device, deferredOperation, pInfo)
-    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCopyMemoryToAccelerationStructureKHR(device, deferredOperation, pInfo)
+    return {"device" : device,"deferredOperation" : deferredOperation,"pInfo" : pInfo,"retval" : retval}
 def vkWriteAccelerationStructuresPropertiesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17727,8 +17727,8 @@ def vkWriteAccelerationStructuresPropertiesKHR(indict):
     else: 
          stride = c_ulong()
     print(jvulkanLib.vkWriteAccelerationStructuresPropertiesKHR)
-    jvulkanLib.vkWriteAccelerationStructuresPropertiesKHR(device, accelerationStructureCount, pAccelerationStructures, queryType, dataSize, pData, stride)
-    return {"device" : device,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"dataSize" : dataSize,"pData" : pData,"stride" : stride}
+    retval = jvulkanLib.vkWriteAccelerationStructuresPropertiesKHR(device, accelerationStructureCount, pAccelerationStructures, queryType, dataSize, pData, stride)
+    return {"device" : device,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"dataSize" : dataSize,"pData" : pData,"stride" : stride,"retval" : retval}
 def vkCmdCopyAccelerationStructureKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17739,8 +17739,8 @@ def vkCmdCopyAccelerationStructureKHR(indict):
     else: 
          pInfo = VkCopyAccelerationStructureInfoKHR()
     print(jvulkanLib.vkCmdCopyAccelerationStructureKHR)
-    jvulkanLib.vkCmdCopyAccelerationStructureKHR(commandBuffer, pInfo)
-    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCmdCopyAccelerationStructureKHR(commandBuffer, pInfo)
+    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo,"retval" : retval}
 def vkCmdCopyAccelerationStructureToMemoryKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17751,8 +17751,8 @@ def vkCmdCopyAccelerationStructureToMemoryKHR(indict):
     else: 
          pInfo = VkCopyAccelerationStructureToMemoryInfoKHR()
     print(jvulkanLib.vkCmdCopyAccelerationStructureToMemoryKHR)
-    jvulkanLib.vkCmdCopyAccelerationStructureToMemoryKHR(commandBuffer, pInfo)
-    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCmdCopyAccelerationStructureToMemoryKHR(commandBuffer, pInfo)
+    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo,"retval" : retval}
 def vkCmdCopyMemoryToAccelerationStructureKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17763,8 +17763,8 @@ def vkCmdCopyMemoryToAccelerationStructureKHR(indict):
     else: 
          pInfo = VkCopyMemoryToAccelerationStructureInfoKHR()
     print(jvulkanLib.vkCmdCopyMemoryToAccelerationStructureKHR)
-    jvulkanLib.vkCmdCopyMemoryToAccelerationStructureKHR(commandBuffer, pInfo)
-    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo}
+    retval = jvulkanLib.vkCmdCopyMemoryToAccelerationStructureKHR(commandBuffer, pInfo)
+    return {"commandBuffer" : commandBuffer,"pInfo" : pInfo,"retval" : retval}
 def vkGetAccelerationStructureDeviceAddressKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17775,8 +17775,8 @@ def vkGetAccelerationStructureDeviceAddressKHR(indict):
     else: 
          pInfo = VkAccelerationStructureDeviceAddressInfoKHR()
     print(jvulkanLib.vkGetAccelerationStructureDeviceAddressKHR)
-    jvulkanLib.vkGetAccelerationStructureDeviceAddressKHR(device, pInfo)
-    return {"device" : device,"pInfo" : pInfo}
+    retval = jvulkanLib.vkGetAccelerationStructureDeviceAddressKHR(device, pInfo)
+    return {"device" : device,"pInfo" : pInfo,"retval" : retval}
 def vkCmdWriteAccelerationStructuresPropertiesKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17803,8 +17803,8 @@ def vkCmdWriteAccelerationStructuresPropertiesKHR(indict):
     else: 
          firstQuery = c_uint()
     print(jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesKHR)
-    jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesKHR(commandBuffer, accelerationStructureCount, pAccelerationStructures, queryType, queryPool, firstQuery)
-    return {"commandBuffer" : commandBuffer,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"queryPool" : queryPool,"firstQuery" : firstQuery}
+    retval = jvulkanLib.vkCmdWriteAccelerationStructuresPropertiesKHR(commandBuffer, accelerationStructureCount, pAccelerationStructures, queryType, queryPool, firstQuery)
+    return {"commandBuffer" : commandBuffer,"accelerationStructureCount" : accelerationStructureCount,"pAccelerationStructures" : pAccelerationStructures,"queryType" : queryType,"queryPool" : queryPool,"firstQuery" : firstQuery,"retval" : retval}
 def vkGetDeviceAccelerationStructureCompatibilityKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17819,8 +17819,8 @@ def vkGetDeviceAccelerationStructureCompatibilityKHR(indict):
     else: 
          pCompatibility = pointer(c_int())
     print(jvulkanLib.vkGetDeviceAccelerationStructureCompatibilityKHR)
-    jvulkanLib.vkGetDeviceAccelerationStructureCompatibilityKHR(device, pVersionInfo, pCompatibility)
-    return {"device" : device,"pVersionInfo" : pVersionInfo,"pCompatibility" : pCompatibility}
+    retval = jvulkanLib.vkGetDeviceAccelerationStructureCompatibilityKHR(device, pVersionInfo, pCompatibility)
+    return {"device" : device,"pVersionInfo" : pVersionInfo,"pCompatibility" : pCompatibility,"retval" : retval}
 def vkGetAccelerationStructureBuildSizesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17843,8 +17843,8 @@ def vkGetAccelerationStructureBuildSizesKHR(indict):
     else: 
          pSizeInfo = VkAccelerationStructureBuildSizesInfoKHR()
     print(jvulkanLib.vkGetAccelerationStructureBuildSizesKHR)
-    jvulkanLib.vkGetAccelerationStructureBuildSizesKHR(device, buildType, pBuildInfo, pMaxPrimitiveCounts, pSizeInfo)
-    return {"device" : device,"buildType" : buildType,"pBuildInfo" : pBuildInfo,"pMaxPrimitiveCounts" : pMaxPrimitiveCounts,"pSizeInfo" : pSizeInfo}
+    retval = jvulkanLib.vkGetAccelerationStructureBuildSizesKHR(device, buildType, pBuildInfo, pMaxPrimitiveCounts, pSizeInfo)
+    return {"device" : device,"buildType" : buildType,"pBuildInfo" : pBuildInfo,"pMaxPrimitiveCounts" : pMaxPrimitiveCounts,"pSizeInfo" : pSizeInfo,"retval" : retval}
 def vkCmdTraceRaysKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17879,8 +17879,8 @@ def vkCmdTraceRaysKHR(indict):
     else: 
          depth = c_uint()
     print(jvulkanLib.vkCmdTraceRaysKHR)
-    jvulkanLib.vkCmdTraceRaysKHR(commandBuffer, pRaygenShaderBindingTable, pMissShaderBindingTable, pHitShaderBindingTable, pCallableShaderBindingTable, width, height, depth)
-    return {"commandBuffer" : commandBuffer,"pRaygenShaderBindingTable" : pRaygenShaderBindingTable,"pMissShaderBindingTable" : pMissShaderBindingTable,"pHitShaderBindingTable" : pHitShaderBindingTable,"pCallableShaderBindingTable" : pCallableShaderBindingTable,"width" : width,"height" : height,"depth" : depth}
+    retval = jvulkanLib.vkCmdTraceRaysKHR(commandBuffer, pRaygenShaderBindingTable, pMissShaderBindingTable, pHitShaderBindingTable, pCallableShaderBindingTable, width, height, depth)
+    return {"commandBuffer" : commandBuffer,"pRaygenShaderBindingTable" : pRaygenShaderBindingTable,"pMissShaderBindingTable" : pMissShaderBindingTable,"pHitShaderBindingTable" : pHitShaderBindingTable,"pCallableShaderBindingTable" : pCallableShaderBindingTable,"width" : width,"height" : height,"depth" : depth,"retval" : retval}
 def vkCreateRayTracingPipelinesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17911,8 +17911,8 @@ def vkCreateRayTracingPipelinesKHR(indict):
     else: 
          pPipelines = pointer(VkPipeline_T())
     print(jvulkanLib.vkCreateRayTracingPipelinesKHR)
-    jvulkanLib.vkCreateRayTracingPipelinesKHR(device, deferredOperation, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
-    return {"device" : device,"deferredOperation" : deferredOperation,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines}
+    retval = jvulkanLib.vkCreateRayTracingPipelinesKHR(device, deferredOperation, pipelineCache, createInfoCount, pCreateInfos, pAllocator, pPipelines)
+    return {"device" : device,"deferredOperation" : deferredOperation,"pipelineCache" : pipelineCache,"createInfoCount" : createInfoCount,"pCreateInfos" : pCreateInfos,"pAllocator" : pAllocator,"pPipelines" : pPipelines,"retval" : retval}
 def vkGetRayTracingCaptureReplayShaderGroupHandlesKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17939,8 +17939,8 @@ def vkGetRayTracingCaptureReplayShaderGroupHandlesKHR(indict):
     else: 
          pData = c_void_p()
     print(jvulkanLib.vkGetRayTracingCaptureReplayShaderGroupHandlesKHR)
-    jvulkanLib.vkGetRayTracingCaptureReplayShaderGroupHandlesKHR(device, pipeline, firstGroup, groupCount, dataSize, pData)
-    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData}
+    retval = jvulkanLib.vkGetRayTracingCaptureReplayShaderGroupHandlesKHR(device, pipeline, firstGroup, groupCount, dataSize, pData)
+    return {"device" : device,"pipeline" : pipeline,"firstGroup" : firstGroup,"groupCount" : groupCount,"dataSize" : dataSize,"pData" : pData,"retval" : retval}
 def vkCmdTraceRaysIndirectKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17967,8 +17967,8 @@ def vkCmdTraceRaysIndirectKHR(indict):
     else: 
          indirectDeviceAddress = c_ulong()
     print(jvulkanLib.vkCmdTraceRaysIndirectKHR)
-    jvulkanLib.vkCmdTraceRaysIndirectKHR(commandBuffer, pRaygenShaderBindingTable, pMissShaderBindingTable, pHitShaderBindingTable, pCallableShaderBindingTable, indirectDeviceAddress)
-    return {"commandBuffer" : commandBuffer,"pRaygenShaderBindingTable" : pRaygenShaderBindingTable,"pMissShaderBindingTable" : pMissShaderBindingTable,"pHitShaderBindingTable" : pHitShaderBindingTable,"pCallableShaderBindingTable" : pCallableShaderBindingTable,"indirectDeviceAddress" : indirectDeviceAddress}
+    retval = jvulkanLib.vkCmdTraceRaysIndirectKHR(commandBuffer, pRaygenShaderBindingTable, pMissShaderBindingTable, pHitShaderBindingTable, pCallableShaderBindingTable, indirectDeviceAddress)
+    return {"commandBuffer" : commandBuffer,"pRaygenShaderBindingTable" : pRaygenShaderBindingTable,"pMissShaderBindingTable" : pMissShaderBindingTable,"pHitShaderBindingTable" : pHitShaderBindingTable,"pCallableShaderBindingTable" : pCallableShaderBindingTable,"indirectDeviceAddress" : indirectDeviceAddress,"retval" : retval}
 def vkGetRayTracingShaderGroupStackSizeKHR(indict):
     if "device" in indict.keys():
          device = indict["device"]
@@ -17987,8 +17987,8 @@ def vkGetRayTracingShaderGroupStackSizeKHR(indict):
     else: 
          groupShader = c_int()
     print(jvulkanLib.vkGetRayTracingShaderGroupStackSizeKHR)
-    jvulkanLib.vkGetRayTracingShaderGroupStackSizeKHR(device, pipeline, group, groupShader)
-    return {"device" : device,"pipeline" : pipeline,"group" : group,"groupShader" : groupShader}
+    retval = jvulkanLib.vkGetRayTracingShaderGroupStackSizeKHR(device, pipeline, group, groupShader)
+    return {"device" : device,"pipeline" : pipeline,"group" : group,"groupShader" : groupShader,"retval" : retval}
 def vkCmdSetRayTracingPipelineStackSizeKHR(indict):
     if "commandBuffer" in indict.keys():
          commandBuffer = indict["commandBuffer"]
@@ -17999,5 +17999,5 @@ def vkCmdSetRayTracingPipelineStackSizeKHR(indict):
     else: 
          pipelineStackSize = c_uint()
     print(jvulkanLib.vkCmdSetRayTracingPipelineStackSizeKHR)
-    jvulkanLib.vkCmdSetRayTracingPipelineStackSizeKHR(commandBuffer, pipelineStackSize)
-    return {"commandBuffer" : commandBuffer,"pipelineStackSize" : pipelineStackSize}
+    retval = jvulkanLib.vkCmdSetRayTracingPipelineStackSizeKHR(commandBuffer, pipelineStackSize)
+    return {"commandBuffer" : commandBuffer,"pipelineStackSize" : pipelineStackSize,"retval" : retval}

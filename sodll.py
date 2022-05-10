@@ -260,14 +260,15 @@ def cdataStr(instr):
 					convertstring += "    else: \n"
 					convertstring += "         " + argname + " = " + argtype + "\n"
 					retstring += "\"" + argname + "\" : " + argname + ","
-						
-				retstring = retstring[:-1] + "}\n"
+				
 				argstring = argstring[2:]
 				fnstring  = "def " + v["name"] + "(indict):\n"
 				fnstring += convertstring
 				fnstring += "    print(" + libnameOut + "Lib." + v["name"] + ")\n"
 				#fnstring += "    " + libnameOut + "Lib." + v["name"] + ".argtypes = [" + ", ".join(typesList) + "]\n"
-				fnstring += "    " + libnameOut + "Lib." + v["name"] + "(" + argstring + ")\n"
+				fnstring += "    retval = " + libnameOut + "Lib." + v["name"] + "(" + argstring + ")\n"
+				retstring += "\"retval\" : retval"
+				retstring = retstring + "}\n"
 
 				allFunctions += fnstring + retstring
 				#logger.debug(json.dumps(fdict, indent=2))
