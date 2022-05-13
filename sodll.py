@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.realpath(__file__))
 
 # Pythons stupid scope rules dictate this bs
 class Sodll:
-	def __init__(self, dynamicLibraryFilenameIn, clangDictIn, libnameOut):
+	def __init__(self, dllFilename, soFilename, clangDictIn, libnameOut):
 		self.conversions = {}
 		self.alias2real = {}
 		self.voidtypes = {}
@@ -55,7 +55,7 @@ class Sodll:
 			"void *"     : "c_void_p"
 		}
 		
-		self.generate(dynamicLibraryFilenameIn, clangDictIn, libnameOut)
+		self.generate(dllFilename, soFilename, clangDictIn, libnameOut)
 	
 	# the c field definition comes in (from header file)
 	# the proper ctype goes out
@@ -187,12 +187,17 @@ class Sodll:
 
 		return namestring + initstring + classstring
 
-	def generate(self, dynamicLibraryFilenameIn, clangDictIn, libnameOut, vulkan=True):
+	def generate(self, dllFilename, soFilename, clangDictIn, libnameOut, vulkan=True):
 		loadSoDLLString = """
 from enum import Enum
 from ctypes import *
-OUTLIBNAMELib = CDLL('LIBRARY') 
+import platform
 
+if "nt" in platform.platform().lower() or "win" in platform.platform().lower() :
+	OUTLIBNAMELib = CDLL('JDLL') 
+else:
+	OUTLIBNAMELib = CDLL('JSO') 
+	
 def array2ctype(inarray):
 	return (type(inarray[0]) * len(inarray))(*inarray)
 
@@ -216,7 +221,8 @@ def preprocess(indict):
 # Generate Constants (ex VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR)
 """
 		logger.debug("making replacements")
-		loadSoDLLString = loadSoDLLString.replace("LIBRARY", dynamicLibraryFilenameIn )
+		loadSoDLLString = loadSoDLLString.replace("JDLL", dllFilename )
+		loadSoDLLString = loadSoDLLString.replace("JSO", soFilename )
 		loadSoDLLString = loadSoDLLString.replace("OUTLIBNAME", libnameOut )
 
 

@@ -16,18 +16,13 @@ def jlog(instr):
 p = platform.platform().lower()
 HERE = os.path.dirname(os.path.realpath(__file__))
 
-if "nt" in p or "win" in p:
-    library = "vulkan-1.dll"
-else:
-    # (if x86)
-    library = os.path.join(HERE, "vulkan", "libvulkan.so")
-
 # clang dict created from headers with createInterfaceJSON.sh
 with open("vulkan/vulkanInterface.json", "r") as f:
     clangDict = json.loads(f.read())
 
 s = sodll.Sodll(
-    dynamicLibraryFilenameIn = library, 
+    dllFilename = "vulkan-1.dll", 
+    soFilename  = os.path.join(HERE, "vulkan", "libvulkan.so"),
     clangDictIn = clangDict, 
     libnameOut  = "jvulkan")
 

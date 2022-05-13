@@ -1,8 +1,13 @@
 
 from enum import Enum
 from ctypes import *
-jvulkanLib = CDLL('vulkan-1.dll') 
+import platform
 
+if "nt" in platform.platform().lower() or "win" in platform.platform().lower() :
+	jvulkanLib = CDLL('vulkan-1.dll') 
+else:
+	jvulkanLib = CDLL('/home/julian/Documents/sodll/vulkan/libvulkan.so') 
+	
 def array2ctype(inarray):
 	return (type(inarray[0]) * len(inarray))(*inarray)
 
