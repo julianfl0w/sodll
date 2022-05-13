@@ -3,11 +3,21 @@ import os
 import platform
 import json
 import shutil
+
+
+from inspect import currentframe
+
+
+def jlog(instr):
+	cf = currentframe()
+	ln = cf.f_back.f_lineno
+	print(str(ln) + ": " + str(instr))
+	
 p = platform.platform().lower()
 HERE = os.path.dirname(os.path.realpath(__file__))
 
 if "nt" in p or "win" in p:
-    library = os.path.join(HERE, "vulkan", "vulkan-1.dll")
+    library = "vulkan-1.dll"
 else:
     # (if x86)
     library = os.path.join(HERE, "vulkan", "libvulkan.so")
@@ -44,37 +54,42 @@ def VK_VERSION_PATCH(version):
     return version & 0xfff
 
        
-print("getting extensions: ")
+jlog("getting extensions: ")
 
-pApiVersion = POINTER(c_uint)
 c = vkEnumerateInstanceVersion({})
-for k, v in c.items():
-    print(v.contents)
+version = c["pApiVersion"][0]
+jlog("MAJOR " + str(VK_VERSION_MAJOR(version)))
+jlog("MINOR " + str(VK_VERSION_MINOR(version)))
+jlog("PATCH " + str(VK_VERSION_PATCH(version)))
 
 pLayerName = ""
 
-extenstions = vkEnumerateInstanceExtensionProperties({"pLayerName" : None})
-for k, v in extenstions.items():
-    print(k + ": " + str(v))
-print(extenstions["pPropertyCount"].contents)
-newtype = "VkExtensionProperties[" + str(pPropertyCount[0]) + "]"
-print(newtype)
-pProperties = ffi.cast(newtype, pProperties)
-extensions = [e.extensionName for e in pProperties]
-print("available extensions: ")
-for e in pProperties:
-    print("    " + str(e))
-die
-layers = vkEnumerateInstanceLayerProperties()
+# first, get the extension count
+extensions = vkEnumerateInstanceExtensionProperties({"pLayerName" : None, "pProperties" : None})
+extensions["pProperties"] = (VkExtensionProperties*extensions["pPropertyCount"][0])()
+vkEnumerateInstanceExtensionProperties(extensions)
+for e in extensions["pProperties"]:
+	jlog(str(bytearray(e.extensionName)[:255].decode("ascii")).replace("\n",""))
+	
+	
+physical_device = vkEnumeratePhysicalDevices(self.instance.vkInstance)[deviceIndex]
+		
+layers = vkEnumerateInstanceLayerProperties({"pLayerName" : None, "pProperties" : None})
+extensions["pProperties"] = (VkExtensionProperties*extensions["pPropertyCount"][0])()
+vkEnumerateInstanceExtensionProperties(extensions)
+for e in extensions["pProperties"]:
+	jlog(str(bytearray(e.extensionName)[:255].decode("ascii")).replace("\n",""))
+	
+layers = ()
 layers = [l.layerName for l in layers]
-print("available layers:")
+jlog("available layers:")
 for l in layers:
-    print("    " + l)
+    jlog("    " + l)
     
-print(VK_STRUCTURE_TYPE_APPLICATION_INFO)
+jlog(VK_STRUCTURE_TYPE_APPLICATION_INFO)
 appInfo = jvulkanInterface.new("VkApplicationInfo *")
-print(dir(appInfo))
-print(jvulkanInterface.list_types())
+jlog(dir(appInfo))
+jlog(jvulkanInterface.list_types())
 
 appInfo.sType              = VK_STRUCTURE_TYPE_APPLICATION_INFO
 appInfo.pApplicationName   = cdataStr("Hello Triangle")
@@ -124,5 +139,5 @@ c = jvulkanLib.vkGetBufferDeviceAddressKHR(vkDevice, image)
 
 
 
-#print("trying IF") 
+#jlog("trying IF") 
 #c = jvulkanInterface.vkEnumerateInstanceVersion()

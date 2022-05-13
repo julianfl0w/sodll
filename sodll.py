@@ -7,7 +7,7 @@ from hierarchy import *
 
 import logging
 logger = logging.getLogger('dtfm')
-logger.setLevel(logging.DEBUG)
+logger.setLevel(0)
 
 handler = logging.StreamHandler(sys.stdout)
 handler.setLevel(logging.DEBUG)
@@ -81,7 +81,7 @@ class Sodll:
 		dereferentiation = 0
 		lastRem = ""
 		while len(remainder):
-			print("rem " + remainder)
+			#print("rem " + remainder)
 			if remainder == lastRem:
 				basetypes[remainder] = dereferentiation
 				break
@@ -162,9 +162,9 @@ class Sodll:
 
 
 	def dict2ClassString(self, name, fieldlist):
-		classstring  = "class JNAME(Structure):\n".replace("JNAME", name)
-		classstring += "    pass\n"
-		classstring += "JNAME._fields_ = [\n".replace("JNAME", name)
+		namestring   = "class JNAME(Structure):\n".replace("JNAME", name)
+		initstring   = "    def __init__(self, indict):\n"
+		classstring  = "JNAME._fields_ = [\n".replace("JNAME", name)
 		logger.debug(name)
 		logger.debug(json.dumps(fieldlist, indent=2))
 		for v in fieldlist:
@@ -175,20 +175,44 @@ class Sodll:
 			logger.debug(desugaredType)
 			ctype = self.getCtypeFromString(desugaredType)
 			#logger.debug(k)
-			classstring += "             (\"K\", V),\n".replace("K", v["name"]).replace("V",ctype)
+			classstring += "    (\"JKEY\", JVALUE),\n".replace("JKEY", v["name"]).replace("JVALUE",ctype)
+			initstring  += "        modval = preprocess(indict.get(\"JKEY\"))\n".replace("JKEY", v["name"])
+			initstring  += "        if \"cast\" in indict.keys(): \n"
+			initstring  += "            try: \n"
+			initstring  += "                modval = cast(modval, type(self.JKEY))\n".replace("JKEY", v["name"])
+			initstring  += "            except: \n"
+			initstring  += "                pass\n"
+			initstring  += "        self.JKEY = modval\n"
 		classstring = classstring[:-2]+"\n    ]\n\n"
 
-		return classstring
+		return namestring + initstring + classstring
 
-	def generate(self, dynamicLibraryFilenameIn, clangDictIn, libnameOut):
+	def generate(self, dynamicLibraryFilenameIn, clangDictIn, libnameOut, vulkan=True):
 		loadSoDLLString = """
 from enum import Enum
 from ctypes import *
-OUTLIBNAMELib = CDLL("LIBRARY") 
+OUTLIBNAMELib = CDLL('LIBRARY') 
 
-def cdataStr(instr):
-	return ffi.new(\"char[]\", instr.encode('ascii'))
+def array2ctype(inarray):
+	return (type(inarray[0]) * len(inarray))(*inarray)
 
+def ctype2array(inctype):
+	return inctype[:]
+
+def preprocess(indict):
+	if type(indict) is dict:
+		for k, v in indict.items():
+			indict[k] = preprocess(v)
+	elif type(indict) is list:
+		if type(indict[0]) is list or type(indict[0]) is dict:
+			for i, e in enumerate(indict):
+				indict[i] = preprocess(e)
+		else:
+			indict = array2ctype(indict)
+	else:
+		pass
+	return indict 
+	
 # Generate Constants (ex VK_ACCELERATION_STRUCTURE_BUILD_TYPE_DEVICE_KHR)
 """
 		logger.debug("making replacements")
@@ -201,6 +225,15 @@ def cdataStr(instr):
 		allTypeDecl  = ""
 		allEnum      = ""
 		allVar       = ""
+
+
+		ALLOCATE_PREFIX = ('vkCreate', 'vkGet', 'vkEnumerate', 'vkAllocate',
+											 'vkMap', 'vkAcquire')
+		ALLOCATE_EXCEPTION = ('vkGetFenceStatus', 'vkGetEventStatus',
+													'vkGetQueryPoolResults',
+													'vkGetPhysicalDeviceXlibPresentationSupportKHR')
+		COUNT_EXCEPTION = ('vkAcquireNextImageKHR', 'vkEnumerateInstanceVersion')
+
 
 		# CLANG puts all useful items into a list called "inner"
 		# First pass: get all the typedefs
@@ -230,9 +263,9 @@ def cdataStr(instr):
 					continue
 
 				## ig these are structs
-				if "VkInstanceCreateInfo" in v["name"]:
-					print("FUCK")
-					pass
+				#if "VkInstanceCreateInfo" in v["name"]:
+				#	print("FUCK")
+				#	pass
 				logger.debug(json.dumps(v, indent=2))
 				allClasses += self.dict2ClassString(v["name"], v["inner"])
 				self.allStructs += [v["name"]]
@@ -243,11 +276,25 @@ def cdataStr(instr):
 				convertstring = ""
 				argstring = ""
 				typesList = []
+				hasCountParam  = False
+				hasStringParam = False
 				retstring = "    return {"
+				
+				# 3.1 pass (Vulkan only): identify function type
+				for j, arg in enumerate(v["inner"]):
+					argname = arg["name"]
+					argtype2 = self.getCtypeFromString(arg["type"]["qualType"], isClassDef=True)
+					if argtype2 == "POINTER(c_uint)" and v["name"] not in COUNT_EXCEPTION:
+						hasCountParam = True
+					if "char" in argtype2:
+						hasStringParam = True
+				
+				# 3.2 pass: create function
 				for j, arg in enumerate(v["inner"]):
 					argname = arg["name"]
 					argtype = self.getCtypeFromString(arg["type"]["qualType"], isClassDef=False)
 					argtype2 = self.getCtypeFromString(arg["type"]["qualType"], isClassDef=True)
+						
 					typesList += [argtype2]
 					if argtype in self.allStructs:
 						argtype += "()"
@@ -263,10 +310,13 @@ def cdataStr(instr):
 				
 				argstring = argstring[2:]
 				fnstring  = "def " + v["name"] + "(indict):\n"
+				fnstring += "    indict = preprocess(indict)\n"
 				fnstring += convertstring
 				fnstring += "    print(" + libnameOut + "Lib." + v["name"] + ")\n"
 				#fnstring += "    " + libnameOut + "Lib." + v["name"] + ".argtypes = [" + ", ".join(typesList) + "]\n"
 				fnstring += "    retval = " + libnameOut + "Lib." + v["name"] + "(" + argstring + ")\n"
+				fnstring += "    if retval:\n"
+				fnstring += "       raise(BaseException(str(retval)))\n"
 				retstring += "\"retval\" : retval"
 				retstring = retstring + "}\n"
 
@@ -280,21 +330,23 @@ def cdataStr(instr):
 			elif v["kind"] == "EnumDecl":
 				#spill2file(v)
 				thisEnum = ""
-				try:
-					#thisEnum += "class " + v["name"] + "(Enum):\n"
-					for innerDict in v["inner"]:
-						valueDict = innerDict
-						while "value" not in valueDict.keys():
-							#logger.debug(json.dumps(valueDict, indent=2))
-							valueDict = valueDict["inner"][0]
-
-						#thisEnum += "    " + innerDict["name"] + \
-						#	" = " + str(valueDict["value"]) + "\n"
-						thisEnum += innerDict["name"] + \
-							" = " + str(valueDict["value"]) + "\n"
-				except:
-					logger.debug(v["name"] + ": unstatable")
-					continue
+				#thisEnum += "class " + v["name"] + "(Enum):\n"
+				for innerDict in v["inner"]:
+				
+					if innerDict["kind"] == "EnumConstantDecl":
+						# CLANG FUCKING NESTED AF
+						try:
+							valueDict = innerDict
+							while "value" not in valueDict.keys():
+								#logger.debug(json.dumps(valueDict, indent=2))
+								valueDict = valueDict["inner"][0]
+							thisEnum += innerDict["name"] + \
+								" = " + str(valueDict["value"]) + "\n"
+						except:
+							print("wtf")
+					else:
+						die
+						
 
 				allEnum += thisEnum
 				logger.debug(thisEnum)
